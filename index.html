@@ -9,6 +9,38 @@
 </head>
 <body>
 
+<div id="columnSearchabilityControls">
+    <label><input type="checkbox" data-column="0">Manufacturer</label>
+    <label><input type="checkbox" data-column="1">Name</label>
+    <label><input type="checkbox" data-column="2">Price [$]</label>
+    <label><input type="checkbox" data-column="3">Stator Diameter [mm]</label>
+    <label><input type="checkbox" data-column="4">Stator Height [mm]</label>
+    <label><input type="checkbox" data-column="5">Stator Configuration</label>
+    <label><input type="checkbox" data-column="6">Flux Direction</label>
+    <label><input type="checkbox" data-column="7">KV [RPM/V]</label>
+    <label><input type="checkbox" data-column="8">Internal Resistance [mΩ]</label>
+    <label><input type="checkbox" data-column="9">Enamel Type</label>
+    <label><input type="checkbox" data-column="10">Efficiency [%]</label>
+    <label><input type="checkbox" data-column="11">Rated Torque [Nm]</label>
+    <label><input type="checkbox" data-column="12">Weight (incl. Cable) [g]</label>
+    <label><input type="checkbox" data-column="13">Weight (excl. Cable) [g]</label>
+    <label><input type="checkbox" data-column="14">Cable length [mm]</label>
+    <label><input type="checkbox" data-column="15">Cable Gauge</label>
+    <label><input type="checkbox" data-column="16">Connector</label>
+    <label><input type="checkbox" data-column="17">Shaft Diameter (external) [mm]</label>
+    <label><input type="checkbox" data-column="18">Shaft Diameter (internal) [mm]</label>
+    <label><input type="checkbox" data-column="19">Shaft Retention</label>
+    <label><input type="checkbox" data-column="20">Bearing Type</label>
+    <label><input type="checkbox" data-column="21">Magnet Type</label>
+    <label><input type="checkbox" data-column="22">Mounting Circle [mm]</label>
+    <label><input type="checkbox" data-column="23">Number of Mounting Screws</label>
+    <label><input type="checkbox" data-column="24">Mounting Screw Thread</label>
+    <label><input type="checkbox" data-column="25">Maximum Operating Temperature [°C]</label>
+    <label><input type="checkbox" data-column="26">Cooling Method</label>
+    <label><input type="checkbox" data-column="27">IP Rating</label>
+    <label><input type="checkbox" data-column="28">Link</label>
+</div>
+	
 <table id="myTable" class="display">
 <thead>
 	<tr>
@@ -33502,13 +33534,57 @@
 
 <script>
     $(document).ready(function() {
-        $('#myTable').DataTable({
-            "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "all"]], // Custom labels for the dropdown
-            "pageLength": 10, // Set the default number of entries per page
+        var table = $('#myTable').DataTable({
+            "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
+            "pageLength": 10,
+            "searching": true,
+            "columns": [
+                null, // Searchable column 0
+                null, // Searchable column 1
+                null, // Searchable column 2
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+                // Add more "null" entries for columns where searching is allowed
+            ]
+        });
+
+        // Handle checkbox changes to toggle column searchability
+        $('#columnSearchabilityControls input').on('change', function() {
+            var column = $(this).data('column');
+            var isSearchable = this.checked;
+            
+            // Update the state of the corresponding checkbox at the bottom
+            $('#columnSearchabilityControls input[data-column="' + column + '"]').prop('checked', isSearchable);
+
+            // Update DataTables column searchability
+            //table.column(column).searchable(isSearchable);
         });
     });
 </script>
-
 
 </body>
 </html>
