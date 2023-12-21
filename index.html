@@ -42,39 +42,9 @@
 		<th>IP Rating</th>
 		<th>Link</th>
 	</tr>
-
-	<tr id="columnSearchabilityControls">
-	    <label><input type="checkbox" data-column="0"></label>
-	    <label><input type="checkbox" data-column="1"></label>
-	    <label><input type="checkbox" data-column="2"></label>
-	    <label><input type="checkbox" data-column="3"></label>
-	    <label><input type="checkbox" data-column="4"></label>
-	    <label><input type="checkbox" data-column="5"></label>
-	    <label><input type="checkbox" data-column="6"></label>
-	    <label><input type="checkbox" data-column="7"></label>
-	    <label><input type="checkbox" data-column="8"></label>
-	    <label><input type="checkbox" data-column="9"></label>
-	    <label><input type="checkbox" data-column="10"></label>
-	    <label><input type="checkbox" data-column="11"></label>
-	    <label><input type="checkbox" data-column="12"></label>
-	    <label><input type="checkbox" data-column="13"></label>
-	    <label><input type="checkbox" data-column="14"></label>
-	    <label><input type="checkbox" data-column="15"></label>
-	    <label><input type="checkbox" data-column="16"></label>
-	    <label><input type="checkbox" data-column="17"></label>
-	    <label><input type="checkbox" data-column="18"></label>
-	    <label><input type="checkbox" data-column="19"></label>
-	    <label><input type="checkbox" data-column="20"></label>
-	    <label><input type="checkbox" data-column="21"></label>
-	    <label><input type="checkbox" data-column="22"></label>
-	    <label><input type="checkbox" data-column="23"></label>
-	    <label><input type="checkbox" data-column="24"></label>
-	    <label><input type="checkbox" data-column="25"></label>
-	    <label><input type="checkbox" data-column="26"></label>
-	    <label><input type="checkbox" data-column="27"></label>
-	    <label><input type="checkbox" data-column="28"></label>
-	</tr>
-
+        <tr id="columnSearchabilityControls">
+            <!-- Checkboxes will be dynamically generated based on the number of columns -->
+        </tr>
 </thead>
 
 <tbody>
@@ -33538,6 +33508,14 @@
         var numColumns = $('#myTable thead th').length;
         var defaultSearchable = Array(numColumns).fill(null);
 
+	// Dynamically generate checkboxes for each column
+        for (var i = 0; i < numColumns; i++) {
+            $('#columnSearchabilityControls').append(
+                '<td><label><input type="checkbox" data-column="' + i + '" checked> ' +
+                $('#myTable thead th').eq(i).text() + '</label></td>'
+            );
+        }
+	    
         // Dynamically generate checkboxes for each column
         for (var i = 0; i < numColumns; i++) {
             $('#columnSearchabilityControls').append(
