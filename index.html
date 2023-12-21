@@ -33503,11 +33503,12 @@
 <script>
     $(document).ready(function() {
         $('#myTable').DataTable({
-            "lengthMenu": [10, 25, 50, 100, -1], // Add -1 to show all entries
+            "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "all"]], // Custom labels for the dropdown
             "pageLength": 10, // Set the default number of entries per page
         });
     });
 </script>
+
 
 </body>
 </html>
