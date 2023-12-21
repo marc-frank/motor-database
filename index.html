@@ -33535,54 +33535,31 @@
 
 <script>
     $(document).ready(function() {
+        var numColumns = $('#myTable thead th').length;
+        var defaultSearchable = Array(numColumns).fill(null);
+
+        // Dynamically generate checkboxes for each column
+        for (var i = 0; i < numColumns; i++) {
+            $('#columnSearchabilityControls').append(
+                '<label><input type="checkbox" data-column="' + i + '" checked> ' +
+                $('#myTable thead th').eq(i).text() + '</label>'
+            );
+        }
+
         var table = $('#myTable').DataTable({
             "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
             "pageLength": 10,
             "searching": true,
-            "columns": [
-                null, // Searchable column 0
-                null, // Searchable column 1
-                null, // Searchable column 2
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-		null,
-                // Add more "null" entries for columns where searching is allowed
-            ]
+            "columns": defaultSearchable
         });
 
         // Handle checkbox changes to toggle column searchability
         $('#columnSearchabilityControls input').on('change', function() {
             var column = $(this).data('column');
             var isSearchable = this.checked;
-            
-            // Update the state of the corresponding checkbox at the bottom
-            $('#columnSearchabilityControls input[data-column="' + column + '"]').prop('checked', isSearchable);
 
             // Update DataTables column searchability
-            //table.column(column).searchable(isSearchable);
+            table.column(column).searchable(isSearchable);
         });
     });
 </script>
