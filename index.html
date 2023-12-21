@@ -33502,7 +33502,10 @@
 
 <script>
     $(document).ready(function() {
-        $('#myTable').DataTable();
+        $('#myTable').DataTable({
+            "lengthMenu": [10, 25, 50, 100, -1], // Add -1 to show all entries
+            "pageLength": 10, // Set the default number of entries per page
+        });
     });
 </script>
 
