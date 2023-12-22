@@ -42,9 +42,6 @@
 		<th>IP Rating</th>
 		<th>Link</th>
 	</tr>
-        <tr id="columnSearchabilityControls">
-            <!-- Checkboxes will be dynamically generated based on the number of columns -->
-        </tr>
 </thead>
 
 <tbody>
@@ -33505,39 +33502,28 @@
 
 <script>
     $(document).ready(function() {
-        var numColumns = $('#myTable thead th').length;
-        var defaultSearchable = Array(numColumns).fill(null);
-
-	// Dynamically generate checkboxes for each column
-        for (var i = 0; i < numColumns; i++) {
-            $('#columnSearchabilityControls').append(
-                '<td><label><input type="checkbox" data-column="' + i + '" checked> ' +
-                $('#myTable thead th').eq(i).text() + '</label></td>'
-            );
-        }
-	    
-        // Dynamically generate checkboxes for each column
-        for (var i = 0; i < numColumns; i++) {
-            $('#columnSearchabilityControls').append(
-                '<label><input type="checkbox" data-column="' + i + '" checked> ' +
-                $('#myTable thead th').eq(i).text() + '</label>'
-            );
-        }
-
         var table = $('#myTable').DataTable({
             "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
             "pageLength": 10,
             "searching": true,
-            "columns": defaultSearchable
-        });
+            "initComplete": function () {
+                this.api().columns().every(function () {
+                    var column = this;
+                    var title = column.header().textContent;
 
-        // Handle checkbox changes to toggle column searchability
-        $('#columnSearchabilityControls input').on('change', function() {
-            var column = $(this).data('column');
-            var isSearchable = this.checked;
+                    // Create input element
+                    var input = document.createElement('input');
+                    input.placeholder = title;
+                    $(input).appendTo($(column.footer()).empty());
 
-            // Update DataTables column searchability
-            table.column(column).searchable(isSearchable);
+                    // Event listener for user input
+                    $(input).on('keyup', function () {
+                        if (column.search() !== this.value) {
+                            column.search(this.value).draw();
+                        }
+                    });
+                });
+            }
         });
     });
 </script>
