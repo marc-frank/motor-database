@@ -33496,27 +33496,35 @@
             </tr>
          </tfoot>
       </table>
-      <script>
-          $(document).ready(function() {
-              // Add search boxes at the top
-              $('#myTable thead th').each( function () {
-                  var title = $(this).text();
-                  $(this).html('<input type="text" placeholder="Search ' + title + '" />');
-              });
-
-              // DataTable
-              var table = $('#myTable').DataTable();
-
-              // Apply the search
-              table.columns().eq(0).each(function (colIdx) {
-                  $('input', table.column(colIdx).header()).on('keyup change', function () {
-                      table
-                          .column(colIdx)
-                          .search(this.value)
-                          .draw();
-                  });
-              });
-          });
-      </script>
+		<script>
+			$(document).ready(function() {
+				var table = $('#myTable').DataTable({
+					"lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
+					"pageLength": 10,
+					"searching": true,
+               "initComplete": function () {
+                  // Move search boxes to the header
+                  $('#myTable tfoot tr').appendTo('#myTable thead');
+						
+                  this.api().columns().every(function () {
+							var column = this;
+							var title = column.header().textContent;
+		
+							// Create input element
+							var input = document.createElement('input');
+							input.placeholder = title;
+							$(input).appendTo($(column.footer()).empty());
+		
+							// Event listener for user input
+							$(input).on('keyup', function () {
+								if (column.search() !== this.value) {
+									column.search(this.value).draw();
+								}
+							});
+						});
+					}
+				});
+			});
+		</script>
    </body>
 </html>
