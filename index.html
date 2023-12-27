@@ -34997,12 +34997,12 @@
 	  <script>
          $(document).ready(function () {
              // Setup - add a text input to each footer cell
-             $('#example thead tr')
+             $('#myTable thead tr')
                  .clone(true)
                  .addClass('filters')
-                 .appendTo('#example thead');
+                 .appendTo('#myTable thead');
           
-             var table = $('#example').DataTable({
+             var table = $('#myTable').DataTable({
                  orderCellsTop: true,
                  fixedHeader: true,
                  initComplete: function () {
