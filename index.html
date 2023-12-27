@@ -35003,6 +35003,8 @@
                  .appendTo('#myTable thead');
           
              var table = $('#myTable').DataTable({
+                 "lengthMenu": [[10, 25, 50, 100, 250, -1], [10, 25, 50, 100, 250, "All"]],
+                 "pageLength": 10,
                  orderCellsTop: true,
                  fixedHeader: true,
                  initComplete: function () {
