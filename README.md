@@ -61,6 +61,8 @@ The Formatter app does this automatically:
 
 If you have finished making your edit, create a pull request.
 
+I will then re-build and deploy the website.
+
 ## Instructions for Inputting Data
 
 ### Image
