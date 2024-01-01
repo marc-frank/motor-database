@@ -47,15 +47,17 @@
          
                // Create columns configuration
                var columns = Object.keys(keys).map(function(key) {
+                  var columnDef = { data: key, defaultContent: "" };
                   if (key === 'Image') {
-                     return { 
-                        data: key, 
-                        render: function(data) {
-                           return '<img src="'+data+'" alt="Image" width="128" height="128">';
-                        }
+                     columnDef.render = function(data) {
+                        return data ? '<img src="'+data+'" alt="Image" width="128" height="128">' : '';
+                     };
+                  } else if (key === 'Link') {
+                     columnDef.render = function(data) {
+                        return data ? '<a href="' + data + '" target="_blank">' + data + '</a>' : '';
                      };
                   }
-                  return { data: key };
+                  return columnDef;
                });
          
                // Initialize DataTable
@@ -66,7 +68,7 @@
                   "pageLength": 10,
                   orderCellsTop: true,
                   fixedHeader: true,
-                 initComplete: function () {
+                  initComplete: function () {
                      var api = this.api();
           
                      // For each column
@@ -114,7 +116,7 @@
                                          .setSelectionRange(cursorPosition, cursorPosition);
                                  });
                          });
-                 },
+                  },
                });
             });
          });
