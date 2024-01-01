@@ -14,37 +14,61 @@
       <br>
       <table id="myTable" class="display">
          <thead>
-            <tr id="headerRow"></tr>
+            <tr>
+               <!-- Dynamic header will be generated here -->
+            </tr>
          </thead>
-         <tbody></tbody>
+         <tbody>
+            <!-- Data will be loaded here -->
+         </tbody>
          <tfoot>
-            <tr id="footerRow"></tr>
+            <tr>
+               <!-- Dynamic footer will be generated here -->
+            </tr>
          </tfoot>
       </table>
       <script>
          $(document).ready(function () {
-             // Fetch the JSON data
-             fetch('database.json')
-                 .then(response => response.json())
-                 .then(data => {
-                     var table = $('#myTable').DataTable({
-                         "lengthMenu": [[10, 25, 50, 100, 250, -1], [10, 25, 50, 100, 250, "All"]],
-                         "pageLength": 10,
-                         orderCellsTop: true,
-                         fixedHeader: true,
-                         data: data, // Provide the JSON data directly to DataTables
-                         initComplete: function () {
-                             // Create dynamic columns based on JSON keys
-                             var headerRow = $('#headerRow');
-                             var footerRow = $('#footerRow');
-                             Object.keys(data[0]).forEach(function (key) {
-                                 headerRow.append('<th>' + key + '</th>');
-                                 footerRow.append('<th>' + key + '</th>');
-                             });
-                         }
-                     });
-                 })
-                 .catch(error => console.error('Error fetching data:', error));
+            $.getJSON('database.json', function(data) {
+               // Find unique keys
+               var keys = {};
+               data.forEach(function(item) {
+                  Object.keys(item).forEach(function(key) {
+                     keys[key] = true;
+                  });
+               });
+
+               // Generate dynamic headers and footers
+               var headerFooterRow = '';
+               Object.keys(keys).forEach(function(key) {
+                  headerFooterRow += '<th>' + key + '</th>';
+               });
+               $('#myTable thead tr, #myTable tfoot tr').html(headerFooterRow);
+
+               // Create columns configuration
+               var columns = Object.keys(keys).map(function(key) {
+                  if (key === 'Image') {
+                     return { 
+                        data: key, 
+                        render: function(data) {
+                           return '<img src="'+data+'" alt="Image" width="128" height="128">';
+                        }
+                     };
+                  }
+                  return { data: key };
+               });
+
+               // Initialize DataTable
+               $('#myTable').DataTable({
+                  data: data,
+                  columns: columns,
+                  "lengthMenu": [[10, 25, 50, 100, 250, -1], [10, 25, 50, 100, 250, "All"]],
+                  "pageLength": 10,
+                  orderCellsTop: true,
+                  fixedHeader: true,
+                  // Additional DataTable configurations...
+               });
+            });
          });
       </script>
    </body>
