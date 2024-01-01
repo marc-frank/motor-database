@@ -24,7 +24,7 @@
       <script>
          $(document).ready(function () {
              // Fetch the JSON data
-             fetch('file:///C:/Users/MSFra/Desktop/database.json') // Update the path accordingly
+             fetch('database.json')
                  .then(response => response.json())
                  .then(data => {
                      var table = $('#myTable').DataTable({
