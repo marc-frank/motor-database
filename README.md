@@ -1,3 +1,4 @@
+![Logo](icon.png)
 # Motor Database
 
 View the batabase here:
