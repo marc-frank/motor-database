@@ -30,24 +30,24 @@
       <script>
          $(document).ready(function () {
             $.getJSON('database.json', function(data) {
-               // Find unique keys
-               var keys = {};
-               data.forEach(function(item) {
-                  Object.keys(item).forEach(function(key) {
-                     keys[key] = true;
-                  });
-               });
+         // Aggregate unique keys from all objects
+         var uniqueKeys = new Set();
+         data.forEach(item => {
+            Object.keys(item).forEach(key => {
+                uniqueKeys.add(key);
+            });
+         });
          
-               // Generate dynamic headers and footers
-               var headerFooterRow = '';
-               Object.keys(keys).forEach(function(key) {
-                  headerFooterRow += '<th>' + key + '</th>';
-               });
-               $('#myTable thead tr, #myTable tfoot tr').html(headerFooterRow);
+         // Generate dynamic headers and footers
+         var headerFooterRow = '';
+         uniqueKeys.forEach(key => {
+            headerFooterRow += '<th>' + key + '</th>';
+         });
+         $('#myTable thead tr, #myTable tfoot tr').html(headerFooterRow);
          
                // Create columns configuration
-               var columns = Object.keys(keys).map(function(key) {
-                  var columnDef = { data: key, defaultContent: "" };
+         var columns = Array.from(uniqueKeys).map(key => {
+            var columnDef = { data: key, defaultContent: "" };
                   if (key === 'Image') {
                      columnDef.render = function(data) {
                         return data ? '<img src="'+data+'" alt="Image" width="128" height="128">' : '';
