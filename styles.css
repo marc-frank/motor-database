@@ -6,7 +6,7 @@
 
 .header h1 {
     margin: 0; /* Resets any default margin */
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -25,8 +25,7 @@
     /*box-shadow: 0 9px #999;*/
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 50px;
 }
 
 .button:hover {background-color: #646464}
