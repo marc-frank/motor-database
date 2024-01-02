@@ -34,11 +34,13 @@
     margin-right: 50px;*/
 }
 
-.button:hover {background-color: #646464}
+.button:hover {
+    background-color: #646464;
+    color: #ffffff;
+}
 
 .button:active {
     background-color: #969696;
-    color: #ffffff;
     /*box-shadow: 0 5px #666;*/
     /*transform: translateY(4px);*/
 }
