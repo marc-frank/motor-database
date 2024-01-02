@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="icon.png" type="image/png" />
         <title>Motor Database</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <script type="text/javascript" src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
@@ -13,7 +13,7 @@
     <body>
         <div class="header">
             <a href="https://github.com/marc-frank/motor-database" class="button" target="_blank">Contribute on GitHub</a>
-            <h1>Motor Database</h1>        
+            <h1>Motor Database</h1>
         </div>
         <table id="myTable" class="display">
             <thead>
@@ -36,14 +36,13 @@
         <script>
             $(document).ready(function () {
                 $.getJSON("database.json", function (data) {
-
-                    data.forEach(item => {
-                        if (!item.Image || item.Image.trim() === '') {
-                            item.Image = 'https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg';
+                    data.forEach((item) => {
+                        if (!item.Image || item.Image.trim() === "") {
+                            item.Image = "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg";
                         }
                         // Process other fields as necessary
                     });
-                    
+
                     // Aggregate unique keys from all objects
                     var uniqueKeys = new Set();
                     data.forEach((item) => {
@@ -79,10 +78,10 @@
                             };
                         }
                         return columnDef;
-                    });                    
+                    });
 
                     // Initialize DataTable
-                    $("#myTable").DataTable({
+                    var table = $("#myTable").DataTable({
                         data: data,
                         columns: columns,
                         lengthMenu: [
@@ -126,6 +125,18 @@
                                         });
                                 });
                         },
+                    });
+
+                    // Setup - add a text input to each header cell in the second row for searching
+                    $("#myTable thead .search-boxes th").each(function (colIdx) {
+                        var title = $(table.column(colIdx).header()).text();
+                        $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+
+                        $("input", this).on("keyup change", function () {
+                            if (table.column(colIdx).search() !== this.value) {
+                                table.column(colIdx).search(this.value).draw();
+                            }
+                        });
                     });
                 });
             });
