@@ -92,13 +92,18 @@
                             var api = this.api();
 
                             // Setup search input for each column
-                            api.columns().every(function () {
+                            api.columns().every(function (index) {
                                 var column = this;
-                                var input = $('<input type="text" placeholder="Search ' + $(column.header()).text() + '" />')
+                                var header = $(column.header());
+                                var title = header.text();
+                                var searchInput = $('<input type="text" placeholder="Search ' + title + '" />')
                                     .appendTo($(column.footer()).empty())
                                     .on("keyup change", function () {
                                         column.search($(this).val()).draw();
                                     });
+
+                                // Append input field to the separate search row
+                                $("tr.search-row").find("th").eq(index).append(searchInput);
                             });
                         },
                     });
