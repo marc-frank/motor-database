@@ -17,7 +17,7 @@
     left: 0; /* Align the button to the left */
     top: 50%; /* Align the button vertically */
     transform: translateY(-50%); /* Center the button vertically */
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 5px 5px;
     font-size: 15px;
     cursor: pointer;
