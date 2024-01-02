@@ -1,4 +1,4 @@
-<img src="icon.png" width="30" height="30"> # Motor Database
+# <img src="icon.png" width="24" height="24"> Motor Database
 
 
 Explore an extensive database of motor specifications and configurations. Ideal for engineers, hobbyists, and anyone interested in the technical details of various motors.
