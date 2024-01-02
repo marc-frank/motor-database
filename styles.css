@@ -1,11 +1,12 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .header h1 {
-    /* Styles for your main title */
+    margin: 0; /* Resets any default margin */
+    font-weight: bold;
 }
 
 .button {
