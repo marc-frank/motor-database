@@ -6,6 +6,7 @@
 
 .header h1 {
     margin: 0; /* Resets any default margin */
+    font-size: 25px;
     font-weight: bold;
 }
 
