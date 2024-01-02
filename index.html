@@ -1,125 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" href="icon.png" type="image/png">
-      <title>Motor Database</title>
-      <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
-      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-      <script type="text/javascript" src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-   </head>
-   <body>
-      <div><a href="https://github.com/marc-frank/motor-database">Contribute here - https://github.com/marc-frank/motor-database</a></div>
-      <br>
-      <table id="myTable" class="display">
-         <thead>
-            <tr>
-               <!-- Dynamic header will be generated here -->
-            </tr>
-         </thead>
-         <tbody>
-            <!-- Data will be loaded here -->
-         </tbody>
-         <tfoot>
-            <tr>
-               <!-- Dynamic footer will be generated here -->
-            </tr>
-         </tfoot>
-      </table>
-      <script>
-         $(document).ready(function () {
-            $.getJSON('database.json', function(data) {
-         // Aggregate unique keys from all objects
-         var uniqueKeys = new Set();
-         data.forEach(item => {
-            Object.keys(item).forEach(key => {
-                uniqueKeys.add(key);
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="icon.png" type="image/png" />
+        <title>Motor Database</title>
+        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    </head>
+    <body>
+        <div><a href="https://github.com/marc-frank/motor-database">Contribute here - https://github.com/marc-frank/motor-database</a></div>
+        <br />
+        <table id="myTable" class="display">
+            <thead>
+                <tr>
+                    <!-- Dynamic header will be generated here -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be loaded here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <!-- Dynamic footer will be generated here -->
+                </tr>
+            </tfoot>
+        </table>
+        <script>
+            $(document).ready(function () {
+                $.getJSON("database.json", function (data) {
+                    // Aggregate unique keys from all objects
+                    var uniqueKeys = new Set();
+                    data.forEach((item) => {
+                        Object.keys(item).forEach((key) => {
+                            uniqueKeys.add(key);
+                        });
+                    });
+
+                    // Sort keys alphabetically, except for specific keys
+                    var sortedKeys = Array.from(uniqueKeys).sort();
+                    var startKeys = ["Image", "Manufacturer", "Name", "Price ($)"];
+                    var endKey = "Link";
+                    sortedKeys = startKeys.concat(sortedKeys.filter((key) => !startKeys.includes(key) && key !== endKey));
+                    sortedKeys.push(endKey);
+
+                    // Generate dynamic headers and footers
+                    var headerFooterRow = "";
+                    sortedKeys.forEach((key) => {
+                        headerFooterRow += "<th>" + key + "</th>";
+                    });
+                    $("#myTable thead tr, #myTable tfoot tr").html(headerFooterRow);
+
+                    // Create columns configuration
+                    var columns = sortedKeys.map((key) => {
+                        var columnDef = { data: key, defaultContent: "" };
+                        if (key === "Image") {
+                            columnDef.render = function (data) {
+                                return data ? '<img src="' + data + '" alt="Image" width="128" height="128">' : "";
+                            };
+                        } else if (key === "Link") {
+                            columnDef.render = function (data) {
+                                return data ? '<a href="' + data + '" target="_blank">' + data + "</a>" : "";
+                            };
+                        }
+                        return columnDef;
+                    });
+
+                    // Initialize DataTable
+                    $("#myTable").DataTable({
+                        data: data,
+                        columns: columns,
+                        lengthMenu: [
+                            [10, 25, 50, 100, 250, -1],
+                            [10, 25, 50, 100, 250, "All"],
+                        ],
+                        pageLength: 10,
+                        orderCellsTop: true,
+                        fixedHeader: true,
+                        initComplete: function () {
+                            var api = this.api();
+
+                            // For each column
+                            api.columns()
+                                .eq(0)
+                                .each(function (colIdx) {
+                                    // Set the header cell to contain the input element
+                                    var cell = $(".filters th").eq($(api.column(colIdx).header()).index());
+                                    var title = $(cell).text();
+                                    $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                                    // On every keypress in this input
+                                    $("input", $(".filters th").eq($(api.column(colIdx).header()).index()))
+                                        .off("keyup change")
+                                        .on("change", function (e) {
+                                            // Get the search value
+                                            $(this).attr("title", $(this).val());
+                                            var regexr = "({search})"; //$(this).parents('th').find('select').val();
+
+                                            var cursorPosition = this.selectionStart;
+                                            // Search the column for that value
+                                            api.column(colIdx)
+                                                .search(this.value != "" ? regexr.replace("{search}", "(((" + this.value + ")))") : "", this.value != "", this.value == "")
+                                                .draw();
+                                        })
+                                        .on("keyup", function (e) {
+                                            e.stopPropagation();
+
+                                            $(this).trigger("change");
+                                            $(this).focus()[0].setSelectionRange(cursorPosition, cursorPosition);
+                                        });
+                                });
+                        },
+                    });
+                });
             });
-         });
-         
-         // Generate dynamic headers and footers
-         var headerFooterRow = '';
-         uniqueKeys.forEach(key => {
-            headerFooterRow += '<th>' + key + '</th>';
-         });
-         $('#myTable thead tr, #myTable tfoot tr').html(headerFooterRow);
-         
-               // Create columns configuration
-         var columns = Array.from(uniqueKeys).map(key => {
-            var columnDef = { data: key, defaultContent: "" };
-                  if (key === 'Image') {
-                     columnDef.render = function(data) {
-                        return data ? '<img src="'+data+'" alt="Image" width="128" height="128">' : '';
-                     };
-                  } else if (key === 'Link') {
-                     columnDef.render = function(data) {
-                        return data ? '<a href="' + data + '" target="_blank">' + data + '</a>' : '';
-                     };
-                  }
-                  return columnDef;
-               });
-         
-               // Initialize DataTable
-               $('#myTable').DataTable({
-                  data: data,
-                  columns: columns,
-                  "lengthMenu": [[10, 25, 50, 100, 250, -1], [10, 25, 50, 100, 250, "All"]],
-                  "pageLength": 10,
-                  orderCellsTop: true,
-                  fixedHeader: true,
-                  initComplete: function () {
-                     var api = this.api();
-          
-                     // For each column
-                     api
-                         .columns()
-                         .eq(0)
-                         .each(function (colIdx) {
-                             // Set the header cell to contain the input element
-                             var cell = $('.filters th').eq(
-                                 $(api.column(colIdx).header()).index()
-                             );
-                             var title = $(cell).text();
-                             $(cell).html('<input type="text" placeholder="' + title + '" />');
-          
-                             // On every keypress in this input
-                             $(
-                                 'input',
-                                 $('.filters th').eq($(api.column(colIdx).header()).index())
-                             )
-                                 .off('keyup change')
-                                 .on('change', function (e) {
-                                     // Get the search value
-                                     $(this).attr('title', $(this).val());
-                                     var regexr = '({search})'; //$(this).parents('th').find('select').val();
-          
-                                     var cursorPosition = this.selectionStart;
-                                     // Search the column for that value
-                                     api
-                                         .column(colIdx)
-                                         .search(
-                                             this.value != ''
-                                                 ? regexr.replace('{search}', '(((' + this.value + ')))')
-                                                 : '',
-                                             this.value != '',
-                                             this.value == ''
-                                         )
-                                         .draw();
-                                 })
-                                 .on('keyup', function (e) {
-                                     e.stopPropagation();
-          
-                                     $(this).trigger('change');
-                                     $(this)
-                                         .focus()[0]
-                                         .setSelectionRange(cursorPosition, cursorPosition);
-                                 });
-                         });
-                  },
-               });
-            });
-         });
-      </script>
-   </body>
+        </script>
+    </body>
 </html>
