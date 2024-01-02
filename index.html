@@ -33,6 +33,14 @@
         <script>
             $(document).ready(function () {
                 $.getJSON("database.json", function (data) {
+
+                    data.forEach(item => {
+                        if (!item.Image || item.Image.trim() === '') {
+                            item.Image = 'https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg';
+                        }
+                        // Process other fields as necessary
+                    });
+                    
                     // Aggregate unique keys from all objects
                     var uniqueKeys = new Set();
                     data.forEach((item) => {
@@ -68,7 +76,7 @@
                             };
                         }
                         return columnDef;
-                    });
+                    });                    
 
                     // Initialize DataTable
                     $("#myTable").DataTable({
