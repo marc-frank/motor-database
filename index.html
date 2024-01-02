@@ -127,7 +127,7 @@
                         },
                     });
 
-                    // Setup - add a text input to each header cell in the second row for searching
+                    // Add a text input to each header cell in the second row for searching
                     $("#myTable thead .search-boxes th").each(function (colIdx) {
                         var title = $(table.column(colIdx).header()).text();
                         $(this).html('<input type="text" placeholder="Search ' + title + '" />');
