@@ -29,9 +29,9 @@
     border: none;
     border-radius: 5px;
     /*box-shadow: 0 9px #999;*/
-    margin-top: 15px;
+    /*margin-top: 15px;
     margin-bottom: 15px;
-    margin-right: 50px;
+    margin-right: 50px;*/
 }
 
 .button:hover {background-color: #646464}
