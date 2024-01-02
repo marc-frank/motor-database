@@ -88,22 +88,20 @@
                         pageLength: 10,
                         orderCellsTop: true,
                         fixedHeader: true,
-                    });
+                        initComplete: function () {
+                            var api = this.api();
 
-                // Setup - add a text input to each column in the second row of the header
-                $('#myTable thead .filters th').each(function (i) {
-                    var title = $(table.column(i).header()).text();
-                    $(this).html('<input type="text" placeholder="Search ' + title + '" />');
-
-                    $('input', this).on('keyup change', function () {
-                        if (table.column(i).search() !== this.value) {
-                            table
-                                .column(i)
-                                .search(this.value)
-                                .draw();
-                        }
+                            // Setup search input for each column
+                            api.columns().every(function () {
+                                var column = this;
+                                var input = $('<input type="text" placeholder="Search ' + $(column.header()).text() + '" />')
+                                    .appendTo($(column.footer()).empty())
+                                    .on("keyup change", function () {
+                                        column.search($(this).val()).draw();
+                                    });
+                            });
+                        },
                     });
-                });
                 });
             });
         </script>
