@@ -20,6 +20,9 @@
                 <tr>
                     <!-- Dynamic header will be generated here -->
                 </tr>
+                <tr class="filters">
+                    <!-- Search boxes will be added here -->
+                </tr>
             </thead>
             <tbody>
                 <!-- Data will be loaded here -->
@@ -87,16 +90,20 @@
                         fixedHeader: true,
                     });
 
-                    // Apply the search
-                    table.columns().every(function () {
-                        var that = this;
+                // Setup - add a text input to each column in the second row of the header
+                $('#myTable thead .filters th').each(function (i) {
+                    var title = $(table.column(i).header()).text();
+                    $(this).html('<input type="text" placeholder="Search ' + title + '" />');
 
-                        $("input", this.header()).on("keyup change clear", function () {
-                            if (that.search() !== this.value) {
-                                that.search(this.value).draw();
-                            }
-                        });
+                    $('input', this).on('keyup change', function () {
+                        if (table.column(i).search() !== this.value) {
+                            table
+                                .column(i)
+                                .search(this.value)
+                                .draw();
+                        }
                     });
+                });
                 });
             });
         </script>
