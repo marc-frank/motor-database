@@ -15,7 +15,7 @@ The Motor Database is an essential resource for engineers, hobbyists, and anyone
 
 ## Using the Database
 
-Access the Motor Database through our [website](https://marc-frank.github.io/motor-database/). You can search for motors based on different criteria such as manufacturer, specifications, and more.
+Access the Motor Database through the [website](https://marc-frank.github.io/motor-database/). You can search for motors based on different criteria such as manufacturer, specifications, and more.
 
 ## Contributing
 
