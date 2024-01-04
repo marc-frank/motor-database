@@ -19,7 +19,7 @@ Access the Motor Database through the [website](https://marc-frank.github.io/mot
 
 ## Contributing
 
-Your contributions make the Motor Database richer and more accurate. Whether it's adding new motors, updating existing data, or suggesting features, all contributions are welcome. Check out our [Contribution Guidelines](CONTRIBUTING.md) for more details on how you can contribute.
+Your contributions make the Motor Database richer and more accurate. Whether it's adding new motors, updating existing data, or suggesting features, all contributions are welcome. Check out the [Contribution Guidelines](CONTRIBUTING.md) for more details on how you can contribute.
 
 ## Future Plans
 
