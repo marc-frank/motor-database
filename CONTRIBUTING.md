@@ -11,36 +11,40 @@ Interested in contributing? Here's how you can help improve the Motor Database:
 
 When contributing, please provide as much information as possible for the following parameters:
 
-- Image
-- Manufacturer
-- Name
-- Price [$]
-- Stator Diameter [mm]
-- Stator Height [mm]
-- Stator Configuration
-- Flux Direction
-- KV [RPM/V]
-- Internal Resistance [mΩ]
-- Enamel Type
-- Efficiency [%]
-- Rated Torque [Nm]
-- Weight (incl. Cable) [g]
-- Weight (excl. Cable) [g]
-- Cable length [mm]
-- Cable Gauge
-- Connector
-- Shaft Diameter (external) [mm]
-- Shaft Diameter (internal) [mm]
-- Shaft Retention
-- Bearing Type
-- Magnet Type
-- Mounting Circle [mm]
-- Number of Mounting Screws
-- Mounting Screw Thread
-- Maximum Operating Temperature [°C]
-- Cooling Method
-- IP Rating
-- Link
+```json
+{
+  "Image": "https://www.examplemanufacturer.com/em-2205-pro/image.png",
+  "Manufacturer": "Example Motors Inc.",
+  "Name": "EM-2205 Pro",
+  "Price ($)": "25.99",
+  "Stator Diameter (mm)": "22.0",
+  "Stator Height (mm)": "5.0",
+  "Stator Configuration": "12N14P",
+  "Flux Direction": "Radial",
+  "KV (RPM/V)": "1900",
+  "Internal Resistance (m\u03a9)": "35",
+  "Enamel Type": "Polyamide",
+  "Efficiency (%)": "85",
+  "Rated Torque (Nm)": "1.2",
+  "Weight (incl. Cable) (g)": "32",
+  "Weight (excl. Cable) (g)": "29",
+  "Cable length (mm)": "150",
+  "Cable Gauge (AWG)": "20",
+  "Connector": "MR30",
+  "Shaft Diameter (external) (mm)": "5.0",
+  "Shaft Diameter (internal) (mm)": "4.0",
+  "Shaft Retention": "C-clip",
+  "Bearing Type": "Ball Bearing",
+  "Magnet Type": "Neodymium",
+  "Mounting Circle (mm)": "16.0",
+  "Number of Mounting Screws": "4",
+  "Mounting Screw Thread": "M3",
+  "Maximum Operating Temperature (\u00b0C)": "80",
+  "Cooling Method": "Air Cooled",
+  "IP Rating": "IP68",
+  "Link": "https://www.examplemanufacturer.com/em-2205-pro"
+},
+```
 
 ### Specific Instructions for Data Entry
 
