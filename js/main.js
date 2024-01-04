@@ -17,7 +17,7 @@ $(document).ready(function () {
                 [25, 50, 100, 250, -1],
                 [25, 50, 100, 250, "All"],
             ],
-            pageLength: 10,
+            pageLength: 25,
             orderCellsTop: true,
             fixedHeader: true,
             initComplete: function () {
