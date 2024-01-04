@@ -14,8 +14,8 @@ $(document).ready(function () {
             data: data,
             columns: columns,
             lengthMenu: [
-                [10, 25, 50, 100, 250, -1],
-                [10, 25, 50, 100, 250, "All"],
+                [25, 50, 100, 250, -1],
+                [25, 50, 100, 250, "All"],
             ],
             pageLength: 10,
             orderCellsTop: true,
