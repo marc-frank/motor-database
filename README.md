@@ -10,7 +10,6 @@ The Motor Database is an essential resource for engineers, hobbyists, and anyone
 
 - **Extensive Data Collection**: Detailed specifications of motors from various manufacturers.
 - **User-Friendly Interface**: Easy-to-navigate database for quick information retrieval.
-- **Data Analysis and Insights**: Regular analysis of the database to identify trends and patterns in motor specifications and preferences.
 - **Open Contribution**: Community-driven updates and contributions to keep the database comprehensive and up-to-date.
 
 ## Using the Database
