@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/media/JosefinSans-Regular.eot');
+  src: url('/media/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/media/JosefinSans-Regular.woff2') format('woff2'),
+       url('/media/JosefinSans-Regular.woff') format('woff'),
+       url('/media/JosefinSans-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -7,14 +18,6 @@ body {
 .dataTables_wrapper textarea,
 .dataTables_wrapper button {
   font-family: 'Josefin Sans', sans-serif;
-}
-
-@font-face {
-  font-family: 'Josefin Sans';
-  src: url('/media/JosefinSans-Regular.woff2') format('woff2'),
-       url('/media/JosefinSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
 
 .header {
