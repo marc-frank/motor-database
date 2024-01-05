@@ -1,3 +1,7 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
 .header {
     position: relative;
     display: flex;
@@ -7,17 +11,16 @@
 }
 
 .header h1 {
-    margin: 0; /* Resets any default margin */
+    margin: 0;
     font-size: 50px;
     font-weight: bold;
 }
 
 .button {
-    position: absolute; /* Position the button absolutely */
-    left: 0; /* Align the button to the left */
-    top: 50%; /* Align the button vertically */
-    transform: translateY(-50%); /* Center the button vertically */
-    /*display: inline-block;*/
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
     padding: 5px 5px;
     font-size: 15px;
     cursor: pointer;
@@ -28,10 +31,6 @@
     background-color: #969696;
     border: none;
     border-radius: 5px;
-    /*box-shadow: 0 9px #999;*/
-    /*margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 50px;*/
 }
 
 .button:hover {
@@ -41,6 +40,4 @@
 
 .button:active {
     background-color: #969696;
-    /*box-shadow: 0 5px #666;*/
-    /*transform: translateY(4px);*/
 }
