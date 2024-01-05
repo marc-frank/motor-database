@@ -2,6 +2,10 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+#myTable thead input {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 @font-face {
   font-family: 'Josefin Sans';
   src: url('/media/JosefinSans-Regular.woff2') format('woff2'),
