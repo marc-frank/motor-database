@@ -3,14 +3,6 @@ body {
 }
 
 @font-face {
-  font-family: 'Work Sans';
-  src: url('/media/WorkSans-Regular.woff2') format('woff2'),
-       url('/media/WorkSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Josefin Sans';
   src: url('/media/josefinsans-regular-webfont.woff2') format('woff2'),
        url('/media/josefinsans-regular-webfont.woff') format('woff');
