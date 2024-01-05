@@ -23,6 +23,7 @@ Your contributions make the Motor Database richer and more accurate. Whether it'
 ## Future Plans
 
 - **Interactive Visualizations**: Developing dashboards for better data visualization and interpretation.
+- **Expansion to Other Databases**: Planning to include comprehensive databases for batteries, electronic speed controllers (ESCs), flight controllers, and other relevant components for a complete ecosystem overview.
 
 ## Feedback and Support
 
