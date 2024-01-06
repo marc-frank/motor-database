@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/media/JosefinSans-Regular.eot');
-  src: url('/media/JosefinSans-Regular.eot?#iefix') format('embedded-opentype');
-  src: url('/media/JosefinSans-Regular.woff2') format('woff2');
-  src: url('/media/JosefinSans-Regular.woff') format('woff');
-  src: url('/media/JosefinSans-Regular.ttf')  format('truetype');
+  src: url('/motor-database/media/JosefinSans-Regular.eot');
+  src: url('/motor-database/media/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/motor-database/media/JosefinSans-Regular.woff2') format('woff2'),
+       url('/motor-database/media/JosefinSans-Regular.woff') format('woff'),
+       url('/motor-database/media/JosefinSans-Regular.ttf')  format('truetype');
   font-weight: normal;
   font-style: normal;
 }
