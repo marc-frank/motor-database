@@ -1,12 +1,14 @@
 @font-face {
-  font-family: 'Josefin Sans';
-  src: url('/motor-database/media/JosefinSans-Regular.eot');
-  src: url('/motor-database/media/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
-       url('/motor-database/media/JosefinSans-Regular.woff2') format('woff2'),
-       url('/motor-database/media/JosefinSans-Regular.woff') format('woff'),
-       url('/motor-database/media/JosefinSans-Regular.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans-Regular.eot');
+    src: url('JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-Regular.woff2') format('woff2'),
+        url('JosefinSans-Regular.woff') format('woff'),
+        url('JosefinSans-Regular.ttf') format('truetype'),
+        url('JosefinSans-Regular.svg#JosefinSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 body {
