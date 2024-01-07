@@ -9,7 +9,7 @@ function setupDataTable(data) {
 
     // Sort keys alphabetically, except for specific keys
     var sortedKeys = Array.from(uniqueKeys).sort();
-    var startKeys = ["Image", "Manufacturer", "Name", "Price ($)", "Stator Diameter (mm)", "Stator Height (mm)"];
+    var startKeys = ["Image", "Manufacturer", "Name", "Price ($)", "Stator Diameter (mm)", "Stator Height (mm)", "KV (RPM/V)"];
     var endKey = "Link";
     sortedKeys = startKeys.concat(sortedKeys.filter((key) => !startKeys.includes(key) && key !== endKey));
     sortedKeys.push(endKey);
