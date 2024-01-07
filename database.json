@@ -1,6 +1,6 @@
 [
     {
-        "Image": "",
+        "Image": "https://www.tmotorhobby.com/images/202007/source_img/1024_P_1594261991708.jpg",
         "Manufacturer": "T-Motor",
         "Name": "BLACK BIRD V2.0",
         "Price ($)": "27.90",
@@ -40,7 +40,7 @@
         "Link": "https://www.tmotorhobby.com/goods-1024-T-Motor+BLACK+BIRD+V20.html"
     },
     {
-        "Image": "",
+        "Image": "https://www.tmotorhobby.com/images/202007/source_img/1024_P_1594261991708.jpg",
         "Manufacturer": "T-Motor",
         "Name": "BLACK BIRD V2.0",
         "Price ($)": "27.90",
@@ -80,7 +80,7 @@
         "Link": "https://www.tmotorhobby.com/goods-1024-T-Motor+BLACK+BIRD+V20.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202211/1667961394120820495.jpg",
         "Manufacturer": "T-Motor",
         "Name": "Black Friday 2207",
         "Price ($)": "19.90",
@@ -120,7 +120,7 @@
         "Link": "https://store.tmotor.com/product/black-friday-2207-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://www.tmotorhobby.com/images/202108/source_img/1152_P_1629106255232.jpg",
         "Manufacturer": "T-Motor",
         "Name": "BMS Raptor V2",
         "Price ($)": "27.90",
@@ -145,7 +145,7 @@
         "Cable Gauge (AWG)": "",
         "Connector": "",
         "Shaft Diameter (external) (mm)": "5.0",
-        "Shaft Diameter (internal) (mm)": "5",
+        "Shaft Diameter (internal) (mm)": "5.0",
         "Shaft Type": "",
         "Shaft Material": "",
         "Shaft Retention": "",
@@ -160,7 +160,7 @@
         "Link": "https://www.tmotorhobby.com/goods-1152-T-Motor+BMS+RAPTOR+V2+23065+Brushless+Racing+Motor-2000KV.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202212/1670998995866663591.jpg",
         "Manufacturer": "T-Motor",
         "Name": "Christmas Edition 2022 2207.5",
         "Price ($)": "20.90",
@@ -200,7 +200,7 @@
         "Link": "https://store.tmotor.com/product/christmas-edition-2207_5-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202110/1633938739672802068.jpg",
         "Manufacturer": "T-Motor",
         "Name": "Cine66 2812",
         "Price ($)": "45.90",
@@ -240,7 +240,7 @@
         "Link": "https://store.tmotor.com/product/cine66-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202304/1681976334912519907.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M0703",
         "Price ($)": "11.90",
@@ -280,7 +280,7 @@
         "Link": "https://store.tmotor.com/product/m0703-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202210/1665564755088974435.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M0802",
         "Price ($)": "11.90",
@@ -320,7 +320,7 @@
         "Link": "https://store.tmotor.com/product/m0802-22000-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202210/1665564755088974435.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M0802",
         "Price ($)": "10.90",
@@ -360,7 +360,7 @@
         "Link": "https://store.tmotor.com/product/m0802-25000-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202210/1665564755088974435.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M0802",
         "Price ($)": "10.90",
@@ -400,7 +400,7 @@
         "Link": "https://store.tmotor.com/product/m0802-27000-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202305/1683854197773796989.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M0803",
         "Price ($)": "10.90",
@@ -440,7 +440,7 @@
         "Link": "https://store.tmotor.com/product/m0803-kv22000-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202305/1683854197773796989.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M0803",
         "Price ($)": "10.90",
@@ -480,7 +480,7 @@
         "Link": "https://store.tmotor.com/product/m0803-kv22000-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202304/1681976381642448051.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M1002",
         "Price ($)": "13.90",
@@ -520,7 +520,7 @@
         "Link": "https://store.tmotor.com/product/m1002-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202210/1665384238486136939.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M1103",
         "Price ($)": "11.90",
@@ -560,7 +560,7 @@
         "Link": "https://store.tmotor.com/product/m1103-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202210/1665384238486136939.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M1103",
         "Price ($)": "11.90",
@@ -600,7 +600,7 @@
         "Link": "https://store.tmotor.com/product/m1103-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202204/1650250145882293679.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M1104",
         "Price ($)": "11.90",
@@ -640,7 +640,7 @@
         "Link": "https://store.tmotor.com/product/m1104-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202204/1650250386711290037.jpg",
         "Manufacturer": "T-Motor",
         "Name": "M1106",
         "Price ($)": "13.90",
@@ -680,7 +680,7 @@
         "Link": "https://store.tmotor.com/product/m1106-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648450889201132216.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2207 V3",
         "Price ($)": "23.90",
@@ -720,7 +720,7 @@
         "Link": "https://store.tmotor.com/product/p2207-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648450889201132216.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2207 V3",
         "Price ($)": "23.90",
@@ -760,7 +760,7 @@
         "Link": "https://store.tmotor.com/product/p2207-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648450889201132216.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2207 V3",
         "Price ($)": "23.90",
@@ -800,7 +800,7 @@
         "Link": "https://store.tmotor.com/product/p2207-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648450889201132216.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2207 V3",
         "Price ($)": "23.90",
@@ -840,7 +840,7 @@
         "Link": "https://store.tmotor.com/product/p2207-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648451009726103267.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2306 V3",
         "Price ($)": "23.90",
@@ -880,7 +880,7 @@
         "Link": "https://store.tmotor.com/product/p2306-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648451009726103267.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2306 V3",
         "Price ($)": "23.90",
@@ -920,7 +920,7 @@
         "Link": "https://store.tmotor.com/product/p2306-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202203/1648451009726103267.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2306 V3",
         "Price ($)": "23.90",
@@ -960,7 +960,7 @@
         "Link": "https://store.tmotor.com/product/p2306-v3-fpv-motor.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202112/1639622678577315935.jpg",
         "Manufacturer": "T-Motor",
         "Name": "P2505",
         "Price ($)": "24.90",
@@ -1040,7 +1040,7 @@
         "Link": "https://uav-en.tmotor.com/html/2018/u_0330/6.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/201811/source_img/768_P_1542783590816.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U11II",
         "Price ($)": "349.90",
@@ -1065,7 +1065,7 @@
         "Cable Gauge (AWG)": "14",
         "Connector": "",
         "Shaft Diameter (external) (mm)": "",
-        "Shaft Diameter (internal) (mm)": "15",
+        "Shaft Diameter (internal) (mm)": "15.0",
         "Shaft Type": "",
         "Shaft Material": "",
         "Shaft Retention": "",
@@ -1080,7 +1080,7 @@
         "Link": "https://store.tmotor.com/product/u11-v2-motor-u-power.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202008/1598845416034870840.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U13II",
         "Price ($)": "379.90",
@@ -1120,7 +1120,7 @@
         "Link": "https://store.tmotor.com/product/u13-v2-motor-u-power.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202008/1598845416034870840.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U13II",
         "Price ($)": "379.90",
@@ -1160,7 +1160,7 @@
         "Link": "https://store.tmotor.com/product/u13-v2-motor-u-power.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202210/1665628963698112353.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U15II",
         "Price ($)": "689.90",
@@ -1200,7 +1200,7 @@
         "Link": "https://store.tmotor.com/product/u15-v2-motor-u-power-kv80.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/201811/source_img/768_P_1542783590816.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U3",
         "Price ($)": "109.90",
@@ -1219,7 +1219,7 @@
         "Base Material": "",
         "Bell Type": "",
         "Bell Material": "",
-        "Weight (incl. Cable) (g)": "128",
+        "Weight (incl. Cable) (g)": "128.0",
         "Weight (excl. Cable) (g)": "97.0",
         "Cable length (mm)": "600.0",
         "Cable Gauge (AWG)": "18",
@@ -1240,7 +1240,7 @@
         "Link": "https://store.tmotor.com/product/u3-motor-u-power.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/201704/source_img/318_P_1491618602738.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U5",
         "Price ($)": "125.90",
@@ -1259,7 +1259,7 @@
         "Base Material": "",
         "Bell Type": "",
         "Bell Material": "",
-        "Weight (incl. Cable) (g)": "195",
+        "Weight (incl. Cable) (g)": "195.0",
         "Weight (excl. Cable) (g)": "156.0",
         "Cable length (mm)": "600.0",
         "Cable Gauge (AWG)": "16",
@@ -1280,9 +1280,9 @@
         "Link": "https://store.tmotor.com/product/u5-motor-u-power.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/201704/source_img/319_P_1491621360674.jpg",
         "Manufacturer": "T-Motor",
-        "Name": "U7-V2.0",
+        "Name": "U7 V2",
         "Price ($)": "149.90",
         "Stator Diameter (mm)": "",
         "Stator Height (mm)": "",
@@ -1320,7 +1320,7 @@
         "Link": "https://store.tmotor.com/product/u7-v2-motor-u-power.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202105/1620725558417410084.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U8 Lite L",
         "Price ($)": "329.90",
@@ -1360,7 +1360,7 @@
         "Link": "https://store.tmotor.com/product/u8lite-l-kv100-u-efficiency.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202105/1620725558417410084.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U8 Lite L",
         "Price ($)": "329.90",
@@ -1400,7 +1400,7 @@
         "Link": "https://store.tmotor.com/product/u8lite-l-kv100-u-efficiency.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202110/1633931715719861195.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U8II Lite",
         "Price ($)": "309.90",
@@ -1440,7 +1440,7 @@
         "Link": "https://store.tmotor.com/product/u8-v2-lite-u-efficiency.html"
     },
     {
-        "Image": "",
+        "Image": "https://store.tmotor.com/images/202112/1638773307008884223.jpg",
         "Manufacturer": "T-Motor",
         "Name": "U8II PRO",
         "Price ($)": "309.99",
