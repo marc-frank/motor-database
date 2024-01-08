@@ -143,7 +143,7 @@ visit https://www.convertcsv.com/csv-to-json.htm
 
 in Excel, hit ctrl+a twice, so that the data with the column headers is selected
 
-Copy, ctr+c
+Copy, ctrl+c
 
 Paste ctrl+v into the input field
 
