@@ -27,4 +27,4 @@ Your contributions make the Motor Database richer and more accurate. Whether it'
 
 ## Feedback and Support
 
-Have feedback or need support? Feel free to open an issue on our [GitHub repository](https://github.com/marc-frank/motor-database/issues).
+Have feedback or need support? Feel free to open an issue on the [GitHub repository](https://github.com/marc-frank/motor-database/issues).
