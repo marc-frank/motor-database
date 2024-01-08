@@ -187,4 +187,4 @@ Copy the new output
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/3912d04a-2844-4bd5-ab10-bc7d79bc1ab6)
 
-Paste into the `database.json` file
+Clear the `database.json` file and paste the new data into it 
