@@ -106,7 +106,7 @@ Examples:
 
 Counts should not contain any decimal places, for example the Number of Mounting Screws.
 
-- Do not include decimal places for counts (e.g., Number of Mounting Screws).
+- Do not include decimal places for counts.
 
 Examples:
   - ❌ `4.0` | ✅ `4`
