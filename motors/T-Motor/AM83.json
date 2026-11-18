@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://img.staticdj.com/609193a7e0320c6922b7609f0bba55cf.png",
     "Manufacturer": "T-Motor",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "AM83",
+    "Price ($)": "39.90",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "2560"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -23,9 +25,9 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://store.tmotor.com/product/am83-p5b-rc-glider-flight-plane-motor.html"
+    "Link": "https://www.t-hobby.com/products/fixed-wing-aircraft-am83-p5b"
 }
