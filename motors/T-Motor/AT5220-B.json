@@ -1,0 +1,53 @@
+{
+    "Image": "https://img.staticdj.com/f8a056569b804d2fbf64e0c1e2288342.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AT5220-B",
+    "Price ($)": "139.00",
+    "Stator Diameter (mm)": "52.0",
+    "Stator Height (mm)": "20.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "220",
+        "380"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "10.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "30.0, 44.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M4, M4",
+    "Link": "https://www.t-hobby.com/products/at5220-b-20-25cc",
+    "Per-KV Values": {
+        "220": {
+            "Internal Resistance (mΩ)": "36.0",
+            "Weight (incl. Cable) (g)": "450.0"
+        },
+        "380": {
+            "Internal Resistance (mΩ)": "11.0",
+            "Weight (incl. Cable) (g)": "465.0"
+        }
+    }
+}
