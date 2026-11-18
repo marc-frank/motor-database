@@ -1,0 +1,51 @@
+{
+    "Image": "https://img.staticdj.com/e6ce4bc35b8eb254fc5df6ea5d47522a.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "F1204",
+    "Price ($)": "12.72",
+    "Stator Diameter (mm)": "12.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "5000",
+        "6500"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "6.9",
+    "Weight (excl. Cable) (g)": "6.1",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/brushless-micro-motor-f1204",
+    "Per-KV Values": {
+        "5000": {
+            "Internal Resistance (mΩ)": "240.0"
+        },
+        "6500": {
+            "Internal Resistance (mΩ)": "140.0"
+        }
+    }
+}
