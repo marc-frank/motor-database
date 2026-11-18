@@ -2,7 +2,7 @@
     "Image": "https://geprc.com/wp-content/uploads/2017/08/10-7.jpg",
     "Manufacturer": "GEPRC",
     "Name": "GR1408",
-    "Price ($)": "14.89",
+    "Price ($)": "",
     "Stator Diameter (mm)": "14.0",
     "Stator Height (mm)": "8.0",
     "Stator Configuration": "9N12P",
@@ -11,9 +11,11 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
-        "3500"
+        "2500",
+        "3500",
+        "3750"
     ],
-    "Internal Resistance (mΩ)": "98.0",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -38,5 +40,21 @@
     "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://geprc.com/product/gep-gr1408-3500kv/"
+    "Link": "",
+    "Per-KV Values": {
+        "2500": {
+            "Price ($)": "9.90",
+            "Link": "https://geprc.com/product/geprc-gr1408-2500kv-motor/"
+        },
+        "3500": {
+            "Price ($)": "14.89",
+            "Internal Resistance (mΩ)": "98.0",
+            "Link": "https://geprc.com/product/gep-gr1408-3500kv/"
+        },
+        "3750": {
+            "Price ($)": "14.89",
+            "Internal Resistance (mΩ)": "92.0",
+            "Link": "https://geprc.com/product/geprc-gep-gr1408-3750kv/"
+        }
+    }
 }
