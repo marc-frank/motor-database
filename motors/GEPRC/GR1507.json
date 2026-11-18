@@ -1,0 +1,62 @@
+{
+    "Image": "https://geprc.com/wp-content/uploads/2018/09/21-5598820245.jpg",
+    "Manufacturer": "GEPRC",
+    "Name": "GR1507",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "15.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.15",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2800",
+        "3200",
+        "3600",
+        "4200"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "Al 7075",
+    "Bell Type": "",
+    "Bell Material": "Al 7075",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://geprc.com/product/geprc-gep-gr1507-motor/",
+    "Per-KV Values": {
+        "2800": {
+            "Price ($)": "9.50",
+            "Internal Resistance (mΩ)": "149.0"
+        },
+        "3200": {
+            "Price ($)": "9.50"
+        },
+        "3600": {
+            "Price ($)": "14.50",
+            "Internal Resistance (mΩ)": "104.0"
+        },
+        "4200": {
+            "Price ($)": "14.50",
+            "Internal Resistance (mΩ)": "96.0"
+        }
+    }
+}
