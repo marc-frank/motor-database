@@ -2,7 +2,7 @@
     "Image": "https://geprc.com/wp-content/uploads/2018/03/22-1808731435.jpg",
     "Manufacturer": "GEPRC",
     "Name": "GR2306",
-    "Price ($)": "6.90",
+    "Price ($)": "",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "12N14P",
@@ -11,9 +11,11 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
-        "1600"
+        "1600",
+        "2450",
+        "2750"
     ],
-    "Internal Resistance (mΩ)": "68.0",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -25,7 +27,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "20",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "",
@@ -35,8 +37,25 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://geprc.com/product/gep-gr2306-1600kv-motors/"
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1600": {
+            "Price ($)": "6.90",
+            "Internal Resistance (mΩ)": "68.0",
+            "Link": "https://geprc.com/product/gep-gr2306-1600kv-motors/"
+        },
+        "2450": {
+            "Price ($)": "11.94",
+            "Internal Resistance (mΩ)": "33.0",
+            "Link": "https://geprc.com/product/geprc-gep-gr2306-2450kv-motor/"
+        },
+        "2750": {
+            "Price ($)": "11.94",
+            "Internal Resistance (mΩ)": "26.0",
+            "Link": "https://geprc.com/product/geprc-gep-gr2306-2750kv-motor/"
+        }
+    }
 }
