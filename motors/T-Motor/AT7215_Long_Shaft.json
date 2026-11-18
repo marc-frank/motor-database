@@ -1,0 +1,63 @@
+{
+    "Image": "https://store.tmotor.com/images/202608/goods_img/at7215-260820-white-common-3.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AT7215 Long Shaft",
+    "Price ($)": "219.00",
+    "Stator Diameter (mm)": "72.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "24N22P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "200",
+        "220",
+        "245",
+        "270"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "10.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/at7215-fixed-wing-motor.html",
+    "Per-KV Values": {
+        "200": {
+            "Internal Resistance (mΩ)": "27.0",
+            "Weight (incl. Cable) (g)": "550.0"
+        },
+        "220": {
+            "Internal Resistance (mΩ)": "24.0",
+            "Weight (incl. Cable) (g)": "565.0"
+        },
+        "245": {
+            "Internal Resistance (mΩ)": "20.0",
+            "Weight (incl. Cable) (g)": "555.0"
+        },
+        "270": {
+            "Internal Resistance (mΩ)": "17.0",
+            "Weight (incl. Cable) (g)": "560.0"
+        }
+    }
+}
