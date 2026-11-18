@@ -1,0 +1,55 @@
+{
+    "Image": "https://img.staticdj.com/cc410314b1a9a54a19677e054391822f.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AM30",
+    "Price ($)": "25.90",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1450",
+        "1750",
+        "2280"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "18.6",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "40.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://store.tmotor.com/product/am30-3d-4d-f3p-Indoor-fixed-wing-motor.html",
+    "Per-KV Values": {
+        "1450": {
+            "Internal Resistance (mΩ)": "204.0"
+        },
+        "1750": {
+            "Internal Resistance (mΩ)": "147.0"
+        },
+        "2280": {
+            "Internal Resistance (mΩ)": "88.0"
+        }
+    }
+}
