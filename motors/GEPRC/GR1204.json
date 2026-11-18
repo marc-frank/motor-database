@@ -1,0 +1,53 @@
+{
+    "Image": "",
+    "Manufacturer": "GEPRC",
+    "Name": "GR1204",
+    "Price ($)": "11.90",
+    "Stator Diameter (mm)": "12.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "3750",
+        "5000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Al 7075",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "50.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
+    "Per-KV Values": {
+        "3750": {
+            "Image": "https://geprc.com/wp-content/uploads/2021/03/14.jpg",
+            "Link": "https://geprc.com/product/geprc-gr1204-3750kv-motors/"
+        },
+        "5000": {
+            "Image": "https://geprc.com/wp-content/uploads/2019/12/1.jpg",
+            "Link": "https://geprc.com/product/geprc-gr1204-5000kv-motors/"
+        }
+    }
+}
