@@ -1,0 +1,165 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Motor",
+    "description": "One motor entry. All values are strings; leave a field as \"\" when unknown. See .github/CONTRIBUTING.md for formatting rules.",
+    "type": "object",
+    "properties": {
+        "Image": {
+            "type": "string"
+        },
+        "Manufacturer": {
+            "type": "string",
+            "minLength": 1
+        },
+        "Name": {
+            "type": "string"
+        },
+        "Price ($)": {
+            "type": "string"
+        },
+        "Stator Diameter (mm)": {
+            "type": "string"
+        },
+        "Stator Height (mm)": {
+            "type": "string"
+        },
+        "Stator Configuration": {
+            "type": "string"
+        },
+        "Stator Material": {
+            "type": "string"
+        },
+        "Stator Lamination Thickness (mm)": {
+            "type": "string"
+        },
+        "Flux Direction": {
+            "type": "string"
+        },
+        "Flux Ring Thickness (mm)": {
+            "type": "string"
+        },
+        "KV (RPM/V)": {
+            "type": "string"
+        },
+        "Internal Resistance (mΩ)": {
+            "type": "string"
+        },
+        "Winding Type": {
+            "type": "string"
+        },
+        "Enamel Type": {
+            "type": "string"
+        },
+        "Base Type": {
+            "type": "string"
+        },
+        "Base Material": {
+            "type": "string"
+        },
+        "Bell Type": {
+            "type": "string"
+        },
+        "Bell Material": {
+            "type": "string"
+        },
+        "Weight (incl. Cable) (g)": {
+            "type": "string"
+        },
+        "Weight (excl. Cable) (g)": {
+            "type": "string"
+        },
+        "Cable length (mm)": {
+            "type": "string"
+        },
+        "Cable Gauge (AWG)": {
+            "type": "string"
+        },
+        "Connector": {
+            "type": "string"
+        },
+        "Shaft Diameter (external) (mm)": {
+            "type": "string"
+        },
+        "Shaft Diameter (internal) (mm)": {
+            "type": "string"
+        },
+        "Shaft Type": {
+            "type": "string"
+        },
+        "Shaft Material": {
+            "type": "string"
+        },
+        "Shaft Retention": {
+            "type": "string"
+        },
+        "Bearing Type": {
+            "type": "string"
+        },
+        "Bearing Outer Diameter": {
+            "type": "string"
+        },
+        "Bearing Inner Diameter": {
+            "type": "string"
+        },
+        "Bearing Thickness": {
+            "type": "string"
+        },
+        "Magnet Type": {
+            "type": "string"
+        },
+        "Mounting Pattern Diameter (mm)": {
+            "type": "string"
+        },
+        "Number of Mounting Screws": {
+            "type": "string"
+        },
+        "Mounting Screw Thread": {
+            "type": "string"
+        },
+        "Link": {
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "required": [
+        "Image",
+        "Manufacturer",
+        "Name",
+        "Price ($)",
+        "Stator Diameter (mm)",
+        "Stator Height (mm)",
+        "Stator Configuration",
+        "Stator Material",
+        "Stator Lamination Thickness (mm)",
+        "Flux Direction",
+        "Flux Ring Thickness (mm)",
+        "KV (RPM/V)",
+        "Internal Resistance (mΩ)",
+        "Winding Type",
+        "Enamel Type",
+        "Base Type",
+        "Base Material",
+        "Bell Type",
+        "Bell Material",
+        "Weight (incl. Cable) (g)",
+        "Weight (excl. Cable) (g)",
+        "Cable length (mm)",
+        "Cable Gauge (AWG)",
+        "Connector",
+        "Shaft Diameter (external) (mm)",
+        "Shaft Diameter (internal) (mm)",
+        "Shaft Type",
+        "Shaft Material",
+        "Shaft Retention",
+        "Bearing Type",
+        "Bearing Outer Diameter",
+        "Bearing Inner Diameter",
+        "Bearing Thickness",
+        "Magnet Type",
+        "Mounting Pattern Diameter (mm)",
+        "Number of Mounting Screws",
+        "Mounting Screw Thread",
+        "Link"
+    ],
+    "additionalProperties": false
+}

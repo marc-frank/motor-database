@@ -1,0 +1,29 @@
+name: Validate motors
+
+on:
+  pull_request:
+    paths:
+      - "motors/**"
+      - "motor.schema.json"
+      - "database.json"
+      - "scripts/motordb.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate motor files
+        run: python3 scripts/motordb.py validate
+      - name: Reject hand edits to database.json
+        # database.json is generated on main. If a PR touches it, it must match motors/ exactly
+        # (i.e. it was produced by `scripts/motordb.py build`, not edited by hand).
+        run: |
+          if ! git diff --quiet "origin/${{ github.base_ref }}"...HEAD -- database.json; then
+            python3 scripts/motordb.py check
+          fi

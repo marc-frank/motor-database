@@ -3,56 +3,87 @@
 Interested in contributing? Here's how you can help improve the Motor Database:
 
 1. **Fork the Repository**: Clone the repository to your account.
-2. **Verify Uniqueness**: Before adding a new motor to `database.json`, ensure it isn't already listed.
-3. **Edit Entries**: If a motor is already in the list, you can directly edit existing fields.
-4. **Create a Pull Request**: Once you've made your changes, submit a pull request.
+2. **Verify Uniqueness**: Before adding a new motor, check that it isn't already in `motors/`.
+3. **Add or edit a motor file**: Every motor lives in its own file at `motors/<Manufacturer>/<Name>-<KV>KV.json`.
+   - To add a motor, copy [`templates/motor.json`](../templates/motor.json) into the manufacturer's folder (create the folder if it is a new manufacturer) and fill it in.
+   - To fix a motor, edit its file directly.
+4. **Validate** (optional, CI does it too): `python3 scripts/motordb.py validate`
+5. **Create a Pull Request**: Once you've made your changes, submit a pull request.
+
+Do **not** edit `database.json` by hand. It is generated from `motors/` and rebuilt automatically when changes land on `main`.
+
+## Database layout
+
+```
+motors/
+├── T-Motor/
+│   ├── M0802-22000KV.json
+│   └── M0802-25000KV.json
+└── iFlight/
+    └── XING2_2207-1855KV.json
+```
+
+- The folder name is the `Manufacturer` value with spaces and special characters replaced by `_`. The validator tells you if a file is in the wrong folder.
+- The file name is the `Name` and `KV (RPM/V)` in the same style. It only has to be unique and readable; the website uses the contents, not the file name.
+- Every file must contain exactly the fields listed in [`motor.schema.json`](../motor.schema.json), all as strings. Leave unknown values as `""`. `Manufacturer` and `Link` are required.
+- To add a new field, add it to `motor.schema.json` and to every motor file.
+
+### `scripts/motordb.py`
+
+| Command | What it does |
+| --- | --- |
+| `python3 scripts/motordb.py validate` | Checks every file in `motors/` against the schema. |
+| `python3 scripts/motordb.py build` | Validates and regenerates `database.json` from `motors/`. |
+| `python3 scripts/motordb.py check` | Validates and fails if `database.json` is out of date. |
+| `python3 scripts/motordb.py split` | Rewrites `motors/` from `database.json` (used for bulk edits, see Excel below). |
+
+Only Python 3 is needed, no packages.
 
 ## Parameters
 
-When contributing, please provide as much information as possible for the following parameters:
+When contributing, please provide as much information as possible for the following parameters (this is [`templates/motor.json`](../templates/motor.json)):
 
 ```json
 {
-  "Image": "https://www.examplemanufacturer.com/example-model/image.png",
-  "Manufacturer": "Example Manufacturer",
-  "Name": "Example Model 2205",
-  "Price ($)": "19.99",
-  "Stator Diameter (mm)": "22.0",
-  "Stator Height (mm)": "5.0",
-  "Stator Configuration": "12N14P",
-  "Stator Material": "Silicon Steel",
-  "Stator Lamination Thickness (mm)": "0.2",
-  "Flux Direction": "Radial",
-  "Flux Ring Thickness (mm)": "0.5",
-  "KV (RPM/V)": "2400",
-  "Internal Resistance (mΩ)": "50.0",
-  "Winding Type": "Multi Strand",
-  "Enamel Type": "Polyurethane",
-  "Base Type": "Closed Bottom",
-  "Base Material": "Aluminum",
-  "Bell Type": "Unibell",
-  "Bell Material": "Aluminum",
-  "Weight (incl. Cable) (g)": "30.0",
-  "Weight (excl. Cable) (g)": "28.0",
-  "Cable length (mm)": "100.0",
-  "Cable Gauge (AWG)": "22",
-  "Connector": "none",
-  "Shaft Diameter (external) (mm)": "5.0",
-  "Shaft Diameter (internal) (mm)": "4.0",
-  "Shaft Type": "Hollow",
-  "Shaft Material": "Steel",
-  "Shaft Retention": "Screw",
-  "Bearing Type": "Ball Bearing",
-  "Bearing Outer Diameter": "6.0",
-  "Bearing Inner Diameter": "3.0",
-  "Bearing Thickness": "2.5",
-  "Magnet Type": "Neodymium N52",
-  "Mounting Pattern Diameter (mm)": "16.0",
-  "Number of Mounting Screws": "4",
-  "Mounting Screw Thread": "M3",
-  "Cooling Method": "Air Cooled",
-  "Link": "https://www.examplemanufacturer.com/example-model-2205"
-},
+    "Image": "https://www.examplemanufacturer.com/example-model/image.png",
+    "Manufacturer": "Example Manufacturer",
+    "Name": "Example Model 2205",
+    "Price ($)": "19.99",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "0.5",
+    "KV (RPM/V)": "2400",
+    "Internal Resistance (mΩ)": "50.0",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "Polyurethane",
+    "Base Type": "Closed Bottom",
+    "Base Material": "Aluminum",
+    "Bell Type": "Unibell",
+    "Bell Material": "Aluminum",
+    "Weight (incl. Cable) (g)": "30.0",
+    "Weight (excl. Cable) (g)": "28.0",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "22",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "6.0",
+    "Bearing Inner Diameter": "3.0",
+    "Bearing Thickness": "2.5",
+    "Magnet Type": "Neodymium N52",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.examplemanufacturer.com/example-model-2205"
+}
 ```
 
 ## Specific Instructions for Data Entry
@@ -111,7 +142,10 @@ Counts should not contain any decimal places, for example the Number of Mounting
 Examples:
   - ❌ `4.0` | ✅ `4`
 
-## Importing into Excel
+## Bulk editing in Excel
+
+`database.json` is still the full database in one file, so you can load it into Excel, edit it, and convert it back. The last step (`split`) writes your changes into `motors/`, which is what you commit.
+
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/05a8129c-0123-4169-ae95-4312f1ad7e6b)
 
@@ -187,4 +221,10 @@ Copy the new output
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/3912d04a-2844-4bd5-ab10-bc7d79bc1ab6)
 
-Clear the `database.json` file and paste the new data into it 
+Clear the `database.json` file and paste the new data into it.
+
+Finally, turn the edited `database.json` back into per-motor files and commit the changes in `motors/`:
+
+```
+python3 scripts/motordb.py split
+```

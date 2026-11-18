@@ -18,7 +18,7 @@ Access the Motor Database through the [website](https://marc-frank.github.io/mot
 
 ## Contributing
 
-Your contributions make the Motor Database richer and more accurate. Whether it's adding new motors, updating existing data, or suggesting features, all contributions are welcome. Check out the [Contribution Guidelines](.github/CONTRIBUTING.md) for more details on how you can contribute.
+Your contributions make the Motor Database richer and more accurate. Whether it's adding new motors, updating existing data, or suggesting features, all contributions are welcome. Each motor is stored as its own JSON file in [`motors/`](motors/), grouped by manufacturer; `database.json` is generated from those files. Check out the [Contribution Guidelines](.github/CONTRIBUTING.md) for more details on how you can contribute.
 
 ## Future Plans
 
