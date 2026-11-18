@@ -3,37 +3,114 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Open, community-maintained database of brushless motor specifications for FPV drones and beyond." />
         <link rel="icon" href="media/icon.png" type="image/png" />
         <title>Motor Database</title>
+        <script>
+            try {
+                var t = localStorage.getItem("theme");
+                if (t) document.documentElement.setAttribute("data-theme", t);
+            } catch (e) {}
+        </script>
         <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script type="text/javascript" src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     </head>
     <body>
-        <div class="header">
-            <a href="https://github.com/marc-frank/motor-database" class="button" target="_blank">Contribute on GitHub</a>
-            <h1>Motor Database</h1>
-        </div>
-        <table id="myTable" class="display">
-            <thead>
-                <tr>
-                    <!-- Dynamic header will be generated here -->
-                </tr>
-                <tr class="search-boxes">
-                    <!-- Search inputs will be generated here -->
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Data will be loaded here -->
-            </tbody>
-            <tfoot>
-                <tr>
-                    <!-- Dynamic footer will be generated here -->
-                </tr>
-            </tfoot>
-        </table>
-        <script src="js/dataTableSetup.js"></script>
-        <script src="js/main.js"></script>
+        <header class="topbar">
+            <div class="brand">
+                <img src="media/icon.png" alt="" width="28" height="28" />
+                <span class="wordmark">Motor Database</span>
+            </div>
+            <p class="stats" id="stats" aria-live="polite"></p>
+            <div class="topbar-actions">
+                <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.4 5.4 0 0 1-9.54-4.6A5.4 5.4 0 0 1 13.36 3.1 9.1 9.1 0 0 0 12 3z"/></svg>
+                </button>
+                <a class="btn btn-primary" href="https://github.com/marc-frank/motor-database" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                    <span>Contribute</span>
+                </a>
+            </div>
+        </header>
+
+        <section class="controls" aria-label="Filters">
+            <div class="search">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M10 2a8 8 0 0 1 6.32 12.9l5.39 5.4-1.41 1.4-5.4-5.38A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"/></svg>
+                <input id="q" type="search" placeholder="Search motors, e.g. 2207 1950 or T-Motor F60" autocomplete="off" aria-label="Search" />
+            </div>
+            <div class="filters">
+                <label class="field">
+                    <span>Manufacturer</span>
+                    <select id="mfr"><option value="">All</option></select>
+                </label>
+                <fieldset class="field range">
+                    <legend>Stator ⌀ (mm)</legend>
+                    <input id="sdMin" type="number" inputmode="decimal" placeholder="min" aria-label="Minimum stator diameter" />
+                    <span class="dash">–</span>
+                    <input id="sdMax" type="number" inputmode="decimal" placeholder="max" aria-label="Maximum stator diameter" />
+                </fieldset>
+                <fieldset class="field range">
+                    <legend>KV</legend>
+                    <input id="kvMin" type="number" inputmode="numeric" placeholder="min" aria-label="Minimum KV" />
+                    <span class="dash">–</span>
+                    <input id="kvMax" type="number" inputmode="numeric" placeholder="max" aria-label="Maximum KV" />
+                </fieldset>
+                <label class="toggle">
+                    <input id="specOnly" type="checkbox" checked />
+                    <span class="switch" aria-hidden="true"></span>
+                    <span>Only with specs</span>
+                </label>
+                <div class="filter-actions">
+                    <button class="btn btn-ghost" id="reset" type="button">Reset</button>
+                    <div class="menu">
+                        <button class="btn btn-ghost" id="colsBtn" type="button" aria-haspopup="true" aria-expanded="false">Columns</button>
+                        <div class="menu-panel" id="colsPanel" hidden></div>
+                    </div>
+                    <button class="btn btn-ghost" id="csv" type="button">Export CSV</button>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <div class="table-wrap" id="tableWrap">
+                <table class="grid" id="grid">
+                    <thead><tr id="headRow"></tr></thead>
+                    <tbody id="body"></tbody>
+                </table>
+            </div>
+            <div class="empty" id="empty" hidden>
+                <p>No motors match these filters.</p>
+                <button class="btn btn-ghost" type="button" data-reset>Clear filters</button>
+            </div>
+            <div class="more" id="more" hidden>
+                <button class="btn btn-ghost" id="moreBtn" type="button"></button>
+            </div>
+            <p class="loading" id="loading">Loading motors…</p>
+        </main>
+
+        <footer class="footer">
+            <p id="stubNote"></p>
+            <p>
+                Data is community maintained.
+                <a href="https://github.com/marc-frank/motor-database/blob/main/.github/CONTRIBUTING.md" target="_blank" rel="noopener">How to add a motor</a>
+                ·
+                <a href="https://github.com/marc-frank/motor-database/issues" target="_blank" rel="noopener">Report an issue</a>
+            </p>
+        </footer>
+
+        <div class="scrim" id="scrim" hidden></div>
+        <aside class="drawer" id="drawer" aria-hidden="true" aria-labelledby="dTitle" role="dialog">
+            <div class="drawer-head">
+                <div>
+                    <p class="eyebrow" id="dMfr"></p>
+                    <h2 id="dTitle"></h2>
+                </div>
+                <button class="icon-btn" id="dClose" type="button" aria-label="Close details">
+                    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6l5.6-5.6L5 6.4z"/></svg>
+                </button>
+            </div>
+            <div class="drawer-body" id="dBody"></div>
+        </aside>
+
+        <script src="js/app.js"></script>
     </body>
 </html>
