@@ -3,56 +3,101 @@
 Interested in contributing? Here's how you can help improve the Motor Database:
 
 1. **Fork the Repository**: Clone the repository to your account.
-2. **Verify Uniqueness**: Before adding a new motor to `database.json`, ensure it isn't already listed.
-3. **Edit Entries**: If a motor is already in the list, you can directly edit existing fields.
-4. **Create a Pull Request**: Once you've made your changes, submit a pull request.
+2. **Verify Uniqueness**: Before adding a new motor, check that it isn't already in `motors/`.
+3. **Add or edit a motor file**: Every motor model lives in its own file at `motors/<Manufacturer>/<Name>.json`, with all of its KV options in that one file.
+   - To add a motor, copy [`templates/motor.json`](../templates/motor.json) into the manufacturer's folder (create the folder if it is a new manufacturer) and fill it in.
+   - To fix a motor, edit its file directly.
+4. **Validate** (optional, CI does it too): `python3 scripts/motordb.py validate`
+5. **Create a Pull Request**: Once you've made your changes, submit a pull request.
+
+There is no `database.json` in the repository: the website's `database.json` is generated from `motors/` every time the site is deployed from `main`.
+
+## Database layout
+
+```
+motors/
+├── T-Motor/
+│   ├── M0802.json
+│   └── F1404.json
+└── iFlight/
+    └── XING2_2207.json
+```
+
+- The folder name is the `Manufacturer` value with spaces and special characters replaced by `_`. The validator tells you if a file is in the wrong folder.
+- The file name is the `Name` in the same style. It only has to be unique and readable; the website uses the contents, not the file name.
+- Every file must contain the fields listed in [`motor.schema.json`](../motor.schema.json). Leave unknown values as `""`. `Manufacturer` and `Link` are required.
+- `KV (RPM/V)` is a list of every KV option the motor is sold in, e.g. `["1950", "2800"]` (`[]` if unknown). All other values are strings.
+- Values that differ between KV options (typically internal resistance or weight, sometimes price or product link) go in the optional `Per-KV Values` object, keyed by KV. Leave the shared field as `""` when it is set per KV. The website still shows one row per KV.
+- To add a new field, add it to `motor.schema.json` and to every motor file.
+
+### `scripts/motordb.py`
+
+| Command | What it does |
+| --- | --- |
+| `python3 scripts/motordb.py validate` | Checks every file in `motors/` against the schema. |
+| `python3 scripts/motordb.py build` | Validates and writes `database.json` from `motors/` (git-ignored). |
+| `python3 scripts/motordb.py split` | Rewrites `motors/` from `database.json` (used for bulk edits, see Excel below). |
+
+Only Python 3 is needed, no packages.
+
+To preview the website locally, run `build` and then serve the folder, e.g. `python3 -m http.server`, and open http://localhost:8000.
 
 ## Parameters
 
-When contributing, please provide as much information as possible for the following parameters:
+When contributing, please provide as much information as possible for the following parameters (this is [`templates/motor.json`](../templates/motor.json), a motor sold in two KV versions whose internal resistance differs per KV):
 
 ```json
 {
-  "Image": "https://www.examplemanufacturer.com/example-model/image.png",
-  "Manufacturer": "Example Manufacturer",
-  "Name": "Example Model 2205",
-  "Price ($)": "19.99",
-  "Stator Diameter (mm)": "22.0",
-  "Stator Height (mm)": "5.0",
-  "Stator Configuration": "12N14P",
-  "Stator Material": "Silicon Steel",
-  "Stator Lamination Thickness (mm)": "0.2",
-  "Flux Direction": "Radial",
-  "Flux Ring Thickness (mm)": "0.5",
-  "KV (RPM/V)": "2400",
-  "Internal Resistance (mΩ)": "50.0",
-  "Winding Type": "Multi Strand",
-  "Enamel Type": "Polyurethane",
-  "Base Type": "Closed Bottom",
-  "Base Material": "Aluminum",
-  "Bell Type": "Unibell",
-  "Bell Material": "Aluminum",
-  "Weight (incl. Cable) (g)": "30.0",
-  "Weight (excl. Cable) (g)": "28.0",
-  "Cable length (mm)": "100.0",
-  "Cable Gauge (AWG)": "22",
-  "Connector": "none",
-  "Shaft Diameter (external) (mm)": "5.0",
-  "Shaft Diameter (internal) (mm)": "4.0",
-  "Shaft Type": "Hollow",
-  "Shaft Material": "Steel",
-  "Shaft Retention": "Screw",
-  "Bearing Type": "Ball Bearing",
-  "Bearing Outer Diameter": "6.0",
-  "Bearing Inner Diameter": "3.0",
-  "Bearing Thickness": "2.5",
-  "Magnet Type": "Neodymium N52",
-  "Mounting Pattern Diameter (mm)": "16.0",
-  "Number of Mounting Screws": "4",
-  "Mounting Screw Thread": "M3",
-  "Cooling Method": "Air Cooled",
-  "Link": "https://www.examplemanufacturer.com/example-model-2205"
-},
+    "Image": "https://www.examplemanufacturer.com/example-model/image.png",
+    "Manufacturer": "Example Manufacturer",
+    "Name": "Example Model 2205",
+    "Price ($)": "19.99",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "0.5",
+    "KV (RPM/V)": [
+        "1950",
+        "2400"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "Polyurethane",
+    "Base Type": "Closed Bottom",
+    "Base Material": "Aluminum",
+    "Bell Type": "Unibell",
+    "Bell Material": "Aluminum",
+    "Weight (incl. Cable) (g)": "30.0",
+    "Weight (excl. Cable) (g)": "28.0",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "22",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "6.0",
+    "Bearing Inner Diameter": "3.0",
+    "Bearing Thickness": "2.5",
+    "Magnet Type": "Neodymium N52",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.examplemanufacturer.com/example-model-2205",
+    "Per-KV Values": {
+        "1950": {
+            "Internal Resistance (mΩ)": "65.0"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "50.0"
+        }
+    }
+}
 ```
 
 ## Specific Instructions for Data Entry
@@ -92,15 +137,15 @@ Examples:
 
 ### Velocity Constant (KV)
 
-As I have never seen a KV rating accurate to 0.1 RPM/V, the KV field should not have any decimal places. If the motor is available in multiple KV versions, create a whole new entry for the motor with another KV. There should only be one entry in the KV field. Do not seperate different KV option by a , or / in a single motor listing. Do not use any non-numeric characters in the entry field for KV.
+As I have never seen a KV rating accurate to 0.1 RPM/V, KV values should not have any decimal places. If the motor is available in multiple KV versions, list each one as a separate value in `KV (RPM/V)` and put anything that differs between them in `Per-KV Values`. Do not use any non-numeric characters in a KV value.
 
 - No decimal places needed for KV ratings.
-- Create separate entries for motors with different KV versions.
-- Use only one KV rating per entry without any non-numeric characters.
+- One list item per KV version.
+- Only numeric characters in each KV value.
 
 Examples:
-  - ❌ `1550/1950/2550` | ✅ `1550`
-  - ❌ `1550 KV`        | ✅ `2550`
+  - ❌ `"1550/1950/2550"` | ✅ `["1550", "1950", "2550"]`
+  - ❌ `["1550 KV"]`      | ✅ `["1550"]`
 
 ### Counts
 
@@ -111,7 +156,14 @@ Counts should not contain any decimal places, for example the Number of Mounting
 Examples:
   - ❌ `4.0` | ✅ `4`
 
-## Importing into Excel
+## Bulk editing in Excel
+
+To edit many motors at once, work on the whole database as a single file:
+
+1. Get a `database.json` in the repository root, either by running `python3 scripts/motordb.py build` or by downloading https://marc-frank.github.io/motor-database/database.json.
+2. Load it into Excel, edit it and convert it back to JSON as shown below.
+3. Run `python3 scripts/motordb.py split` to write the changes into `motors/`, and commit `motors/`.
+
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/05a8129c-0123-4169-ae95-4312f1ad7e6b)
 
@@ -187,4 +239,12 @@ Copy the new output
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/3912d04a-2844-4bd5-ab10-bc7d79bc1ab6)
 
-Clear the `database.json` file and paste the new data into it 
+Clear your local `database.json` file and paste the new data into it.
+
+Finally, turn the edited `database.json` back into per-motor files and commit the changes in `motors/`:
+
+```
+python3 scripts/motordb.py split
+```
+
+In `database.json` (and Excel) every KV option is its own row. `split` merges rows with the same `Manufacturer` and `Name` back into one motor file and moves values that differ between them into `Per-KV Values`.
