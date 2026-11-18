@@ -1,0 +1,55 @@
+{
+    "Image": "https://img.staticdj.com/354791b5fd0da13cfa63b10d4f9770ba.png",
+    "Manufacturer": "T-Motor",
+    "Name": "AM480",
+    "Price ($)": "64.90",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "600",
+        "650",
+        "900"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "145.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "90.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "22.0, 44.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "https://store.tmotor.com/product/am480-3d-freestyle-flight-plane-brushless-motor.html",
+    "Per-KV Values": {
+        "600": {
+            "Internal Resistance (mΩ)": "35.0"
+        },
+        "650": {
+            "Internal Resistance (mΩ)": "32.0"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "18.0"
+        }
+    }
+}
