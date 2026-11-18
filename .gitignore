@@ -1,2 +1,3 @@
 # Generated from motors/ by scripts/motordb.py build
 database.json
+__pycache__/
