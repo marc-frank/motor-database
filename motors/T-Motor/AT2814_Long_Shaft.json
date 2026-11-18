@@ -1,0 +1,58 @@
+{
+    "Image": "https://img.staticdj.com/b97290f59c8473456350fc52f4c896cd.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AT2814 Long Shaft",
+    "Price ($)": "49.90",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "900",
+        "1050",
+        "1200"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-motor-at2814-long-shaft",
+    "Per-KV Values": {
+        "900": {
+            "Internal Resistance (mΩ)": "82.0",
+            "Weight (incl. Cable) (g)": "108.0"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "35.0",
+            "Weight (incl. Cable) (g)": "107.0"
+        },
+        "1200": {
+            "Internal Resistance (mΩ)": "26.0",
+            "Weight (incl. Cable) (g)": "108.0"
+        }
+    }
+}
