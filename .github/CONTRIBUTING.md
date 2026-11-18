@@ -4,7 +4,7 @@ Interested in contributing? Here's how you can help improve the Motor Database:
 
 1. **Fork the Repository**: Clone the repository to your account.
 2. **Verify Uniqueness**: Before adding a new motor, check that it isn't already in `motors/`.
-3. **Add or edit a motor file**: Every motor lives in its own file at `motors/<Manufacturer>/<Name>-<KV>KV.json`.
+3. **Add or edit a motor file**: Every motor model lives in its own file at `motors/<Manufacturer>/<Name>.json`, with all of its KV options in that one file.
    - To add a motor, copy [`templates/motor.json`](../templates/motor.json) into the manufacturer's folder (create the folder if it is a new manufacturer) and fill it in.
    - To fix a motor, edit its file directly.
 4. **Validate** (optional, CI does it too): `python3 scripts/motordb.py validate`
@@ -17,15 +17,17 @@ There is no `database.json` in the repository: the website's `database.json` is 
 ```
 motors/
 ├── T-Motor/
-│   ├── M0802-22000KV.json
-│   └── M0802-25000KV.json
+│   ├── M0802.json
+│   └── F1404.json
 └── iFlight/
-    └── XING2_2207-1855KV.json
+    └── XING2_2207.json
 ```
 
 - The folder name is the `Manufacturer` value with spaces and special characters replaced by `_`. The validator tells you if a file is in the wrong folder.
-- The file name is the `Name` and `KV (RPM/V)` in the same style. It only has to be unique and readable; the website uses the contents, not the file name.
-- Every file must contain exactly the fields listed in [`motor.schema.json`](../motor.schema.json), all as strings. Leave unknown values as `""`. `Manufacturer` and `Link` are required.
+- The file name is the `Name` in the same style. It only has to be unique and readable; the website uses the contents, not the file name.
+- Every file must contain the fields listed in [`motor.schema.json`](../motor.schema.json). Leave unknown values as `""`. `Manufacturer` and `Link` are required.
+- `KV (RPM/V)` is a list of every KV option the motor is sold in, e.g. `["1950", "2800"]` (`[]` if unknown). All other values are strings.
+- Values that differ between KV options (typically internal resistance or weight, sometimes price or product link) go in the optional `Per-KV Values` object, keyed by KV. Leave the shared field as `""` when it is set per KV. The website still shows one row per KV.
 - To add a new field, add it to `motor.schema.json` and to every motor file.
 
 ### `scripts/motordb.py`
@@ -42,7 +44,7 @@ To preview the website locally, run `build` and then serve the folder, e.g. `pyt
 
 ## Parameters
 
-When contributing, please provide as much information as possible for the following parameters (this is [`templates/motor.json`](../templates/motor.json)):
+When contributing, please provide as much information as possible for the following parameters (this is [`templates/motor.json`](../templates/motor.json), a motor sold in two KV versions whose internal resistance differs per KV):
 
 ```json
 {
@@ -57,8 +59,11 @@ When contributing, please provide as much information as possible for the follow
     "Stator Lamination Thickness (mm)": "0.2",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "0.5",
-    "KV (RPM/V)": "2400",
-    "Internal Resistance (mΩ)": "50.0",
+    "KV (RPM/V)": [
+        "1950",
+        "2400"
+    ],
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "Multi Strand",
     "Enamel Type": "Polyurethane",
     "Base Type": "Closed Bottom",
@@ -83,7 +88,15 @@ When contributing, please provide as much information as possible for the follow
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.examplemanufacturer.com/example-model-2205"
+    "Link": "https://www.examplemanufacturer.com/example-model-2205",
+    "Per-KV Values": {
+        "1950": {
+            "Internal Resistance (mΩ)": "65.0"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "50.0"
+        }
+    }
 }
 ```
 
@@ -124,15 +137,15 @@ Examples:
 
 ### Velocity Constant (KV)
 
-As I have never seen a KV rating accurate to 0.1 RPM/V, the KV field should not have any decimal places. If the motor is available in multiple KV versions, create a whole new entry for the motor with another KV. There should only be one entry in the KV field. Do not seperate different KV option by a , or / in a single motor listing. Do not use any non-numeric characters in the entry field for KV.
+As I have never seen a KV rating accurate to 0.1 RPM/V, KV values should not have any decimal places. If the motor is available in multiple KV versions, list each one as a separate value in `KV (RPM/V)` and put anything that differs between them in `Per-KV Values`. Do not use any non-numeric characters in a KV value.
 
 - No decimal places needed for KV ratings.
-- Create separate entries for motors with different KV versions.
-- Use only one KV rating per entry without any non-numeric characters.
+- One list item per KV version.
+- Only numeric characters in each KV value.
 
 Examples:
-  - ❌ `1550/1950/2550` | ✅ `1550`
-  - ❌ `1550 KV`        | ✅ `2550`
+  - ❌ `"1550/1950/2550"` | ✅ `["1550", "1950", "2550"]`
+  - ❌ `["1550 KV"]`      | ✅ `["1550"]`
 
 ### Counts
 
@@ -233,3 +246,5 @@ Finally, turn the edited `database.json` back into per-motor files and commit th
 ```
 python3 scripts/motordb.py split
 ```
+
+In `database.json` (and Excel) every KV option is its own row. `split` merges rows with the same `Manufacturer` and `Name` back into one motor file and moves values that differ between them into `Per-KV Values`.

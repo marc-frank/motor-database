@@ -10,8 +10,11 @@
     "Stator Lamination Thickness (mm)": "0.2",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "0.5",
-    "KV (RPM/V)": "2400",
-    "Internal Resistance (mΩ)": "50.0",
+    "KV (RPM/V)": [
+        "1950",
+        "2400"
+    ],
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "Multi Strand",
     "Enamel Type": "Polyurethane",
     "Base Type": "Closed Bottom",
@@ -36,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.examplemanufacturer.com/example-model-2205"
+    "Link": "https://www.examplemanufacturer.com/example-model-2205",
+    "Per-KV Values": {
+        "1950": {
+            "Internal Resistance (mΩ)": "65.0"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "50.0"
+        }
+    }
 }

@@ -1,0 +1,63 @@
+{
+    "Image": "https://store.tmotor.com/images/202312/1701745018767864656.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "V3115",
+    "Price ($)": "49.90",
+    "Stator Diameter (mm)": "31.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "400",
+        "640",
+        "900",
+        "1050"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Aluminium",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "Aluminium",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "250.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steele",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://store.tmotor.com/product/V3115-fpv-motor.html",
+    "Per-KV Values": {
+        "400": {
+            "Internal Resistance (mΩ)": "145.38",
+            "Weight (incl. Cable) (g)": "113.4"
+        },
+        "640": {
+            "Internal Resistance (mΩ)": "67.13",
+            "Weight (incl. Cable) (g)": "113.3"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "38.08",
+            "Weight (incl. Cable) (g)": "113.1"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "33.84",
+            "Weight (incl. Cable) (g)": "112.7"
+        }
+    }
+}

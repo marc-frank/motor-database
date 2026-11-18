@@ -1,0 +1,59 @@
+{
+    "Image": "https://store.tmotor.com/images/202203/1648450889201132216.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "P2207 V3",
+    "Price ($)": "23.90",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1750",
+        "1950",
+        "2080",
+        "2550"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://store.tmotor.com/product/p2207-v3-fpv-motor.html",
+    "Per-KV Values": {
+        "1750": {
+            "Weight (incl. Cable) (g)": "34.2"
+        },
+        "1950": {
+            "Weight (incl. Cable) (g)": "34.3"
+        },
+        "2080": {
+            "Weight (incl. Cable) (g)": "34.1"
+        },
+        "2550": {
+            "Weight (incl. Cable) (g)": "34.2"
+        }
+    }
+}

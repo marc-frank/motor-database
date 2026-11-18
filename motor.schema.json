@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Motor",
-    "description": "One motor entry. All values are strings; leave a field as \"\" when unknown. See .github/CONTRIBUTING.md for formatting rules.",
+    "description": "One motor model. KV options are listed in \"KV (RPM/V)\"; values that differ per KV go in \"Per-KV Values\". All other values are strings; use \"\" when unknown. See .github/CONTRIBUTING.md for formatting rules.",
     "type": "object",
     "properties": {
         "Image": {
@@ -39,7 +39,13 @@
             "type": "string"
         },
         "KV (RPM/V)": {
-            "type": "string"
+            "description": "Every KV option this motor is sold in. Use [] if unknown.",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1
+            },
+            "uniqueItems": true
         },
         "Internal Resistance (mΩ)": {
             "type": "string"
@@ -118,7 +124,122 @@
         },
         "Link": {
             "type": "string",
-            "minLength": 1
+            "description": "Product page. Required, either here or for every KV in \"Per-KV Values\"."
+        },
+        "Per-KV Values": {
+            "description": "Values that differ between KV options, keyed by KV. A field set here must be \"\" at the top level.",
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "Image": {
+                        "type": "string"
+                    },
+                    "Price ($)": {
+                        "type": "string"
+                    },
+                    "Stator Diameter (mm)": {
+                        "type": "string"
+                    },
+                    "Stator Height (mm)": {
+                        "type": "string"
+                    },
+                    "Stator Configuration": {
+                        "type": "string"
+                    },
+                    "Stator Material": {
+                        "type": "string"
+                    },
+                    "Stator Lamination Thickness (mm)": {
+                        "type": "string"
+                    },
+                    "Flux Direction": {
+                        "type": "string"
+                    },
+                    "Flux Ring Thickness (mm)": {
+                        "type": "string"
+                    },
+                    "Internal Resistance (mΩ)": {
+                        "type": "string"
+                    },
+                    "Winding Type": {
+                        "type": "string"
+                    },
+                    "Enamel Type": {
+                        "type": "string"
+                    },
+                    "Base Type": {
+                        "type": "string"
+                    },
+                    "Base Material": {
+                        "type": "string"
+                    },
+                    "Bell Type": {
+                        "type": "string"
+                    },
+                    "Bell Material": {
+                        "type": "string"
+                    },
+                    "Weight (incl. Cable) (g)": {
+                        "type": "string"
+                    },
+                    "Weight (excl. Cable) (g)": {
+                        "type": "string"
+                    },
+                    "Cable length (mm)": {
+                        "type": "string"
+                    },
+                    "Cable Gauge (AWG)": {
+                        "type": "string"
+                    },
+                    "Connector": {
+                        "type": "string"
+                    },
+                    "Shaft Diameter (external) (mm)": {
+                        "type": "string"
+                    },
+                    "Shaft Diameter (internal) (mm)": {
+                        "type": "string"
+                    },
+                    "Shaft Type": {
+                        "type": "string"
+                    },
+                    "Shaft Material": {
+                        "type": "string"
+                    },
+                    "Shaft Retention": {
+                        "type": "string"
+                    },
+                    "Bearing Type": {
+                        "type": "string"
+                    },
+                    "Bearing Outer Diameter": {
+                        "type": "string"
+                    },
+                    "Bearing Inner Diameter": {
+                        "type": "string"
+                    },
+                    "Bearing Thickness": {
+                        "type": "string"
+                    },
+                    "Magnet Type": {
+                        "type": "string"
+                    },
+                    "Mounting Pattern Diameter (mm)": {
+                        "type": "string"
+                    },
+                    "Number of Mounting Screws": {
+                        "type": "string"
+                    },
+                    "Mounting Screw Thread": {
+                        "type": "string"
+                    },
+                    "Link": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
         }
     },
     "required": [

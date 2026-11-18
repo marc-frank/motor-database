@@ -10,7 +10,7 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": "",
+    "KV (RPM/V)": [],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
