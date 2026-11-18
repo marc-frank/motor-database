@@ -1,0 +1,53 @@
+{
+    "Image": "https://store.tmotor.com/images/202608/goods_img/at8025-260820-white-common-4.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AT8025",
+    "Price ($)": "399.00",
+    "Stator Diameter (mm)": "80.0",
+    "Stator Height (mm)": "25.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "160",
+        "190"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "12.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/at8025-fixed-wing-motor.html",
+    "Per-KV Values": {
+        "160": {
+            "Internal Resistance (mΩ)": "14.0",
+            "Weight (incl. Cable) (g)": "985.0"
+        },
+        "190": {
+            "Internal Resistance (mΩ)": "10.0",
+            "Weight (incl. Cable) (g)": "990.0"
+        }
+    }
+}
