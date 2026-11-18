@@ -10,7 +10,7 @@ Interested in contributing? Here's how you can help improve the Motor Database:
 4. **Validate** (optional, CI does it too): `python3 scripts/motordb.py validate`
 5. **Create a Pull Request**: Once you've made your changes, submit a pull request.
 
-Do **not** edit `database.json` by hand. It is generated from `motors/` and rebuilt automatically when changes land on `main`.
+There is no `database.json` in the repository: the website's `database.json` is generated from `motors/` every time the site is deployed from `main`.
 
 ## Database layout
 
@@ -33,11 +33,12 @@ motors/
 | Command | What it does |
 | --- | --- |
 | `python3 scripts/motordb.py validate` | Checks every file in `motors/` against the schema. |
-| `python3 scripts/motordb.py build` | Validates and regenerates `database.json` from `motors/`. |
-| `python3 scripts/motordb.py check` | Validates and fails if `database.json` is out of date. |
+| `python3 scripts/motordb.py build` | Validates and writes `database.json` from `motors/` (git-ignored). |
 | `python3 scripts/motordb.py split` | Rewrites `motors/` from `database.json` (used for bulk edits, see Excel below). |
 
 Only Python 3 is needed, no packages.
+
+To preview the website locally, run `build` and then serve the folder, e.g. `python3 -m http.server`, and open http://localhost:8000.
 
 ## Parameters
 
@@ -144,7 +145,11 @@ Examples:
 
 ## Bulk editing in Excel
 
-`database.json` is still the full database in one file, so you can load it into Excel, edit it, and convert it back. The last step (`split`) writes your changes into `motors/`, which is what you commit.
+To edit many motors at once, work on the whole database as a single file:
+
+1. Get a `database.json` in the repository root, either by running `python3 scripts/motordb.py build` or by downloading https://marc-frank.github.io/motor-database/database.json.
+2. Load it into Excel, edit it and convert it back to JSON as shown below.
+3. Run `python3 scripts/motordb.py split` to write the changes into `motors/`, and commit `motors/`.
 
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/05a8129c-0123-4169-ae95-4312f1ad7e6b)
@@ -221,7 +226,7 @@ Copy the new output
 
 ![image](https://github.com/marc-frank/motor-database/assets/74321912/3912d04a-2844-4bd5-ab10-bc7d79bc1ab6)
 
-Clear the `database.json` file and paste the new data into it.
+Clear your local `database.json` file and paste the new data into it.
 
 Finally, turn the edited `database.json` back into per-motor files and commit the changes in `motors/`:
 

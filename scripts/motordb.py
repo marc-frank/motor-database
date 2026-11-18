@@ -2,13 +2,13 @@
 """Tooling for the per-motor database layout.
 
 Source of truth: motors/<Manufacturer>/<Motor>.json (one motor per file).
-database.json is generated from those files and is what the website loads.
+database.json is generated from those files at deploy time (it is not committed)
+and is what the website loads.
 
 Usage:
     python3 scripts/motordb.py validate  # validate motors/ only
     python3 scripts/motordb.py build   # validate motors/ and write database.json
-    python3 scripts/motordb.py check   # validate motors/ and fail if database.json is stale
-    python3 scripts/motordb.py split   # rewrite motors/ from database.json (e.g. after an Excel round-trip)
+    python3 scripts/motordb.py split   # rewrite motors/ from a database.json (e.g. after an Excel round-trip)
 
 Standard library only.
 """
@@ -105,7 +105,6 @@ def collect():
 
 
 def render_database(motors):
-    # Keep database.json byte-compatible with its historic formatting (ASCII-escaped).
     return json.dumps(motors, indent=4, ensure_ascii=True) + "\n"
 
 
@@ -128,22 +127,11 @@ def cmd_build():
     return 0
 
 
-def cmd_check():
-    motors, errors = collect()
-    if errors:
-        print("\n".join(errors), file=sys.stderr)
-        return 1
-    current = DATABASE.read_text(encoding="utf-8") if DATABASE.exists() else ""
-    if current != render_database(motors):
-        print(f"{len(motors)} motors valid, but database.json is out of date. "
-              "Run: python3 scripts/motordb.py build", file=sys.stderr)
-        return 1
-    print(f"{len(motors)} motors valid, database.json up to date")
-    return 0
-
-
 def cmd_split():
     schema, keys = load_schema()
+    if not DATABASE.exists():
+        print("database.json not found. Download it from the website or run `build` first.", file=sys.stderr)
+        return 1
     data = json.loads(DATABASE.read_text(encoding="utf-8"))
     errors = []
     for i, m in enumerate(data):
@@ -168,7 +156,7 @@ def cmd_split():
 
 
 if __name__ == "__main__":
-    commands = {"validate": cmd_validate, "build": cmd_build, "check": cmd_check, "split": cmd_split}
+    commands = {"validate": cmd_validate, "build": cmd_build, "split": cmd_split}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         print(__doc__, file=sys.stderr)
         sys.exit(2)
