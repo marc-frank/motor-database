@@ -1,0 +1,53 @@
+{
+    "Image": "https://img.staticdj.com/0168f07e60e6cc684a5912abe5321322.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AM40",
+    "Price ($)": "24.90",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1500",
+        "1850"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "40.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://store.tmotor.com/product/am40-f3p-3d-4d-Indoor-plane-fixed-wing-power.html",
+    "Per-KV Values": {
+        "1500": {
+            "Internal Resistance (mΩ)": "138.5",
+            "Weight (incl. Cable) (g)": "22.3"
+        },
+        "1850": {
+            "Internal Resistance (mΩ)": "78.2",
+            "Weight (incl. Cable) (g)": "22.5"
+        }
+    }
+}
