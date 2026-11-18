@@ -1,0 +1,51 @@
+{
+    "Image": "https://store.tmotor.com/images/202608/goods_img/at7224-260820-white-common-3.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "AT7224 Long Shaft",
+    "Price ($)": "229.00",
+    "Stator Diameter (mm)": "72.0",
+    "Stator Height (mm)": "24.0",
+    "Stator Configuration": "24N22P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "160",
+        "190"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "780.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "10.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/at7224-fixed-wing-motor.html",
+    "Per-KV Values": {
+        "160": {
+            "Internal Resistance (mΩ)": "24.0"
+        },
+        "190": {
+            "Internal Resistance (mΩ)": "16.0"
+        }
+    }
+}
