@@ -1,0 +1,68 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2404/17/products/47bceb2825.jpg",
+    "Manufacturer": "MAD",
+    "Name": "M10 IPE V2.0",
+    "Price ($)": "329.00",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "90",
+        "100",
+        "120",
+        "150",
+        "180"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "15.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "28.0",
+    "Bearing Inner Diameter": "15.0",
+    "Bearing Thickness": "7.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "50.0, 76.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M4, M4",
+    "Link": "https://www.mad-motor.com/products/mad-components-m10-ipe-v20-drone-brushless-motor-for-the-multirotor-hexacopter-octocopter?VariantsId=10464",
+    "Per-KV Values": {
+        "90": {
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (incl. Cable) (g)": "614.0"
+        },
+        "100": {
+            "Internal Resistance (mΩ)": "60.0",
+            "Weight (incl. Cable) (g)": "627.0"
+        },
+        "120": {
+            "Internal Resistance (mΩ)": "47.0",
+            "Weight (incl. Cable) (g)": "634.0"
+        },
+        "150": {
+            "Internal Resistance (mΩ)": "24.0",
+            "Weight (incl. Cable) (g)": "656.0"
+        },
+        "180": {
+            "Internal Resistance (mΩ)": "21.0",
+            "Weight (incl. Cable) (g)": "642.0"
+        }
+    }
+}
