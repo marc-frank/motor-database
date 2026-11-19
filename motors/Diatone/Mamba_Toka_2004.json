@@ -1,0 +1,49 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/1285/4651/products/diatone-diatone-mamba-toka-2004-1700kv-motor-motor-28269908328561.jpg",
+    "Manufacturer": "Diatone",
+    "Name": "Mamba Toka 2004",
+    "Price ($)": "16.99",
+    "Stator Diameter (mm)": "20.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1700",
+        "2900"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "3.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "7.0",
+    "Bearing Inner Diameter": "3.0",
+    "Bearing Thickness": "3.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.diatone.us/collections/motor/products/mamba-toka-2004-1700kv-2900kv-racing-motor-green",
+    "Per-KV Values": {
+        "1700": {
+            "Internal Resistance (mΩ)": "210.0",
+            "Weight (incl. Cable) (g)": "16.3"
+        }
+    }
+}

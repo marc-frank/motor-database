@@ -11,6 +11,7 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
+        "3600",
         "3800"
     ],
     "Internal Resistance (mΩ)": "",
@@ -25,7 +26,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (external) (mm)": "",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -38,5 +39,19 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://ummagawd.com/collections/motors/products/ummagawd-aerolite-1605-3800kv-motor-gunmetal-purple-3mm-shaft"
+    "Link": "https://ummagawd.com/collections/motors/products/ummagawd-aerolite-1605-3800kv-motor-gunmetal-purple-3mm-shaft",
+    "Per-KV Values": {
+        "3600": {
+            "Weight (incl. Cable) (g)": "13.8",
+            "Shaft Diameter (external) (mm)": "1.5",
+            "Cable Gauge (AWG)": "20",
+            "Cable length (mm)": "150",
+            "Mounting Pattern Diameter (mm)": "12.0",
+            "Number of Mounting Screws": "4",
+            "Mounting Screw Thread": "M2"
+        },
+        "3800": {
+            "Shaft Diameter (external) (mm)": "3.0"
+        }
+    }
 }

@@ -1,0 +1,53 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/1285/4651/products/axis-flying-axisflying-ae-2207-1960kv-motor-motor-29995216404593.jpg",
+    "Manufacturer": "Axisflying",
+    "Name": "AE2207",
+    "Price ($)": "15.89",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1850",
+        "1960"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.axisflying.com/axisflying-brushless-economic-fpv-motor-ae2207-for-5inch-freestyle-sbang-cinematic-shooting-drone-p4397419.html",
+    "Per-KV Values": {
+        "1850": {
+            "Internal Resistance (mΩ)": "75.0",
+            "Weight (incl. Cable) (g)": "31.4"
+        },
+        "1960": {
+            "Internal Resistance (mΩ)": "60.5",
+            "Weight (incl. Cable) (g)": "32.1"
+        }
+    }
+}

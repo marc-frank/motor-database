@@ -1,0 +1,53 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/1285/4651/files/axis-flying-axisflying-ae-v2-2306-5-1960kv-motor-motor-31211384897649.jpg",
+    "Manufacturer": "Axisflying",
+    "Name": "AE2306.5",
+    "Price ($)": "19.49",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "6.5",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1860",
+        "1960"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.axisflying.com/axisflying-5inch-brushless-economic-fpv-motor-ae23065-for-arco-flow-style-freestyle-p4397433.html",
+    "Per-KV Values": {
+        "1860": {
+            "Internal Resistance (mΩ)": "60.7",
+            "Weight (incl. Cable) (g)": "33.5"
+        },
+        "1960": {
+            "Internal Resistance (mΩ)": "60.16",
+            "Weight (incl. Cable) (g)": "33.7"
+        }
+    }
+}

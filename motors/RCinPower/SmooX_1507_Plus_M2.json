@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/2778/6650/products/4PCS-RCINPOWER-SmooX-1507-Plus-2680KV-3800KV-4200KV-3-6S-FPV-Brushless-Motor-for-FPV-Racing_jpg_Q90_jpg.webp",
     "Manufacturer": "RCinPower",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Name": "SmooX 1507 Plus M2",
+    "Price ($)": "24.99",
+    "Stator Diameter (mm)": "15.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "2680",
+        "3800",
+        "4200"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +22,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "16.8",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +40,13 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.rcinpower.com/SmooX/2020/10-13/36.html"
+    "Link": "https://www.rcinpower.com/SmooX/2021/07-06/47.html",
+    "Per-KV Values": {
+        "3800": {
+            "Internal Resistance (mΩ)": "65.0"
+        },
+        "4200": {
+            "Internal Resistance (mΩ)": "59.0"
+        }
+    }
 }

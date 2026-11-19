@@ -1,8 +1,8 @@
 {
-    "Image": "",
-    "Manufacturer": "iFlight",
-    "Name": "",
-    "Price ($)": "",
+    "Image": "https://cdn.shopify.com/s/files/1/1285/4651/files/newbeedrone-newbeedrone-bdr-silver-edition-6mm-brushed-motor-drone-motors-30962965807217.jpg",
+    "Manufacturer": "NewBeeDrone",
+    "Name": "BDR SILVER Edition 6x15",
+    "Price ($)": "9.49",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
@@ -10,7 +10,9 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "14800"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +20,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "1.85",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Connector": "JST-1.25",
+    "Shaft Diameter (external) (mm)": "0.8",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://shop.iflight.com/motors-cat88/R5-2207-2050KV-FPV-motor-Pro2029"
+    "Link": "https://newbeedrone.com/collections/all/products/bee-dynamic-rotor-silver-edition-6x15mm-brushed-motor-set"
 }

@@ -1,16 +1,19 @@
 {
-    "Image": "",
-    "Manufacturer": "Axisflying",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Image": "https://cdn.shopify.com/s/files/1/1285/4651/products/diatone-diatone-mamba-toka-1404-3000kv-micro-motor-motor-29134764343409.jpg",
+    "Manufacturer": "Diatone",
+    "Name": "Mamba Toka 1404",
+    "Price ($)": "12.99",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "3000",
+        "4000"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -33,8 +36,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.axisflying.com/axisflying-brushless-economic-fpv-motor-ae2207-for-5inch-freestyle-sbang-cinematic-shooting-drone-p4397419.html"
+    "Link": "https://www.diatone.us/collections/motor/products/mamba-toka-1404-3000kv-4000kv-racing-motor-green"
 }

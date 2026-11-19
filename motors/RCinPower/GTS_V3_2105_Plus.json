@@ -1,0 +1,55 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/2778/6650/files/1_631930ff-c382-4c1d-8209-8c8f2d2abacf.jpg",
+    "Manufacturer": "RCinPower",
+    "Name": "GTS V3 2105 Plus",
+    "Price ($)": "28.99",
+    "Stator Diameter (mm)": "21.0",
+    "Stator Height (mm)": "5.5",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1850",
+        "2950",
+        "3600"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "20",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "3.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.rcinpower.com/G-SERIES/2021/08-18/53.html",
+    "Per-KV Values": {
+        "1850": {
+            "Internal Resistance (mΩ)": "160.0"
+        },
+        "2950": {
+            "Internal Resistance (mΩ)": "60.0"
+        },
+        "3600": {
+            "Internal Resistance (mΩ)": "45.0"
+        }
+    }
+}
