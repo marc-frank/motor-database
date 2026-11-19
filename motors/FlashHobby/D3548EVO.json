@@ -40,5 +40,16 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.flashhobby.com/d3548evo-fixed-wing-motor.html"
+    "Link": "https://www.flashhobby.com/d3548evo-fixed-wing-motor.html",
+    "Per-KV Values": {
+        "790": {
+            "Internal Resistance (mΩ)": "34.4"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "24.0"
+        },
+        "1150": {
+            "Internal Resistance (mΩ)": "19.0"
+        }
+    }
 }

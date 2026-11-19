@@ -42,7 +42,7 @@
     "Link": "https://www.mad-motor.com/products/mad-crimson-xc5500-1?VariantsId=10781",
     "Per-KV Values": {
         "505": {
-            "Internal Resistance (mΩ)": "",
+            "Internal Resistance (mΩ)": "31.0",
             "Weight (incl. Cable) (g)": "324.0"
         },
         "635": {

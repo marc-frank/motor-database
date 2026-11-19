@@ -44,6 +44,9 @@
     "Per-KV Values": {
         "10": {
             "Internal Resistance (mΩ)": "387.0"
+        },
+        "43": {
+            "Internal Resistance (mΩ)": "20.3"
         }
     }
 }

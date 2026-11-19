@@ -58,7 +58,8 @@
             "Weight (incl. Cable) (g)": "225.0"
         },
         "320": {
-            "Weight (incl. Cable) (g)": "226.0"
+            "Weight (incl. Cable) (g)": "226.0",
+            "Internal Resistance (mΩ)": "49.0"
         },
         "380": {
             "Internal Resistance (mΩ)": "30.0",
