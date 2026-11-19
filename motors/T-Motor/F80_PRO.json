@@ -1,0 +1,55 @@
+{
+    "Image": "https://img.staticdj.com/e6573afd8802827603df5eafa6813a59.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "F80 PRO",
+    "Price ($)": "21.52",
+    "Stator Diameter (mm)": "24.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1900",
+        "2200",
+        "2500"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "39.7",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.t-hobby.com/products/fpv-drones-brushless-motor-f80-pro",
+    "Per-KV Values": {
+        "1900": {
+            "Internal Resistance (mΩ)": "42.0"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "35.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "32.0"
+        }
+    }
+}
