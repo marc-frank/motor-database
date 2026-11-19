@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/xt2216.jpg",
     "Manufacturer": "EMAX",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "XT2216",
+    "Price ($)": "15.40",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "16.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "910",
+        "1150",
+        "1290"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +40,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/rs-series/products/emax-rs2205-racespec-motor-cooling-series"
+    "Link": "https://emaxmodel.com/collections/gt-xa-xt-series-motors/products/emax-xt2216-910kv-1150kv-1290kv-motor-for-aircraft-multicopter"
 }

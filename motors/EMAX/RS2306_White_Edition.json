@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/000000.jpg",
     "Manufacturer": "EMAX",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "RS2306 White Edition",
+    "Price ($)": "35.40",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "6.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "2400",
+        "2550",
+        "2750"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +40,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/rs-series/products/emax-rs2205s-2300kv-2600kv-racing-edition-brushless-motor-for-fpv-racing"
+    "Link": "https://emaxmodel.com/collections/rs-series/products/emax-rs2306-white-editions-racespec-motor-2750kv-2400kv-3-4s-racing-brushess-motor-for-fpv-racing"
 }

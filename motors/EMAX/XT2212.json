@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/xt2212.png",
     "Manufacturer": "EMAX",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "XT2212",
+    "Price ($)": "8.47",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "12.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "980",
+        "1250",
+        "1370"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +40,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/rs-series/products/emax-rs1408-2300kv-3600kv-brushless-motor-for-micro-fpv-racing-quad"
+    "Link": "https://emaxmodel.com/collections/gt-xa-xt-series-motors/products/emax-xt2212-980kv-1250kv-1370kv-motor-for-aircraft-multicopter"
 }
