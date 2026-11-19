@@ -1,16 +1,18 @@
 {
-    "Image": "",
-    "Manufacturer": "AOKFly",
-    "Name": "",
+    "Image": "https://static.wixstatic.com/media/e57211_fbb0c507dcd248aa9dd1335d07423364~mv2.png",
+    "Manufacturer": "AOSRC",
+    "Name": "Supernova 2207",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "1980"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.rotorama.de/product/aokfly-rv2205-2300kv"
+    "Link": "https://www.aos-rc.com/supernova-2207"
 }
