@@ -1,16 +1,18 @@
 {
-    "Image": "",
-    "Manufacturer": "FIVE33",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Image": "https://cdn.shopify.com/s/files/1/0604/5905/7341/products/31111ripper14043800kv_1.jpg",
+    "Manufacturer": "Holybro",
+    "Name": "Ripper 1404",
+    "Price ($)": "13.99",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "4.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "3800"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -35,6 +37,6 @@
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://flyfive33.com/collections/motors/products/tinyturners-1404-4533kv-tinytrainer-motors-set-of-4"
+    "Mounting Screw Thread": "M2",
+    "Link": "https://holybro.com/collections/motors/products/ripper-1404-3800kv-ultralight-brushless-motor"
 }
