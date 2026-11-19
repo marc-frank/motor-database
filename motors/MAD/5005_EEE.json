@@ -1,0 +1,58 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2312/20/products/717c10391e.jpg",
+    "Manufacturer": "MAD",
+    "Name": "5005 EEE",
+    "Price ($)": "68.00",
+    "Stator Diameter (mm)": "50.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "280",
+        "350",
+        "440"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-5005-eee?VariantsId=10435",
+    "Per-KV Values": {
+        "280": {
+            "Internal Resistance (mΩ)": "167.0",
+            "Weight (incl. Cable) (g)": "88.0"
+        },
+        "350": {
+            "Internal Resistance (mΩ)": "118.0",
+            "Weight (incl. Cable) (g)": "90.0"
+        },
+        "440": {
+            "Internal Resistance (mΩ)": "68.0",
+            "Weight (incl. Cable) (g)": "92.0"
+        }
+    }
+}
