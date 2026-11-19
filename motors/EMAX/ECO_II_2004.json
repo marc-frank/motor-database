@@ -1,0 +1,63 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/1600KV_5.jpg",
+    "Manufacturer": "EMAX",
+    "Name": "ECO II 2004",
+    "Price ($)": "20.64",
+    "Stator Diameter (mm)": "20.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1600",
+        "2000",
+        "2400",
+        "3000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "120.0",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "3.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://emaxmodel.com/collections/eco-series/products/emax-eco-ii-series-2004-1600kv-2000kv-2400kv-3000kv-brushless-motor-for-rc-drone-fpv-racing",
+    "Per-KV Values": {
+        "1600": {
+            "Internal Resistance (mΩ)": "200.0",
+            "Weight (excl. Cable) (g)": "16.6"
+        },
+        "2000": {
+            "Internal Resistance (mΩ)": "158.0",
+            "Weight (excl. Cable) (g)": "16.6"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "110.0",
+            "Weight (excl. Cable) (g)": "16.4"
+        },
+        "3000": {
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (excl. Cable) (g)": "16.4"
+        }
+    }
+}
