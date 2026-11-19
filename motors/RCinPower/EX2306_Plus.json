@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.myfpvstore.com/wp-content/uploads/2022/03/4pcs-RCinpower-EX2306-plus-5inch-Brushless-Motor-for-RC-Drone-FPV-Racing-Spare-Part-Replacement-Accs.jpg",
     "Manufacturer": "RCinPower",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Name": "EX2306 Plus",
+    "Price ($)": "14.50",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "6.6",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "1800",
+        "2500"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -24,9 +27,9 @@
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "",
-    "Shaft Material": "",
+    "Shaft Material": "Steel",
     "Shaft Retention": "",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
@@ -35,6 +38,6 @@
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.rcinpower.com/EX-STRIES/2021/04-09/49.html"
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.myfpvstore.com/motors/rcinpower-ex2306-plus-5inch-brushless-motor-1800kv-2500kv"
 }
