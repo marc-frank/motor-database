@@ -1,0 +1,63 @@
+{
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2018/03/l_4035_series.jpg",
+    "Manufacturer": "Xnova",
+    "Name": "Lightning 4035",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "35.0",
+    "Stator Configuration": "24N8P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "300",
+        "400",
+        "480",
+        "600"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://www.xnovamotors.com/xnova-lightning-4035-series-specifications/",
+    "Per-KV Values": {
+        "300": {
+            "Internal Resistance (mΩ)": "42.0",
+            "Weight (incl. Cable) (g)": "495.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "22.0",
+            "Weight (incl. Cable) (g)": "498.0"
+        },
+        "480": {
+            "Internal Resistance (mΩ)": "19.0",
+            "Weight (incl. Cable) (g)": "486.0"
+        },
+        "600": {
+            "Internal Resistance (mΩ)": "10.5",
+            "Weight (incl. Cable) (g)": "506.0"
+        }
+    }
+}

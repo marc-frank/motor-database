@@ -1,0 +1,68 @@
+{
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2025/03/4020-new-shafts-types-2025-3-20.jpg",
+    "Manufacturer": "Xnova",
+    "Name": "Lightning 4020",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "20.0",
+    "Stator Configuration": "24N8P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "850",
+        "900",
+        "1000",
+        "1200",
+        "1350"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://www.xnovamotors.com/xnova-lightning-4020-series-specifications/",
+    "Per-KV Values": {
+        "850": {
+            "Internal Resistance (mΩ)": "12.6",
+            "Weight (incl. Cable) (g)": "340.0"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "12.5",
+            "Weight (incl. Cable) (g)": "330.0"
+        },
+        "1000": {
+            "Internal Resistance (mΩ)": "7.5",
+            "Weight (incl. Cable) (g)": "350.0"
+        },
+        "1200": {
+            "Internal Resistance (mΩ)": "6.8",
+            "Weight (incl. Cable) (g)": "350.0"
+        },
+        "1350": {
+            "Internal Resistance (mΩ)": "6.0",
+            "Weight (incl. Cable) (g)": "350.0"
+        }
+    }
+}
