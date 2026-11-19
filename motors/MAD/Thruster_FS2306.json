@@ -1,0 +1,55 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2411/30/products/FS230601.jpg",
+    "Manufacturer": "MAD",
+    "Name": "Thruster FS2306",
+    "Price ($)": "13.23",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1750",
+        "1960",
+        "2550"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "32.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-thruster-fs2306-brushless-motor-for-5-6inch-freestyle-fpv-drone?VariantsId=10862",
+    "Per-KV Values": {
+        "1750": {
+            "Internal Resistance (mΩ)": "72.0"
+        },
+        "1960": {
+            "Internal Resistance (mΩ)": "63.0"
+        },
+        "2550": {
+            "Internal Resistance (mΩ)": "47.5"
+        }
+    }
+}
