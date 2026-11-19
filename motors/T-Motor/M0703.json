@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/202304/1681976334912519907.jpg",
+    "Image": "https://img.staticdj.com/ec8cc7a296cc9315fb4a3caf98c5897a.jpeg",
     "Manufacturer": "T-Motor",
     "Name": "M0703",
-    "Price ($)": "11.90",
+    "Price ($)": "9.52",
     "Stator Diameter (mm)": "7.0",
     "Stator Height (mm)": "3.0",
     "Stator Configuration": "9N12P",
@@ -18,7 +18,7 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "1.7",
     "Weight (excl. Cable) (g)": "",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
-    "Link": "https://store.tmotor.com/product/m0703-fpv-motor.html"
+    "Link": "https://www.t-hobby.com/products/tmotor-m0703-19000kv-tinywhoop-brushless-motor"
 }

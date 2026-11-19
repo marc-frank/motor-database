@@ -1,11 +1,11 @@
 {
-    "Image": "https://store.tmotor.com/images/202211/1667961394120820495.jpg",
+    "Image": "https://img.staticdj.com/7e0c0e91411f4d0de8a408ad0ad42dc1.jpeg",
     "Manufacturer": "T-Motor",
     "Name": "Black Friday 2207",
-    "Price ($)": "19.90",
+    "Price ($)": "14.50",
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "7.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -20,10 +20,10 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
-    "Weight (excl. Cable) (g)": "34.4",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Weight (incl. Cable) (g)": "34.4",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "20",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/product/black-friday-2207-fpv-motor.html"
+    "Link": "https://www.t-hobby.com/products/tmotor-black-friday-2207-1950kv-motor"
 }

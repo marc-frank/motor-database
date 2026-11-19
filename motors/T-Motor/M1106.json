@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/202204/1650250386711290037.jpg",
+    "Image": "https://img.staticdj.com/f248dc6c8d141bdf4b2616ec3ed733cb.jpeg",
     "Manufacturer": "T-Motor",
     "Name": "M1106",
-    "Price ($)": "13.90",
+    "Price ($)": "11.12",
     "Stator Diameter (mm)": "11.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "9N12P",
@@ -18,7 +18,7 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "7.2",
     "Weight (excl. Cable) (g)": "",
@@ -30,13 +30,13 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "Clip",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "N52",
     "Mounting Pattern Diameter (mm)": "9.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://store.tmotor.com/product/m1106-fpv-motor.html"
+    "Link": "https://www.t-hobby.com/products/unibell-micro-brushless-motor-m1106"
 }

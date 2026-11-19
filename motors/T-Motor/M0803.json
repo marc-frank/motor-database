@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/202305/1683854197773796989.jpg",
+    "Image": "",
     "Manufacturer": "T-Motor",
     "Name": "M0803",
     "Price ($)": "10.90",
@@ -19,7 +19,7 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -35,21 +35,25 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "N52",
     "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
-    "Link": "https://store.tmotor.com/product/m0803-kv22000-fpv-motor.html",
+    "Link": "",
     "Per-KV Values": {
         "19000": {
             "Weight (incl. Cable) (g)": "1.91",
-            "Cable length (mm)": "40.0"
+            "Cable length (mm)": "33.5",
+            "Image": "https://www.tmotorhobby.com/images/202305/source_img/1262_P_1683798754882.jpg",
+            "Link": "https://www.tmotorhobby.com/goods-1262-M0803+KV19000.html"
         },
         "22000": {
             "Internal Resistance (mΩ)": "122.0",
             "Weight (incl. Cable) (g)": "2.47",
             "Weight (excl. Cable) (g)": "2.24",
-            "Cable length (mm)": "33.5"
+            "Cable length (mm)": "33.5",
+            "Image": "https://www.tmotorhobby.com/images/202305/source_img/1263_P_1683798825834.jpg",
+            "Link": "https://www.tmotorhobby.com/goods-1263-M0803+KV22000.html"
         }
     }
 }

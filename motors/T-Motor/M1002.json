@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/202304/1681976381642448051.jpg",
+    "Image": "https://img.staticdj.com/5c9c52c800fe0b0b19265e5d77fd4f00.jpg",
     "Manufacturer": "T-Motor",
     "Name": "M1002",
-    "Price ($)": "13.90",
+    "Price ($)": "11.12",
     "Stator Diameter (mm)": "10.0",
     "Stator Height (mm)": "2.0",
     "Stator Configuration": "9N12P",
@@ -18,7 +18,7 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "2.4",
     "Weight (excl. Cable) (g)": "",
@@ -26,7 +26,7 @@
     "Cable Gauge (AWG)": "",
     "Connector": "JST-1.25",
     "Shaft Diameter (external) (mm)": "1.5",
-    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Diameter (internal) (mm)": "1.5",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "Clip",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
-    "Link": "https://store.tmotor.com/product/m1002-fpv-motor.html"
+    "Link": "https://www.t-hobby.com/products/tmotor-m1002-18000kv-brushless-motor"
 }

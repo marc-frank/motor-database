@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/202210/1665564755088974435.jpg",
+    "Image": "",
     "Manufacturer": "T-Motor",
     "Name": "M0802",
     "Price ($)": "",
@@ -20,7 +20,7 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -36,32 +36,35 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "N52",
     "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
     "Link": "",
     "Per-KV Values": {
         "22000": {
-            "Price ($)": "11.90",
+            "Price ($)": "8.72",
             "Weight (incl. Cable) (g)": "1.91",
             "Cable length (mm)": "33.5",
             "Connector": "JST-1.25",
-            "Link": "https://store.tmotor.com/product/m0802-22000-fpv-motor.html"
+            "Link": "https://www.t-hobby.com/products/m0802-kv2200",
+            "Image": "https://img.staticdj.com/7c6233ddfff3a1444a6a85a11454bc14.jpeg"
         },
         "25000": {
-            "Price ($)": "10.90",
+            "Price ($)": "8.72",
             "Weight (incl. Cable) (g)": "1.91",
-            "Cable length (mm)": "40.0",
+            "Cable length (mm)": "33.5",
             "Connector": "JST-1.25",
-            "Link": "https://store.tmotor.com/product/m0802-25000-fpv-motor.html"
+            "Link": "https://www.t-hobby.com/products/m0802-kv25000",
+            "Image": "https://img.staticdj.com/708538c09a5fbc79cdc14a48cb32e3b4.jpeg"
         },
         "27000": {
             "Price ($)": "10.90",
             "Weight (incl. Cable) (g)": "1.78",
             "Cable length (mm)": "30.0",
             "Connector": "XH-3P/1.25",
-            "Link": "https://store.tmotor.com/product/m0802-27000-fpv-motor.html"
+            "Link": "https://www.tmotorhobby.com/goods-1335-M0802+KV27000.html",
+            "Image": "https://www.tmotorhobby.com/images/202312/source_img/1335_P_1701744012573.jpg"
         }
     }
 }
