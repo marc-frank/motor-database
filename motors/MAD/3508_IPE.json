@@ -22,7 +22,7 @@
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "99",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "150.0",
     "Cable Gauge (AWG)": "18",
@@ -40,5 +40,19 @@
     "Mounting Pattern Diameter (mm)": "19.0, 25.0",
     "Number of Mounting Screws": "2, 2",
     "Mounting Screw Thread": "M3, M3",
-    "Link": "https://www.mad-motor.com/products/madcomponents3508ipe?VariantsId=10411"
+    "Link": "https://www.mad-motor.com/products/madcomponents3508ipe?VariantsId=10411",
+    "Per-KV Values": {
+        "360": {
+            "Internal Resistance (mΩ)": "230.0",
+            "Weight (incl. Cable) (g)": "99.0"
+        },
+        "580": {
+            "Internal Resistance (mΩ)": "107.0",
+            "Weight (incl. Cable) (g)": "97.0"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "74.0",
+            "Weight (incl. Cable) (g)": "97.5"
+        }
+    }
 }

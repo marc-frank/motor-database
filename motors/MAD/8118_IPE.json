@@ -39,5 +39,11 @@
     "Mounting Pattern Diameter (mm)": "30.0, 32.0, 50.0",
     "Number of Mounting Screws": "4, 4, 4",
     "Mounting Screw Thread": "M3, M4, M3",
-    "Link": "https://www.mad-motor.com/products/madcomponents8118ipe?VariantsId=10457"
+    "Link": "https://www.mad-motor.com/products/madcomponents8118ipe?VariantsId=10457",
+    "Per-KV Values": {
+        "100": {
+            "Internal Resistance (mΩ)": "61.0",
+            "Weight (incl. Cable) (g)": "530.0"
+        }
+    }
 }

@@ -40,5 +40,19 @@
     "Mounting Pattern Diameter (mm)": "30.0, 44.0",
     "Number of Mounting Screws": "4, 4",
     "Mounting Screw Thread": "M4, M4",
-    "Link": "https://www.mad-motor.com/products/madvax5320?VariantsId=10354"
+    "Link": "https://www.mad-motor.com/products/madvax5320?VariantsId=10354",
+    "Per-KV Values": {
+        "235": {
+            "Internal Resistance (mΩ)": "31.0",
+            "Weight (incl. Cable) (g)": "484.0"
+        },
+        "360": {
+            "Internal Resistance (mΩ)": "14.0",
+            "Weight (incl. Cable) (g)": "478.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "11.0",
+            "Weight (incl. Cable) (g)": "472.0"
+        }
+    }
 }

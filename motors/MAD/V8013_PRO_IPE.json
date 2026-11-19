@@ -40,5 +40,19 @@
     "Mounting Pattern Diameter (mm)": "40.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://www.mad-motor.com/products/mad-components-v8013-ipe?VariantsId=10575"
+    "Link": "https://www.mad-motor.com/products/mad-components-v8013-ipe?VariantsId=10575",
+    "Per-KV Values": {
+        "135": {
+            "Internal Resistance (mΩ)": "44.0",
+            "Weight (incl. Cable) (g)": "550.0"
+        },
+        "150": {
+            "Internal Resistance (mΩ)": "37.0",
+            "Weight (incl. Cable) (g)": "544.0"
+        },
+        "170": {
+            "Internal Resistance (mΩ)": "29.5",
+            "Weight (incl. Cable) (g)": "534.0"
+        }
+    }
 }

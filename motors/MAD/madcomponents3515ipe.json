@@ -40,5 +40,19 @@
     "Mounting Pattern Diameter (mm)": "19.0, 25.0",
     "Number of Mounting Screws": "2, 2",
     "Mounting Screw Thread": "M3, M3",
-    "Link": "https://www.mad-motor.com/products/mad-motor-3515-ipe"
+    "Link": "https://www.mad-motor.com/products/mad-motor-3515-ipe",
+    "Per-KV Values": {
+        "350": {
+            "Internal Resistance (mΩ)": "101.0",
+            "Weight (incl. Cable) (g)": "154.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "88.0",
+            "Weight (incl. Cable) (g)": "152.0"
+        },
+        "650": {
+            "Internal Resistance (mΩ)": "37.0",
+            "Weight (incl. Cable) (g)": "152.0"
+        }
+    }
 }

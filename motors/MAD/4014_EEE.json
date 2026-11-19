@@ -39,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "25.0, 32.0",
     "Number of Mounting Screws": "4, 3",
     "Mounting Screw Thread": "M3, M2.5",
-    "Link": "https://www.mad-motor.com/products/madcomponents4014eee?VariantsId=10446"
+    "Link": "https://www.mad-motor.com/products/madcomponents4014eee?VariantsId=10446",
+    "Per-KV Values": {
+        "370": {
+            "Internal Resistance (mΩ)": "93.0",
+            "Weight (incl. Cable) (g)": "142.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "73.0",
+            "Weight (incl. Cable) (g)": "143.0"
+        }
+    }
 }

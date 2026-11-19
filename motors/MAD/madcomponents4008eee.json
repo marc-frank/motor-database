@@ -39,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "19.0, 25.0",
     "Number of Mounting Screws": "4, 4",
     "Mounting Screw Thread": "M3, M3",
-    "Link": "https://www.mad-motor.com/products/mad-motor-4008-eee"
+    "Link": "https://www.mad-motor.com/products/mad-motor-4008-eee",
+    "Per-KV Values": {
+        "380": {
+            "Internal Resistance (mΩ)": "149.0",
+            "Weight (incl. Cable) (g)": "87.0"
+        },
+        "600": {
+            "Internal Resistance (mΩ)": "54.0",
+            "Weight (incl. Cable) (g)": "88.0"
+        }
+    }
 }

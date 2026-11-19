@@ -39,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "32.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://www.mad-motor.com/products/m7c15-ipe-ip45-waterproof-dust-resistant-motor"
+    "Link": "https://www.mad-motor.com/products/m7c15-ipe-ip45-waterproof-dust-resistant-motor",
+    "Per-KV Values": {
+        "140": {
+            "Internal Resistance (mΩ)": "38.2",
+            "Weight (incl. Cable) (g)": "450.0"
+        },
+        "220": {
+            "Internal Resistance (mΩ)": "45.7",
+            "Weight (incl. Cable) (g)": "454.0"
+        }
+    }
 }

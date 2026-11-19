@@ -40,5 +40,19 @@
     "Mounting Pattern Diameter (mm)": "25.0, 32.0",
     "Number of Mounting Screws": "4, 4",
     "Mounting Screw Thread": "M3, M4",
-    "Link": "https://www.mad-motor.com/products/antimatter-m6c06-eee-brushless-motor-for-the-long-flight-time-multirotor-hexacopter-octocopter?VariantsId=10376"
+    "Link": "https://www.mad-motor.com/products/antimatter-m6c06-eee-brushless-motor-for-the-long-flight-time-multirotor-hexacopter-octocopter?VariantsId=10376",
+    "Per-KV Values": {
+        "140": {
+            "Internal Resistance (mΩ)": "301.0",
+            "Weight (incl. Cable) (g)": "163.0"
+        },
+        "220": {
+            "Internal Resistance (mΩ)": "124.0",
+            "Weight (incl. Cable) (g)": "161.0"
+        },
+        "320": {
+            "Internal Resistance (mΩ)": "64.4",
+            "Weight (incl. Cable) (g)": "165.0"
+        }
+    }
 }
