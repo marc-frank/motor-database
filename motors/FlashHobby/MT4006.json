@@ -1,14 +1,14 @@
 {
-    "Image": "",
+    "Image": "https://www.flashhobby.com/upload/488/mt4006-brushless-dc-motor-1061.jpg",
     "Manufacturer": "FlashHobby",
-    "Name": "",
+    "Name": "MT4006",
     "Price ($)": "",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [],
     "Internal Resistance (mΩ)": "",
@@ -36,5 +36,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.flashhobby.com/a2306-5-rc-brushless-motor.html"
+    "Link": "https://www.flashhobby.com/mt4006-brushless-dc-motor.html"
 }
