@@ -22,7 +22,7 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "1680.0",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "150.0",
     "Cable Gauge (AWG)": "",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "12.0",
@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "50.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M6",
     "Link": "https://store.tmotor.com/product/v13l-vtol-motor.html"
 }

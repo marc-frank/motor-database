@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "40.0, 25.0",
-    "Number of Mounting Screws": "3, 4",
+    "Mounting Pattern Diameter (mm)": "25.0, 40.0",
+    "Number of Mounting Screws": "4, 3",
     "Mounting Screw Thread": "M3, M3",
     "Link": "https://www.cubemars.com/product/g35-kv100-gimbal-motor.html"
 }

@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "24N28P",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
@@ -37,9 +37,9 @@
     "Bearing Inner Diameter": "8.0",
     "Bearing Thickness": "7.0",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://store.tmotor.com/product/mn705-s-kv125-motor-navigator-type.html",
     "Per-KV Values": {
         "125": {

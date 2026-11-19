@@ -36,9 +36,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "84.0, 60.0",
-    "Number of Mounting Screws": "6, 4",
-    "Mounting Screw Thread": "M3, M4",
+    "Mounting Pattern Diameter (mm)": "60.0, 84.0",
+    "Number of Mounting Screws": "4, 6",
+    "Mounting Screw Thread": "M4, M3",
     "Link": "https://www.cubemars.com/product/g80-kv30-kv60-gimbal-motor.html",
     "Per-KV Values": {
         "30": {

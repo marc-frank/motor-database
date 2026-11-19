@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "19.0, 25.0",
-    "Number of Mounting Screws": "6",
-    "Mounting Screw Thread": "M3",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0, 25.0",
+    "Number of Mounting Screws": "4, 2",
+    "Mounting Screw Thread": "M3, M3",
     "Link": "https://store.tmotor.com/product/u3-motor-u-power.html"
 }

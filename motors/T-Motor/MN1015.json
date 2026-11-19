@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "36N42P",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
@@ -34,9 +34,9 @@
     "Bearing Outer Diameter": "28.0",
     "Bearing Inner Diameter": "15.0",
     "Bearing Thickness": "7.0",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Magnet Type": "N45SH",
+    "Mounting Pattern Diameter (mm)": "50.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M5",
     "Link": "https://store.tmotor.com/product/mn1015-motor-navigator-type.html"
 }

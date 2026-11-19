@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "6.0",
     "Bearing Thickness": "6.0",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://store.tmotor.com/product/v605-vtol-motor.html"
 }

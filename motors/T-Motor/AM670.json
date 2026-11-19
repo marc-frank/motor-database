@@ -36,9 +36,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "56.0, 60.5",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M4, M4",
     "Link": "https://www.t-hobby.com/products/tmotor-am670-6s-freestyle-brushless-motor",
     "Per-KV Values": {
         "480": {

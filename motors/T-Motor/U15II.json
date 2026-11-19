@@ -36,9 +36,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N42UH",
-    "Mounting Pattern Diameter (mm)": "50.0",
-    "Number of Mounting Screws": "8",
-    "Mounting Screw Thread": "M5 & M6",
+    "Mounting Pattern Diameter (mm)": "50.0, 50.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M5, M6",
     "Link": "https://store.tmotor.com/product/u15-v2-motor-u-power-kv80.html",
     "Per-KV Values": {
         "80": {

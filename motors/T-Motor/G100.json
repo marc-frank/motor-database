@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "102.7, 60.0",
-    "Number of Mounting Screws": "6, 4",
-    "Mounting Screw Thread": "M4, M5",
+    "Mounting Pattern Diameter (mm)": "60.0, 102.7",
+    "Number of Mounting Screws": "4, 6",
+    "Mounting Screw Thread": "M5, M4",
     "Link": "https://www.cubemars.com/product/g100-kv10-gimbal-motor.html"
 }
