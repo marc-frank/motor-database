@@ -40,5 +40,16 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://shop.iflight.com/motors-cat88/XING2-2207-4S-6S-FPV-Motor-Unibell-Black-for-Nazgul-Evoque-F5-pro1610"
+    "Link": "https://shop.iflight.com/motors-cat88/XING2-2207-4S-6S-FPV-Motor-Unibell-Black-for-Nazgul-Evoque-F5-pro1610",
+    "Per-KV Values": {
+        "1750": {
+            "Internal Resistance (mΩ)": "74.23"
+        },
+        "2050": {
+            "Internal Resistance (mΩ)": "56.3"
+        },
+        "2750": {
+            "Internal Resistance (mΩ)": "74.23"
+        }
+    }
 }

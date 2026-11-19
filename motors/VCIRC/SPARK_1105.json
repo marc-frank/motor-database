@@ -48,6 +48,12 @@
         "3750": {
             "Internal Resistance (mΩ)": "430.0"
         },
+        "4400": {
+            "Internal Resistance (mΩ)": "255.0"
+        },
+        "4850": {
+            "Internal Resistance (mΩ)": "280.0"
+        },
         "5300": {
             "Internal Resistance (mΩ)": "250.0"
         },

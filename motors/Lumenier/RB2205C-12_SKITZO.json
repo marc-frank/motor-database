@@ -13,7 +13,7 @@
     "KV (RPM/V)": [
         "2400"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "260.0",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -25,7 +25,7 @@
     "Cable length (mm)": "100",
     "Cable Gauge (AWG)": "",
     "Connector": "none",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "3.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",

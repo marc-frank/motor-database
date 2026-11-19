@@ -43,13 +43,16 @@
     "Link": "https://shop.iflight.com/motors-cat88/XING2-3110-FPV-Cinelifter-Motor-Unibell-Pro1683",
     "Per-KV Values": {
         "900": {
-            "Internal Resistance (mΩ)": "78.0"
+            "Internal Resistance (mΩ)": "78.0",
+            "Weight (incl. Cable) (g)": "77.0"
         },
         "1250": {
-            "Internal Resistance (mΩ)": "43.0"
+            "Internal Resistance (mΩ)": "43.0",
+            "Weight (incl. Cable) (g)": "77.0"
         },
         "1600": {
-            "Internal Resistance (mΩ)": "36.0"
+            "Internal Resistance (mΩ)": "36.0",
+            "Weight (incl. Cable) (g)": "76.4"
         }
     }
 }
