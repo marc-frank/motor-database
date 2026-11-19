@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/929_P_1572946951264.jpg",
+    "Image": "https://img.staticdj.com/0cb5499f44c1d4663a2413a90e8dda0f.jpeg",
     "Manufacturer": "T-Motor",
     "Name": "AS2306 Short Shaft",
-    "Price ($)": "16.95",
+    "Price ($)": "16.90",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "12N14P",
@@ -39,8 +39,8 @@
     "Magnet Type": "Neodymium",
     "Mounting Pattern Diameter (mm)": "32.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-929-AS2306+2-3S+Short+Shaft+F3P+Indoor+Rc+Plane+Power.html",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-rc-drones-motor-as2306-short-shaft",
     "Per-KV Values": {
         "1500": {
             "Internal Resistance (mΩ)": "96.5",

@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/939_P_1575012539131.jpg",
+    "Image": "https://img.staticdj.com/24a00b288d375a91b053eeae55b880c3.jpeg",
     "Manufacturer": "T-Motor",
     "Name": "AS2814 Long Shaft",
-    "Price ($)": "33.99",
+    "Price ($)": "31.00",
     "Stator Diameter (mm)": "28.0",
     "Stator Height (mm)": "14.0",
     "Stator Configuration": "12N14P",
@@ -41,7 +41,7 @@
     "Mounting Pattern Diameter (mm)": "19.0, 25.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-939-AS2814+2-4S+Long+Shaft+3D+F3A+Airplane+Power.html",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-as2814-long-shaft",
     "Per-KV Values": {
         "900": {
             "Internal Resistance (mΩ)": "43.5",

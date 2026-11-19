@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/936_P_1575011484020.jpg",
+    "Image": "https://img.staticdj.com/d49b04edbfc0215ebd152ec188b23088.jpg",
     "Manufacturer": "T-Motor",
     "Name": "AS2308 Long Shaft",
-    "Price ($)": "18.99",
+    "Price ($)": "18.90",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "8.0",
     "Stator Configuration": "12N14P",
@@ -39,7 +39,7 @@
     "Mounting Pattern Diameter (mm)": "16.0, 19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-936-AS2308+3-4S+Long+Shaft+3D+Trainer+Airplane+Brushless+Motor.html",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-as2308-long-shaft",
     "Per-KV Values": {
         "1450": {
             "Internal Resistance (mΩ)": "88.0"

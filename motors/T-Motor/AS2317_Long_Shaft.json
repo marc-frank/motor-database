@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/938_P_1575012063041.jpg",
+    "Image": "https://img.staticdj.com/f2bef3e0e84303314c868bcab303b840.jpg",
     "Manufacturer": "T-Motor",
     "Name": "AS2317 Long Shaft",
-    "Price ($)": "21.95",
+    "Price ($)": "21.90",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "17.0",
     "Stator Configuration": "12N14P",
@@ -13,7 +13,10 @@
     "KV (RPM/V)": [
         "880",
         "1250",
-        "1400"
+        "1400",
+        "1850",
+        "2200",
+        "2500"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Multi Strand",
@@ -22,7 +25,7 @@
     "Base Material": "Aluminium",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Aluminium",
-    "Weight (incl. Cable) (g)": "81.0",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "100.0",
     "Cable Gauge (AWG)": "20",
@@ -40,16 +43,19 @@
     "Mounting Pattern Diameter (mm)": "16.0, 19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-938-AS2317+3-4S+Long+Shaft+3D+Trainer+Airplane+Brushless+Motor.html",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-rc-drones-brushless-motor-as2317",
     "Per-KV Values": {
         "880": {
-            "Internal Resistance (mΩ)": "80.0"
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (incl. Cable) (g)": "81.0"
         },
         "1250": {
-            "Internal Resistance (mΩ)": "49.8"
+            "Internal Resistance (mΩ)": "49.8",
+            "Weight (incl. Cable) (g)": "81.0"
         },
         "1400": {
-            "Internal Resistance (mΩ)": "35.2"
+            "Internal Resistance (mΩ)": "35.2",
+            "Weight (incl. Cable) (g)": "81.0"
         }
     }
 }

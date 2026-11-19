@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/928_P_1572946595568.jpg",
+    "Image": "https://img.staticdj.com/66d193e13cd86eab4d4dd098d04e2edf.jpg",
     "Manufacturer": "T-Motor",
     "Name": "AS2304 Short Shaft",
-    "Price ($)": "15.95",
+    "Price ($)": "15.90",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "4.0",
     "Stator Configuration": "12N14P",
@@ -39,8 +39,8 @@
     "Magnet Type": "Neodymium",
     "Mounting Pattern Diameter (mm)": "32.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-928-AS2304+2-3S+Short+Shaft+F3P+Indoor+Rc+Plane+Motor.html",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-burshless-motor-as2304-short-shaft",
     "Per-KV Values": {
         "1500": {
             "Internal Resistance (mΩ)": "236.0"

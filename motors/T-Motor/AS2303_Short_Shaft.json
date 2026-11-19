@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/927_P_1572946255986.jpg",
+    "Image": "https://img.staticdj.com/f7e97225766afce8b932a68cc15a1890.jpeg",
     "Manufacturer": "T-Motor",
     "Name": "AS2303 Short Shaft",
-    "Price ($)": "14.95",
+    "Price ($)": "14.90",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "3.0",
     "Stator Configuration": "12N14P",
@@ -39,8 +39,8 @@
     "Magnet Type": "Neodymium",
     "Mounting Pattern Diameter (mm)": "32.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-927-AS2303+2-3S+Short+Shaft+F3P+Indoor+Rc+Acrobatic+Plane+Motor.html",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-as2303-short-shaft",
     "Per-KV Values": {
         "1500": {
             "Internal Resistance (mΩ)": "251.0"

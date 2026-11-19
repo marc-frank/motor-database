@@ -1,8 +1,8 @@
 {
-    "Image": "https://store.tmotor.com/images/202312/1701671924836321138.jpg",
+    "Image": "https://img.staticdj.com/b9c62dd0597f89f37e3bb3a9eeee6d53.jpg",
     "Manufacturer": "T-Motor",
     "Name": "AM40 V2",
-    "Price ($)": "29.99",
+    "Price ($)": "30.99",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "12N14P",
@@ -27,7 +27,7 @@
     "Cable Gauge (AWG)": "",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "3.0",
-    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "Solid",
     "Shaft Material": "Steele",
     "Shaft Retention": "Clip",
@@ -38,8 +38,8 @@
     "Magnet Type": "Neodymium",
     "Mounting Pattern Diameter (mm)": "32.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-1327-AM40+V2.html",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/am40",
     "Per-KV Values": {
         "1550": {
             "Internal Resistance (mΩ)": "135.0",

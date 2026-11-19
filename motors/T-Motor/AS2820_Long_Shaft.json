@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/201911/source_img/940_P_1575012836980.jpg",
+    "Image": "https://img.staticdj.com/72f9b3294fbdc6e3552b38746ef31b81.jpg",
     "Manufacturer": "T-Motor",
     "Name": "AS2820 Long Shaft",
     "Price ($)": "34.00",
@@ -11,9 +11,10 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
+        "600",
         "880",
         "1050",
-        "2000"
+        "1250"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Multi Strand",
@@ -40,7 +41,7 @@
     "Mounting Pattern Diameter (mm)": "19.0, 25.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/goods-940-AS2820+3-4S+Long+Shaft+3D+F3A+Trainer+Airplane+Brushless+Motor.html",
+    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-as2820-long-shaft",
     "Per-KV Values": {
         "880": {
             "Internal Resistance (mΩ)": "34.0",
@@ -50,7 +51,7 @@
             "Internal Resistance (mΩ)": "23.2",
             "Weight (incl. Cable) (g)": "144.0"
         },
-        "2000": {
+        "1250": {
             "Internal Resistance (mΩ)": "16.8",
             "Weight (incl. Cable) (g)": "144.0"
         }
