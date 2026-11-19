@@ -1,0 +1,51 @@
+{
+    "Image": "https://store.tmotor.com/images/202609/source_img/antigravity-mn2806-kv400-260904-white-common-1.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "MN2806",
+    "Price ($)": "46.90",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "400",
+        "650"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "46.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "50.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0",
+    "Bearing Inner Diameter": "4.0",
+    "Bearing Thickness": "4.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/mn2806-motor-antigravity-type.html",
+    "Per-KV Values": {
+        "400": {
+            "Internal Resistance (mΩ)": "645.0"
+        },
+        "650": {
+            "Internal Resistance (mΩ)": "275.0"
+        }
+    }
+}
