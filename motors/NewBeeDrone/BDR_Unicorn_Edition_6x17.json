@@ -1,8 +1,8 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/1126/9610/products/01._cf1ea333-4d9c-41fa-8345-5269f3670fdc.jpg",
     "Manufacturer": "NewBeeDrone",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "BDR Unicorn Edition 6x17",
+    "Price ($)": "18.99",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
@@ -10,20 +10,22 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
-    "Internal Resistance (mΩ)": "",
+    "KV (RPM/V)": [
+        "25500"
+    ],
+    "Internal Resistance (mΩ)": "700.0",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "2",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "30",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Connector": "JST-1.25",
+    "Shaft Diameter (external) (mm)": "0.8",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://newbeedrone.com/collections/all/products/newbeedrone-flow-0802-dual-ball-bearing-whoop-motor-19000kv-set-of-4"
+    "Link": "https://newbeedrone.com/collections/all/products/nbd-unicorn-motors-6mm-brushed-motors"
 }

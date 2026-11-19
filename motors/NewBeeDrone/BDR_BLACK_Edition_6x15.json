@@ -1,8 +1,8 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/1126/9610/products/01._4e23eda6-c66d-4b8c-b3f3-0a601fc899e8.jpg",
     "Manufacturer": "NewBeeDrone",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "BDR BLACK Edition 6x15",
+    "Price ($)": "11.39",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
@@ -10,7 +10,9 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "17400"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +20,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "1.85",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Connector": "JST-1.25",
+    "Shaft Diameter (external) (mm)": "0.8",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://newbeedrone.com/collections/all/products/newbeedrone-flow-1408-racing-and-freestyle-fpv-micro-motor-4150kv-t-mount"
+    "Link": "https://newbeedrone.com/collections/all/products/bee-dynamic-rotor-black-edition-6x15mm-brushed-motor-set"
 }
