@@ -1,0 +1,53 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2312/25/products/2cc62712d0.jpg",
+    "Manufacturer": "MAD",
+    "Name": "M20 IPE",
+    "Price ($)": "459.00",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "80",
+        "100"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "15.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "28.0",
+    "Bearing Inner Diameter": "15.0",
+    "Bearing Thickness": "7.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "50.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://www.mad-motor.com/products/mad-components-m20-ipe?VariantsId=10544",
+    "Per-KV Values": {
+        "80": {
+            "Internal Resistance (mΩ)": "31.0",
+            "Weight (incl. Cable) (g)": "1028.0"
+        },
+        "100": {
+            "Internal Resistance (mΩ)": "20.0",
+            "Weight (incl. Cable) (g)": "1031.0"
+        }
+    }
+}
