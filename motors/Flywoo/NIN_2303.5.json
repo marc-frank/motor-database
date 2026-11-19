@@ -1,0 +1,51 @@
+{
+    "Image": "https://img-va.myshopline.com/image/store/2004172091/1673593876355/9088a10e430011b0d0c42f5ce31a5a87.jpg",
+    "Manufacturer": "Flywoo",
+    "Name": "NIN 2303.5",
+    "Price ($)": "11.99",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "3.5",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1750",
+        "3000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "21.5",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "30",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "3.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://flywoo.net/products/nin-2303-5-1750-3000-silver",
+    "Per-KV Values": {
+        "1750": {
+            "Internal Resistance (mΩ)": "173.0"
+        },
+        "3000": {
+            "Internal Resistance (mΩ)": "71.0"
+        }
+    }
+}

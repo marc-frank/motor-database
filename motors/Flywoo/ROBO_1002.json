@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://img-va.myshopline.com/image/store/2004172091/1673593876355/flywoo-robo-1002-23500kv-motor.jpeg",
     "Manufacturer": "Flywoo",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Name": "ROBO 1002",
+    "Price ($)": "12.99",
+    "Stator Diameter (mm)": "10.0",
+    "Stator Height (mm)": "2.0",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "15500",
+        "19800",
+        "23500"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +22,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "2.5",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "50",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +40,13 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://flywoo.net/products/nin-1404-v2-ultralight-fpv-motor"
+    "Link": "https://flywoo.net/products/flywoo-robo-1002-15500kv-23500kv-fpv-motor",
+    "Per-KV Values": {
+        "19800": {
+            "Internal Resistance (mΩ)": "89.0"
+        },
+        "23500": {
+            "Internal Resistance (mΩ)": "75.0"
+        }
+    }
 }
