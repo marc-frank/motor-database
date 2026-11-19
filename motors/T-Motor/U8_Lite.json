@@ -1,0 +1,63 @@
+{
+    "Image": "https://store.tmotor.com/images/202609/goods_img/U8_Lite_KV100_white_U8_Lite_KV100_(1).jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "U8 Lite",
+    "Price ($)": "299.99",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "36N42P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "85",
+        "100",
+        "150",
+        "190"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "90.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "15.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/u8-lite-kv100-u-efficiency.html",
+    "Per-KV Values": {
+        "85": {
+            "Internal Resistance (mΩ)": "225.0",
+            "Weight (incl. Cable) (g)": "243.0"
+        },
+        "100": {
+            "Internal Resistance (mΩ)": "170.0",
+            "Weight (incl. Cable) (g)": "238.0"
+        },
+        "150": {
+            "Internal Resistance (mΩ)": "85.0",
+            "Weight (incl. Cable) (g)": "239.0"
+        },
+        "190": {
+            "Internal Resistance (mΩ)": "48.0",
+            "Weight (incl. Cable) (g)": "243.0"
+        }
+    }
+}
