@@ -1,0 +1,53 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2412/20/products/M9C1201.jpg",
+    "Manufacturer": "MAD",
+    "Name": "M9C12 IPE V3.1",
+    "Price ($)": "279.00",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "100",
+        "110"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "50.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "15.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "28.0",
+    "Bearing Inner Diameter": "15.0",
+    "Bearing Thickness": "7.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "40.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://www.mad-motor.com/products/mad-components-m9c12-ipe-v31waterproof-brushless-motor-drone-sprayer-framing-agriculture-longrange?VariantsId=10367",
+    "Per-KV Values": {
+        "100": {
+            "Internal Resistance (mΩ)": "57.0",
+            "Weight (incl. Cable) (g)": "486.0"
+        },
+        "110": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Weight (incl. Cable) (g)": "496.0"
+        }
+    }
+}
