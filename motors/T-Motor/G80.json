@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.cubemars.com/images/202106/goods_img/1623029187677005938.jpg",
     "Manufacturer": "T-Motor",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "G80",
+    "Price ($)": "181.99",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "30",
+        "60"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,14 +21,14 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "315.0",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
@@ -33,8 +36,16 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://store.tmotor.com/product/g80-inrunning-gimbal-motor.html"
+    "Mounting Pattern Diameter (mm)": "84.0, 60.0",
+    "Number of Mounting Screws": "6, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://www.cubemars.com/product/g80-kv30-kv60-gimbal-motor.html",
+    "Per-KV Values": {
+        "30": {
+            "Internal Resistance (mΩ)": "1800.0"
+        },
+        "60": {
+            "Internal Resistance (mΩ)": "450.0"
+        }
+    }
 }
