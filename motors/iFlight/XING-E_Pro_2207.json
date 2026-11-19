@@ -1,0 +1,55 @@
+{
+    "Image": "https://cdn.iflight.com/oss/20260226/140223/admin15/55769.png",
+    "Manufacturer": "iFlight",
+    "Name": "XING-E Pro 2207",
+    "Price ($)": "12.74",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1800",
+        "2450",
+        "2750"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "33.8",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://shop.iflight.com/motors-cat88/xing-e-pro-2207-2-6s-fpv-nextgen-motor-pro874",
+    "Per-KV Values": {
+        "1800": {
+            "Internal Resistance (mΩ)": "81.5"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "46.8"
+        },
+        "2750": {
+            "Internal Resistance (mΩ)": "41.0"
+        }
+    }
+}

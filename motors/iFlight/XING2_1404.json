@@ -1,0 +1,55 @@
+{
+    "Image": "https://cdn.iflight.com/oss/20260717/085900/admin15/43313.png",
+    "Manufacturer": "iFlight",
+    "Name": "XING2 1404",
+    "Price ($)": "13.59",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "3000",
+        "3800",
+        "4600"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "9.1",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "120",
+    "Cable Gauge (AWG)": "26",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://shop.iflight.com/motors-cat88/xing2-1404-toothpick-ultralight-build-unibell-pro1482",
+    "Per-KV Values": {
+        "3000": {
+            "Internal Resistance (mΩ)": "309.0"
+        },
+        "3800": {
+            "Internal Resistance (mΩ)": "220.0"
+        },
+        "4600": {
+            "Internal Resistance (mΩ)": "159.0"
+        }
+    }
+}

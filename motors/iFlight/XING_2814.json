@@ -1,0 +1,51 @@
+{
+    "Image": "https://cdn.iflight.com/oss/20260319/085035/admin15/67098.png",
+    "Manufacturer": "iFlight",
+    "Name": "XING 2814",
+    "Price ($)": "33.14",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "880",
+        "1100"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "88.3",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://shop.iflight.com/motors-cat88/xing-x2814-fpv-nextgen-motor-pro838",
+    "Per-KV Values": {
+        "880": {
+            "Internal Resistance (mΩ)": "57.3"
+        },
+        "1100": {
+            "Internal Resistance (mΩ)": "48.6"
+        }
+    }
+}

@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://cdn.iflight.com/oss/20260226/144206/admin15/93317.png",
     "Manufacturer": "iFlight",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Name": "XING 4214",
+    "Price ($)": "67.99",
+    "Stator Diameter (mm)": "42.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "400",
+        "660"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -23,7 +26,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://shop.iflight.com/motors-cat88/XING2-2809-FPV-Motor-Unibell-Pro1673"
+    "Link": "https://shop.iflight.com/motors-cat88/xing-x4214-2-8s-x-class-fpv-nextgen-motor-pro802",
+    "Per-KV Values": {
+        "400": {
+            "Weight (incl. Cable) (g)": "255.8",
+            "Internal Resistance (mΩ)": "61.6"
+        },
+        "660": {
+            "Weight (incl. Cable) (g)": "255.2",
+            "Internal Resistance (mΩ)": "35.6"
+        }
+    }
 }

@@ -1,0 +1,53 @@
+{
+    "Image": "https://cdn.iflight.com/oss/20260226/140339/admin15/49031.png",
+    "Manufacturer": "iFlight",
+    "Name": "XING2 2506",
+    "Price ($)": "22.09",
+    "Stator Diameter (mm)": "25.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1500",
+        "1850"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "160",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "10.0",
+    "Bearing Inner Diameter": "4.0",
+    "Bearing Thickness": "4.0",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://shop.iflight.com/motors-cat88/XING2-2506-FPV-Long-Range-Motor-Black-Pro1748",
+    "Per-KV Values": {
+        "1500": {
+            "Weight (incl. Cable) (g)": "38.2",
+            "Internal Resistance (mΩ)": "74.88"
+        },
+        "1850": {
+            "Weight (incl. Cable) (g)": "43.6",
+            "Internal Resistance (mΩ)": "47.6"
+        }
+    }
+}
