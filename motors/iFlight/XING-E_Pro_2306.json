@@ -1,8 +1,8 @@
 {
-    "Image": "https://cdn.iflight.com/oss/20260226/142423/admin15/75353.png",
+    "Image": "https://cdn.shopify.com/s/files/1/0657/0527/9753/products/xing-e-pro-2306-fpv-motor-940487.png",
     "Manufacturer": "iFlight",
     "Name": "XING-E Pro 2306",
-    "Price ($)": "14.44",
+    "Price ($)": "16.99",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "12N14P",
@@ -11,16 +11,16 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
-        "1750",
+        "1700",
         "2450"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "",
     "Base Type": "",
-    "Base Material": "",
+    "Base Material": "Al 6061",
     "Bell Type": "Unibell",
-    "Bell Material": "",
+    "Bell Material": "Al 6061",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "160",
@@ -28,9 +28,9 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
-    "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "9.0",
     "Bearing Inner Diameter": "4.0",
@@ -41,7 +41,7 @@
     "Mounting Screw Thread": "M3",
     "Link": "https://shop.iflight.com/motors-cat88/XING-E-Pro-2306-4S-6S-FPV-Motor-pro1565",
     "Per-KV Values": {
-        "1750": {
+        "1700": {
             "Weight (incl. Cable) (g)": "33.8",
             "Internal Resistance (mΩ)": "85.63"
         },

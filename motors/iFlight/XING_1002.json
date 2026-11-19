@@ -1,8 +1,8 @@
 {
-    "Image": "https://cdn.iflight.com/oss/20260226/142546/admin15/19897.png",
+    "Image": "https://cdn.shopify.com/s/files/1/0643/3210/3904/products/S708ceb8a814141e4afd73ed5175b120dh.png",
     "Manufacturer": "iFlight",
     "Name": "XING 1002",
-    "Price ($)": "11.89",
+    "Price ($)": "13.99",
     "Stator Diameter (mm)": "10.0",
     "Stator Height (mm)": "2.0",
     "Stator Configuration": "9N12P",
@@ -17,7 +17,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Assembled Bell",
     "Bell Material": "",
@@ -36,9 +36,9 @@
     "Bearing Inner Diameter": "2.0",
     "Bearing Thickness": "1.5",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "3.0",
-    "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "M1",
+    "Mounting Pattern Diameter (mm)": "6.6",
+    "Number of Mounting Screws": "3",
+    "Mounting Screw Thread": "M1.4",
     "Link": "https://shop.iflight.com/motors-cat88/XING-1002-FPV-Motor-Pro1979",
     "Per-KV Values": {
         "19000": {
