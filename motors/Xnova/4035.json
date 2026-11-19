@@ -1,16 +1,21 @@
 {
-    "Image": "",
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2013/12/x-nova-4035-series.jpg",
     "Manufacturer": "Xnova",
-    "Name": "",
+    "Name": "4035",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "35.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "300",
+        "400",
+        "480",
+        "600"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +41,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-4812-series/"
+    "Link": "https://www.xnovamotors.com/xnova-motors-4035/"
 }

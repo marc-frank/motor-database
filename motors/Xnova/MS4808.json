@@ -1,16 +1,21 @@
 {
-    "Image": "",
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2014/08/xnova4808-multirotor.jpg",
     "Manufacturer": "Xnova",
-    "Name": "",
+    "Name": "MS4808",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "48.0",
+    "Stator Height (mm)": "8.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "380",
+        "480",
+        "620",
+        "700"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -19,8 +24,8 @@
     "Bell Type": "",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
-    "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Weight (excl. Cable) (g)": "100.0",
+    "Cable length (mm)": "60",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
@@ -36,5 +41,19 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-4808-series/"
+    "Link": "https://www.xnovamotors.com/xnova-4808-series/",
+    "Per-KV Values": {
+        "380": {
+            "Internal Resistance (mΩ)": "150.0"
+        },
+        "480": {
+            "Internal Resistance (mΩ)": "115.0"
+        },
+        "620": {
+            "Internal Resistance (mΩ)": "82.0"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "75.0"
+        }
+    }
 }

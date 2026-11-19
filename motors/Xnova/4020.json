@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2013/12/1x-nova-4020-series.jpg",
     "Manufacturer": "Xnova",
-    "Name": "",
+    "Name": "4020",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "20.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "1000",
+        "1200",
+        "1350"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +40,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-motors-4030/"
+    "Link": "https://www.xnovamotors.com/xnova-motors-4020/"
 }

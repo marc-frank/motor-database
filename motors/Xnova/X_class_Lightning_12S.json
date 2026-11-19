@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2026/10/Xclass-350420kv-data-sheet-2022-9-23.png",
     "Manufacturer": "Xnova",
-    "Name": "",
+    "Name": "X_class Lightning 12S",
     "Price ($)": "",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "350",
+        "420"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -25,8 +28,8 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
-    "Shaft Material": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
     "Shaft Retention": "",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
@@ -36,5 +39,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-x_class-lightning-racing-motor-series-with-700kv-for-6s/"
+    "Link": "https://www.xnovamotors.com/xnova-x_class-lightning-racing-motor-series/"
 }

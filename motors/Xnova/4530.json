@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2013/12/x-nova-4530-series.jpg",
     "Manufacturer": "Xnova",
-    "Name": "",
+    "Name": "4530",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "45.0",
+    "Stator Height (mm)": "30.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "450",
+        "500"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +39,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-motors-4020/"
+    "Link": "https://www.xnovamotors.com/xnova-motors-4530/"
 }
