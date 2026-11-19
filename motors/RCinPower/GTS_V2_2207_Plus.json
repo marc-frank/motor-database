@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.getfpv.com/media/catalog/product/r/c/rcinpower-gts-v2-2207-plus-motor-main.jpg",
+    "Manufacturer": "RCinPower",
+    "Name": "GTS V2 2207 Plus",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.5",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1860",
+        "2500",
+        "2750"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "31.5",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "30",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.getfpv.com/rcinpower-gts-v2-2207-plus-motor-1860kv-2500kv-2750kv.html",
+    "Per-KV Values": {
+        "1860": {
+            "Internal Resistance (mΩ)": "55.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "34.0"
+        },
+        "2750": {
+            "Internal Resistance (mΩ)": "30.0"
+        }
+    }
+}

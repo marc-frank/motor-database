@@ -1,0 +1,51 @@
+{
+    "Image": "https://www.getfpv.com/media/catalog/product/d/i/diatone_mamba_toka_1408_motordiatone-mamba-toka-1408-motor-main-very_compressed-height-1000px.jpg",
+    "Manufacturer": "Diatone",
+    "Name": "Mamba Toka 1408",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2900",
+        "4100"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "18",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "5.0",
+    "Bearing Inner Diameter": "2.0",
+    "Bearing Thickness": "2.5",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.getfpv.com/diatone-mamba-toka-1408-motor-2900kv-4100kv.html",
+    "Per-KV Values": {
+        "2900": {
+            "Internal Resistance (mΩ)": "135.0"
+        },
+        "4100": {
+            "Internal Resistance (mΩ)": "85.0"
+        }
+    }
+}
