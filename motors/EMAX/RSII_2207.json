@@ -1,22 +1,26 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/img_9378_1.jpg",
     "Manufacturer": "EMAX",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "RSII 2207",
+    "Price ($)": "36.94",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "1600",
+        "2300",
+        "2550"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -36,5 +40,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/rs-ii-series/products/rsii-2207cw-race-spec-brushless-motor-1600kv-2300kv-2550kv-cw-thread"
+    "Link": "https://emaxmodel.com/collections/rs-series/products/rsii-2207cw-race-spec-brushless-motor-1600kv-2300kv-2550kv-cw-thread"
 }
