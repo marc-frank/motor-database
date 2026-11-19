@@ -1,0 +1,64 @@
+{
+    "Image": "https://img.staticdj.com/48eaa7db63a800909256eb4be3a5f383.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "Velox V2207.5 V2",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "7.5",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1750",
+        "1950",
+        "2550"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "Titanium",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.t-hobby.com/products/brushless-racing-motor-for-freestyle-drones-v2207-5",
+    "Per-KV Values": {
+        "1750": {
+            "Price ($)": "13.52",
+            "Internal Resistance (mΩ)": "74.0",
+            "Weight (incl. Cable) (g)": "34.6",
+            "Weight (excl. Cable) (g)": "30.8"
+        },
+        "1950": {
+            "Price ($)": "13.52",
+            "Internal Resistance (mΩ)": "53.5",
+            "Weight (incl. Cable) (g)": "35.3",
+            "Weight (excl. Cable) (g)": "31.5"
+        },
+        "2550": {
+            "Price ($)": "14.00",
+            "Internal Resistance (mΩ)": "41.0",
+            "Weight (incl. Cable) (g)": "35.6",
+            "Weight (excl. Cable) (g)": "31.6"
+        }
+    }
+}
