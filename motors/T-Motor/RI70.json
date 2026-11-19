@@ -1,24 +1,26 @@
 {
-    "Image": "",
+    "Image": "https://www.cubemars.com/images/202512/goods_img/ri70-kv95.jpg",
     "Manufacturer": "T-Motor",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "RI70",
+    "Price ($)": "123.90",
+    "Stator Diameter (mm)": "76.0",
+    "Stator Height (mm)": "13.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
-    "Internal Resistance (mΩ)": "",
+    "KV (RPM/V)": [
+        "95"
+    ],
+    "Internal Resistance (mΩ)": "418.0",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "270.4",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://store.tmotor.com/product/ri70-frameless-inrunning-torque-motor.html"
+    "Link": "https://www.cubemars.com/product/ri70-kv95-frameless-inrunner-torque-motor.html"
 }
