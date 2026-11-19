@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://www.flashhobby.com/upload/488/d2812-fixed-wing-motor-97816.png",
     "Manufacturer": "FlashHobby",
-    "Name": "",
+    "Name": "D2812",
     "Price ($)": "",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "1600"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,14 +20,14 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "22.0",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "3.2",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.flashhobby.com/d3536evo-fixed-wing-motor.html"
+    "Link": "https://www.flashhobby.com/d2812-fixed-wing-motor.html"
 }

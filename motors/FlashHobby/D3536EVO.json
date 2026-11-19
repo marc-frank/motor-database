@@ -1,0 +1,59 @@
+{
+    "Image": "https://www.flashhobby.com/upload/488/d3536evo---1-_1511929.jpg",
+    "Manufacturer": "FlashHobby",
+    "Name": "D3536EVO",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "910",
+        "1000",
+        "1250",
+        "1450"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "Aluminium",
+    "Weight (incl. Cable) (g)": "105.8",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.flashhobby.com/d3536evo-fixed-wing-motor.html",
+    "Per-KV Values": {
+        "910": {
+            "Internal Resistance (mΩ)": "66.7"
+        },
+        "1000": {
+            "Internal Resistance (mΩ)": "46.5"
+        },
+        "1250": {
+            "Internal Resistance (mΩ)": "30.2"
+        },
+        "1450": {
+            "Internal Resistance (mΩ)": "26.8"
+        }
+    }
+}

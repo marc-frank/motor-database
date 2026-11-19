@@ -1,16 +1,21 @@
 {
-    "Image": "",
+    "Image": "https://www.flashhobby.com/upload/488/d2822-fixed-wing-motor-795952.jpg",
     "Manufacturer": "FlashHobby",
-    "Name": "",
+    "Name": "D2822",
     "Price ($)": "",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "2600",
+        "1800",
+        "1450",
+        "1100"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +41,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.flashhobby.com/d3530-fixed-wing-motor.html"
+    "Link": "https://www.flashhobby.com/d2822-fixed-wing-motor.html"
 }
