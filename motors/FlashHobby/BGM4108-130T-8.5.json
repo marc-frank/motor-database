@@ -33,8 +33,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.flashhobby.com/bgm4108-130t-8-5-gimbal-motor.html"
 }
