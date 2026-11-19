@@ -2,7 +2,6 @@
     "use strict";
 
     var REPO = "https://github.com/marc-frank/motor-database";
-    var PAGE = 150;
     var IDENTITY = ["Image", "Manufacturer", "Name", "Link"];
 
     // Order and grouping of fields in the details panel. Anything not listed lands in "Other".
@@ -17,7 +16,8 @@
         ["Purchase", ["Price ($)"]],
     ];
 
-    var DEFAULT_COLS = ["image", "motor", "size", "KV (RPM/V)", "weight", "Price ($)", "Stator Configuration", "Internal Resistance (mΩ)", "Shaft Diameter (external) (mm)", "mount", "link"];
+    // Columns kept to the left of the spec columns, in this order.
+    var LEAD_KEYS = ["KV (RPM/V)", "Price ($)"];
 
     var MOTOR_ICON =
         '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.5" fill="currentColor"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="currentColor" stroke-width="1.5"/></svg>';
@@ -104,11 +104,9 @@
     var rows = [];
     var specKeys = [];
     var columns = [];
-    var visible = [];
     var filtered = [];
-    var shown = PAGE;
     var sort = { id: null, dir: 1 };
-    var state = { q: "", mfr: "", sdMin: "", sdMax: "", kvMin: "", kvMax: "", specOnly: true };
+    var state = { q: "", f: {} }; // f: column id -> filter text
 
     // ---------- columns ----------
 
@@ -121,7 +119,6 @@
             label: parts.label,
             unit: parts.unit,
             num: numeric,
-            count: values.length,
             value: function (r) {
                 return numeric ? num(r[key]) : filled(r[key]) ? String(r[key]).toLowerCase() : null;
             },
@@ -137,23 +134,28 @@
             {
                 id: "image",
                 label: "Image",
-                fixed: true,
                 cls: "c-image",
+                noFilter: true,
                 html: function (r) {
                     return '<div class="thumb">' + (r.Image ? '<img loading="lazy" referrerpolicy="no-referrer" alt="" src="' + esc(r.Image) + '" />' : MOTOR_ICON) + "</div>";
                 },
                 text: function (r) { return r.Image || ""; },
             },
             {
-                id: "motor",
+                id: "name",
                 label: "Motor",
-                fixed: true,
                 cls: "c-motor",
-                value: function (r) { return (r.Manufacturer + " " + r._name).toLowerCase(); },
+                value: function (r) { return r._name.toLowerCase(); },
                 html: function (r) {
-                    return '<div class="motor-name">' + esc(r._name) + (r._hasSpecs ? "" : ' <span class="badge">no specs yet</span>') + '</div><div class="motor-mfr">' + esc(r.Manufacturer) + "</div>";
+                    return '<span class="motor-name">' + esc(r._name) + "</span>" + (r._hasSpecs ? "" : ' <span class="badge">no specs yet</span>');
                 },
-                text: function (r) { return r.Manufacturer + " " + r._name; },
+                text: function (r) { return r._name; },
+            },
+            {
+                id: "Manufacturer",
+                label: "Manufacturer",
+                value: function (r) { return String(r.Manufacturer || "").toLowerCase(); },
+                text: function (r) { return r.Manufacturer || ""; },
             },
             {
                 id: "size",
@@ -166,44 +168,30 @@
                 html: function (r) { return r._size ? '<span class="size">' + esc(r._size) + "</span>" : ""; },
                 text: function (r) { return r._size; },
             },
-            {
-                id: "weight",
-                label: "Weight",
-                unit: "g",
-                num: true,
-                value: function (r) { return r._weight; },
-                text: function (r) { return r._weight == null ? "" : fmtNum(String(r._weight)); },
-            },
-            {
-                id: "mount",
-                label: "Mount",
-                value: function (r) { return num(r["Mounting Pattern Diameter (mm)"]); },
-                text: function (r) {
-                    var d = r["Mounting Pattern Diameter (mm)"];
-                    var t = r["Mounting Screw Thread"];
-                    return [filled(d) ? fmtNum(d) + " mm" : "", filled(t) ? t : ""].filter(Boolean).join(" · ");
-                },
-            },
         ];
 
+        // Spec columns: a few headline ones first, then in details-panel group order, then anything else.
+        var order = LEAD_KEYS.slice();
+        GROUPS.forEach(function (g) { order = order.concat(g[1]); });
+        var keys = order.filter(function (k) { return specKeys.indexOf(k) !== -1; });
+        keys = keys.filter(function (k, i) { return keys.indexOf(k) === i; });
         specKeys.forEach(function (k) {
+            if (keys.indexOf(k) === -1) keys.push(k);
+        });
+        keys.forEach(function (k) {
             cols.push(rawColumn(k));
         });
 
         cols.push({
             id: "link",
             label: "Link",
-            fixed: true,
             cls: "c-link",
             html: function (r) {
-                return r.Link ? '<a class="ext" href="' + esc(r.Link) + '" target="_blank" rel="noopener" title="Open product page" data-stop>' + EXT_ICON + "</a>" : "";
+                return r.Link ? '<a class="ext" href="' + esc(r.Link) + '" target="_blank" rel="noopener" title="' + esc(r.Link) + '" data-stop>' + EXT_ICON + "</a>" : "";
             },
             text: function (r) { return r.Link || ""; },
         });
 
-        cols.forEach(function (c) {
-            if (c.count == null) c.count = rows.filter(function (r) { return filled(c.text(r)); }).length;
-        });
         return cols;
     }
 
@@ -214,20 +202,51 @@
 
     // ---------- filtering & sorting ----------
 
+    // Per-column filter: numeric columns accept ">1900", "<=30", "1700-2000" or "=2207";
+    // anything else (and every text column) is a case-insensitive match on all space-separated words.
+    function makeMatcher(c, query) {
+        var q = query.trim().toLowerCase();
+        if (!q) return null;
+        var n = "(-?\\d+(?:[.,]\\d+)?)";
+        var m;
+        if (c.num) {
+            // Size compares as its 4-digit code, e.g. "2207-2306".
+            var val = c.id === "size"
+                ? function (r) { return /^\d{4}$/.test(r._size) ? +r._size : null; }
+                : function (r) { return num(r[c.id]); };
+            if ((m = q.match(new RegExp("^(<=|>=|<|>|=)\\s*" + n + "$")))) {
+                var x = num(m[2]), op = m[1];
+                return function (r) {
+                    var v = val(r);
+                    if (v == null) return false;
+                    return op === "<" ? v < x : op === ">" ? v > x : op === "<=" ? v <= x : op === ">=" ? v >= x : v === x;
+                };
+            }
+            if ((m = q.match(new RegExp("^" + n + "\\s*(?:-|–|\\.\\.)\\s*" + n + "$")))) {
+                var lo = num(m[1]), hi = num(m[2]);
+                return function (r) {
+                    var v = val(r);
+                    return v != null && v >= lo && v <= hi;
+                };
+            }
+        }
+        var words = q.split(/\s+/);
+        return function (r) {
+            var t = c.text(r).toLowerCase();
+            for (var i = 0; i < words.length; i++) if (t.indexOf(words[i]) === -1) return false;
+            return true;
+        };
+    }
+
     function applyFilters() {
         var tokens = state.q.toLowerCase().split(/\s+/).filter(Boolean);
-        var sdMin = num(state.sdMin), sdMax = num(state.sdMax), kvMin = num(state.kvMin), kvMax = num(state.kvMax);
+        var matchers = columns
+            .map(function (c) { return state.f[c.id] ? makeMatcher(c, state.f[c.id]) : null; })
+            .filter(Boolean);
 
         filtered = rows.filter(function (r) {
-            if (state.specOnly && !r._hasSpecs) return false;
-            if (state.mfr && r.Manufacturer !== state.mfr) return false;
-            var sd = num(r["Stator Diameter (mm)"]);
-            if (sdMin != null && (sd == null || sd < sdMin)) return false;
-            if (sdMax != null && (sd == null || sd > sdMax)) return false;
-            var kv = num(r["KV (RPM/V)"]);
-            if (kvMin != null && (kv == null || kv < kvMin)) return false;
-            if (kvMax != null && (kv == null || kv > kvMax)) return false;
             for (var i = 0; i < tokens.length; i++) if (r._hay.indexOf(tokens[i]) === -1) return false;
+            for (var j = 0; j < matchers.length; j++) if (!matchers[j](r)) return false;
             return true;
         });
 
@@ -248,24 +267,36 @@
                 return (b._hasSpecs - a._hasSpecs) || a._i - b._i;
             });
         }
-        shown = PAGE;
     }
 
     // ---------- rendering ----------
 
     function renderHead() {
-        $("headRow").innerHTML = visible
-            .map(function (id) {
-                var c = col(id);
-                if (!c) return "";
-                var cls = c.num ? ' class="num"' : "";
-                if (id === "image" || id === "link") return "<th" + cls + '><span class="sr-only"></span></th>';
-                var ind = sort.id === id ? (sort.dir > 0 ? "▲" : "▼") : "";
-                var aria = sort.id === id ? (sort.dir > 0 ? "ascending" : "descending") : "none";
+        $("headRow").innerHTML = columns
+            .map(function (c) {
+                var cls = (c.cls || "") + (c.num ? " num" : "");
+                cls = cls.trim() ? ' class="' + cls.trim() + '"' : "";
+                if (c.id === "image") return "<th" + cls + '><span class="sr-only">Image</span></th>';
+                var ind = sort.id === c.id ? (sort.dir > 0 ? "▲" : "▼") : "";
+                var aria = sort.id === c.id ? (sort.dir > 0 ? "ascending" : "descending") : "none";
                 return (
-                    "<th" + cls + ' aria-sort="' + aria + '"><button type="button" data-sort="' + esc(id) + '">' +
+                    "<th" + cls + ' aria-sort="' + aria + '"><button type="button" data-sort="' + esc(c.id) + '">' +
                     esc(c.label) + (c.unit ? ' <span class="unit">' + esc(c.unit) + "</span>" : "") +
                     '<span class="sort-ind">' + ind + "</span></button></th>"
+                );
+            })
+            .join("");
+    }
+
+    function renderFilterRow() {
+        $("filterRow").innerHTML = columns
+            .map(function (c) {
+                var cls = c.cls ? ' class="' + c.cls + '"' : "";
+                if (c.noFilter) return "<th" + cls + "></th>";
+                var tip = c.num ? "Text, or a range: >1900, <=30, 1700-2000, =2207" : "Matches every word typed";
+                return (
+                    "<th" + cls + '><input type="search"' + (state.f[c.id] ? ' class="active"' : "") + ' data-filter="' + esc(c.id) + '" value="' + esc(state.f[c.id] || "") +
+                    '" placeholder="filter" title="' + tip + '" aria-label="Filter ' + esc(c.label) + '" autocomplete="off" /></th>'
                 );
             })
             .join("");
@@ -276,41 +307,84 @@
         return esc(c.text(r));
     }
 
-    function summary(r) {
-        var parts = [];
-        if (r._size) parts.push(r._size);
-        if (filled(r["KV (RPM/V)"])) parts.push(fmtNum(r["KV (RPM/V)"]) + " KV");
-        if (r._weight != null) parts.push(fmtNum(String(r._weight)) + " g");
-        if (filled(r["Price ($)"])) parts.push(col("Price ($)").text(r));
-        return parts.join(" · ");
+    // ---------- virtual scrolling ----------
+    // All filtered rows are scrollable, but only the ones near the viewport are in the DOM:
+    // laying out ~2,500 rows x ~40 columns on every keystroke is far too slow.
+    // Rows have a fixed height and columns fixed widths (measured once from all data) so nothing jumps.
+
+    var ROW_H = 43;
+    var OVERSCAN = 20;
+    var win = { start: -1, end: -1 };
+
+    function rowHtml(r) {
+        var tds = columns
+            .map(function (c) {
+                var cls = [];
+                if (c.cls) cls.push(c.cls);
+                if (c.num) cls.push("num");
+                var title = c.id === "name" ? ' title="' + esc(r._name) + '"' : "";
+                return "<td" + (cls.length ? ' class="' + cls.join(" ") + '"' : "") + title + ">" + cellHtml(c, r) + "</td>";
+            })
+            .join("");
+        return '<tr tabindex="0" data-i="' + r._i + '"' + (r._hasSpecs ? "" : ' class="stub"') + ">" + tds + "</tr>";
+    }
+
+    function spacer(h) {
+        return h > 0 ? '<tr class="spacer" aria-hidden="true"><td colspan="' + columns.length + '" style="height:' + h + 'px"></td></tr>' : "";
+    }
+
+    function renderWindow(force) {
+        var wrap = $("tableWrap");
+        var view = Math.ceil(wrap.clientHeight / ROW_H);
+        var first = Math.floor(wrap.scrollTop / ROW_H);
+        var start = Math.max(0, first - OVERSCAN);
+        var end = Math.min(filtered.length, first + view + OVERSCAN);
+        if (!force && start === win.start && end === win.end) return;
+        win = { start: start, end: end };
+        $("body").innerHTML =
+            spacer(start * ROW_H) +
+            filtered.slice(start, end).map(rowHtml).join("") +
+            spacer((filtered.length - end) * ROW_H);
     }
 
     function renderBody() {
-        var slice = filtered.slice(0, shown);
-        var html = slice
-            .map(function (r) {
-                var tds = visible
-                    .map(function (id) {
-                        var c = col(id);
-                        if (!c) return "";
-                        var cls = [c.cls || "c-extra"];
-                        if (c.num) cls.push("num");
-                        var inner = cellHtml(c, r);
-                        return '<td class="' + cls.join(" ") + '" data-label="' + esc(c.label) + '">' + inner + "</td>";
-                    })
-                    .join("");
-                tds += '<td class="c-summary">' + esc(summary(r)) + "</td>";
-                return '<tr tabindex="0" data-i="' + r._i + '"' + (r._hasSpecs ? "" : ' class="stub"') + ">" + tds + "</tr>";
+        $("tableWrap").scrollTop = 0;
+        renderWindow(true);
+        $("empty").hidden = filtered.length > 0;
+        renderStats();
+    }
+
+    // Column widths from the widest value in each column (header and filter box included).
+    function sizeColumns() {
+        var ctx = document.createElement("canvas").getContext("2d");
+        var family = getComputedStyle(document.body).fontFamily;
+        var mono = getComputedStyle(document.documentElement).getPropertyValue("--mono") || "monospace";
+        function w(text, font) {
+            ctx.font = font;
+            return ctx.measureText(text).width;
+        }
+        var total = 0;
+        var html = columns
+            .map(function (c) {
+                var px;
+                if (c.id === "image") px = 56;
+                else if (c.id === "link") px = 52;
+                else {
+                    var font = c.id === "name" ? "600 14px " + family : c.id === "size" ? "600 13px " + mono : "14px " + family;
+                    var texts = rows.map(function (r) { return c.text(r); });
+                    texts.sort(function (a, b) { return b.length - a.length; });
+                    var widest = 0;
+                    texts.slice(0, 12).forEach(function (t) { widest = Math.max(widest, w(t, font)); });
+                    var head = w(c.label, "600 12px " + family) + (c.unit ? w(" " + c.unit, "12px " + family) : 0) + 14;
+                    px = Math.ceil(Math.max(widest, head, 56) + 26);
+                    if (c.id === "name") px = Math.min(px, 260);
+                }
+                total += px;
+                return '<col style="width:' + px + 'px" />';
             })
             .join("");
-        $("body").innerHTML = html;
-
-        $("empty").hidden = filtered.length > 0;
-        $("tableWrap").hidden = filtered.length === 0;
-        var rest = filtered.length - shown;
-        $("more").hidden = rest <= 0;
-        $("moreBtn").textContent = "Show " + Math.min(rest, PAGE) + " more (" + rest + " remaining)";
-        renderStats();
+        $("cols").innerHTML = html;
+        $("grid").style.width = total + "px";
     }
 
     function renderStats() {
@@ -325,6 +399,7 @@
         applyFilters();
         renderHead();
         renderBody();
+        $("reset").disabled = !state.q && !sort.id && !Object.keys(state.f).length;
         writeUrl();
     }
 
@@ -419,65 +494,45 @@
         if (lastFocus && lastFocus.focus) lastFocus.focus();
     }
 
-    // ---------- columns menu ----------
-
-    function renderColsMenu() {
-        $("colsPanel").innerHTML = columns
-            .filter(function (c) { return !c.fixed; })
-            .map(function (c) {
-                return '<label><input type="checkbox" value="' + esc(c.id) + '"' + (visible.indexOf(c.id) !== -1 ? " checked" : "") + " /> " +
-                    esc(c.label) + (c.unit ? ' <span class="unit">(' + esc(c.unit) + ")</span>" : "") +
-                    '<span class="count" title="Entries with a value">' + c.count + "</span></label>";
-            })
-            .join("");
-    }
-
-    function setColsOpen(open) {
-        $("colsPanel").hidden = !open;
-        $("colsBtn").setAttribute("aria-expanded", String(open));
-    }
-
     // ---------- URL state ----------
 
+    // Filters live in the URL as ?q=…&f.<column>=…&sort=…, so a filtered view can be shared.
     function readUrl() {
         var p = new URLSearchParams(location.search);
-        ["q", "mfr", "sdMin", "sdMax", "kvMin", "kvMax"].forEach(function (k) {
-            if (p.has(k)) state[k] = p.get(k);
+        if (p.has("q")) state.q = p.get("q");
+        p.forEach(function (v, k) {
+            if (k.indexOf("f.") === 0 && col(k.slice(2)) && v) state.f[k.slice(2)] = v;
         });
-        if (p.get("all") === "1") state.specOnly = false;
+        // Older links: ?mfr=, ?kvMin= / ?kvMax=, ?sdMin= / ?sdMax=.
+        if (p.get("mfr")) state.f.Manufacturer = p.get("mfr");
+        [["kv", "KV (RPM/V)"], ["sd", "Stator Diameter (mm)"]].forEach(function (o) {
+            var lo = p.get(o[0] + "Min"), hi = p.get(o[0] + "Max");
+            if (lo && hi) state.f[o[1]] = lo + "-" + hi;
+            else if (lo) state.f[o[1]] = ">=" + lo;
+            else if (hi) state.f[o[1]] = "<=" + hi;
+        });
         if (p.has("sort")) {
             var s = p.get("sort");
             sort = { id: s.replace(/^-/, ""), dir: s.charAt(0) === "-" ? -1 : 1 };
+            if (!col(sort.id)) sort = { id: null, dir: 1 };
         }
-        if (p.has("cols")) visible = p.get("cols").split(",");
     }
 
     function writeUrl() {
         var p = new URLSearchParams();
-        ["q", "mfr", "sdMin", "sdMax", "kvMin", "kvMax"].forEach(function (k) {
-            if (state[k]) p.set(k, state[k]);
+        if (state.q) p.set("q", state.q);
+        columns.forEach(function (c) {
+            if (state.f[c.id]) p.set("f." + c.id, state.f[c.id]);
         });
-        if (!state.specOnly) p.set("all", "1");
         if (sort.id) p.set("sort", (sort.dir < 0 ? "-" : "") + sort.id);
-        if (visible.join(",") !== DEFAULT_COLS.join(",")) p.set("cols", visible.join(","));
         var qs = p.toString();
         history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
-    }
-
-    function syncInputs() {
-        $("q").value = state.q;
-        $("mfr").value = state.mfr;
-        $("sdMin").value = state.sdMin;
-        $("sdMax").value = state.sdMax;
-        $("kvMin").value = state.kvMin;
-        $("kvMax").value = state.kvMax;
-        $("specOnly").checked = state.specOnly;
     }
 
     // ---------- CSV ----------
 
     function exportCsv() {
-        var cols = visible.map(col).filter(function (c) { return c && c.id !== "image"; });
+        var cols = columns.filter(function (c) { return c.id !== "image"; });
         var lines = [cols.map(function (c) { return c.label + (c.unit ? " (" + c.unit + ")" : ""); })];
         filtered.forEach(function (r) {
             lines.push(cols.map(function (c) { return c.text(r); }));
@@ -506,26 +561,41 @@
     }
 
     function bind() {
-        var rerender = debounce(render, 120);
-        [["q", "q"], ["sdMin", "sdMin"], ["sdMax", "sdMax"], ["kvMin", "kvMin"], ["kvMax", "kvMax"]].forEach(function (p) {
-            $(p[0]).addEventListener("input", function (e) {
-                state[p[1]] = e.target.value.trim();
-                rerender();
+        var rerender = debounce(function () {
+            applyFilters();
+            renderBody();
+            $("reset").disabled = !state.q && !sort.id && !Object.keys(state.f).length;
+            writeUrl();
+        }, 150);
+        var ticking = false;
+        $("tableWrap").addEventListener("scroll", function () {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(function () {
+                ticking = false;
+                renderWindow(false);
             });
         });
-        $("mfr").addEventListener("change", function (e) {
-            state.mfr = e.target.value;
-            render();
+        window.addEventListener("resize", function () { renderWindow(false); });
+        $("q").addEventListener("input", function (e) {
+            state.q = e.target.value.trim();
+            rerender();
         });
-        $("specOnly").addEventListener("change", function (e) {
-            state.specOnly = e.target.checked;
-            render();
+        $("filterRow").addEventListener("input", function (e) {
+            var id = e.target.getAttribute("data-filter");
+            if (!id) return;
+            var v = e.target.value.trim();
+            if (v) state.f[id] = v;
+            else delete state.f[id];
+            e.target.classList.toggle("active", !!v);
+            rerender();
         });
 
         function reset() {
-            state = { q: "", mfr: "", sdMin: "", sdMax: "", kvMin: "", kvMax: "", specOnly: true };
+            state = { q: "", f: {} };
             sort = { id: null, dir: 1 };
-            syncInputs();
+            $("q").value = "";
+            renderFilterRow();
             render();
         }
         $("reset").addEventListener("click", reset);
@@ -565,11 +635,6 @@
             true
         );
 
-        $("moreBtn").addEventListener("click", function () {
-            shown += PAGE;
-            renderBody();
-        });
-
         $("dBody").addEventListener("click", function (e) {
             var b = e.target.closest("[data-open]");
             if (b) openDrawer(rows[+b.getAttribute("data-open")]);
@@ -579,31 +644,7 @@
         document.addEventListener("keydown", function (e) {
             if (e.key === "Escape") {
                 if ($("drawer").classList.contains("open")) closeDrawer();
-                else setColsOpen(false);
             }
-        });
-
-        $("colsBtn").addEventListener("click", function (e) {
-            e.stopPropagation();
-            setColsOpen($("colsPanel").hidden);
-        });
-        $("colsPanel").addEventListener("click", function (e) {
-            e.stopPropagation();
-        });
-        $("colsPanel").addEventListener("change", function (e) {
-            var id = e.target.value;
-            if (e.target.checked) {
-                // Keep the chosen columns in the master order, link last.
-                var set = new Set(visible.concat([id]));
-                visible = columns.map(function (c) { return c.id; }).filter(function (c) { return set.has(c); });
-            } else {
-                visible = visible.filter(function (c) { return c !== id; });
-                if (sort.id === id) sort = { id: null, dir: 1 };
-            }
-            render();
-        });
-        document.addEventListener("click", function () {
-            setColsOpen(false);
         });
 
         $("csv").addEventListener("click", exportCsv);
@@ -642,10 +683,13 @@
             r._weight = w != null ? w : num(r["Weight (excl. Cable) (g)"]);
             var n = specKeys.filter(function (k) { return filled(r[k]); }).length;
             r._hasSpecs = filled(r.Name) || n >= 3 ? 1 : 0;
-            r._hay = [r.Manufacturer, r._name, r._size, r["KV (RPM/V)"] ? r["KV (RPM/V)"] + "kv " + r["KV (RPM/V)"] : "", r["Stator Configuration"], r["Magnet Type"]]
-                .filter(filled)
-                .join(" ")
-                .toLowerCase();
+            // Global search looks at every field (except image/link URLs), plus "1950kv"-style KV.
+            var hay = [r._name, r._size, filled(r["KV (RPM/V)"]) ? r["KV (RPM/V)"] + "kv" : ""];
+            Object.keys(data[i]).forEach(function (k) {
+                if (k.charAt(0) !== "_" && k !== "Image" && k !== "Link" && filled(r[k])) hay.push(r[k]);
+            });
+            if (filled(r["Price ($)"]) && isPureNumber(r["Price ($)"])) hay.push("$" + parseFloat(r["Price ($)"]).toFixed(2));
+            r._hay = hay.filter(filled).join(" | ").toLowerCase();
             return r;
         });
     }
@@ -653,32 +697,24 @@
     function boot(data) {
         prepare(data);
         columns = buildColumns();
-        visible = DEFAULT_COLS.slice();
         readUrl();
-        visible = visible.filter(function (id) { return col(id); });
-
-        var mfrs = Array.from(new Set(rows.map(function (r) { return r.Manufacturer; }))).sort(function (a, b) {
-            return a.localeCompare(b, undefined, { sensitivity: "base" });
-        });
-        $("mfr").innerHTML += mfrs
-            .map(function (m) {
-                var n = rows.filter(function (r) { return r.Manufacturer === m; }).length;
-                return '<option value="' + esc(m) + '">' + esc(m) + " (" + n + ")</option>";
-            })
-            .join("");
 
         var stubs = rows.filter(function (r) { return !r._hasSpecs; }).length;
         if (stubs) {
             $("stubNote").innerHTML =
-                "<b>" + stubs.toLocaleString() + "</b> listed motors have no specs yet. Turn off “Only with specs” to see them, and " +
+                "<b>" + stubs.toLocaleString() + "</b> listed motors have no specs yet (sorted last) — " +
                 '<a href="' + REPO + '/blob/main/.github/CONTRIBUTING.md" target="_blank" rel="noopener">help fill them in</a>.';
         }
 
-        syncInputs();
-        renderColsMenu();
+        $("q").value = state.q;
+        $("tableWrap").hidden = false;
+        sizeColumns();
+        renderFilterRow();
         bind();
         $("loading").hidden = true;
         render();
+        var first = $("body").querySelector("tr[data-i]");
+        if (first && first.offsetHeight) ROW_H = first.offsetHeight;
     }
 
     fetch("database.json")
