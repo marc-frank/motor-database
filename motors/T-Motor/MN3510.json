@@ -1,0 +1,58 @@
+{
+    "Image": "https://store.tmotor.com/images/202609/source_img/mn3510-260904-white-common-1.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "MN3510",
+    "Price ($)": "79.90",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "10.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "360",
+        "630",
+        "700"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Closed Bottom",
+    "Base Material": "",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "97.0",
+    "Cable length (mm)": "600.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/mn3510-motor-navigator-type.html",
+    "Per-KV Values": {
+        "360": {
+            "Internal Resistance (mΩ)": "188.0",
+            "Weight (incl. Cable) (g)": "117.0"
+        },
+        "630": {
+            "Internal Resistance (mΩ)": "65.0",
+            "Weight (incl. Cable) (g)": "119.0"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Weight (incl. Cable) (g)": "118.0"
+        }
+    }
+}
