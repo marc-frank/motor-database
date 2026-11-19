@@ -1,0 +1,58 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/photo-2806_1.jpg",
+    "Manufacturer": "EMAX",
+    "Name": "GTII 2212T",
+    "Price ($)": "15.40",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1800",
+        "2200",
+        "2450"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://emaxmodel.com/collections/gt-xa-xt-series-motors/products/gtii-2212t-brushless-motor-1800kv-2200kv-2450kv-threaded-shaft",
+    "Per-KV Values": {
+        "1800": {
+            "Internal Resistance (mΩ)": "39.0",
+            "Weight (incl. Cable) (g)": "52.2"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "29.0",
+            "Weight (incl. Cable) (g)": "52.3"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "25.0",
+            "Weight (incl. Cable) (g)": "52.5"
+        }
+    }
+}
