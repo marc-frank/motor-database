@@ -1,0 +1,55 @@
+{
+    "Image": "https://store.tmotor.com/images/201704/source_img/344_P_1492413985237.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "MN4012",
+    "Price ($)": "92.90",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "18N24P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "340",
+        "400",
+        "480"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Closed Bottom",
+    "Base Material": "",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "155.0",
+    "Weight (excl. Cable) (g)": "134.0",
+    "Cable length (mm)": "600.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/mn4012-kv340-motor-navigator-type.html",
+    "Per-KV Values": {
+        "340": {
+            "Internal Resistance (mΩ)": "133.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "75.0"
+        },
+        "480": {
+            "Internal Resistance (mΩ)": "57.0"
+        }
+    }
+}
