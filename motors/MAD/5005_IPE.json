@@ -1,0 +1,58 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2312/20/products/756ca26729.jpg",
+    "Manufacturer": "MAD",
+    "Name": "5005 IPE",
+    "Price ($)": "72.00",
+    "Stator Diameter (mm)": "50.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "280",
+        "350",
+        "440"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-5005-ipe",
+    "Per-KV Values": {
+        "280": {
+            "Internal Resistance (mΩ)": "168.0",
+            "Weight (incl. Cable) (g)": "102.0"
+        },
+        "350": {
+            "Internal Resistance (mΩ)": "118.0",
+            "Weight (incl. Cable) (g)": "106.0"
+        },
+        "440": {
+            "Internal Resistance (mΩ)": "68.0",
+            "Weight (incl. Cable) (g)": "108.0"
+        }
+    }
+}
