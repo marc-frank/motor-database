@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.happymodel.cn/wp-content/uploads/2019/12/1003.jpg",
     "Manufacturer": "Happymodel",
-    "Name": "",
+    "Name": "EX1203",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "12.0",
+    "Stator Height (mm)": "3.0",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "5500",
+        "6200"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +21,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "4.7",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +39,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.happymodel.cn/index.php/2020/09/29/happymodel-ex1202-5-kv6400-kv11000-brushless-motors/"
+    "Link": "https://www.happymodel.cn/index.php/2019/11/21/happymodel-ex1203-kv5500-kv6200-2-4s-high-efficiency-brushless-motor-for-toothpick-or-twig-fpv-drone-building/"
 }

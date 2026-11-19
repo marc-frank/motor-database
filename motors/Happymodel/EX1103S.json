@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://www.happymodel.cn/wp-content/uploads/2019/10/1005-1.jpg",
     "Manufacturer": "Happymodel",
-    "Name": "",
+    "Name": "EX1103S",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "11.0",
+    "Stator Height (mm)": "3.0",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "7000"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +20,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "3.8",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.happymodel.cn/index.php/2019/03/02/happymodel-ex1102-2-3s-brushless-motor-for-mobula7-hd/"
+    "Link": "https://www.happymodel.cn/index.php/2019/10/24/happymodel-ex1103s-kv7000-motors-upgrade-for-larva-x/"
 }

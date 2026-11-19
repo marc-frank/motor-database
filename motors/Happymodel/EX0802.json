@@ -1,0 +1,59 @@
+{
+    "Image": "https://www.happymodel.cn/wp-content/uploads/2020/07/11.jpg",
+    "Manufacturer": "Happymodel",
+    "Name": "EX0802",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "8.0",
+    "Stator Height (mm)": "2.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "14000",
+        "19000",
+        "22000",
+        "25000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "1.7",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "JST-1.25",
+    "Shaft Diameter (external) (mm)": "1.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.happymodel.cn/index.php/2020/05/29/happymodel-ex0802-new-series-brushless-motor-for-mobula6-mobula6-hd/",
+    "Per-KV Values": {
+        "14000": {
+            "Cable length (mm)": "27"
+        },
+        "19000": {
+            "Cable length (mm)": "27"
+        },
+        "25000": {
+            "Cable length (mm)": "27"
+        },
+        "22000": {
+            "Cable length (mm)": "40"
+        }
+    }
+}
