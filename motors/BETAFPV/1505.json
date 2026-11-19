@@ -1,0 +1,55 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_dbd2b19a-7048-44b6-a6a7-b9d930ce5839.jpg",
+    "Manufacturer": "BETAFPV",
+    "Name": "1505",
+    "Price ($)": "14.99",
+    "Stator Diameter (mm)": "15.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "3400",
+        "4600"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://betafpv.com/collections/brushless-motors/products/1505-3400kv-brushless-motors",
+    "Per-KV Values": {
+        "3400": {
+            "Weight (incl. Cable) (g)": "12.52",
+            "Cable length (mm)": "40",
+            "Mounting Pattern Diameter (mm)": "5.0"
+        },
+        "4600": {
+            "Weight (incl. Cable) (g)": "13.1",
+            "Cable length (mm)": "34",
+            "Mounting Pattern Diameter (mm)": "12.0"
+        }
+    }
+}

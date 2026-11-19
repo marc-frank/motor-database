@@ -1,0 +1,58 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/1778/6615/products/0318d5786f74236de9b1d27b90acead4.jpg",
+    "Manufacturer": "BETAFPV",
+    "Name": "1404",
+    "Price ($)": "6.99",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "3800",
+        "4500"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://betafpv.com/collections/brushless-motors/products/1404-3800kv-brushless-motors",
+    "Per-KV Values": {
+        "3800": {
+            "Weight (incl. Cable) (g)": "9.66",
+            "Shaft Diameter (external) (mm)": "1.5",
+            "Cable length (mm)": "80",
+            "Cable Gauge (AWG)": "24"
+        },
+        "4500": {
+            "Weight (incl. Cable) (g)": "8.49",
+            "Shaft Diameter (external) (mm)": "2.0",
+            "Cable length (mm)": "40",
+            "Cable Gauge (AWG)": "28",
+            "Connector": "JST-1.25"
+        }
+    }
+}

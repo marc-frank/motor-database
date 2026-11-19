@@ -1,8 +1,8 @@
 {
-    "Image": "",
+    "Image": "https://cdn.shopify.com/s/files/1/1778/6615/files/1_fc63518d-6329-46f7-8031-49a63c392cec.jpg",
     "Manufacturer": "BETAFPV",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "7x16 Brushed",
+    "Price ($)": "4.25",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
@@ -10,7 +10,10 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "17500",
+        "19000"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,12 +21,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "2.95",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "50",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Connector": "JST-1.25 2P",
+    "Shaft Diameter (external) (mm)": "0.8",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,5 +39,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://betafpv.com/collections/brushless-motors/products/2204-brushless-motors"
+    "Link": "https://betafpv.com/collections/brushed-motors/products/7x16mm-19000kv-brushed-motors-2cw-2ccw"
 }
