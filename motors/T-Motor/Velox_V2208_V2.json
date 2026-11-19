@@ -1,0 +1,61 @@
+{
+    "Image": "https://img.staticdj.com/b4995f849eb086aeaee4421f02db4e2c.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "Velox V2208 V2",
+    "Price ($)": "14.00",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1750",
+        "1950",
+        "2450"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.t-hobby.com/products/fpv-brushless-motor-v2208-v2-for-freestyle-drones",
+    "Per-KV Values": {
+        "1750": {
+            "Internal Resistance (mΩ)": "65.0",
+            "Weight (incl. Cable) (g)": "36.9",
+            "Weight (excl. Cable) (g)": "33.1"
+        },
+        "1950": {
+            "Internal Resistance (mΩ)": "52.0",
+            "Weight (incl. Cable) (g)": "37.2",
+            "Weight (excl. Cable) (g)": "33.4"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "41.0",
+            "Weight (incl. Cable) (g)": "37.2",
+            "Weight (excl. Cable) (g)": "33.4"
+        }
+    }
+}
