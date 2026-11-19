@@ -1,0 +1,58 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2402/22/photo/MADTAURUSCM3115V10.jpg",
+    "Manufacturer": "MAD",
+    "Name": "Taurus CM3115",
+    "Price ($)": "38.43",
+    "Stator Diameter (mm)": "31.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "490",
+        "900",
+        "1050"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Closed Bottom",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "300.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0",
+    "Bearing Inner Diameter": "5.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-taurus-cm3115-fpv-racing-drone-brushless-motor?VariantsId=10819",
+    "Per-KV Values": {
+        "490": {
+            "Internal Resistance (mΩ)": "112.5",
+            "Weight (incl. Cable) (g)": "105.0"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "35.8",
+            "Weight (incl. Cable) (g)": "107.0"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "21.6",
+            "Weight (incl. Cable) (g)": "108.0"
+        }
+    }
+}
