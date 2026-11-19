@@ -1,0 +1,58 @@
+{
+    "Image": "https://store.tmotor.com/images/202609/source_img/mn501-s-kv240-260904-white-common-1.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "MN501-S",
+    "Price ($)": "99.90",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "240",
+        "300",
+        "360"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "15.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://store.tmotor.com/product/mn501-s-kv240-motor-navigator-type.html",
+    "Per-KV Values": {
+        "240": {
+            "Internal Resistance (mΩ)": "85.0",
+            "Weight (incl. Cable) (g)": "170.0"
+        },
+        "300": {
+            "Internal Resistance (mΩ)": "63.0",
+            "Weight (incl. Cable) (g)": "170.0"
+        },
+        "360": {
+            "Internal Resistance (mΩ)": "45.0",
+            "Weight (incl. Cable) (g)": "175.0"
+        }
+    }
+}
