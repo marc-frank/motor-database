@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://i0.wp.com/ethixltd.com/wp-content/uploads/2019/11/A7300685.jpg",
     "Manufacturer": "Ethix",
-    "Name": "",
+    "Name": "Flat Rats 1507",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "15.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "2800"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://ethixltd.com/portfolio/ethix-mr-steele-silk-motor-v4/"
+    "Link": "https://ethixltd.com/portfolio/ethix-flat-rats-1507-2800kv/"
 }
