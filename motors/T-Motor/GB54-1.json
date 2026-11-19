@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
     "Link": "https://store.tmotor.com/product/gb54-1-gimbal-type.html"
 }

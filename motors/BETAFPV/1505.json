@@ -36,20 +36,18 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
     "Link": "https://betafpv.com/collections/brushless-motors/products/1505-3400kv-brushless-motors",
     "Per-KV Values": {
         "3400": {
             "Weight (incl. Cable) (g)": "12.52",
-            "Cable length (mm)": "40",
-            "Mounting Pattern Diameter (mm)": "5.0"
+            "Cable length (mm)": "40"
         },
         "4600": {
             "Weight (incl. Cable) (g)": "13.1",
-            "Cable length (mm)": "34",
-            "Mounting Pattern Diameter (mm)": "12.0"
+            "Cable length (mm)": "34"
         }
     }
 }

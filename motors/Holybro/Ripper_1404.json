@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
     "Link": "https://holybro.com/collections/motors/products/ripper-1404-3800kv-ultralight-brushless-motor"
 }

@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
+    "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M1.4",
     "Link": "https://www.getfpv.com/discontinued/t-motor-f0802-25000kv-micro-motor.html"
 }

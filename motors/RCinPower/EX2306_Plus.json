@@ -36,8 +36,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
     "Link": "https://www.myfpvstore.com/motors/rcinpower-ex2306-plus-5inch-brushless-motor-1800kv-2500kv"
 }

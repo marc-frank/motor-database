@@ -36,8 +36,8 @@
     "Bearing Inner Diameter": "3.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
     "Link": "https://hobbymatehobby.com/en-de/collections/drone-motor/products/hobbycool-2207-fpv-drone-motor-by-brotherhobby-4-pcs"
 }
