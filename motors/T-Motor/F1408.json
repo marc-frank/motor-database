@@ -1,0 +1,55 @@
+{
+    "Image": "https://img.staticdj.com/3d7289592e9d291333689fb7cc915780.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "F1408",
+    "Price ($)": "15.12",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2800",
+        "3950"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/f1408-brushless-motor-for-cinewhoop-drones",
+    "Per-KV Values": {
+        "2800": {
+            "Internal Resistance (mΩ)": "141.0",
+            "Weight (incl. Cable) (g)": "14.9",
+            "Weight (excl. Cable) (g)": "12.7"
+        },
+        "3950": {
+            "Internal Resistance (mΩ)": "88.0",
+            "Weight (incl. Cable) (g)": "14.95",
+            "Weight (excl. Cable) (g)": "12.75"
+        }
+    }
+}
