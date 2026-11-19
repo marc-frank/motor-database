@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2309/19/products/f8814010f6.png",
     "Manufacturer": "MAD",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "ENCR V105 eVTOL Combo",
+    "Price ($)": "980.00",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "170"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.mad-motor.com/products/encrv105evtolelectronicfeatheringpropellerpropulsionsystem?VariantsId=10582"
+    "Link": "https://www.mad-motor.com/products/encr-v105-evtol-electronic-feathering-propeller-propulsion-system"
 }
