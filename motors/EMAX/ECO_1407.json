@@ -1,0 +1,55 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/photo-3222_1_1.jpg",
+    "Manufacturer": "EMAX",
+    "Name": "ECO 1407",
+    "Price ($)": "20.00",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2800",
+        "3300",
+        "4100"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "13.7",
+    "Cable length (mm)": "90.0",
+    "Cable Gauge (AWG)": "26",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://emaxmodel.com/collections/eco-series/products/emax-eco-micro-series-1407-2-4s-2800kv-3300kv-4100kv-brushless-motor-for-fpv-racing-rc-drone",
+    "Per-KV Values": {
+        "2800": {
+            "Internal Resistance (mΩ)": "180.0"
+        },
+        "3300": {
+            "Internal Resistance (mΩ)": "148.0"
+        },
+        "4100": {
+            "Internal Resistance (mΩ)": "102.0"
+        }
+    }
+}
