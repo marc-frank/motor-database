@@ -13,6 +13,7 @@
     "KV (RPM/V)": [
         "930",
         "1000",
+        "1100",
         "1450",
         "2200"
     ],
@@ -45,6 +46,15 @@
     "Per-KV Values": {
         "930": {
             "Internal Resistance (mΩ)": "156.3"
+        },
+        "1100": {
+            "Internal Resistance (mΩ)": "137.9"
+        },
+        "1450": {
+            "Internal Resistance (mΩ)": "30.5"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "30.5"
         }
     }
 }
