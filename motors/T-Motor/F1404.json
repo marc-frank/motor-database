@@ -1,0 +1,55 @@
+{
+    "Image": "https://img.staticdj.com/54891007cf93f280788a5e8f66bb547b.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "F1404",
+    "Price ($)": "13.52",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2900",
+        "3800",
+        "4600"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "9.34",
+    "Weight (excl. Cable) (g)": "7.75",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.t-hobby.com/products/micro-fpv-drones-brushless-motor",
+    "Per-KV Values": {
+        "2900": {
+            "Internal Resistance (mΩ)": "310.0"
+        },
+        "3800": {
+            "Internal Resistance (mΩ)": "195.0"
+        },
+        "4600": {
+            "Internal Resistance (mΩ)": "138.0"
+        }
+    }
+}
