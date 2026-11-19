@@ -1,0 +1,51 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2309/15/products/80a7efce77.png",
+    "Manufacturer": "MAD",
+    "Name": "6215 IPE",
+    "Price ($)": "98.00",
+    "Stator Diameter (mm)": "62.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "170",
+        "320"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "370.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "60.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "19.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "6.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-6215-ipe-waterproof-brushless-motor-for-drone-sprayer-fora-griculture?VariantsId=10374",
+    "Per-KV Values": {
+        "170": {
+            "Internal Resistance (mΩ)": "43.0"
+        },
+        "320": {
+            "Internal Resistance (mΩ)": "20.0"
+        }
+    }
+}
