@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.cubemars.com/images/202512/goods_img/g60-kv55.jpg",
     "Manufacturer": "T-Motor",
-    "Name": "",
-    "Price ($)": "",
+    "Name": "G60",
+    "Price ($)": "108.99",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "25",
+        "55"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -25,7 +28,7 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
@@ -33,8 +36,18 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://store.tmotor.com/product/g60-inrunning-gimbal-motor.html"
+    "Mounting Pattern Diameter (mm)": "65.0, 45.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "https://www.cubemars.com/product/g60-kv25-kv55-gimbal-motor.html",
+    "Per-KV Values": {
+        "25": {
+            "Internal Resistance (mΩ)": "5500.0",
+            "Weight (incl. Cable) (g)": "230.0"
+        },
+        "55": {
+            "Internal Resistance (mΩ)": "1200.0",
+            "Weight (incl. Cable) (g)": "226.0"
+        }
+    }
 }
