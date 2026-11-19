@@ -1,0 +1,68 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2312/20/products/4865bcdf95.png",
+    "Manufacturer": "MAD",
+    "Name": "5008 IPE V3.0",
+    "Price ($)": "80.00",
+    "Stator Diameter (mm)": "50.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "170",
+        "240",
+        "300",
+        "340",
+        "400"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "15.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-5008-ipe-v3?VariantsId=10426",
+    "Per-KV Values": {
+        "170": {
+            "Internal Resistance (mΩ)": "195.0",
+            "Weight (incl. Cable) (g)": "141.0"
+        },
+        "240": {
+            "Internal Resistance (mΩ)": "104.0",
+            "Weight (incl. Cable) (g)": "142.0"
+        },
+        "300": {
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (incl. Cable) (g)": "136.0"
+        },
+        "340": {
+            "Internal Resistance (mΩ)": "66.4",
+            "Weight (incl. Cable) (g)": "136.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "44.5",
+            "Weight (incl. Cable) (g)": "141.0"
+        }
+    }
+}
