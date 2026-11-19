@@ -1,0 +1,51 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2403/13/photo/BSC-2812-01.jpg",
+    "Manufacturer": "MAD",
+    "Name": "BSC 2812",
+    "Price ($)": "20.23",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "925",
+        "1155"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "76.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "250.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-bsc-2812-brushless-motor-for-10-11inch-long-range-fpv-drone-9-10inch-x8-cinelifter-drone?VariantsId=10827",
+    "Per-KV Values": {
+        "925": {
+            "Internal Resistance (mΩ)": "69.0"
+        },
+        "1155": {
+            "Internal Resistance (mΩ)": "47.0"
+        }
+    }
+}
