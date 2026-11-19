@@ -1,0 +1,51 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A50-8S-Turnado-V4-kv850-15726758_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A50 S Turnado V4",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "850",
+        "690"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "348",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a50s-turnado-v3-kv850.htm?a=article&ProdNr=15726758&p=4206",
+    "Per-KV Values": {
+        "850": {
+            "Internal Resistance (mΩ)": "9"
+        },
+        "690": {
+            "Internal Resistance (mΩ)": "11"
+        }
+    }
+}

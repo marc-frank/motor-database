@@ -1,0 +1,58 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/Q100-5L-kv137-19990538_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "Q100 L",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "137",
+        "114",
+        "99"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/Q100-5L-kv137.htm?a=article&ProdNr=19990538&p=8589",
+    "Per-KV Values": {
+        "137": {
+            "Internal Resistance (mΩ)": "5.3",
+            "Weight (incl. Cable) (g)": "2300"
+        },
+        "114": {
+            "Internal Resistance (mΩ)": "7.2",
+            "Weight (incl. Cable) (g)": "2330"
+        },
+        "99": {
+            "Internal Resistance (mΩ)": "5.3",
+            "Weight (incl. Cable) (g)": "2300"
+        }
+    }
+}

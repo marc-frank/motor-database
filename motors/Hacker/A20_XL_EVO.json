@@ -1,0 +1,59 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A20-6-XL-EVO-kv3500-97800009_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A20 XL EVO",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "3500",
+        "2500",
+        "1500",
+        "1039"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "78",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.17",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotorA20-6-XL-EVO-kv3500.htm?a=article&ProdNr=97800009&p=1157",
+    "Per-KV Values": {
+        "3500": {
+            "Internal Resistance (mΩ)": "14"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "20"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "26"
+        },
+        "1039": {
+            "Internal Resistance (mΩ)": "75"
+        }
+    }
+}

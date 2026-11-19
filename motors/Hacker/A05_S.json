@@ -1,0 +1,51 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A05-10S-kv4200-97130510_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A05 S",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "4200",
+        "3200"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "7.5",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/A05-10S-kv4200.htm?a=article&ProdNr=97130510&p=5550",
+    "Per-KV Values": {
+        "4200": {
+            "Internal Resistance (mΩ)": "300"
+        },
+        "3200": {
+            "Internal Resistance (mΩ)": "400"
+        }
+    }
+}

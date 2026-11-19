@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A30-8-XL-LN-V4-kv1100-10109254_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A30 XL LN V4",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1100",
+        "900",
+        "700"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "190",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/A30-8-XL-LN-V4-kv1100.htm?a=article&ProdNr=10109254&p=1228",
+    "Per-KV Values": {
+        "1100": {
+            "Internal Resistance (mΩ)": "15"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "24"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "34"
+        }
+    }
+}

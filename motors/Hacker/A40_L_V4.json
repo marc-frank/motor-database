@@ -1,0 +1,68 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A40-8L-V4-kv1300-33726617_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A40 L V4",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1300",
+        "630",
+        "500",
+        "410",
+        "355"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/A40-8L-V4-kv1300.htm?a=article&ProdNr=33726617&p=310",
+    "Per-KV Values": {
+        "1300": {
+            "Internal Resistance (mΩ)": "13",
+            "Weight (incl. Cable) (g)": "265"
+        },
+        "630": {
+            "Internal Resistance (mΩ)": "26",
+            "Weight (incl. Cable) (g)": "275"
+        },
+        "500": {
+            "Internal Resistance (mΩ)": "30",
+            "Weight (incl. Cable) (g)": "246"
+        },
+        "410": {
+            "Internal Resistance (mΩ)": "39",
+            "Weight (incl. Cable) (g)": "275"
+        },
+        "355": {
+            "Internal Resistance (mΩ)": "50",
+            "Weight (incl. Cable) (g)": "275"
+        }
+    }
+}

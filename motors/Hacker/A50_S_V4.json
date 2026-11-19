@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A50-12-S-V4-kv480-15726837_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A50 S V4",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "480",
+        "425",
+        "365"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "345",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A50/A50-14pol/A50-12-S-V4-kv480.htm?a=article&ProdNr=15726837&p=6681",
+    "Per-KV Values": {
+        "480": {
+            "Internal Resistance (mΩ)": "16"
+        },
+        "425": {
+            "Internal Resistance (mΩ)": "21"
+        },
+        "365": {
+            "Internal Resistance (mΩ)": "21"
+        }
+    }
+}

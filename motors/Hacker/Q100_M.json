@@ -1,0 +1,59 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/Q100-6M-kv168-19990626_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "Q100 M",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "168",
+        "140",
+        "126",
+        "110"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "1830",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/Q100-6M-kv168.htm?a=article&ProdNr=19990626&p=8589",
+    "Per-KV Values": {
+        "168": {
+            "Internal Resistance (mΩ)": "4.9"
+        },
+        "140": {
+            "Internal Resistance (mΩ)": "6.6"
+        },
+        "126": {
+            "Internal Resistance (mΩ)": "8.6"
+        },
+        "110": {
+            "Internal Resistance (mΩ)": "10.6"
+        }
+    }
+}

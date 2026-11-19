@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A20-12-L-EVO-kv2100-97800017_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A20 L EVO",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2100",
+        "1022",
+        "924"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "55",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/A20-12-L-EVO-kv2100.htm?a=article&ProdNr=97800017&p=1157",
+    "Per-KV Values": {
+        "2100": {
+            "Internal Resistance (mΩ)": "30"
+        },
+        "1022": {
+            "Internal Resistance (mΩ)": "89"
+        },
+        "924": {
+            "Internal Resistance (mΩ)": "109"
+        }
+    }
+}

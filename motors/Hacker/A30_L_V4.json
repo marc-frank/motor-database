@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A30-10-L-V4-kv1185-15716115_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A30 L V4",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1185",
+        "1000",
+        "800"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "143",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a30-10-l-v4-kv1185.htm?a=article&ProdNr=15716115&p=6514",
+    "Per-KV Values": {
+        "1185": {
+            "Internal Resistance (mΩ)": "23"
+        },
+        "1000": {
+            "Internal Resistance (mΩ)": "30"
+        },
+        "800": {
+            "Internal Resistance (mΩ)": "36"
+        }
+    }
+}

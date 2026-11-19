@@ -1,0 +1,63 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/Q80-4L-V2-kv270-37418011_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "Q80 L V2",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "270",
+        "215",
+        "180",
+        "155",
+        "135"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "1335",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/Q80-4L-V2-kv270.htm?a=article&ProdNr=37418011&p=2986",
+    "Per-KV Values": {
+        "270": {
+            "Internal Resistance (mΩ)": "5.3"
+        },
+        "215": {
+            "Internal Resistance (mΩ)": "7"
+        },
+        "180": {
+            "Internal Resistance (mΩ)": "9"
+        },
+        "155": {
+            "Internal Resistance (mΩ)": "12"
+        },
+        "135": {
+            "Internal Resistance (mΩ)": "15"
+        }
+    }
+}

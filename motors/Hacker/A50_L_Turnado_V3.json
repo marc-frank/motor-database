@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.hacker-motor-shop.com/hacker/prodpic/A50-10L-Turnado-V3-kv530-Glider-97826733_b_0.JPG",
+    "Manufacturer": "Hacker",
+    "Name": "A50 L Turnado V3",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "530",
+        "450",
+        "400"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "507",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.hacker-motor-shop.com/A50-10L-Turnado-V3-kv530-Glider.htm?a=article&ProdNr=97826733&p=7382",
+    "Per-KV Values": {
+        "530": {
+            "Internal Resistance (mΩ)": "15"
+        },
+        "450": {
+            "Internal Resistance (mΩ)": "19"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "26"
+        }
+    }
+}
