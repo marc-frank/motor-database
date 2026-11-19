@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://www.getfpv.com/media/catalog/product/f/x/fx2216-11-main.jpg",
     "Manufacturer": "Lumenier",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "FX2216-11 V2",
+    "Price ($)": "61.49",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "16.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "900"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.getfpv.com/lumenier-rx2206-11-2350kv-motor.html"
+    "Link": "https://www.getfpv.com/fx2216-11-900kv-v2.html"
 }

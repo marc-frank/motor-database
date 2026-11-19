@@ -1,16 +1,18 @@
 {
-    "Image": "",
+    "Image": "https://www.getfpv.com/media/catalog/product/i/m/img_6258.jpg",
     "Manufacturer": "Lumenier",
-    "Name": "",
-    "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Name": "FM4006-13",
+    "Price ($)": "29.99",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "6.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "740"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.getfpv.com/lumenier-zip-2407-1700kv-popo-pro-motor.html"
+    "Link": "https://www.getfpv.com/fm4006-13-740kv.html"
 }
