@@ -1,0 +1,71 @@
+{
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2023/09/FH2208-1500.jpg",
+    "Manufacturer": "Xnova",
+    "Name": "2208 Freestyle Hard Line",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1500",
+        "1700",
+        "1900",
+        "2000",
+        "2300",
+        "2500",
+        "2700"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "38.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.xnovamotors.com/new-xnova-2208-freestyle-hardline-motor-series-1500kv_1700kv_1900kv_2000_2300kv_2500_2700kv/",
+    "Per-KV Values": {
+        "1500": {
+            "Internal Resistance (mΩ)": "92.0"
+        },
+        "1700": {
+            "Internal Resistance (mΩ)": "70.0"
+        },
+        "1900": {
+            "Internal Resistance (mΩ)": "65.0"
+        },
+        "2000": {
+            "Internal Resistance (mΩ)": "60.0"
+        },
+        "2300": {
+            "Internal Resistance (mΩ)": "50.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "45.0"
+        },
+        "2700": {
+            "Internal Resistance (mΩ)": "40.0"
+        }
+    }
+}

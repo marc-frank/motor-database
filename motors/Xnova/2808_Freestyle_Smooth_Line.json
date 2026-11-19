@@ -1,0 +1,58 @@
+{
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2022/05/FS2808-1350.jpg",
+    "Manufacturer": "Xnova",
+    "Name": "2808 Freestyle Smooth Line",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1350",
+        "1500",
+        "1900"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.xnovamotors.com/new-xnova-2808-freestyle-smooth-line-motor-series-1350kv_1500kv_1900kv/",
+    "Per-KV Values": {
+        "1350": {
+            "Weight (incl. Cable) (g)": "57.0",
+            "Internal Resistance (mΩ)": "56.0"
+        },
+        "1500": {
+            "Weight (incl. Cable) (g)": "56.0",
+            "Internal Resistance (mΩ)": "50.0"
+        },
+        "1900": {
+            "Weight (incl. Cable) (g)": "55.0",
+            "Internal Resistance (mΩ)": "38.0"
+        }
+    }
+}
