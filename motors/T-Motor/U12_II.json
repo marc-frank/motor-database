@@ -1,0 +1,57 @@
+{
+    "Image": "",
+    "Manufacturer": "T-Motor",
+    "Name": "U12 II",
+    "Price ($)": "369.90",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "36N42P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "60",
+        "120"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "90.0",
+    "Cable Gauge (AWG)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "15.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "",
+    "Per-KV Values": {
+        "60": {
+            "Image": "https://store.tmotor.com/images/202609/goods_img/U12II-60_white_01.jpg",
+            "Link": "https://store.tmotor.com/product/u12-v2-kv60-u-efficiency.html",
+            "Internal Resistance (mΩ)": "75.0",
+            "Weight (incl. Cable) (g)": "803.0"
+        },
+        "120": {
+            "Image": "https://store.tmotor.com/images/202609/goods_img/U12II-120_white_01.jpg",
+            "Link": "https://store.tmotor.com/product/u12-v2-kv120-u-efficiency.html",
+            "Internal Resistance (mΩ)": "22.0",
+            "Weight (incl. Cable) (g)": "778.0"
+        }
+    }
+}
