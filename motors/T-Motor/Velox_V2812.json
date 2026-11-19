@@ -1,0 +1,51 @@
+{
+    "Image": "https://img.staticdj.com/72be98058f061d46ed92b7ae16bd77cf.jpg",
+    "Manufacturer": "T-Motor",
+    "Name": "Velox V2812",
+    "Price ($)": "27.12",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "925",
+        "1155"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "250.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.t-hobby.com/products/fpv-drone-motor-v2812-for-cinelifter",
+    "Per-KV Values": {
+        "925": {
+            "Weight (incl. Cable) (g)": "78.6"
+        },
+        "1155": {
+            "Weight (incl. Cable) (g)": "78.0"
+        }
+    }
+}
