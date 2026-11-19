@@ -1,0 +1,58 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2309/19/products/5401d19a94.png",
+    "Manufacturer": "MAD",
+    "Name": "X4219 IPE",
+    "Price ($)": "89.00",
+    "Stator Diameter (mm)": "42.0",
+    "Stator Height (mm)": "19.0",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "270",
+        "550",
+        "600"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "110.0",
+    "Cable Gauge (AWG)": "14",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "30.0, 56.0, 60.0",
+    "Number of Mounting Screws": "4, 4, 4",
+    "Mounting Screw Thread": "M4, M4, M4",
+    "Link": "https://www.mad-motor.com/products/mad-components-brushless-motor-x4219",
+    "Per-KV Values": {
+        "270": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Weight (incl. Cable) (g)": "284.0"
+        },
+        "550": {
+            "Internal Resistance (mΩ)": "14.2",
+            "Weight (incl. Cable) (g)": "286.0"
+        },
+        "600": {
+            "Internal Resistance (mΩ)": "12.2",
+            "Weight (incl. Cable) (g)": "285.0"
+        }
+    }
+}
