@@ -1,0 +1,58 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2309/18/products/b0224de0e2.png",
+    "Manufacturer": "MAD",
+    "Name": "Antimatter M6C06 IPE V3.0",
+    "Price ($)": "115.00",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "140",
+        "220",
+        "320"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "15.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-m6c06-ipe-v3-brushless-motor-for-the-long-flight-time-multirotor-hexacopter-octocopter?VariantsId=10495",
+    "Per-KV Values": {
+        "140": {
+            "Internal Resistance (mΩ)": "301.0",
+            "Weight (incl. Cable) (g)": "173.0"
+        },
+        "220": {
+            "Internal Resistance (mΩ)": "124.0",
+            "Weight (incl. Cable) (g)": "171.0"
+        },
+        "320": {
+            "Internal Resistance (mΩ)": "64.4",
+            "Weight (incl. Cable) (g)": "176.0"
+        }
+    }
+}
