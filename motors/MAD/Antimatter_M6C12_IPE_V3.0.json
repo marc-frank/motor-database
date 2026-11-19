@@ -1,0 +1,63 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2309/18/products/10b59d7eec.png",
+    "Manufacturer": "MAD",
+    "Name": "Antimatter M6C12 IPE V3.0",
+    "Price ($)": "146.00",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "150",
+        "170",
+        "280",
+        "400"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "15.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-m6c12-ipe-v3-waterproof-drone-brushless-motor?VariantsId=10514",
+    "Per-KV Values": {
+        "150": {
+            "Internal Resistance (mΩ)": "90.0",
+            "Weight (incl. Cable) (g)": "277.0"
+        },
+        "170": {
+            "Internal Resistance (mΩ)": "77.0",
+            "Weight (incl. Cable) (g)": "277.0"
+        },
+        "280": {
+            "Internal Resistance (mΩ)": "31.0",
+            "Weight (incl. Cable) (g)": "279.0"
+        },
+        "400": {
+            "Internal Resistance (mΩ)": "20.0",
+            "Weight (incl. Cable) (g)": "281.0"
+        }
+    }
+}
