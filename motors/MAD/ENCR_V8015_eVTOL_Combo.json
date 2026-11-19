@@ -1,22 +1,24 @@
 {
-    "Image": "",
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2309/19/products/00ef52bdfd.png",
     "Manufacturer": "MAD",
-    "Name": "",
+    "Name": "ENCR V8015 eVTOL Combo",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "80.0",
+    "Stator Height (mm)": "15.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
-    "Flux Direction": "",
+    "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "180"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -36,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.mad-motor.com/products/mad-components-encr8015pro-evtolelectronicfeatheringpropellerpropulsionsystem?VariantsId=10569"
+    "Link": "https://www.mad-motor.com/products/encr-v8015-evtol-electronic-feathering-propeller-propulsion-system"
 }
