@@ -1,0 +1,56 @@
+{
+    "Image": "https://30068510.s21i.faimallusr.com/2/2/ABUIABACGAAgpPTXogYouuDQvAIwoAY4oAY!500x500.jpg",
+    "Manufacturer": "VCIRC",
+    "Name": "SPARK 1408",
+    "Price ($)": "7.50",
+    "Stator Diameter (mm)": "14.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2450",
+        "2750",
+        "3600",
+        "3900"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "16.3",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "100",
+    "Cable Gauge (AWG)": "24",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52SH",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://vci-rc.com/en/pd.jsp?id=87",
+    "Per-KV Values": {
+        "2450": {
+            "Internal Resistance (mΩ)": "180.0"
+        },
+        "2750": {
+            "Internal Resistance (mΩ)": "165.0"
+        },
+        "3600": {
+            "Internal Resistance (mΩ)": "115.0"
+        }
+    }
+}

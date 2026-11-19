@@ -1,0 +1,55 @@
+{
+    "Image": "https://30068510.s21i.faimallusr.com/4/2/ABUIABAEGAAghL_5rwYo5dT_5gIwzwc4zwc!500x500.png",
+    "Manufacturer": "VCIRC",
+    "Name": "SPARK 08028",
+    "Price ($)": "10.50",
+    "Stator Diameter (mm)": "8.4",
+    "Stator Height (mm)": "2.8",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "13500",
+        "22000",
+        "27000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "2.31",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "35",
+    "Cable Gauge (AWG)": "30",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "1.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "N52SH",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://vci-rc.com/en/pd.jsp?id=49",
+    "Per-KV Values": {
+        "13500": {
+            "Internal Resistance (mΩ)": "375.0"
+        },
+        "22000": {
+            "Internal Resistance (mΩ)": "145.0"
+        },
+        "27000": {
+            "Internal Resistance (mΩ)": "105.0"
+        }
+    }
+}
