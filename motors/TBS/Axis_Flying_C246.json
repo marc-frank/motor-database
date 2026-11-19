@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.team-blacksheep.com/img/gallery/axisflying-c246-0.jpg",
+    "Manufacturer": "TBS",
+    "Name": "Axis Flying C246",
+    "Price ($)": "23.90",
+    "Stator Diameter (mm)": "24.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1650",
+        "1850",
+        "2650"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.team-blacksheep.com/products/product:6917",
+    "Per-KV Values": {
+        "1650": {
+            "Weight (incl. Cable) (g)": "31.2"
+        },
+        "1850": {
+            "Weight (incl. Cable) (g)": "31"
+        },
+        "2650": {
+            "Weight (incl. Cable) (g)": "31"
+        }
+    }
+}
