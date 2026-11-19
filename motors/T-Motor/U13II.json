@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/202008/1598845416034870840.jpg",
+    "Image": "https://store.tmotor.com/images/202609/source_img/U13II-65_white_01.jpg",
     "Manufacturer": "T-Motor",
     "Name": "U13II",
     "Price ($)": "379.90",
@@ -31,20 +31,22 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "N42UH",
     "Mounting Pattern Diameter (mm)": "40.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://store.tmotor.com/product/u13-v2-motor-u-power.html",
+    "Link": "https://store.tmotor.com/product/u13-v2-kv65-motor-u-power.html",
     "Per-KV Values": {
         "65": {
+            "Internal Resistance (mΩ)": "73.0",
             "Weight (incl. Cable) (g)": "975.0"
         },
         "130": {
+            "Internal Resistance (mΩ)": "18.0",
             "Weight (incl. Cable) (g)": "990.0"
         }
     }

@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/202210/1665628963698112353.jpg",
+    "Image": "https://store.tmotor.com/images/202609/source_img/U15II_KV80_white_01.jpg",
     "Manufacturer": "T-Motor",
     "Name": "U15II",
     "Price ($)": "689.90",
@@ -11,9 +11,10 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
-        "80.0"
+        "80",
+        "100"
     ],
-    "Internal Resistance (mΩ)": "17.0",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -34,9 +35,17 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "N42UH",
     "Mounting Pattern Diameter (mm)": "50.0",
     "Number of Mounting Screws": "8",
     "Mounting Screw Thread": "M5 & M6",
-    "Link": "https://store.tmotor.com/product/u15-v2-motor-u-power-kv80.html"
+    "Link": "https://store.tmotor.com/product/u15-v2-motor-u-power-kv80.html",
+    "Per-KV Values": {
+        "80": {
+            "Internal Resistance (mΩ)": "17.0"
+        },
+        "100": {
+            "Internal Resistance (mΩ)": "12.0"
+        }
+    }
 }

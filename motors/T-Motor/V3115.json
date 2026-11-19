@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/202312/1701745018767864656.jpg",
+    "Image": "https://img.staticdj.com/e677e01c16fefdd77b5e7f5f808c3d9e.jpg",
     "Manufacturer": "T-Motor",
     "Name": "V3115",
     "Price ($)": "49.90",
@@ -31,7 +31,7 @@
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "5.0",
     "Shaft Type": "Hollow",
-    "Shaft Material": "Steele",
+    "Shaft Material": "Titanium",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
@@ -41,7 +41,7 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/product/V3115-fpv-motor.html",
+    "Link": "https://www.t-hobby.com/products/tmotor-velox-v3115-brushless-cinematic-motor",
     "Per-KV Values": {
         "400": {
             "Internal Resistance (mΩ)": "145.38",

@@ -1,10 +1,10 @@
 {
-    "Image": "https://store.tmotor.com/images/202312/1701745758928305059.jpg",
+    "Image": "https://img.staticdj.com/b40e41ada0c0eda524542c4f0c420c81.jpg",
     "Manufacturer": "T-Motor",
     "Name": "V3120",
     "Price ($)": "56.90",
     "Stator Diameter (mm)": "31.0",
-    "Stator Height (mm)": "20.",
+    "Stator Height (mm)": "20.0",
     "Stator Configuration": "12N14P",
     "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
@@ -29,7 +29,7 @@
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "5.0",
     "Shaft Type": "Hollow",
-    "Shaft Material": "Steele",
+    "Shaft Material": "Titanium",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
@@ -39,7 +39,7 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/product/V3120-fpv-motor.html",
+    "Link": "https://www.t-hobby.com/products/tmotor-velox-v3120-brushless-cinematic-motor-for-fpv-drones",
     "Per-KV Values": {
         "500": {
             "Internal Resistance (mΩ)": "76.35",

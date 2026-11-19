@@ -1,5 +1,5 @@
 {
-    "Image": "https://store.tmotor.com/images/202105/1620725558417410084.jpg",
+    "Image": "https://store.tmotor.com/images/202609/source_img/U8_LITE_L_white_U8_LITE_L.jpg",
     "Manufacturer": "T-Motor",
     "Name": "U8 Lite L",
     "Price ($)": "329.90",
@@ -31,7 +31,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -39,7 +39,7 @@
     "Mounting Pattern Diameter (mm)": "36.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://store.tmotor.com/product/u8lite-l-kv100-u-efficiency.html",
+    "Link": "https://store.tmotor.com/product/u8lite-l-kv110-u-efficiency.html",
     "Per-KV Values": {
         "95": {
             "Internal Resistance (mΩ)": "146.0",

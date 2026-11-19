@@ -1,10 +1,10 @@
 {
-    "Image": "https://store.tmotor.com/images/202001/source_img/958_P_1578642700355.jpg",
+    "Image": "https://img.staticdj.com/cffa1b2662c611c9ffd408162def8639.jpg",
     "Manufacturer": "T-Motor",
     "Name": "F60PRO Ⅳ V2.0",
     "Price ($)": "26.90",
     "Stator Diameter (mm)": "22.0",
-    "Stator Height (mm)": "",
+    "Stator Height (mm)": "7.5",
     "Stator Configuration": "12N14P",
     "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
@@ -30,7 +30,7 @@
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
-    "Shaft Material": "Steele",
+    "Shaft Material": "Steel",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
@@ -40,7 +40,7 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://store.tmotor.com/product/F60pro4-v2-kv1750-fpv-motor.html",
+    "Link": "https://www.t-hobby.com/products/fpv-brushless-racing-motor-f60pro-ⅳ-v2",
     "Per-KV Values": {
         "1750": {
             "Internal Resistance (mΩ)": "70.0",
