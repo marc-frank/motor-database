@@ -1,0 +1,51 @@
+{
+    "Image": "https://www.dualsky.com/UpLoadFile/20210219/bfefe7ca-c6de-488b-995a-047e1efc4bef.jpg",
+    "Manufacturer": "Dualsky",
+    "Name": "XM2202TY",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "2.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "0.1",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1700",
+        "1500"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "10.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.dualsky.com/motor/f92a9bee-9d36-8e69-7392-7d78121d7292.shtml",
+    "Per-KV Values": {
+        "1700": {
+            "Internal Resistance (mΩ)": "460"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "600"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.dualsky.com/UpLoadFile/20220901/ffd89a2b-2d0c-491a-bae4-7b8e70b6df10.jpg",
+    "Manufacturer": "Dualsky",
+    "Name": "XM2305TY",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "2370",
+        "1830",
+        "1550"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "28",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "2mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.dualsky.com/Xmotor_Outrunners/1f30e673-a4fa-aa4d-f69a-563ea6fd553b.shtml",
+    "Per-KV Values": {
+        "2370": {
+            "Internal Resistance (mΩ)": "48.2"
+        },
+        "1830": {
+            "Internal Resistance (mΩ)": "77"
+        },
+        "1550": {
+            "Internal Resistance (mΩ)": "117"
+        }
+    }
+}

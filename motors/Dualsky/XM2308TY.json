@@ -1,0 +1,55 @@
+{
+    "Image": "https://www.dualsky.com/UpLoadFile/20220901/543f5877-3d28-4ca3-ba30-81be45d6f46f.jpg",
+    "Manufacturer": "Dualsky",
+    "Name": "XM2308TY",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "3000",
+        "2130",
+        "1580"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "39",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "2mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.dualsky.com/motor/2306TY_2308TY.shtml",
+    "Per-KV Values": {
+        "3000": {
+            "Internal Resistance (mΩ)": "28.3"
+        },
+        "2130": {
+            "Internal Resistance (mΩ)": "38"
+        },
+        "1580": {
+            "Internal Resistance (mΩ)": "75"
+        }
+    }
+}
