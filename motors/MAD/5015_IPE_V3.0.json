@@ -1,0 +1,72 @@
+{
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ594/2312/20/products/76d14d7158.jpg",
+    "Manufacturer": "MAD",
+    "Name": "5015 IPE V3.0",
+    "Price ($)": "108.00",
+    "Stator Diameter (mm)": "50.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "150",
+        "170",
+        "270",
+        "320",
+        "380",
+        "420"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "",
+    "Bell Type": "Unibell",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "15.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mad-motor.com/products/mad-components-5015-ipe-v3?VariantsId=10469",
+    "Per-KV Values": {
+        "150": {
+            "Internal Resistance (mΩ)": "129.0",
+            "Weight (incl. Cable) (g)": "226.0"
+        },
+        "170": {
+            "Internal Resistance (mΩ)": "86.0",
+            "Weight (incl. Cable) (g)": "226.0"
+        },
+        "270": {
+            "Internal Resistance (mΩ)": "42.5",
+            "Weight (incl. Cable) (g)": "225.0"
+        },
+        "320": {
+            "Weight (incl. Cable) (g)": "226.0"
+        },
+        "380": {
+            "Internal Resistance (mΩ)": "30.0",
+            "Weight (incl. Cable) (g)": "220.0"
+        },
+        "420": {
+            "Internal Resistance (mΩ)": "25.0",
+            "Weight (incl. Cable) (g)": "230.0"
+        }
+    }
+}
