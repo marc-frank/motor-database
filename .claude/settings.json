@@ -1,12 +1,28 @@
 {
   "permissions": {
     "allow": [
+      "Agent",
       "Bash",
-      "Read",
       "Edit",
-      "Write",
+      "Glob",
+      "Grep",
+      "Monitor",
+      "NotebookEdit",
+      "Read",
+      "ScheduleWakeup",
+      "SendUserFile",
+      "Skill",
+      "TaskCreate",
+      "TaskGet",
+      "TaskList",
+      "TaskStop",
+      "TaskUpdate",
+      "ToolSearch",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "Write",
+      "mcp__claude-code-remote",
+      "mcp__github"
     ]
   }
 }
