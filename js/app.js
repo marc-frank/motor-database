@@ -100,7 +100,7 @@
         var base = hash === -1 ? link : link.slice(0, hash);
         var frag = hash === -1 ? "" : link.slice(hash);
         var sep = base.indexOf("?") === -1 ? "?" : /[?&]$/.test(base) ? "" : "&";
-        return base + sep + "utm_source=motor-database&utm_medium=referral" + frag;
+        return base + sep + "utm_source=marc-frank.github.io/motor-database&utm_medium=referral" + frag;
     }
 
     function hostOf(link) {

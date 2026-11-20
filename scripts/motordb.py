@@ -197,7 +197,7 @@ def out_link(url):
         return url
     base, hash_, frag = url.partition("#")
     sep = "?" if "?" not in base else "" if base.endswith(("?", "&")) else "&"
-    return base + sep + "utm_source=motor-database&utm_medium=referral" + hash_ + frag
+    return base + sep + "utm_source=marc-frank.github.io/motor-database&utm_medium=referral" + hash_ + frag
 
 
 def to_html(rows, columns, n_models):
