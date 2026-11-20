@@ -23,7 +23,7 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "15.9",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "30",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.5",
@@ -37,8 +37,8 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "12.0",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
     "Link": "https://www.racedayquads.com/products/rcinpower-gts-v3-2104-light-1800kv-motor-choose-color",
     "Per-KV Values": {
         "1800": {

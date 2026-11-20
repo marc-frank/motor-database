@@ -22,9 +22,9 @@
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "20",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "30",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
@@ -37,16 +37,18 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
     "Link": "https://pyrodrone.com/products/rcinpower-gts-v3-2105-plus-m5-mount-1850kv-motor-gunmetal-gold",
     "Per-KV Values": {
         "1850": {
-            "Internal Resistance (mΩ)": "160.0"
+            "Internal Resistance (mΩ)": "160.0",
+            "Weight (incl. Cable) (g)": "20"
         },
         "2950": {
-            "Internal Resistance (mΩ)": "60.0"
+            "Internal Resistance (mΩ)": "60.0",
+            "Weight (incl. Cable) (g)": "21"
         },
         "3600": {
             "Internal Resistance (mΩ)": "45.0"
