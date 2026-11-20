@@ -22,12 +22,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "48.5",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "300",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,8 +37,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/new-xnova-2806-5-freestyle-smooth-line-motor-series-1300kv_1700kv_1900kv/"
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.xnovamotors.com/new-xnova-2806-5-freestyle-smooth-line-motor-series-1300kv_1700kv_1900kv/",
+    "Per-KV Values": {
+        "1300": {
+            "Internal Resistance (mΩ)": "95.0",
+            "Weight (incl. Cable) (g)": "48.5"
+        },
+        "1700": {
+            "Internal Resistance (mΩ)": "65.0",
+            "Weight (incl. Cable) (g)": "48.5"
+        },
+        "1900": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Weight (incl. Cable) (g)": "49.0"
+        }
+    }
 }

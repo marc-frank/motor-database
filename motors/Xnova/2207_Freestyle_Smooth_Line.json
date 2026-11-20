@@ -28,7 +28,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -44,16 +44,20 @@
     "Link": "https://www.xnovamotors.com/new-xnova-2207-freestyle-smooth-line-motor-series-1700kv_1850kv_2400kv_2750kv/",
     "Per-KV Values": {
         "1700": {
-            "Internal Resistance (mΩ)": "96.0"
+            "Internal Resistance (mΩ)": "96.0",
+            "Weight (incl. Cable) (g)": "34.6"
         },
         "1850": {
-            "Internal Resistance (mΩ)": "80.0"
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (incl. Cable) (g)": "35.2"
         },
         "2400": {
-            "Internal Resistance (mΩ)": "52.0"
+            "Internal Resistance (mΩ)": "52.0",
+            "Weight (incl. Cable) (g)": "35.0"
         },
         "2750": {
-            "Internal Resistance (mΩ)": "42.0"
+            "Internal Resistance (mΩ)": "42.0",
+            "Weight (incl. Cable) (g)": "35.2"
         }
     }
 }

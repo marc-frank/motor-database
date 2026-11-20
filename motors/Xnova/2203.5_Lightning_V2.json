@@ -24,21 +24,35 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable length (mm)": "60",
+    "Cable Gauge (AWG)": "22",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
-    "Shaft Material": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Titanium",
     "Shaft Retention": "",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-lightning-2203-5-v2-fpv-motor-series/"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.xnovamotors.com/xnova-lightning-2203-5-v2-fpv-motor-series/",
+    "Per-KV Values": {
+        "2800": {
+            "Internal Resistance (mΩ)": "70.0",
+            "Weight (incl. Cable) (g)": "19.0"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "105.0",
+            "Weight (incl. Cable) (g)": "21.0"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "190.0",
+            "Weight (incl. Cable) (g)": "20.5"
+        }
+    }
 }

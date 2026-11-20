@@ -29,7 +29,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -42,5 +42,27 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.xnovamotors.com/new-xnova-2207-freestyle-hard-line-motor-series-1650kv_1800kv_2150_2450kv_2600kv/"
+    "Link": "https://www.xnovamotors.com/new-xnova-2207-freestyle-hard-line-motor-series-1650kv_1800kv_2150_2450kv_2600kv/",
+    "Per-KV Values": {
+        "1650": {
+            "Internal Resistance (mΩ)": "76.0",
+            "Weight (incl. Cable) (g)": "33.5"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "63.0",
+            "Weight (incl. Cable) (g)": "33.6"
+        },
+        "2150": {
+            "Internal Resistance (mΩ)": "55.0",
+            "Weight (incl. Cable) (g)": "33.5"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "42.0",
+            "Weight (incl. Cable) (g)": "33.7"
+        },
+        "2600": {
+            "Internal Resistance (mΩ)": "40.5",
+            "Weight (incl. Cable) (g)": "33.2"
+        }
+    }
 }

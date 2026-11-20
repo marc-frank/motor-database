@@ -26,12 +26,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "36.8",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "200",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -41,8 +41,38 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-2208-v2n-lightning-motor-series-2000_1500_1700kv_1900kv_2300kv_2500kv-and-2700kv/"
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.xnovamotors.com/xnova-2208-v2n-lightning-motor-series-2000_1500_1700kv_1900kv_2300kv_2500kv-and-2700kv/",
+    "Per-KV Values": {
+        "1500": {
+            "Internal Resistance (mΩ)": "78.0",
+            "Weight (incl. Cable) (g)": "36.5"
+        },
+        "1700": {
+            "Internal Resistance (mΩ)": "66.0",
+            "Weight (incl. Cable) (g)": "37.3"
+        },
+        "1900": {
+            "Internal Resistance (mΩ)": "58.0",
+            "Weight (incl. Cable) (g)": "36.8"
+        },
+        "2000": {
+            "Internal Resistance (mΩ)": "55.0",
+            "Weight (incl. Cable) (g)": "37.7"
+        },
+        "2300": {
+            "Internal Resistance (mΩ)": "45.0",
+            "Weight (incl. Cable) (g)": "36.8"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "40.0",
+            "Weight (incl. Cable) (g)": "36.6"
+        },
+        "2700": {
+            "Internal Resistance (mΩ)": "36.0",
+            "Weight (incl. Cable) (g)": "36.6"
+        }
+    }
 }

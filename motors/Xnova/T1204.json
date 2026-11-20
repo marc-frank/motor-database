@@ -27,7 +27,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,8 +37,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/new-xnova-fpv-t1204-motor-series-4000kv_5000kv/"
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.xnovamotors.com/new-xnova-fpv-t1204-motor-series-4000kv_5000kv/",
+    "Per-KV Values": {
+        "4000": {
+            "Internal Resistance (mΩ)": "350.0",
+            "Weight (incl. Cable) (g)": "6.1"
+        },
+        "5000": {
+            "Internal Resistance (mΩ)": "250.0",
+            "Weight (incl. Cable) (g)": "6.1"
+        },
+        "6000": {
+            "Internal Resistance (mΩ)": "180.0",
+            "Weight (incl. Cable) (g)": "6.5"
+        }
+    }
 }

@@ -5,7 +5,7 @@
     "Price ($)": "",
     "Stator Diameter (mm)": "40.0",
     "Stator Height (mm)": "30.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "24N8P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -28,18 +28,36 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-motors-4030/"
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0",
+    "Number of Mounting Screws": "2, 2",
+    "Mounting Screw Thread": "M4, M4",
+    "Link": "https://www.xnovamotors.com/xnova-motors-4030/",
+    "Per-KV Values": {
+        "350": {
+            "Internal Resistance (mΩ)": "37.0",
+            "Weight (incl. Cable) (g)": "440.0"
+        },
+        "470": {
+            "Internal Resistance (mΩ)": "22.0",
+            "Weight (incl. Cable) (g)": "445.0"
+        },
+        "560": {
+            "Internal Resistance (mΩ)": "18.0",
+            "Weight (incl. Cable) (g)": "431.0"
+        },
+        "710": {
+            "Internal Resistance (mΩ)": "11.9",
+            "Weight (incl. Cable) (g)": "432.0"
+        }
+    }
 }

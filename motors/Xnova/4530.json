@@ -5,7 +5,7 @@
     "Price ($)": "",
     "Stator Diameter (mm)": "45.0",
     "Stator Height (mm)": "30.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N10P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -21,23 +21,31 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "535.0",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-motors-4530/"
+    "Link": "https://www.xnovamotors.com/xnova-motors-4530/",
+    "Per-KV Values": {
+        "450": {
+            "Internal Resistance (mΩ)": "13.0"
+        },
+        "500": {
+            "Internal Resistance (mΩ)": "10.0"
+        }
+    }
 }

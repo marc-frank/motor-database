@@ -28,7 +28,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -38,8 +38,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/v2-xnova-2207-lightning-racing-motor-series/"
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.xnovamotors.com/v2-xnova-2207-lightning-racing-motor-series/",
+    "Per-KV Values": {
+        "1700": {
+            "Internal Resistance (mΩ)": "70.0"
+        },
+        "1900": {
+            "Internal Resistance (mΩ)": "60.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "38.0"
+        },
+        "2700": {
+            "Internal Resistance (mΩ)": "34.0"
+        }
+    }
 }

@@ -25,12 +25,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "34.5",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -43,5 +43,25 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.xnovamotors.com/new-xnova-2207-freestyle-hardline-v2-motor-series-1650kv_1800kv_1900kv_2150_2450kv_2600kv/"
+    "Link": "https://www.xnovamotors.com/new-xnova-2207-freestyle-hardline-v2-motor-series-1650kv_1800kv_1900kv_2150_2450kv_2600kv/",
+    "Per-KV Values": {
+        "1650": {
+            "Internal Resistance (mΩ)": "80.0"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "68.0"
+        },
+        "1900": {
+            "Internal Resistance (mΩ)": "60.0"
+        },
+        "2150": {
+            "Internal Resistance (mΩ)": "55.0"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "45.0"
+        },
+        "2600": {
+            "Internal Resistance (mΩ)": "40.0"
+        }
+    }
 }

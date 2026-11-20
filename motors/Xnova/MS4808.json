@@ -28,7 +28,7 @@
     "Cable length (mm)": "60",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "4.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -38,9 +38,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "19.0, 25.0, 32.0",
+    "Number of Mounting Screws": "4, 3",
+    "Mounting Screw Thread": "M3, M2.5",
     "Link": "https://www.xnovamotors.com/xnova-4808-series/",
     "Per-KV Values": {
         "380": {

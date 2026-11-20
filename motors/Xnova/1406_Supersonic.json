@@ -22,12 +22,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "14.0",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,8 +37,19 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/new-xnova-1406-racing-motor-series/"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.xnovamotors.com/new-xnova-1406-racing-motor-series/",
+    "Per-KV Values": {
+        "3100": {
+            "Internal Resistance (mΩ)": "180.0"
+        },
+        "3500": {
+            "Internal Resistance (mΩ)": "160.0"
+        },
+        "4000": {
+            "Internal Resistance (mΩ)": "120.0"
+        }
+    }
 }

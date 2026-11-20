@@ -28,10 +28,10 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "115",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -44,5 +44,31 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.xnovamotors.com/new-xnova-2207-lite-racing-line-motor-series-1700kv_1800kv_2400kv_2700kv/"
+    "Link": "https://www.xnovamotors.com/new-xnova-2207-lite-racing-line-motor-series-1700kv_1800kv_2400kv_2700kv/",
+    "Per-KV Values": {
+        "1700": {
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (incl. Cable) (g)": "29.8"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "68.0",
+            "Weight (incl. Cable) (g)": "29.9"
+        },
+        "1950": {
+            "Internal Resistance (mΩ)": "60.0",
+            "Weight (incl. Cable) (g)": "29.8"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "52.0",
+            "Weight (incl. Cable) (g)": "29.8"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "41.0",
+            "Weight (incl. Cable) (g)": "30.0"
+        },
+        "2700": {
+            "Internal Resistance (mΩ)": "35.0",
+            "Weight (incl. Cable) (g)": "30.0"
+        }
+    }
 }

@@ -24,10 +24,10 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "80.0",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "260",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,8 +37,19 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/new-xnova-2812-freestyle-smooth-line-motor-series-1100kv/"
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.xnovamotors.com/new-xnova-2812-freestyle-smooth-line-motor-series-1100kv/",
+    "Per-KV Values": {
+        "900": {
+            "Internal Resistance (mΩ)": "70.0"
+        },
+        "1100": {
+            "Internal Resistance (mΩ)": "60.0"
+        },
+        "1300": {
+            "Internal Resistance (mΩ)": "40.0"
+        }
+    }
 }

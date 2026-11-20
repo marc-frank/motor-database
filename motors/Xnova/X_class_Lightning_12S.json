@@ -21,12 +21,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "320.0",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "750",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "Hollow",
     "Shaft Material": "Steel",
@@ -36,8 +36,16 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-x_class-lightning-racing-motor-series/"
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://www.xnovamotors.com/xnova-x_class-lightning-racing-motor-series/",
+    "Per-KV Values": {
+        "350": {
+            "Internal Resistance (mΩ)": "40.0"
+        },
+        "420": {
+            "Internal Resistance (mΩ)": "35.0"
+        }
+    }
 }

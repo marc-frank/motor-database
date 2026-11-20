@@ -23,12 +23,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "125.0",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "300",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -38,8 +38,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/new-xnova-3215-cinelifter-line-motor-series-1050kv_800kv_700kv_430kv/"
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.xnovamotors.com/new-xnova-3215-cinelifter-line-motor-series-1050kv_800kv_700kv_430kv/",
+    "Per-KV Values": {
+        "1050": {
+            "Internal Resistance (mΩ)": "38.0"
+        },
+        "800": {
+            "Internal Resistance (mΩ)": "46.0"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "56.0"
+        },
+        "430": {
+            "Internal Resistance (mΩ)": "120.0"
+        }
+    }
 }

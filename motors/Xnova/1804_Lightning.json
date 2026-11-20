@@ -25,10 +25,10 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "100",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -38,8 +38,26 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-1804-lightning-racing-motor-series/"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.xnovamotors.com/xnova-1804-lightning-racing-motor-series/",
+    "Per-KV Values": {
+        "3100": {
+            "Internal Resistance (mΩ)": "123.0",
+            "Weight (incl. Cable) (g)": "15.4"
+        },
+        "3500": {
+            "Internal Resistance (mΩ)": "105.0",
+            "Weight (incl. Cable) (g)": "15.1"
+        },
+        "2400": {
+            "Internal Resistance (mΩ)": "185.0",
+            "Weight (incl. Cable) (g)": "16.0"
+        },
+        "2800": {
+            "Internal Resistance (mΩ)": "150.0",
+            "Weight (incl. Cable) (g)": "15.8"
+        }
+    }
 }

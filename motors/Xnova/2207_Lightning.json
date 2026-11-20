@@ -29,18 +29,40 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
-    "Shaft Material": "",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Titanium",
     "Shaft Retention": "",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.xnovamotors.com/xnova-2207-lightning-racing-motor-series/"
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.xnovamotors.com/xnova-2207-lightning-racing-motor-series/",
+    "Per-KV Values": {
+        "1650": {
+            "Internal Resistance (mΩ)": "75.0",
+            "Weight (incl. Cable) (g)": "33.5"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "60.0",
+            "Weight (incl. Cable) (g)": "33.5"
+        },
+        "2300": {
+            "Internal Resistance (mΩ)": "45.0",
+            "Weight (incl. Cable) (g)": "32.0"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "40.0",
+            "Weight (incl. Cable) (g)": "32.0"
+        },
+        "2600": {
+            "Internal Resistance (mΩ)": "36.0",
+            "Weight (incl. Cable) (g)": "32.0"
+        }
+    }
 }
