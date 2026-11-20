@@ -14,7 +14,7 @@
         "205",
         "175"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -41,15 +41,15 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "175": {
-            "Internal Resistance (m\u03a9)": "29",
-            "Weight (incl. Cable) (g)": "610",
-            "Link": "https://www.hacker-motor-shop.com/Q80-13S-28-Pole-kv175.htm?ProdNr=38798470&a=article&p=2986"
-        },
         "205": {
-            "Internal Resistance (m\u03a9)": "20",
+            "Internal Resistance (mΩ)": "20",
             "Weight (incl. Cable) (g)": "630",
             "Link": "https://www.hacker-motor-shop.com/Q80-11S-28-Pole-kv205-F3A.htm?a=article&ProdNr=38798520&p=2986"
+        },
+        "175": {
+            "Internal Resistance (mΩ)": "29",
+            "Weight (incl. Cable) (g)": "610",
+            "Link": "https://www.hacker-motor-shop.com/Q80-13S-28-Pole-kv175.htm?ProdNr=38798470&a=article&p=2986"
         }
     }
 }

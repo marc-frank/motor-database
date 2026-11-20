@@ -15,7 +15,7 @@
         "190",
         "170"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -42,17 +42,17 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "170": {
-            "Internal Resistance (m\u03a9)": "32",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-20-M-V4-kv170.htm?ProdNr=33726631&a=article&p=7013"
+        "215": {
+            "Internal Resistance (mΩ)": "22",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-16-M-V4-kv215.htm?a=article&ProdNr=33726627&p=7013"
         },
         "190": {
-            "Internal Resistance (m\u03a9)": "27",
+            "Internal Resistance (mΩ)": "27",
             "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-18-M-V4-kv190.htm?ProdNr=33726630&a=article&p=7013"
         },
-        "215": {
-            "Internal Resistance (m\u03a9)": "22",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-16-M-V4-kv215.htm?a=article&ProdNr=33726627&p=7013"
+        "170": {
+            "Internal Resistance (mΩ)": "32",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-20-M-V4-kv170.htm?ProdNr=33726631&a=article&p=7013"
         }
     }
 }

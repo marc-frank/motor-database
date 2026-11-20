@@ -14,7 +14,7 @@
         "295",
         "215"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -41,13 +41,13 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "215": {
-            "Internal Resistance (m\u03a9)": "26",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-7S-V4-28-Pole-kv215.htm?ProdNr=33726635&a=article&p=7013"
-        },
         "295": {
-            "Internal Resistance (m\u03a9)": "15",
+            "Internal Resistance (mΩ)": "15",
             "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5S-V4-28-Pole-kv295.htm?a=article&ProdNr=33726632&p=7013"
+        },
+        "215": {
+            "Internal Resistance (mΩ)": "26",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-7S-V4-28-Pole-kv215.htm?ProdNr=33726635&a=article&p=7013"
         }
     }
 }

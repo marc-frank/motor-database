@@ -15,7 +15,7 @@
         "300",
         "265"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -42,14 +42,14 @@
     "Mounting Screw Thread": "",
     "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A50/A50-14pol/A50-12-L-V4-kv355.htm?a=article&ProdNr=15726840&p=6681",
     "Per-KV Values": {
-        "265": {
-            "Internal Resistance (m\u03a9)": "31"
+        "355": {
+            "Internal Resistance (mΩ)": "21"
         },
         "300": {
-            "Internal Resistance (m\u03a9)": "25"
+            "Internal Resistance (mΩ)": "25"
         },
-        "355": {
-            "Internal Resistance (m\u03a9)": "21"
+        "265": {
+            "Internal Resistance (mΩ)": "31"
         }
     }
 }

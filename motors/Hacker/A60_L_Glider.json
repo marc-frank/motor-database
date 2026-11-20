@@ -14,7 +14,7 @@
         "168",
         "149"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -41,11 +41,11 @@
     "Mounting Screw Thread": "",
     "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Glider-FES/A60-16-L-Glider-kv168.htm?a=article&ProdNr=15729607&p=7012",
     "Per-KV Values": {
-        "149": {
-            "Internal Resistance (m\u03a9)": "20"
-        },
         "168": {
-            "Internal Resistance (m\u03a9)": "18"
+            "Internal Resistance (mΩ)": "18"
+        },
+        "149": {
+            "Internal Resistance (mΩ)": "20"
         }
     }
 }

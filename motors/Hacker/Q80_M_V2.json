@@ -16,7 +16,7 @@
         "160",
         "135"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -43,22 +43,22 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "135": {
-            "Internal Resistance (m\u03a9)": "21",
-            "Link": "https://www.hacker-motor-shop.com/Q80-11M-V2-kv135.htm?ProdNr=37418023&a=article&p=2986"
-        },
-        "160": {
-            "Internal Resistance (m\u03a9)": "15",
-            "Link": "https://www.hacker-motor-shop.com/Q80-9M-V2-kv160.htm?ProdNr=37418022&a=article&p=2986"
+        "210": {
+            "Internal Resistance (mΩ)": "10",
+            "Link": "https://www.hacker-motor-shop.com/Q80-7M-V2-kv210.htm?a=article&ProdNr=37418020&p=2986"
         },
         "180": {
-            "Internal Resistance (m\u03a9)": "13",
+            "Internal Resistance (mΩ)": "13",
             "Shaft Diameter (external) (mm)": "10.0",
             "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-q80-8m-v2-kv180.htm?ProdNr=37418021&a=article&p=2986"
         },
-        "210": {
-            "Internal Resistance (m\u03a9)": "10",
-            "Link": "https://www.hacker-motor-shop.com/Q80-7M-V2-kv210.htm?a=article&ProdNr=37418020&p=2986"
+        "160": {
+            "Internal Resistance (mΩ)": "15",
+            "Link": "https://www.hacker-motor-shop.com/Q80-9M-V2-kv160.htm?ProdNr=37418022&a=article&p=2986"
+        },
+        "135": {
+            "Internal Resistance (mΩ)": "21",
+            "Link": "https://www.hacker-motor-shop.com/Q80-11M-V2-kv135.htm?ProdNr=37418023&a=article&p=2986"
         }
     }
 }

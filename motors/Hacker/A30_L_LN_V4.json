@@ -14,7 +14,7 @@
         "1000",
         "800"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -41,13 +41,13 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "800": {
-            "Internal Resistance (m\u03a9)": "36",
-            "Link": "https://www.hacker-motor-shop.com/A30-14-L-LN-V4-kv800.htm?ProdNr=10109253&a=article&p=1228"
-        },
         "1000": {
-            "Internal Resistance (m\u03a9)": "30",
+            "Internal Resistance (mΩ)": "30",
             "Link": "https://www.hacker-motor-shop.com/A30-12-L-LN-V4-kv1000.htm?a=article&ProdNr=10109252&p=1228"
+        },
+        "800": {
+            "Internal Resistance (mΩ)": "36",
+            "Link": "https://www.hacker-motor-shop.com/A30-14-L-LN-V4-kv800.htm?ProdNr=10109253&a=article&p=1228"
         }
     }
 }

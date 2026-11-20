@@ -14,7 +14,7 @@
         "1500",
         "1088"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -41,11 +41,11 @@
     "Mounting Screw Thread": "",
     "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a20-34-s-evo-kv1500.htm?a=article&ProdNr=97800002&p=1157",
     "Per-KV Values": {
-        "1088": {
-            "Internal Resistance (m\u03a9)": "232"
-        },
         "1500": {
-            "Internal Resistance (m\u03a9)": "147"
+            "Internal Resistance (mΩ)": "147"
+        },
+        "1088": {
+            "Internal Resistance (mΩ)": "232"
         }
     }
 }

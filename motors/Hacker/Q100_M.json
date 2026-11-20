@@ -16,7 +16,7 @@
         "126",
         "110"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -43,21 +43,21 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "110": {
-            "Internal Resistance (m\u03a9)": "10.6",
-            "Link": "https://www.hacker-motor-shop.com/Q100-9M-kv110.htm?ProdNr=19990926&a=article&p=8589"
-        },
-        "126": {
-            "Internal Resistance (m\u03a9)": "8.6",
-            "Link": "https://www.hacker-motor-shop.com/Q100-8M-kv126.htm?ProdNr=19990826&a=article&p=8589"
+        "168": {
+            "Internal Resistance (mΩ)": "4.9",
+            "Link": "https://www.hacker-motor-shop.com/Q100-6M-kv168.htm?a=article&ProdNr=19990626&p=8589"
         },
         "140": {
-            "Internal Resistance (m\u03a9)": "6.6",
+            "Internal Resistance (mΩ)": "6.6",
             "Link": "https://www.hacker-motor-shop.com/Q100-7M-kv140.htm?ProdNr=19990726&a=article&p=8589"
         },
-        "168": {
-            "Internal Resistance (m\u03a9)": "4.9",
-            "Link": "https://www.hacker-motor-shop.com/Q100-6M-kv168.htm?a=article&ProdNr=19990626&p=8589"
+        "126": {
+            "Internal Resistance (mΩ)": "8.6",
+            "Link": "https://www.hacker-motor-shop.com/Q100-8M-kv126.htm?ProdNr=19990826&a=article&p=8589"
+        },
+        "110": {
+            "Internal Resistance (mΩ)": "10.6",
+            "Link": "https://www.hacker-motor-shop.com/Q100-9M-kv110.htm?ProdNr=19990926&a=article&p=8589"
         }
     }
 }

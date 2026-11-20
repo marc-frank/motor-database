@@ -15,7 +15,7 @@
         "165",
         "140"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -42,15 +42,15 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "140": {
-            "Link": "https://www.hacker-motor-shop.com/Q80-7L-V2-HD-kv140.htm?ProdNr=10109880&a=article&p=2986"
-        },
         "165": {
-            "Internal Resistance (m\u03a9)": "9",
+            "Internal Resistance (mΩ)": "9",
             "Link": "https://www.hacker-motor-shop.com/Q80-6L-V2-HD-kv165.htm?ProdNr=37418032&a=article&p=2986"
         },
         "200": {
             "Link": "https://www.hacker-motor-shop.com/Q80-5L-V2-HD-kv200.htm?a=article&ProdNr=10109879&p=2986"
+        },
+        "140": {
+            "Link": "https://www.hacker-motor-shop.com/Q80-7L-V2-HD-kv140.htm?ProdNr=10109880&a=article&p=2986"
         }
     }
 }

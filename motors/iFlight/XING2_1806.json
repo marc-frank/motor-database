@@ -14,7 +14,7 @@
         "1600",
         "2500"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -42,10 +42,10 @@
     "Link": "https://shop.iflight.com/motors-cat88/xing2-1806-fpv-motor-1-5mm-shaft-pro1466",
     "Per-KV Values": {
         "1600": {
-            "Internal Resistance (m\u03a9)": "320.0"
+            "Internal Resistance (mΩ)": "320.0"
         },
         "2500": {
-            "Internal Resistance (m\u03a9)": "124.5"
+            "Internal Resistance (mΩ)": "124.5"
         }
     }
 }

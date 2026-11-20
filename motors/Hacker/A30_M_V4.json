@@ -14,7 +14,7 @@
         "1370",
         "1060"
     ],
-    "Internal Resistance (m\u03a9)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -41,13 +41,13 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "1060": {
-            "Internal Resistance (m\u03a9)": "38",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-16-M-V4-kv1060.htm?ProdNr=15716112&a=article&p=6514"
-        },
         "1370": {
-            "Internal Resistance (m\u03a9)": "22",
+            "Internal Resistance (mΩ)": "22",
             "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-M-V4-kv1370.htm?a=article&ProdNr=15716113&p=6514"
+        },
+        "1060": {
+            "Internal Resistance (mΩ)": "38",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-16-M-V4-kv1060.htm?ProdNr=15716112&a=article&p=6514"
         }
     }
 }
