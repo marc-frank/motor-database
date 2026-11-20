@@ -20,9 +20,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -35,12 +35,30 @@
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
-    "Bearing Outer Diameter": "",
-    "Bearing Inner Diameter": "",
-    "Bearing Thickness": "",
+    "Bearing Outer Diameter": "9.0",
+    "Bearing Inner Diameter": "4.0",
+    "Bearing Thickness": "4.0",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.diatone.us/collections/motor/products/mamba-toka-2203-5-1650kv-2650kv-3300kv-racing-motor-green"
+    "Link": "https://www.diatone.us/collections/motor/products/mamba-toka-2203-5-1650kv-2650kv-3300kv-racing-motor-green",
+    "Per-KV Values": {
+        "1650": {
+            "Internal Resistance (mΩ)": "232",
+            "Weight (incl. Cable) (g)": "20.8"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "160"
+        },
+        "2650": {
+            "Internal Resistance (mΩ)": "120"
+        },
+        "3300": {
+            "Internal Resistance (mΩ)": "80"
+        },
+        "4200": {
+            "Internal Resistance (mΩ)": "65"
+        }
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "Image": "https://www.team-blacksheep.com/img/gallery/AXIS AF310_4.jpg",
+    "Image": "https://www.team-blacksheep.com/img/gallery/AXIS%20AF310_4.jpg",
     "Manufacturer": "TBS",
     "Name": "Axis AF310 3010",
     "Price ($)": "32.90",
@@ -27,7 +27,7 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",

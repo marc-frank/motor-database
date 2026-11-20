@@ -19,11 +19,11 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "Al 7075",
     "Bell Type": "",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "15.5",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "24",
@@ -44,18 +44,12 @@
     "Link": "https://geprc.com/product/geprc-gep-gr1507-motor/",
     "Per-KV Values": {
         "2800": {
-            "Price ($)": "9.50",
             "Internal Resistance (mΩ)": "149.0"
         },
-        "3200": {
-            "Price ($)": "9.50"
-        },
         "3600": {
-            "Price ($)": "14.50",
             "Internal Resistance (mΩ)": "104.0"
         },
         "4200": {
-            "Price ($)": "14.50",
             "Internal Resistance (mΩ)": "96.0"
         }
     }

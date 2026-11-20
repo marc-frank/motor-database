@@ -1,16 +1,20 @@
 {
-    "Image": "",
+    "Image": "https://www.rcinpower.com/upload/2020-10/13/4715chanpinyemian1_01.jpg",
     "Manufacturer": "RCinPower",
-    "Name": "",
+    "Name": "GTS4715",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "47.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "360",
+        "490",
+        "650"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,17 +22,17 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "275",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "8.0",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -36,5 +40,16 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.rcinpower.com/G-SERIES/2020/10-13/30.html"
+    "Link": "https://www.rcinpower.com/G-SERIES/2020/10-13/30.html",
+    "Per-KV Values": {
+        "360": {
+            "Internal Resistance (mΩ)": "28.0"
+        },
+        "490": {
+            "Internal Resistance (mΩ)": "20.0"
+        },
+        "650": {
+            "Internal Resistance (mΩ)": "14.0"
+        }
+    }
 }

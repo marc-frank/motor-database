@@ -32,7 +32,7 @@
     "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -40,16 +40,5 @@
     "Mounting Pattern Diameter (mm)": "9.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://geprc.com/product/geprc-gr1202-6000kv-8000kv-10000kv/",
-    "Per-KV Values": {
-        "6000": {
-            "Price ($)": "7.14"
-        },
-        "8000": {
-            "Price ($)": "11.90"
-        },
-        "10000": {
-            "Price ($)": "11.90"
-        }
-    }
+    "Link": "https://geprc.com/product/geprc-gr1202-6000kv-8000kv-10000kv/"
 }

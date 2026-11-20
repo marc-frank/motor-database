@@ -5,7 +5,7 @@
     "Price ($)": "",
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "7.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -13,21 +13,21 @@
     "KV (RPM/V)": [
         "1980"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "45",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "31",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.aos-rc.com/supernova-2207"
+    "Link": "https://www.aos-rc.com/designs/aos-supernova-2207-1980kv"
 }

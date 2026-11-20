@@ -27,7 +27,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "Solid",
     "Shaft Material": "",
@@ -37,16 +37,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://geprc.com/product/gr1102-motors/",
-    "Per-KV Values": {
-        "10000": {
-            "Price ($)": "9.99"
-        },
-        "11000": {
-            "Price ($)": "4.99"
-        }
-    }
+    "Mounting Pattern Diameter (mm)": "6.6, 9.0",
+    "Number of Mounting Screws": "3, 4",
+    "Mounting Screw Thread": "M1.4, M2",
+    "Link": "https://geprc.com/product/gr1102-motors/"
 }

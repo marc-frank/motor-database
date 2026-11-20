@@ -18,7 +18,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "Al 7075",
     "Bell Type": "",
     "Bell Material": "Al 7075",
@@ -43,16 +43,13 @@
     "Link": "",
     "Per-KV Values": {
         "2500": {
-            "Price ($)": "9.90",
             "Link": "https://geprc.com/product/geprc-gr1408-2500kv-motor/"
         },
         "3500": {
-            "Price ($)": "14.89",
             "Internal Resistance (mΩ)": "98.0",
             "Link": "https://geprc.com/product/gep-gr1408-3500kv/"
         },
         "3750": {
-            "Price ($)": "14.89",
             "Internal Resistance (mΩ)": "92.0",
             "Link": "https://geprc.com/product/geprc-gep-gr1408-3750kv/"
         }

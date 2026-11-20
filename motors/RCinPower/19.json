@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.rcinpower.com/upload/2016-10/21/QAV2206chanpinyemian_01.jpg",
     "Manufacturer": "RCinPower",
-    "Name": "",
+    "Name": "QAV2206",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "1900",
+        "2200"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,23 +21,31 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "29",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "",
-    "Shaft Material": "",
+    "Shaft Material": "Steel",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.rcinpower.com/QAV-SERIES/2016/12-16/19.html"
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "https://www.rcinpower.com/QAV-SERIES/2016/12-16/19.html",
+    "Per-KV Values": {
+        "1900": {
+            "Internal Resistance (mΩ)": "90.0"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "65.0"
+        }
+    }
 }

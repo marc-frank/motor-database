@@ -13,14 +13,15 @@
     "KV (RPM/V)": [
         "1650",
         "1850",
-        "2050"
+        "2050",
+        "2650"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "31",
     "Weight (excl. Cable) (g)": "",
@@ -31,7 +32,7 @@
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Screw",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -40,5 +41,10 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.axisflying.com/products/axisflying-fpv-brushless-motor-c246-2406-for-5-6-of-freestyle-sbang-cinematic-shooting-drone"
+    "Link": "https://www.axisflying.com/products/axisflying-fpv-brushless-motor-c246-2406-for-5-6-of-freestyle-sbang-cinematic-shooting-drone",
+    "Per-KV Values": {
+        "1650": {
+            "Internal Resistance (mΩ)": "69.8"
+        }
+    }
 }

@@ -31,7 +31,7 @@
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -43,17 +43,14 @@
     "Link": "",
     "Per-KV Values": {
         "1600": {
-            "Price ($)": "6.90",
             "Internal Resistance (mΩ)": "68.0",
             "Link": "https://geprc.com/product/gep-gr2306-1600kv-motors/"
         },
         "2450": {
-            "Price ($)": "11.94",
             "Internal Resistance (mΩ)": "33.0",
             "Link": "https://geprc.com/product/geprc-gep-gr2306-2450kv-motor/"
         },
         "2750": {
-            "Price ($)": "11.94",
             "Internal Resistance (mΩ)": "26.0",
             "Link": "https://geprc.com/product/geprc-gep-gr2306-2750kv-motor/"
         }

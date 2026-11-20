@@ -1,16 +1,19 @@
 {
-    "Image": "",
+    "Image": "https://www.rcinpower.com/upload/2020-10/13/1506V2chanpinyemiangai101_01.jpg",
     "Manufacturer": "RCinPower",
-    "Name": "",
+    "Name": "GTS V2 1506",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "15.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "3000",
+        "4300"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
@@ -18,23 +21,31 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "15.5",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.rcinpower.com/G-SERIES/2020/10-13/28.html"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.rcinpower.com/G-SERIES/2020/10-13/28.html",
+    "Per-KV Values": {
+        "3000": {
+            "Internal Resistance (mΩ)": "110.0"
+        },
+        "4300": {
+            "Internal Resistance (mΩ)": "55.0"
+        }
+    }
 }

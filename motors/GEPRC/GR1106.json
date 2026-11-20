@@ -18,12 +18,12 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "Al 6061",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
-    "Weight (excl. Cable) (g)": "7.1",
+    "Weight (incl. Cable) (g)": "7.1",
+    "Weight (excl. Cable) (g)": "6.8",
     "Cable length (mm)": "80.0",
     "Cable Gauge (AWG)": "28",
     "Connector": "",
@@ -43,17 +43,14 @@
     "Link": "",
     "Per-KV Values": {
         "4500": {
-            "Price ($)": "12.89",
             "Internal Resistance (mΩ)": "266.0",
             "Link": "https://geprc.com/product/geprc-gep-gr1106-4500kv-motor/"
         },
         "6000": {
-            "Price ($)": "7.73",
             "Internal Resistance (mΩ)": "170.0",
             "Link": "https://geprc.com/product/geprc-gep-gr1106-6000kv-motor/"
         },
         "7500": {
-            "Price ($)": "7.73",
             "Internal Resistance (mΩ)": "120.0",
             "Link": "https://geprc.com/product/geprc-gep-gr1106-7500kv-motor/"
         }
