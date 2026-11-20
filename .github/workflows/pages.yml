@@ -22,12 +22,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Build database.json from motors/
+      - name: Build database.json, database.csv and motors.html from motors/
         run: python3 scripts/motordb.py build
       - name: Assemble site
         run: |
           mkdir _site
-          cp -r index.html css js media database.json _site/
+          cp -r index.html css js media database.json database.csv motors.html motor.schema.json llms.txt _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

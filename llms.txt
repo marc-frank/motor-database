@@ -1,0 +1,28 @@
+# Motor Database
+
+> Open, community-maintained specifications of brushless motors (mostly FPV drone motors): stator size, KV, internal resistance, weight, shaft, bearings, mounting, price and product links.
+
+The website (index.html) is an interactive table that needs JavaScript. The same data is published as static files:
+
+- [database.json](database.json): every motor, one object per KV version. Fields and units are described in motor.schema.json. All values are strings; "" means unknown. "_file" is the source file in the GitHub repository.
+- [database.csv](database.csv): the same rows as CSV.
+- [motors.html](motors.html): the same rows as a plain HTML table (no JavaScript).
+- [motor.schema.json](motor.schema.json): field definitions and units.
+
+Values are the manufacturers' published specifications (product pages, spec sheets, product photos), not independent measurements.
+
+## Linking to a filtered view
+
+The interactive table reads filters from the URL:
+
+- `?search=2306 1950kv`: search all fields (every word must match)
+- `?<column>=<value>`: filter one column; the parameter is the column label in snake_case, e.g. `manufacturer`, `name`, `size`, `kv`, `price`, `stator_diameter`, `stator_height`, `stator_configuration`, `internal_resistance`, `weight_incl_cable`, `magnet_type`
+- Number columns take an exact value or a range: `1950`, `>1900`, `<=30`, `1700-2000`. `size` is the 4-digit stator code: `?size=2207` is exact, `?size=22` matches every size containing "22", `?size=2207-2306` is a range.
+- `?sort=kv` or `?sort=-price` (descending)
+
+Example: `?manufacturer=T-Motor&kv=1700-2000&size=>=2207&sort=price`
+
+## Source
+
+- [GitHub repository](https://github.com/marc-frank/motor-database): one JSON file per motor model in motors/<Manufacturer>/
+- [Contributing guide](https://github.com/marc-frank/motor-database/blob/main/.github/CONTRIBUTING.md)

@@ -1,3 +1,5 @@
 # Generated from motors/ by scripts/motordb.py build
 database.json
+database.csv
+motors.html
 __pycache__/

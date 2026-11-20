@@ -202,7 +202,7 @@
 
     // ---------- filtering & sorting ----------
 
-    // Per-column filter: numeric columns accept ">1900", "<=30", "1700-2000" or "=2207";
+    // Per-column filter: numeric columns accept "1950" (equals), ">1900", "<=30", "1700-2000";
     // anything else (and every text column) is a case-insensitive match on all space-separated words.
     function makeMatcher(c, query) {
         var q = query.trim().toLowerCase();
@@ -214,6 +214,8 @@
             var val = c.id === "size"
                 ? function (r) { return /^\d{4}$/.test(r._size) ? +r._size : null; }
                 : function (r) { return num(r[c.id]); };
+            // A bare number means "equals", except for Size, where "22" should find 2205, 2207, …
+            if (c.id !== "size" && new RegExp("^" + n + "$").test(q)) q = "=" + q;
             if ((m = q.match(new RegExp("^(<=|>=|<|>|=)\\s*" + n + "$")))) {
                 var x = num(m[2]), op = m[1];
                 return function (r) {
@@ -293,7 +295,7 @@
             .map(function (c) {
                 var cls = c.cls ? ' class="' + c.cls + '"' : "";
                 if (c.noFilter) return "<th" + cls + "></th>";
-                var tip = c.num ? "Text, or a range: >1900, <=30, 1700-2000, =2207" : "Matches every word typed";
+                var tip = c.num ? "A value (1950) or a range: >1900, <=30, 1700-2000" : "Matches every word typed";
                 return (
                     "<th" + cls + '><input type="search"' + (state.f[c.id] ? ' class="active"' : "") + ' data-filter="' + esc(c.id) + '" value="' + esc(state.f[c.id] || "") +
                     '" placeholder="filter" title="' + tip + '" aria-label="Filter ' + esc(c.label) + '" autocomplete="off" /></th>'
@@ -351,6 +353,7 @@
         $("tableWrap").scrollTop = 0;
         renderWindow(true);
         $("empty").hidden = filtered.length > 0;
+        if (!filtered.length) $("emptyText").textContent = "No motors match these filters.";
         renderStats();
     }
 
@@ -497,15 +500,31 @@
 
     // ---------- URL state ----------
 
-    // Filters live in the URL as ?q=…&f.<column>=…&sort=…, so a filtered view can be shared.
+    // Filters live in the URL so any view can be linked to, e.g.
+    //   ?search=2306  ?manufacturer=iFlight  ?kv=1700-2000  ?stator_diameter=23&stator_height=6  ?sort=-price
+    // Each column's parameter is its label in snake_case (see paramKey). Older forms (?q=, ?f.<column>=,
+    // ?mfr=, ?kvMin=…) are still read.
+    var PARAM_ALIASES = { motor: "name", stator: "size", mfr: "Manufacturer" };
+
+    function paramKey(c) {
+        if (c.id === "name") return "name";
+        return c.label.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
+    }
+
+    function colByParam(k) {
+        if (PARAM_ALIASES[k]) return col(PARAM_ALIASES[k]);
+        if (k.indexOf("f.") === 0) return col(k.slice(2));
+        for (var i = 0; i < columns.length; i++) if (paramKey(columns[i]) === k) return columns[i];
+        return null;
+    }
+
     function readUrl() {
         var p = new URLSearchParams(location.search);
-        if (p.has("q")) state.q = p.get("q");
+        state.q = p.get("search") || p.get("q") || "";
         p.forEach(function (v, k) {
-            if (k.indexOf("f.") === 0 && col(k.slice(2)) && v) state.f[k.slice(2)] = v;
+            var c = colByParam(k);
+            if (c && !c.noFilter && v) state.f[c.id] = v;
         });
-        // Older links: ?mfr=, ?kvMin= / ?kvMax=, ?sdMin= / ?sdMax=.
-        if (p.get("mfr")) state.f.Manufacturer = p.get("mfr");
         [["kv", "KV (RPM/V)"], ["sd", "Stator Diameter (mm)"]].forEach(function (o) {
             var lo = p.get(o[0] + "Min"), hi = p.get(o[0] + "Max");
             if (lo && hi) state.f[o[1]] = lo + "-" + hi;
@@ -514,23 +533,44 @@
         });
         if (p.has("sort")) {
             var s = p.get("sort");
-            sort = { id: s.replace(/^-/, ""), dir: s.charAt(0) === "-" ? -1 : 1 };
-            if (!col(sort.id)) sort = { id: null, dir: 1 };
+            var c = colByParam(s.replace(/^-/, "")) || col(s.replace(/^-/, ""));
+            sort = c ? { id: c.id, dir: s.charAt(0) === "-" ? -1 : 1 } : { id: null, dir: 1 };
         }
     }
 
     function writeUrl() {
         var p = new URLSearchParams();
-        if (state.q) p.set("q", state.q);
+        if (state.q) p.set("search", state.q);
         columns.forEach(function (c) {
-            if (state.f[c.id]) p.set("f." + c.id, state.f[c.id]);
+            if (state.f[c.id]) p.set(paramKey(c), state.f[c.id]);
         });
-        if (sort.id) p.set("sort", (sort.dir < 0 ? "-" : "") + sort.id);
+        if (sort.id) p.set("sort", (sort.dir < 0 ? "-" : "") + paramKey(col(sort.id)));
         var qs = p.toString();
         history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
     }
 
     // ---------- CSV ----------
+
+    function download(text, type, name) {
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(new Blob([text], { type: type }));
+        a.download = name;
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+    }
+
+    // The filtered rows exactly as in database.json (one object per KV version).
+    function exportJson() {
+        var out = filtered.map(function (r) {
+            var o = {};
+            Object.keys(r).forEach(function (k) {
+                if (k.charAt(0) !== "_") o[k] = r[k];
+            });
+            return o;
+        });
+        download(JSON.stringify(out, null, 2) + "\n", "application/json", "motors.json");
+    }
 
     function exportCsv() {
         var cols = columns.filter(function (c) { return c.id !== "image"; });
@@ -543,12 +583,7 @@
                 return l.map(function (v) { return /[",\n]/.test(v) ? '"' + String(v).replace(/"/g, '""') + '"' : v; }).join(",");
             })
             .join("\n");
-        var a = document.createElement("a");
-        a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
-        a.download = "motors.csv";
-        document.body.appendChild(a);
-        a.click();
-        setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+        download(csv, "text/csv", "motors.csv");
     }
 
     // ---------- events ----------
@@ -649,6 +684,7 @@
         });
 
         $("csv").addEventListener("click", exportCsv);
+        $("json").addEventListener("click", exportJson);
 
         $("themeToggle").addEventListener("click", function () {
             var cur = document.documentElement.getAttribute("data-theme");
@@ -726,6 +762,6 @@
         })
         .then(boot)
         .catch(function (err) {
-            $("loading").textContent = "Couldn't load the motor list (" + err.message + ").";
+            $("loadingText").textContent = "Couldn't load the interactive table (" + err.message + ").";
         });
 })();

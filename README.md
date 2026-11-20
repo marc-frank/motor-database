@@ -16,6 +16,18 @@ The Motor Database is an essential resource for engineers, hobbyists, and anyone
 
 Access the Motor Database through the [website](https://marc-frank.github.io/motor-database/). You can search for motors based on different criteria such as manufacturer, specifications, and more.
 
+## Data
+
+The complete data is published with the website, for scripts, spreadsheets and AI agents:
+
+- [database.json](https://marc-frank.github.io/motor-database/database.json) – every motor, one row per KV version
+- [database.csv](https://marc-frank.github.io/motor-database/database.csv) – the same as CSV
+- [motors.html](https://marc-frank.github.io/motor-database/motors.html) – the same as a plain HTML table (no JavaScript)
+- [motor.schema.json](motor.schema.json) – field definitions and units
+- [llms.txt](https://marc-frank.github.io/motor-database/llms.txt) – overview for AI agents, including URL filters such as `?manufacturer=iFlight&kv=1700-2000`
+
+Values are the manufacturers' published specifications, not independent measurements.
+
 ## Contributing
 
 Your contributions make the Motor Database richer and more accurate. Whether it's adding new motors, updating existing data, or suggesting features, all contributions are welcome. Each motor model is stored as its own JSON file in [`motors/`](motors/), grouped by manufacturer, with all of its KV options in one file; the website's `database.json` is generated from those files when the site is deployed. Check out the [Contribution Guidelines](.github/CONTRIBUTING.md) for more details on how you can contribute.

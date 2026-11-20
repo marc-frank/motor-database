@@ -5,16 +5,22 @@ Source of truth: motors/<Manufacturer>/<Motor>.json, one file per motor model.
 A file lists every KV option of the model in "KV (RPM/V)"; values that differ
 between KV options go in "Per-KV Values".
 
-database.json is generated from those files at deploy time (it is not committed)
-and is what the website loads. It has one flat row per KV option, plus a "_file" field
-pointing back at the motor file it came from.
+`build` generates, at deploy time (none of them are committed):
+- database.json: what the website loads. One flat row per KV option, plus a "_file"
+  field pointing back at the motor file it came from.
+- database.csv: the same rows as CSV.
+- motors.html: the same rows as a plain HTML table that works without JavaScript
+  (for crawlers, AI agents and screen readers).
 
 Usage:
     python3 scripts/motordb.py validate  # validate motors/ only
-    python3 scripts/motordb.py build     # validate motors/ and write database.json
+    python3 scripts/motordb.py build     # validate motors/ and write the files above
 
 Standard library only.
 """
+import csv
+import html
+import io
 import json
 import re
 import sys
@@ -24,6 +30,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MOTORS_DIR = ROOT / "motors"
 DATABASE = ROOT / "database.json"
+DATABASE_CSV = ROOT / "database.csv"
+STATIC_TABLE = ROOT / "motors.html"
 SCHEMA = ROOT / "motor.schema.json"
 
 KV = "KV (RPM/V)"
@@ -162,8 +170,74 @@ def cmd_build():
     _, columns = load_schema()
     rows = [dict(row, _file=rel) for rel, m in motors for row in expand(m, columns)]
     DATABASE.write_text(json.dumps(rows, indent=4, ensure_ascii=True) + "\n", encoding="utf-8")
-    print(f"Wrote {len(rows)} rows ({len(motors)} motor files) to {DATABASE.name}")
+    DATABASE_CSV.write_text(to_csv(rows, columns), encoding="utf-8")
+    STATIC_TABLE.write_text(to_html(rows, columns, len(motors)), encoding="utf-8")
+    print(f"Wrote {len(rows)} rows ({len(motors)} motor files) to {DATABASE.name}, {DATABASE_CSV.name} and {STATIC_TABLE.name}")
     return 0
+
+
+def to_csv(rows, columns):
+    out = io.StringIO()
+    w = csv.writer(out, lineterminator="\n")
+    w.writerow(columns)
+    w.writerows([[r[c] for c in columns] for r in rows])
+    return out.getvalue()
+
+
+DATA_NOTE = (
+    "Values are the manufacturers' published specifications, taken from product pages, spec sheets and product photos. "
+    "They are not independent measurements. Empty means unknown."
+)
+
+
+def to_html(rows, columns, n_models):
+    e = html.escape
+    shown = [c for c in columns if c != "Image"]
+
+    def cell(r, c):
+        v = r[c]
+        if c == "Link" and v:
+            return f'<td><a href="{e(v)}">product page</a></td>'
+        return f"<td>{e(v)}</td>"
+
+    head = "".join(f"<th>{e(c)}</th>" for c in shown)
+    body = "\n".join("<tr>" + "".join(cell(r, c) for c in shown) + "</tr>" for r in rows)
+    n_mfr = len({r["Manufacturer"] for r in rows})
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>All motors – Motor Database</title>
+<meta name="description" content="Specifications of {len(rows)} brushless motor KV versions ({n_models} models, {n_mfr} manufacturers) as one plain HTML table." />
+<link rel="alternate" type="application/json" href="database.json" title="Motor database (JSON)" />
+<link rel="alternate" type="text/csv" href="database.csv" title="Motor database (CSV)" />
+<style>
+body {{ font: 13px/1.4 system-ui, sans-serif; margin: 16px; }}
+table {{ border-collapse: collapse; }}
+th, td {{ border: 1px solid #ccc; padding: 3px 6px; white-space: nowrap; text-align: left; }}
+th {{ background: #f0f0f0; position: sticky; top: 0; }}
+</style>
+</head>
+<body>
+<h1>Motor Database: all motors</h1>
+<p>{len(rows)} rows, one per KV version, covering {n_models} motor models from {n_mfr} manufacturers.
+This page is a static, JavaScript-free copy of the data. For searching, filtering and sorting use the
+<a href="./">interactive table</a>.</p>
+<p>Data: <a href="database.json">database.json</a> (all rows) ·
+<a href="database.csv">database.csv</a> ·
+<a href="motor.schema.json">motor.schema.json</a> (field definitions and units) ·
+<a href="https://github.com/marc-frank/motor-database">source on GitHub</a></p>
+<p>{e(DATA_NOTE)}</p>
+<table>
+<thead><tr>{head}</tr></thead>
+<tbody>
+{body}
+</tbody>
+</table>
+</body>
+</html>
+"""
 
 
 if __name__ == "__main__":

@@ -39,13 +39,13 @@ If you have Git and Python 3 (no packages needed):
 git clone https://github.com/<you>/motor-database.git
 cd motor-database
 python3 scripts/motordb.py validate   # check every file in motors/
-python3 scripts/motordb.py build      # also write database.json for the website
+python3 scripts/motordb.py build      # also write database.json/.csv and motors.html
 python3 -m http.server                # preview at http://localhost:8000
 ```
 
 For bulk changes across many motors, edit the JSON files directly or write a small script over `motors/*/*.json`, then run `validate` before committing.
 
-`database.json` is not part of the repository: it is generated from `motors/` every time the site is deployed from `main`.
+`database.json`, `database.csv` and `motors.html` (a JavaScript-free table) are not part of the repository: they are generated from `motors/` every time the site is deployed from `main`, and published next to the website.
 
 ## File format
 
