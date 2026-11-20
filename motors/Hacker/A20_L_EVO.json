@@ -15,7 +15,7 @@
         "1022",
         "924"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -32,7 +32,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -40,16 +40,19 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/A20-12-L-EVO-kv2100.htm?a=article&ProdNr=97800017&p=1157",
+    "Link": "",
     "Per-KV Values": {
-        "2100": {
-            "Internal Resistance (mΩ)": "30"
+        "924": {
+            "Internal Resistance (m\u03a9)": "109",
+            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a20-22-l-evo-kv924.htm?ProdNr=97800007&a=article&p=1157"
         },
         "1022": {
-            "Internal Resistance (mΩ)": "89"
+            "Internal Resistance (m\u03a9)": "89",
+            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektronmotor-a20-20l-evo-kv1022.htm?ProdNr=97800006&a=article&p=1157"
         },
-        "924": {
-            "Internal Resistance (mΩ)": "109"
+        "2100": {
+            "Internal Resistance (m\u03a9)": "30",
+            "Link": "https://www.hacker-motor-shop.com/A20-12-L-EVO-kv2100.htm?a=article&ProdNr=97800017&p=1157"
         }
     }
 }

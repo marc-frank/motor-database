@@ -13,7 +13,7 @@
     "KV (RPM/V)": [
         "520"
     ],
-    "Internal Resistance (mΩ)": "18",
+    "Internal Resistance (m\u03a9)": "18",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -30,7 +30,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",

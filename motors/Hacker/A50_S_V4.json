@@ -15,7 +15,7 @@
         "425",
         "365"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -32,7 +32,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -40,16 +40,19 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A50/A50-14pol/A50-12-S-V4-kv480.htm?a=article&ProdNr=15726837&p=6681",
+    "Link": "",
     "Per-KV Values": {
-        "480": {
-            "Internal Resistance (mΩ)": "16"
+        "365": {
+            "Internal Resistance (m\u03a9)": "21",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A50/A50-14pol/A50-16-S-V4-kv365.htm?ProdNr=15726839&a=article&p=6681"
         },
         "425": {
-            "Internal Resistance (mΩ)": "21"
+            "Internal Resistance (m\u03a9)": "21",
+            "Link": "https://www.hacker-motor-shop.com/A50-14-S-V4-kv425.htm?ProdNr=15726838&a=article&p=6681"
         },
-        "365": {
-            "Internal Resistance (mΩ)": "21"
+        "480": {
+            "Internal Resistance (m\u03a9)": "16",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A50/A50-14pol/A50-12-S-V4-kv480.htm?a=article&ProdNr=15726837&p=6681"
         }
     }
 }

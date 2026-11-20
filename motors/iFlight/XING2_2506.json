@@ -14,7 +14,7 @@
         "1500",
         "1850"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -43,13 +43,13 @@
     "Per-KV Values": {
         "1500": {
             "Weight (incl. Cable) (g)": "38.2",
-            "Internal Resistance (mΩ)": "74.88",
+            "Internal Resistance (m\u03a9)": "74.88",
             "Winding Type": "Single Strand"
         },
         "1850": {
             "Weight (incl. Cable) (g)": "43.6",
-            "Internal Resistance (mΩ)": "47.6",
-            "Winding Type": "Multi Strand"
+            "Internal Resistance (m\u03a9)": "47.6",
+            "Winding Type": "Single Strand"
         }
     }
 }

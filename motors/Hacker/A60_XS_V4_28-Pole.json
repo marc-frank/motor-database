@@ -15,7 +15,7 @@
         "370",
         "330"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -40,19 +40,22 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5XS-V4-28-Pole-kv420.htm?a=article&ProdNr=33726633&p=7013",
+    "Link": "",
     "Per-KV Values": {
-        "420": {
-            "Internal Resistance (mΩ)": "12",
-            "Weight (incl. Cable) (g)": "446"
+        "330": {
+            "Internal Resistance (m\u03a9)": "20",
+            "Weight (incl. Cable) (g)": "455",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-7XS-V4-28-Pole-kv330.htm?ProdNr=33726636&a=article&p=7013"
         },
         "370": {
-            "Internal Resistance (mΩ)": "15",
-            "Weight (incl. Cable) (g)": "446"
+            "Internal Resistance (m\u03a9)": "15",
+            "Weight (incl. Cable) (g)": "446",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-6XS-V4-28-Pole-kv370.htm?ProdNr=33726634&a=article&p=7013"
         },
-        "330": {
-            "Internal Resistance (mΩ)": "20",
-            "Weight (incl. Cable) (g)": "455"
+        "420": {
+            "Internal Resistance (m\u03a9)": "12",
+            "Weight (incl. Cable) (g)": "446",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5XS-V4-28-Pole-kv420.htm?a=article&ProdNr=33726633&p=7013"
         }
     }
 }

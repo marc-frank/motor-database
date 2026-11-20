@@ -13,7 +13,7 @@
     "KV (RPM/V)": [
         "3200"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "3.0",
     "Bearing Thickness": "2.5",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.brotherhobby.com/tornado-t2-1608-motor-p00155p1.html"
 }

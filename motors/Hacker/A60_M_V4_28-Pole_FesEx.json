@@ -14,7 +14,7 @@
         "240",
         "205"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -39,13 +39,15 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/A60-6M-V4-28-Pole-FesEx-kv240.htm?a=article&ProdNr=10109214&p=7012",
+    "Link": "",
     "Per-KV Values": {
-        "240": {
-            "Internal Resistance (mΩ)": "18"
-        },
         "205": {
-            "Internal Resistance (mΩ)": "24"
+            "Internal Resistance (m\u03a9)": "24",
+            "Link": "https://www.hacker-motor-shop.com/a60-7m-v4-28-pole-fesex-kv2015.htm?ProdNr=15711907&a=article&p=7012"
+        },
+        "240": {
+            "Internal Resistance (m\u03a9)": "18",
+            "Link": "https://www.hacker-motor-shop.com/A60-6M-V4-28-Pole-FesEx-kv240.htm?a=article&ProdNr=10109214&p=7012"
         }
     }
 }

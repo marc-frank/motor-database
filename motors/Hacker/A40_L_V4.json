@@ -17,7 +17,7 @@
         "410",
         "355"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -34,7 +34,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -44,25 +44,25 @@
     "Mounting Screw Thread": "",
     "Link": "https://www.hacker-motor-shop.com/A40-8L-V4-kv1300.htm?a=article&ProdNr=33726617&p=310",
     "Per-KV Values": {
-        "1300": {
-            "Internal Resistance (mΩ)": "13",
-            "Weight (incl. Cable) (g)": "265"
+        "355": {
+            "Internal Resistance (m\u03a9)": "50",
+            "Weight (incl. Cable) (g)": "275"
         },
-        "630": {
-            "Internal Resistance (mΩ)": "26",
+        "410": {
+            "Internal Resistance (m\u03a9)": "39",
             "Weight (incl. Cable) (g)": "275"
         },
         "500": {
-            "Internal Resistance (mΩ)": "30",
+            "Internal Resistance (m\u03a9)": "30",
             "Weight (incl. Cable) (g)": "246"
         },
-        "410": {
-            "Internal Resistance (mΩ)": "39",
+        "630": {
+            "Internal Resistance (m\u03a9)": "26",
             "Weight (incl. Cable) (g)": "275"
         },
-        "355": {
-            "Internal Resistance (mΩ)": "50",
-            "Weight (incl. Cable) (g)": "275"
+        "1300": {
+            "Internal Resistance (m\u03a9)": "13",
+            "Weight (incl. Cable) (g)": "265"
         }
     }
 }

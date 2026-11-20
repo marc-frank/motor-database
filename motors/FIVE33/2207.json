@@ -13,7 +13,7 @@
     "KV (RPM/V)": [
         "1960"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -23,9 +23,9 @@
     "Weight (incl. Cable) (g)": "28.4",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",

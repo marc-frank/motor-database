@@ -10,8 +10,11 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
-    "Internal Resistance (mΩ)": "",
+    "KV (RPM/V)": [
+        "1500",
+        "1900"
+    ],
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -36,5 +39,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://store.tmotor.com/product/am20-pro-f3p-Indoor-plane-motor.html"
+    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-aircraft-am20pro-f3p-a"
 }

@@ -16,7 +16,7 @@
         "1450",
         "2500"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -40,6 +40,6 @@
     "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.brotherhobby.com/reunion-2318-motor-p00151p1.html"
 }

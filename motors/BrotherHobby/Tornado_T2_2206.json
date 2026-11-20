@@ -16,7 +16,7 @@
         "2450",
         "2600"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -40,6 +40,6 @@
     "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.brotherhobby.com/tornado-t2-2206-motor-p00156p1.html"
 }

@@ -15,7 +15,7 @@
         "12000",
         "15000"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -37,8 +37,8 @@
     "Bearing Inner Diameter": "1.5",
     "Bearing Thickness": "2.0",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
+    "Mounting Pattern Diameter (mm)": "7.0",
     "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M2",
     "Link": "https://www.brotherhobby.com/avenger0804motor-p00129p1.html"
 }

@@ -18,7 +18,7 @@
         "610",
         "530"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -35,7 +35,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -45,34 +45,34 @@
     "Mounting Screw Thread": "",
     "Link": "https://www.hacker-motor-shop.com/A40-10S-V4-kv1600.htm?a=article&ProdNr=33726610&p=310",
     "Per-KV Values": {
-        "1600": {
-            "Internal Resistance (mΩ)": "14",
+        "530": {
+            "Internal Resistance (m\u03a9)": "40",
+            "Weight (incl. Cable) (g)": "198"
+        },
+        "610": {
+            "Internal Resistance (m\u03a9)": "31",
+            "Weight (incl. Cable) (g)": "198",
+            "Shaft Diameter (external) (mm)": "5.0"
+        },
+        "750": {
+            "Internal Resistance (m\u03a9)": "21",
+            "Weight (incl. Cable) (g)": "198",
+            "Shaft Diameter (external) (mm)": "5.0"
+        },
+        "1000": {
+            "Internal Resistance (m\u03a9)": "26",
             "Weight (incl. Cable) (g)": "190",
             "Shaft Diameter (external) (mm)": "5.0"
         },
         "1350": {
-            "Internal Resistance (mΩ)": "18",
+            "Internal Resistance (m\u03a9)": "18",
             "Weight (incl. Cable) (g)": "190",
             "Shaft Diameter (external) (mm)": "5.0"
         },
-        "1000": {
-            "Internal Resistance (mΩ)": "26",
+        "1600": {
+            "Internal Resistance (m\u03a9)": "14",
             "Weight (incl. Cable) (g)": "190",
             "Shaft Diameter (external) (mm)": "5.0"
-        },
-        "750": {
-            "Internal Resistance (mΩ)": "21",
-            "Weight (incl. Cable) (g)": "198",
-            "Shaft Diameter (external) (mm)": "5.0"
-        },
-        "610": {
-            "Internal Resistance (mΩ)": "31",
-            "Weight (incl. Cable) (g)": "198",
-            "Shaft Diameter (external) (mm)": "5.0"
-        },
-        "530": {
-            "Internal Resistance (mΩ)": "40",
-            "Weight (incl. Cable) (g)": "198"
         }
     }
 }

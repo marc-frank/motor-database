@@ -14,7 +14,7 @@
         "1022",
         "924"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -39,13 +39,15 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Brushless-Motor-A20-20-L-LN-EVO-kv1022-glider.htm?a=article&ProdNr=10109250&p=1227",
+    "Link": "",
     "Per-KV Values": {
-        "1022": {
-            "Internal Resistance (mΩ)": "89"
-        },
         "924": {
-            "Internal Resistance (mΩ)": "109"
+            "Internal Resistance (m\u03a9)": "109",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-motor-A20-22-L-LN-EVO-kv924-glider-FES.htm?ProdNr=10109203&a=article&p=1227&shop=hacker_e"
+        },
+        "1022": {
+            "Internal Resistance (m\u03a9)": "89",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-Motor-A20-20-L-LN-EVO-kv1022-glider.htm?a=article&ProdNr=10109250&p=1227"
         }
     }
 }

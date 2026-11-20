@@ -15,7 +15,7 @@
         "900",
         "700"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -32,7 +32,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -40,16 +40,19 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-8-XL-V4-kv1100.htm?a=article&ProdNr=15716107&p=6514",
+    "Link": "",
     "Per-KV Values": {
-        "1100": {
-            "Internal Resistance (mΩ)": "15"
+        "700": {
+            "Internal Resistance (m\u03a9)": "34",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-XL-V4-kv700.htm?ProdNr=15716108&a=article&p=6514"
         },
         "900": {
-            "Internal Resistance (mΩ)": "24"
+            "Internal Resistance (m\u03a9)": "24",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A30/A30/A30-10-XL-V4-kv900.htm?ProdNr=15716109&a=article&p=6514&shop=hacker_e"
         },
-        "700": {
-            "Internal Resistance (mΩ)": "34"
+        "1100": {
+            "Internal Resistance (m\u03a9)": "15",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-8-XL-V4-kv1100.htm?a=article&ProdNr=15716107&p=6514"
         }
     }
 }

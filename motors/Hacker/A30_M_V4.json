@@ -14,7 +14,7 @@
         "1370",
         "1060"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -31,7 +31,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -39,13 +39,15 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-M-V4-kv1370.htm?a=article&ProdNr=15716113&p=6514",
+    "Link": "",
     "Per-KV Values": {
-        "1370": {
-            "Internal Resistance (mΩ)": "22"
-        },
         "1060": {
-            "Internal Resistance (mΩ)": "38"
+            "Internal Resistance (m\u03a9)": "38",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-16-M-V4-kv1060.htm?ProdNr=15716112&a=article&p=6514"
+        },
+        "1370": {
+            "Internal Resistance (m\u03a9)": "22",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-M-V4-kv1370.htm?a=article&ProdNr=15716113&p=6514"
         }
     }
 }

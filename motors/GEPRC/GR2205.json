@@ -13,7 +13,7 @@
     "KV (RPM/V)": [
         "2300"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (m\u03a9)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "M3",
-    "Link": "https://geprc.com/product/gep-gr2205_2300kv-motor/"
+    "Link": "https://geprc.com/products/motors/gr2205-2300kv/"
 }
