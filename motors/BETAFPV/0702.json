@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/1778/6615/files/27000KV.jpg",
     "Manufacturer": "BETAFPV",
     "Name": "0702",
-    "Price ($)": "12.25",
+    "Price ($)": "",
     "Stator Diameter (mm)": "7.0",
     "Stator Height (mm)": "2.0",
     "Stator Configuration": "",
@@ -19,20 +19,20 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "35",
     "Cable Gauge (AWG)": "30",
-    "Connector": "",
+    "Connector": "JST-1.25",
     "Shaft Diameter (external) (mm)": "1.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Clip",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -41,5 +41,25 @@
     "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
-    "Link": "https://betafpv.com/collections/brushless-motors/products/0702-brushless-motors"
+    "Link": "https://betafpv.com/collections/brushless-motors/products/0702-brushless-motors",
+    "Per-KV Values": {
+        "23000": {
+            "Price ($)": "11.00",
+            "Weight (incl. Cable) (g)": "1.42"
+        },
+        "25000": {
+            "Price ($)": "11.00",
+            "Weight (incl. Cable) (g)": "1.42"
+        },
+        "27000": {
+            "Price ($)": "12.25",
+            "Weight (incl. Cable) (g)": "1.52",
+            "Bearing Type": "Ball Bearing"
+        },
+        "30000": {
+            "Price ($)": "12.25",
+            "Weight (incl. Cable) (g)": "1.52",
+            "Bearing Type": "Ball Bearing"
+        }
+    }
 }

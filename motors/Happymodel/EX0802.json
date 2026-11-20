@@ -19,9 +19,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "1.7",
     "Weight (excl. Cable) (g)": "",
@@ -30,9 +30,9 @@
     "Connector": "JST-1.25",
     "Shaft Diameter (external) (mm)": "1.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Clip",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -49,11 +49,11 @@
         "19000": {
             "Cable length (mm)": "27"
         },
-        "25000": {
-            "Cable length (mm)": "27"
-        },
         "22000": {
             "Cable length (mm)": "40"
+        },
+        "25000": {
+            "Cable length (mm)": "27"
         }
     }
 }

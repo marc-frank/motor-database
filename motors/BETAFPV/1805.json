@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1550_eb7d4c8a-5e2c-43c4-b854-2b979b320d58.jpg",
     "Manufacturer": "BETAFPV",
     "Name": "1805",
-    "Price ($)": "5.49",
+    "Price ($)": "",
     "Stator Diameter (mm)": "18.0",
     "Stator Height (mm)": "5.0",
     "Stator Configuration": "",
@@ -17,9 +17,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "16.1",
     "Weight (excl. Cable) (g)": "",
@@ -28,9 +28,9 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Clip",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -39,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://betafpv.com/collections/brushless-motors/products/1805-brushless-motors"
+    "Link": "https://betafpv.com/collections/brushless-motors/products/1805-brushless-motors",
+    "Per-KV Values": {
+        "1550": {
+            "Price ($)": "10.99"
+        },
+        "2550": {
+            "Price ($)": "15.99"
+        }
+    }
 }

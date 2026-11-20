@@ -13,12 +13,12 @@
     "KV (RPM/V)": [
         "1800"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "86",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "31.5",
     "Weight (excl. Cable) (g)": "",

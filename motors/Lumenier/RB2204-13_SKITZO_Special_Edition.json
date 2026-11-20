@@ -20,7 +20,7 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "23",
+    "Weight (incl. Cable) (g)": "21.5",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "100",
     "Cable Gauge (AWG)": "",
@@ -36,7 +36,7 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.getfpv.com/lumenier-rb2204-13-2500kv-skitzo-special-edition-motor.html"
 }

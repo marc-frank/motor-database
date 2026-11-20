@@ -17,27 +17,35 @@
     "Internal Resistance (mΩ)": "62.0",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "11",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "10",
     "Cable Gauge (AWG)": "",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "2.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Screw",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.getfpv.com/lumenier-rx1306-7-4000kv-motor.html"
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
+    "Per-KV Values": {
+        "3100": {
+            "Link": "https://www.getfpv.com/lumenier-rx1306-9-3100kv-motor.html"
+        },
+        "4000": {
+            "Link": "https://www.getfpv.com/lumenier-rx1306-7-4000kv-motor.html"
+        }
+    }
 }

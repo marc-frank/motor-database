@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/0221/5854/0872/products/20200821_192243.jpg",
     "Manufacturer": "StanFPV",
     "Name": "2604 Pro 5mm",
-    "Price ($)": "36.99",
+    "Price ($)": "",
     "Stator Diameter (mm)": "26.0",
     "Stator Height (mm)": "4.0",
     "Stator Configuration": "",
@@ -17,11 +17,11 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "29.1",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "195",
     "Cable Gauge (AWG)": "20",
@@ -30,8 +30,8 @@
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
-    "Shaft Retention": "",
-    "Bearing Type": "",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -39,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://stanfpv.com/de/collections/fpv-drone-motors/products/stan-fpv-2604-2410kv-pro-motors"
+    "Link": "https://stanfpv.com/de/collections/fpv-drone-motors/products/stan-fpv-2604-2410kv-pro-motors",
+    "Per-KV Values": {
+        "1690": {
+            "Price ($)": "39.99"
+        },
+        "2410": {
+            "Price ($)": "36.99"
+        }
+    }
 }

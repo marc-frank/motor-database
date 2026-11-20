@@ -5,7 +5,7 @@
     "Price ($)": "21.95",
     "Stator Diameter (mm)": "20.0",
     "Stator Height (mm)": "4.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -17,17 +17,17 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "3.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
@@ -36,8 +36,14 @@
     "Bearing Inner Diameter": "4.0",
     "Bearing Thickness": "3.0",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://ummagawd.com/collections/motors/products/ummagawd-aerolite-2004-2400kv-motor"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://ummagawd.com/collections/motors/products/ummagawd-aerolite-2004-2400kv-motor",
+    "Per-KV Values": {
+        "2400": {
+            "Internal Resistance (mΩ)": "140",
+            "Weight (incl. Cable) (g)": "15.2"
+        }
+    }
 }

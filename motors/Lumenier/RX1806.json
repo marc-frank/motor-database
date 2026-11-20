@@ -17,7 +17,7 @@
     "Internal Resistance (mΩ)": "260.0",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
@@ -30,14 +30,22 @@
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Clip",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.getfpv.com/lumenier-rx1806-13-2500kv-motor.html"
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
+    "Per-KV Values": {
+        "2300": {
+            "Link": "https://www.getfpv.com/lumenier-rx1806-14-2300kv-motor.html"
+        },
+        "2500": {
+            "Link": "https://www.getfpv.com/lumenier-rx1806-13-2500kv-motor.html"
+        }
+    }
 }

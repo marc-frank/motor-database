@@ -2,7 +2,7 @@
     "Image": "https://www.getfpv.com/media/catalog/product/l/u/lumenier-rx2206-13-2000kv-lead_1.jpg",
     "Manufacturer": "Lumenier",
     "Name": "RX2206",
-    "Price ($)": "25.99",
+    "Price ($)": "",
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "12N14P",
@@ -17,7 +17,7 @@
     "Internal Resistance (mΩ)": "260.0",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
@@ -30,14 +30,24 @@
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Clip",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.getfpv.com/lumenier-rx2206-11-2350kv-motor.html"
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "2000": {
+            "Price ($)": "25.99",
+            "Link": "https://www.getfpv.com/lumenier-rx2206-13-2000kv-motor.html"
+        },
+        "2350": {
+            "Price ($)": "33.99",
+            "Link": "https://www.getfpv.com/lumenier-rx2206-11-2350kv-motor.html"
+        }
+    }
 }
