@@ -726,6 +726,12 @@ main {
 /* ---------- Small screens ---------- */
 
 @media (max-width: 760px) {
+    /* No room to pin columns on a phone: everything scrolls sideways together. */
+    .grid .c-image,
+    .grid .c-motor {
+        position: static;
+    }
+
     .topbar {
         padding: 8px 16px;
         gap: 10px;
