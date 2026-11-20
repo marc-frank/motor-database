@@ -1,250 +1,127 @@
 # How to Contribute
 
-Interested in contributing? Here's how you can help improve the Motor Database:
+Thanks for helping! The database is a folder of plain JSON files, one per motor model. You can add or fix a motor straight from your browser on GitHub — no spreadsheets, no tools to install.
 
-1. **Fork the Repository**: Clone the repository to your account.
-2. **Verify Uniqueness**: Before adding a new motor, check that it isn't already in `motors/`.
-3. **Add or edit a motor file**: Every motor model lives in its own file at `motors/<Manufacturer>/<Name>.json`, with all of its KV options in that one file.
-   - To add a motor, copy [`templates/motor.json`](../templates/motor.json) into the manufacturer's folder (create the folder if it is a new manufacturer) and fill it in.
-   - To fix a motor, edit its file directly.
-4. **Validate** (optional, CI does it too): `python3 scripts/motordb.py validate`
-5. **Create a Pull Request**: Once you've made your changes, submit a pull request.
+- [Fix or complete a motor](#fix-or-complete-a-motor)
+- [Add a motor](#add-a-motor)
+- [Request motors without editing](#request-motors-without-editing)
+- [Working locally](#working-locally)
+- [File format](#file-format)
+- [Data rules](#data-rules)
 
-There is no `database.json` in the repository: the website's `database.json` is generated from `motors/` every time the site is deployed from `main`.
+## Fix or complete a motor
 
-## Database layout
+1. On the [website](https://marc-frank.github.io/motor-database/), click the motor and then **Edit on GitHub** in its details panel. This opens the motor's file in GitHub's editor.
+2. Change or fill in the values (see [Data rules](#data-rules)). Leave anything you don't know as `""`.
+3. Click **Commit changes…** and then **Propose changes**. GitHub forks the repository for you and opens a pull request.
+
+A check runs on every pull request and tells you if something in the file is off (a typo in a field name, a missing comma, …).
+
+## Add a motor
+
+1. Search the website first to make sure the motor isn't listed yet. Different KV versions of a motor are **not** separate motors: they all go in one file.
+2. Open the manufacturer's folder in [`motors/`](../motors). If the manufacturer is new, open `motors/` itself.
+3. Click **Add file → Create new file** and name it after the motor, e.g. `F60_PRO_V.json` (for a new manufacturer: `New_Manufacturer/F60_PRO_V.json`). Use letters, numbers, `.`, `-` and `_`; replace spaces with `_`.
+4. Paste in the contents of [`templates/motor.json`](../templates/motor.json) and replace the example values. Remove the `Per-KV Values` block if nothing differs between KV versions.
+5. Commit and propose the change as above.
+
+Adding a whole manufacturer at once? It's fine to put several motor files in one pull request.
+
+## Request motors without editing
+
+If you'd rather not edit files, [open an issue](https://github.com/marc-frank/motor-database/issues/new/choose) with links to the product pages and someone will add them.
+
+## Working locally
+
+If you have Git and Python 3 (no packages needed):
+
+```bash
+git clone https://github.com/<you>/motor-database.git
+cd motor-database
+python3 scripts/motordb.py validate   # check every file in motors/
+python3 scripts/motordb.py build      # also write database.json for the website
+python3 -m http.server                # preview at http://localhost:8000
+```
+
+For bulk changes across many motors, edit the JSON files directly or write a small script over `motors/*/*.json`, then run `validate` before committing.
+
+`database.json` is not part of the repository: it is generated from `motors/` every time the site is deployed from `main`.
+
+## File format
 
 ```
 motors/
 ├── T-Motor/
-│   ├── M0802.json
-│   └── F1404.json
+│   ├── F60_PRO_V.json
+│   └── P2207_V3.json
 └── iFlight/
     └── XING2_2207.json
 ```
 
-- The folder name is the `Manufacturer` value with spaces and special characters replaced by `_`. The validator tells you if a file is in the wrong folder.
-- The file name is the `Name` in the same style. It only has to be unique and readable; the website uses the contents, not the file name.
-- Every file must contain the fields listed in [`motor.schema.json`](../motor.schema.json). Leave unknown values as `""`. `Manufacturer` and `Link` are required.
-- `KV (RPM/V)` is a list of every KV option the motor is sold in, e.g. `["1950", "2800"]` (`[]` if unknown). All other values are strings.
-- Values that differ between KV options (typically internal resistance or weight, sometimes price or product link) go in the optional `Per-KV Values` object, keyed by KV. Leave the shared field as `""` when it is set per KV. The website still shows one row per KV.
-- To add a new field, add it to `motor.schema.json` and to every motor file.
-
-### `scripts/motordb.py`
-
-| Command | What it does |
-| --- | --- |
-| `python3 scripts/motordb.py validate` | Checks every file in `motors/` against the schema. |
-| `python3 scripts/motordb.py build` | Validates and writes `database.json` from `motors/` (git-ignored). |
-| `python3 scripts/motordb.py split` | Rewrites `motors/` from `database.json` (used for bulk edits, see Excel below). |
-
-Only Python 3 is needed, no packages.
-
-To preview the website locally, run `build` and then serve the folder, e.g. `python3 -m http.server`, and open http://localhost:8000.
-
-## Parameters
-
-When contributing, please provide as much information as possible for the following parameters (this is [`templates/motor.json`](../templates/motor.json), a motor sold in two KV versions whose internal resistance differs per KV):
+- **Folder:** the `Manufacturer` value with spaces and special characters replaced by `_`. The check tells you if a file is in the wrong folder.
+- **File name:** the motor name in the same style. It only has to be unique and readable; the website uses the file's contents.
+- **Fields:** every file has all the fields from [`motor.schema.json`](../motor.schema.json), in the order of the template. Unknown values are `""`. `Manufacturer` and `Link` are required.
+- **All values are strings** (`"22.0"`, not `22.0`), except `KV (RPM/V)`.
+- **`KV (RPM/V)`** lists every KV version the motor is sold in, e.g. `["1950", "2800"]`, or `[]` if unknown. The website shows one row per KV.
+- **`Per-KV Values`** (optional) holds values that differ between KV versions, typically internal resistance, weight, price or a separate product link. Leave the shared field `""` when it is set per KV:
 
 ```json
-{
-    "Image": "https://www.examplemanufacturer.com/example-model/image.png",
-    "Manufacturer": "Example Manufacturer",
-    "Name": "Example Model 2205",
-    "Price ($)": "19.99",
-    "Stator Diameter (mm)": "22.0",
-    "Stator Height (mm)": "5.0",
-    "Stator Configuration": "12N14P",
-    "Stator Material": "Silicon Steel",
-    "Stator Lamination Thickness (mm)": "0.2",
-    "Flux Direction": "Radial",
-    "Flux Ring Thickness (mm)": "0.5",
-    "KV (RPM/V)": [
-        "1950",
-        "2400"
-    ],
-    "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
-    "Enamel Type": "Polyurethane",
-    "Base Type": "Closed Bottom",
-    "Base Material": "Aluminum",
-    "Bell Type": "Unibell",
-    "Bell Material": "Aluminum",
-    "Weight (incl. Cable) (g)": "30.0",
-    "Weight (excl. Cable) (g)": "28.0",
-    "Cable length (mm)": "100.0",
-    "Cable Gauge (AWG)": "22",
-    "Connector": "none",
-    "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "4.0",
-    "Shaft Type": "Hollow",
-    "Shaft Material": "Steel",
-    "Shaft Retention": "Screw",
-    "Bearing Type": "Ball Bearing",
-    "Bearing Outer Diameter": "6.0",
-    "Bearing Inner Diameter": "3.0",
-    "Bearing Thickness": "2.5",
-    "Magnet Type": "Neodymium N52",
-    "Mounting Pattern Diameter (mm)": "16.0",
-    "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "M3",
-    "Link": "https://www.examplemanufacturer.com/example-model-2205",
-    "Per-KV Values": {
-        "1950": {
-            "Internal Resistance (mΩ)": "65.0"
-        },
-        "2400": {
-            "Internal Resistance (mΩ)": "50.0"
-        }
-    }
+"Internal Resistance (mΩ)": "",
+...
+"Per-KV Values": {
+    "1950": { "Internal Resistance (mΩ)": "65.0" },
+    "2400": { "Internal Resistance (mΩ)": "50.0" }
 }
 ```
 
-## Specific Instructions for Data Entry
+- **New fields** are added to `motor.schema.json` and to every motor file in the same pull request (please open an issue first to discuss).
 
-### Image
+## Data rules
 
-The image field should contain a link to an image on the product page of the motor on the manufacturers website. The image should ideally only contain 1 motor. There should be sufficient contrast between the motor and the background. Images that also contain extra screws and nuts that come with the motor are preferred. If possible, the image should contain the wires that are attached to the motor. If possible, the image should contain the connector attached to the end of the wires. If there is no image containing only 1 motor, choose one that shows the motor from the most angles (top, bottom, 45 deg, ...).
+Consistent values keep sorting and filtering on the website working.
 
-- Use an image link from the manufacturer's product page showing a single motor.
-- Prefer images with high contrast between the motor and the background.
-- Include images with accessories (screws, nuts) if available.
-- Show wires and connectors where possible.
-- Select images that display multiple angles of the motor.
+### Numbers with a unit (mm, g, mΩ, …)
+
+- Only digits and a `.` as decimal separator, with at least one decimal place. No unit, no `~`, `<` or `>`.
+- If you aren't sure of a value, leave it `""` rather than estimating.
+
+| ❌ | ✅ |
+| --- | --- |
+| `22` | `22.0` |
+| `7mm` | `7.0` |
+| `~30` | `""` |
 
 ### Price
 
-The price should always have two decimal places. There should be no other characters used other than the numbers from 1-9 and a . for the decimal seperation. The price should always be in USD $. If the motor is only sold as a set, divide the listed price by the number of motors in the set.
+- In US dollars, two decimal places, digits and `.` only.
+- If the motor is only sold in sets, divide by the number of motors in the set.
 
-- Always format prices to two decimal places in USD ($).
-- Use numerical characters and a period for decimal separation.
-- Divide set prices by the number of motors included.
+| ❌ | ✅ |
+| --- | --- |
+| `20,9` | `20.90` |
+| `$20.99` | `20.99` |
 
-Examples:
-  - ❌ `20,9`   | ✅ `20.90`
-  - ❌ `$20,99` | ✅ `8.99`
+### KV
 
-### Measurements (mm, g, mΩ, %, etc.)
-For all measurements in mm, g and mΩ, always provide at least 1 decimal place. The measurements should only contain numerical characters and a . as the decimal seperator. If unsure as to the exact dimensions, do NOT use an approximate sign ~, or greater, smaller signs (>,<). They interfere with column sorting. In that case just leave the field open. Do not indicate the unit in the data entry field.
+- Whole numbers only, one list item per KV version.
 
-- Provide at least one decimal place.
-- Use only numerical characters and a period for decimal separation.
-- Do not estimate dimensions; leave the field blank if uncertain.
-
-Examples:
-  - ❌ `22`  | ✅ `22.0`
-  - ❌ `7mm` | ✅ `7.0`
-
-### Velocity Constant (KV)
-
-As I have never seen a KV rating accurate to 0.1 RPM/V, KV values should not have any decimal places. If the motor is available in multiple KV versions, list each one as a separate value in `KV (RPM/V)` and put anything that differs between them in `Per-KV Values`. Do not use any non-numeric characters in a KV value.
-
-- No decimal places needed for KV ratings.
-- One list item per KV version.
-- Only numeric characters in each KV value.
-
-Examples:
-  - ❌ `"1550/1950/2550"` | ✅ `["1550", "1950", "2550"]`
-  - ❌ `["1550 KV"]`      | ✅ `["1550"]`
+| ❌ | ✅ |
+| --- | --- |
+| `"1550/1950/2550"` | `["1550", "1950", "2550"]` |
+| `["1550 KV"]` | `["1550"]` |
 
 ### Counts
 
-Counts should not contain any decimal places, for example the Number of Mounting Screws.
+- Whole numbers, e.g. `Number of Mounting Screws`: `"4"`, not `"4.0"`.
 
-- Do not include decimal places for counts.
+### Link
 
-Examples:
-  - ❌ `4.0` | ✅ `4`
+- The manufacturer's product page for this motor (not a reseller), if there is one.
 
-## Bulk editing in Excel
+### Image
 
-To edit many motors at once, work on the whole database as a single file:
+A direct link to an image from the manufacturer's product page:
 
-1. Get a `database.json` in the repository root, either by running `python3 scripts/motordb.py build` or by downloading https://marc-frank.github.io/motor-database/database.json.
-2. Load it into Excel, edit it and convert it back to JSON as shown below.
-3. Run `python3 scripts/motordb.py split` to write the changes into `motors/`, and commit `motors/`.
-
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/05a8129c-0123-4169-ae95-4312f1ad7e6b)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/a5befa3e-fbf9-4e28-a5a7-3bb5dbf77771)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/0187c491-1c26-4a55-a3c9-4bd5e0af9cd7)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/9765cc9e-91b3-48d0-8e80-790bde1f51df)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/736d2a67-1104-484a-a8a8-527fc1538c0e)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/bc8e53f0-1c41-4dce-9fe0-cf22752f7fc3)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/ce1c3a97-9ee0-4d9e-a9c9-2a6cfb1da171)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/27288781-636f-4b27-80f9-8a02ae6f36a7)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/29883327-0ab3-47a8-900f-0d2919f0c96c)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/d28081e4-89d5-4353-87a9-11c41ccd379b)
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/bb6104ee-8506-4f07-93eb-14720db93897)
-
-edit the data ...
-
-## Generating a json from Excel Sheet
-
-visit https://www.convertcsv.com/csv-to-json.htm
-
-in Excel, hit ctrl+a twice, so that the data with the column headers is selected
-
-Copy, ctrl+c
-
-Paste ctrl+v into the input field
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/97e186ee-9376-46bf-8031-f9276ca81204)
-
-Under Output Options
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/6b10fde2-311b-499f-b5c0-4abdfa66b56c)
-
-Check "Force Wrap numeric values in double quotes"
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/883dd4b2-0f55-4d7e-99cc-0727f516f84d)
-
-Uncheck "Recreate nested objects and arrays (Headings use /)"
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/ad365cb0-67dc-43e5-9c76-7eb29a3b01ec)
-
-Update Output
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/6c5faeb7-57db-4aa5-9325-281a0291c069)
-
-Copy data
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/20c94b1a-9886-49d7-bb5c-0216ccfeb2cb)
-
-Visit https://jsonlint.com/
-
-Paste and validate
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/57a6b2bc-496c-484c-b20e-17621efdfcd1)
-
-Compress
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/ce0c7557-44f2-4d21-8821-c2914c7c787c)
-
-And Prettify
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/4c7a2667-7352-4faf-adca-bb7b7df65226)
-
-Copy the new output
-
-![image](https://github.com/marc-frank/motor-database/assets/74321912/3912d04a-2844-4bd5-ab10-bc7d79bc1ab6)
-
-Clear your local `database.json` file and paste the new data into it.
-
-Finally, turn the edited `database.json` back into per-motor files and commit the changes in `motors/`:
-
-```
-python3 scripts/motordb.py split
-```
-
-In `database.json` (and Excel) every KV option is its own row. `split` merges rows with the same `Manufacturer` and `Name` back into one motor file and moves values that differ between them into `Per-KV Values`.
+- Ideally a single motor, with good contrast against the background.
+- Wires and connector visible, and the included screws, if such a photo exists.
+- Otherwise pick the photo that shows the motor from the most angles.

@@ -1,39 +1,15 @@
-# Description
+## What changed
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+<!-- e.g. "Added 6 Axisflying motors", "Filled in weights for the T-Motor F60 series", "Fixed sorting on the website". -->
 
-Fixes # (issue)
+Fixes #
 
-## Type of change
+## Sources
 
-Please delete options that are not relevant.
+<!-- For data changes: product pages or spec sheets the values come from. -->
 
-- [ ] Added data (new motor specifications from a Manufacturer)
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+## Checklist
 
-# How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
-
-- [ ] Test A
-- [ ] Test B
-
-**Test Configuration**:
-* Firmware version:
-* Hardware:
-* Toolchain:
-* SDK:
-
-# Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] Values follow the [data rules](https://github.com/marc-frank/motor-database/blob/main/.github/CONTRIBUTING.md#data-rules) (unknown values left as `""`)
+- [ ] Each motor is one file with all its KV versions, in `motors/<Manufacturer>/`
+- [ ] The validation check passes (or `python3 scripts/motordb.py validate` locally)

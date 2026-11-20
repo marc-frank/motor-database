@@ -441,7 +441,8 @@
 
         h += '<div class="drawer-actions">';
         if (r.Link) h += '<a class="btn btn-primary" href="' + esc(r.Link) + '" target="_blank" rel="noopener">' + EXT_ICON + "<span>" + esc(hostOf(r.Link) || "Product page") + "</span></a>";
-        h += '<a class="btn btn-ghost" href="' + REPO + "/tree/main/motors/" + encodeURIComponent(r.Manufacturer) + '" target="_blank" rel="noopener">Edit data</a></div>';
+        if (r._file) h += '<a class="btn btn-ghost" href="' + REPO + "/edit/main/" + r._file.split("/").map(encodeURIComponent).join("/") + '" target="_blank" rel="noopener" title="Edit this motor\'s file on GitHub">Edit on GitHub</a>';
+        h += "</div>";
 
         if (pct < 60) {
             h += '<div class="completeness"><b>' + pct + "% of fields filled in.</b>" +
@@ -673,7 +674,8 @@
                 }
             });
         });
-        specKeys = keys.filter(function (k) { return IDENTITY.indexOf(k) === -1; });
+        // "_file" (the motor's source file) and other "_" fields are metadata, not specs.
+        specKeys = keys.filter(function (k) { return IDENTITY.indexOf(k) === -1 && k.charAt(0) !== "_"; });
 
         rows = data.map(function (r, i) {
             r._i = i;

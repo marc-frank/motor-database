@@ -6,28 +6,25 @@ A file lists every KV option of the model in "KV (RPM/V)"; values that differ
 between KV options go in "Per-KV Values".
 
 database.json is generated from those files at deploy time (it is not committed)
-and is what the website loads. It has one flat row per KV option.
+and is what the website loads. It has one flat row per KV option, plus a "_file" field
+pointing back at the motor file it came from.
 
 Usage:
     python3 scripts/motordb.py validate  # validate motors/ only
     python3 scripts/motordb.py build     # validate motors/ and write database.json
-    python3 scripts/motordb.py split     # rewrite motors/ from a database.json (e.g. after an Excel round-trip)
 
 Standard library only.
 """
 import json
 import re
-import shutil
 import sys
 import unicodedata
 from pathlib import Path
-from urllib.parse import parse_qsl, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 MOTORS_DIR = ROOT / "motors"
 DATABASE = ROOT / "database.json"
 SCHEMA = ROOT / "motor.schema.json"
-GENERIC_PAGES = {"index", "pd", "product", "item", "goods"}
 
 KV = "KV (RPM/V)"
 PER_KV = "Per-KV Values"
@@ -60,23 +57,6 @@ def kv_sort_key(kv):
 
 def manufacturer_dir(motor):
     return slug(motor["Manufacturer"]) or "Unknown"
-
-
-def motor_filename(motor):
-    name = motor.get("Name", "")
-    if not name:
-        # Placeholder entries without a name: derive one from the product link.
-        url = urlsplit(motor.get("Link", ""))
-        name = re.sub(r"\.(html?|php|jsp|aspx?)$", "", url.path.rstrip("/").rsplit("/", 1)[-1])
-        if name.lower() in GENERIC_PAGES:
-            # e.g. index.php?product_id=1811 or pd.jsp?id=137: the id is the only identifier
-            ids = [v for k, v in parse_qsl(url.query) if k.lower().endswith("id")]
-            name = f"{name}-{ids[-1]}" if ids else name
-    return slug(name)[:80].rstrip("._-") or "motor"
-
-
-def dump(obj):
-    return json.dumps(obj, indent=4, ensure_ascii=False) + "\n"
 
 
 def nonempty_errors(row, where):
@@ -139,41 +119,6 @@ def expand(motor, columns):
     return rows
 
 
-def group(rows, columns):
-    """Inverse of expand: merge rows of the same model (Manufacturer + Name) into motor files."""
-    groups, open_groups = [], {}
-    for row in rows:
-        key = (row["Manufacturer"], row["Name"])
-        g = open_groups.get(key)
-        # Unnamed placeholders and rows without a KV are never merged.
-        if not row["Name"] or not row[KV] or g is None or any(r[KV] == row[KV] for r in g):
-            g = []
-            groups.append(g)
-            if row["Name"] and row[KV]:
-                open_groups[key] = g
-        g.append(row)
-
-    motors = []
-    for g in groups:
-        g.sort(key=lambda r: kv_sort_key(r[KV]))
-        motor, per_kv = {}, {}
-        for c in columns:
-            values = {r[c] for r in g}
-            if c == KV:
-                motor[c] = [r[KV] for r in g if r[KV]]
-            elif len(values) == 1:
-                motor[c] = g[0][c]
-            else:
-                motor[c] = ""
-                for r in g:
-                    if r[c]:
-                        per_kv.setdefault(r[KV], {})[c] = r[c]
-        if per_kv:
-            motor[PER_KV] = {r[KV]: per_kv[r[KV]] for r in g if r[KV] in per_kv}
-        motors.append(motor)
-    return motors
-
-
 def collect():
     """Read and validate motors/. Returns (motors, errors)."""
     schema, columns = load_schema()
@@ -190,7 +135,7 @@ def collect():
             errs.append(f"{rel}: Manufacturer {motor['Manufacturer']!r} belongs in motors/{manufacturer_dir(motor)}/")
         errors += errs
         if not errs:
-            motors.append(motor)
+            motors.append((rel, motor))
     stray = [p.relative_to(ROOT).as_posix() for p in MOTORS_DIR.rglob("*") if p.is_file() and p.suffix != ".json"]
     stray += [p.relative_to(ROOT).as_posix() for p in MOTORS_DIR.glob("*.json")]
     errors += [f"{s}: unexpected file (motors must be motors/<Manufacturer>/<Motor>.json)" for s in stray]
@@ -215,53 +160,14 @@ def cmd_build():
     if errors:
         return fail(errors)
     _, columns = load_schema()
-    rows = [row for m in motors for row in expand(m, columns)]
+    rows = [dict(row, _file=rel) for rel, m in motors for row in expand(m, columns)]
     DATABASE.write_text(json.dumps(rows, indent=4, ensure_ascii=True) + "\n", encoding="utf-8")
     print(f"Wrote {len(rows)} rows ({len(motors)} motor files) to {DATABASE.name}")
     return 0
 
 
-def cmd_split():
-    schema, columns = load_schema()
-    if not DATABASE.exists():
-        return fail(["database.json not found. Download it from the website or run `build` first."])
-    rows = json.loads(DATABASE.read_text(encoding="utf-8"))
-    errors = []
-    for i, row in enumerate(rows):
-        where = f"database.json[{i}]"
-        if not isinstance(row, dict):
-            errors.append(f"{where}: expected a JSON object")
-            continue
-        missing = [k for k in columns if k not in row]
-        extra = [k for k in row if k not in columns]
-        if missing:
-            errors.append(f"{where}: missing fields {missing}")
-        if extra:
-            errors.append(f"{where}: unknown fields {extra} (add them to motor.schema.json first)")
-        errors += [f"{where}: field {k!r} must be a string" for k, v in row.items() if not isinstance(v, str)]
-        errors += nonempty_errors(row, where)
-    if errors:
-        return fail(errors)
-
-    motors = group(rows, columns)
-    if MOTORS_DIR.exists():
-        shutil.rmtree(MOTORS_DIR)
-    used = set()
-    for m in motors:
-        folder, base = manufacturer_dir(m), motor_filename(m)
-        name, n = base, 2
-        while (folder, name.lower()) in used:
-            name, n = f"{base}-{n}", n + 1
-        used.add((folder, name.lower()))
-        path = MOTORS_DIR / folder / f"{name}.json"
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(dump(m), encoding="utf-8")
-    print(f"Wrote {len(rows)} rows as {len(motors)} motor files to {MOTORS_DIR.relative_to(ROOT)}/")
-    return 0
-
-
 if __name__ == "__main__":
-    commands = {"validate": cmd_validate, "build": cmd_build, "split": cmd_split}
+    commands = {"validate": cmd_validate, "build": cmd_build}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         print(__doc__, file=sys.stderr)
         sys.exit(2)
