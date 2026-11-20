@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "18.2",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "9N12P",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
@@ -25,7 +25,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/platics-motor-for-multirotors/products/emax-platics-motor-for-multicopter-pm1806"
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://shop.emaxmodel.com/products/emax-platics-motor-for-multicopter-pm1806"
 }

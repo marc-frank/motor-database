@@ -16,7 +16,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
@@ -25,9 +25,9 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "3.0",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "Clip",
     "Bearing Type": "Ball Bearing",
@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/mt-series/products/emax-cooling-new-mt2216-ii-810kv-brushless-motor-cw-ccw-with-1045-propeller-for-rc-multicopter"
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://shop.emaxmodel.com/products/emax-cooling-new-mt2216-ii-810kv-brushless-motor-cw-ccw-with-1045-propeller-for-rc-multicopter"
 }

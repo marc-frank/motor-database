@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/emx-mt-0424-1.jpg",
     "Manufacturer": "EMAX",
     "Name": "GT2820",
-    "Price ($)": "30.80",
+    "Price ($)": "",
     "Stator Diameter (mm)": "28.0",
     "Stator Height (mm)": "20.0",
     "Stator Configuration": "",
@@ -38,8 +38,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/gt-xa-xt-series-motors/products/gt2820"
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://shop.emaxmodel.com/products/gt2820",
+    "Per-KV Values": {
+        "850": {
+            "Price ($)": "30.80"
+        },
+        "985": {
+            "Price ($)": "35.77"
+        },
+        "1180": {
+            "Price ($)": "35.77"
+        },
+        "1460": {
+            "Price ($)": "35.77"
+        }
+    }
 }

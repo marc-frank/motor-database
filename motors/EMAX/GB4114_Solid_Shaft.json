@@ -2,8 +2,8 @@
     "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/GB4414_1.jpg",
     "Manufacturer": "EMAX",
     "Name": "GB4114 Solid Shaft",
-    "Price ($)": "19.14",
-    "Stator Diameter (mm)": "41.0",
+    "Price ($)": "38.27",
+    "Stator Diameter (mm)": "40.6",
     "Stator Height (mm)": "14.0",
     "Stator Configuration": "24N22P",
     "Stator Material": "",
@@ -16,9 +16,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "",
-    "Bell Type": "Unibell",
+    "Bell Type": "Assembled Bell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -30,7 +30,7 @@
     "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://emaxmodel.com/collections/gimbal-motor/products/gb4114-brushless-motor-solid-shaft-output"
+    "Link": "https://shop.emaxmodel.com/products/gb4114-brushless-motor-solid-shaft-output"
 }

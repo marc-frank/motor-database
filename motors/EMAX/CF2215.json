@@ -16,9 +16,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Assembled Bell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "22.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://emaxmodel.com/collections/bl-cf-series-motors/products/cf2215-2200kv-brushless-motor"
+    "Link": "https://shop.emaxmodel.com/products/cf2215-2200kv-brushless-motor"
 }

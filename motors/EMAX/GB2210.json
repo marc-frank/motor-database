@@ -16,7 +16,7 @@
     "Internal Resistance (mΩ)": "12000.0",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Closed Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
@@ -30,13 +30,13 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/gimbal-motor/products/emax-gb2210-brushless-gimbal-motor-ideal-for-gopro-style-cameras-75t-110kv"
+    "Mounting Screw Thread": "M2.5",
+    "Link": "https://shop.emaxmodel.com/products/emax-gb2210-brushless-gimbal-motor-ideal-for-gopro-style-cameras-75t-110kv"
 }

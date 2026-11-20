@@ -29,14 +29,14 @@
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "Solid",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Clip",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/bl-series-motor/products/bl5345"
+    "Mounting Pattern Diameter (mm)": "44.1",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://shop.emaxmodel.com/products/bl5345"
 }

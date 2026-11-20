@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/emx-mt-0450-1.jpg",
     "Manufacturer": "EMAX",
     "Name": "GT5345",
-    "Price ($)": "118.58",
+    "Price ($)": "",
     "Stator Diameter (mm)": "52.6",
     "Stator Height (mm)": "45.0",
     "Stator Configuration": "",
@@ -37,8 +37,19 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/gt-xa-xt-series-motors/products/gt5345"
+    "Mounting Pattern Diameter (mm)": "44.1",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://shop.emaxmodel.com/products/gt5345",
+    "Per-KV Values": {
+        "170": {
+            "Price ($)": "118.58"
+        },
+        "190": {
+            "Price ($)": "123.82"
+        },
+        "220": {
+            "Price ($)": "123.82"
+        }
+    }
 }

@@ -18,7 +18,7 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "53.0",
     "Weight (excl. Cable) (g)": "",
@@ -27,7 +27,7 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://emaxmodel.com/collections/mt-series/products/emx-mt-1534-emax-multicopter-motor-mt2213-with-prop1045-combo935kv"
+    "Link": "https://shop.emaxmodel.com/products/emx-mt-1534-emax-multicopter-motor-mt2213-with-prop1045-combo935kv"
 }
