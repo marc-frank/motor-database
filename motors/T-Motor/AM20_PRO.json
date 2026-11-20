@@ -39,5 +39,10 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-aircraft-am20pro-f3p-a"
+    "Link": "https://www.t-hobby.com/products/fixed-wing-brushless-motor-aircraft-am20pro-f3p-a",
+    "Per-KV Values": {
+        "1500": {
+            "Number of Mounting Screws": "4"
+        }
+    }
 }
