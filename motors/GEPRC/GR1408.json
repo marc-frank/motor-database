@@ -13,8 +13,7 @@
     "KV (RPM/V)": [
         "2500",
         "3500",
-        "3750",
-        "4100"
+        "3750"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
@@ -53,9 +52,6 @@
         "3750": {
             "Internal Resistance (mΩ)": "92.0",
             "Link": "https://geprc.com/product/geprc-gep-gr1408-3750kv/"
-        },
-        "4100": {
-            "Internal Resistance (mΩ)": "86.0"
         }
     }
 }
