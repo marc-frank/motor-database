@@ -190,6 +190,16 @@ DATA_NOTE = (
 )
 
 
+def out_link(url):
+    """Tag an outgoing product link so shops can see the visit came from this database.
+    Appended as text so the shop's own query string is left exactly as it was."""
+    if not re.match(r"https?://", url, re.I) or re.search(r"[?&]utm_source=", url):
+        return url
+    base, hash_, frag = url.partition("#")
+    sep = "?" if "?" not in base else "" if base.endswith(("?", "&")) else "&"
+    return base + sep + "utm_source=motor-database&utm_medium=referral" + hash_ + frag
+
+
 def to_html(rows, columns, n_models):
     e = html.escape
     shown = [c for c in columns if c != "Image"]
@@ -197,7 +207,7 @@ def to_html(rows, columns, n_models):
     def cell(r, c):
         v = r[c]
         if c == "Link" and v:
-            return f'<td><a href="{e(v)}">product page</a></td>'
+            return f'<td><a href="{e(out_link(v))}">product page</a></td>'
         return f"<td>{e(v)}</td>"
 
     head = "".join(f"<th>{e(c)}</th>" for c in shown)

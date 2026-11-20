@@ -91,6 +91,18 @@
         }
     }
 
+    // Outgoing product links carry utm_source so shops can see the visit came from this database.
+    // Only the href is tagged; the stored Link, CSV/JSON exports and the tooltip stay clean.
+    function outLink(link) {
+        // Appended as text so the shop's own query string is left exactly as it was.
+        if (!/^https?:\/\//i.test(link) || /[?&]utm_source=/.test(link)) return link;
+        var hash = link.indexOf("#");
+        var base = hash === -1 ? link : link.slice(0, hash);
+        var frag = hash === -1 ? "" : link.slice(hash);
+        var sep = base.indexOf("?") === -1 ? "?" : /[?&]$/.test(base) ? "" : "&";
+        return base + sep + "utm_source=motor-database&utm_medium=referral" + frag;
+    }
+
     function hostOf(link) {
         try {
             return new URL(link).hostname.replace(/^www\./, "");
@@ -187,7 +199,7 @@
             label: "Link",
             cls: "c-link",
             html: function (r) {
-                return r.Link ? '<a class="ext" href="' + esc(r.Link) + '" target="_blank" rel="noopener" title="' + esc(r.Link) + '" data-stop>' + EXT_ICON + "</a>" : "";
+                return r.Link ? '<a class="ext" href="' + esc(outLink(r.Link)) + '" target="_blank" rel="noopener" title="' + esc(r.Link) + '" data-stop>' + EXT_ICON + "</a>" : "";
             },
             text: function (r) { return r.Link || ""; },
         });
@@ -443,7 +455,7 @@
         }
 
         h += '<div class="drawer-actions">';
-        if (r.Link) h += '<a class="btn btn-primary" href="' + esc(r.Link) + '" target="_blank" rel="noopener">' + EXT_ICON + "<span>" + esc(hostOf(r.Link) || "Product page") + "</span></a>";
+        if (r.Link) h += '<a class="btn btn-primary" href="' + esc(outLink(r.Link)) + '" target="_blank" rel="noopener">' + EXT_ICON + "<span>" + esc(hostOf(r.Link) || "Product page") + "</span></a>";
         if (r._file) h += '<a class="btn btn-ghost" href="' + REPO + "/edit/main/" + r._file.split("/").map(encodeURIComponent).join("/") + '" target="_blank" rel="noopener" title="Edit this motor\'s file on GitHub">Edit on GitHub</a>';
         h += "</div>";
 
