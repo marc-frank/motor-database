@@ -17,10 +17,10 @@ The interactive table reads filters from the URL:
 
 - `?search=2306 1950kv`: search all fields (every word must match)
 - `?<column>=<value>`: filter one column; the parameter is the column label in snake_case, e.g. `manufacturer`, `name`, `size`, `kv`, `price`, `stator_diameter`, `stator_height`, `stator_configuration`, `internal_resistance`, `weight_incl_cable`, `magnet_type`
-- Number columns take an exact value or a range: `1950`, `>1900`, `<=30`, `1700-2000`. `size` is the 4-digit stator code: `?size=2207` is exact, `?size=22` matches every size containing "22", `?size=2207-2306` is a range.
+- Number columns take an exact value, a range or conditions, which can be combined (all must hold): `1950`, `1700-2000`, `>1900`, `<=30`, `>1900 <2500`. `size` is the 4-digit stator code: `?size=2207` is exact, `?size=22` matches every size containing "22", `?size=2207-2306` is a range.
 - `?sort=kv` or `?sort=-price` (descending)
 
-Example: `?manufacturer=T-Motor&kv=1700-2000&size=>=2207&sort=price`
+Example: `?manufacturer=T-Motor&kv=>1700 <2000&size=>=2207&sort=price`
 
 ## Source
 

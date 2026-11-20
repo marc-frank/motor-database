@@ -214,33 +214,54 @@
 
     // ---------- filtering & sorting ----------
 
-    // Per-column filter: numeric columns accept "1950" (equals), ">1900", "<=30", "1700-2000";
+    // One numeric condition: "1950" (equals), ">1900", "<=30", "=2207" or "1700-2000". Null if it isn't one.
+    function numCondition(c, t, val) {
+        var n = "(-?\\d+(?:[.,]\\d+)?)";
+        var m;
+        if (new RegExp("^" + n + "$").test(t)) {
+            // A bare number means "equals", except for Size, where "22" should find 2205, 2207, …
+            if (c.id === "size") return function (r) { return r._size.indexOf(t) !== -1; };
+            t = "=" + t;
+        }
+        if ((m = t.match(new RegExp("^(<=|>=|<|>|=)" + n + "$")))) {
+            var x = num(m[2]), op = m[1];
+            return function (r) {
+                var v = val(r);
+                if (v == null) return false;
+                return op === "<" ? v < x : op === ">" ? v > x : op === "<=" ? v <= x : op === ">=" ? v >= x : v === x;
+            };
+        }
+        if ((m = t.match(new RegExp("^" + n + "-" + n + "$")))) {
+            var lo = num(m[1]), hi = num(m[2]);
+            return function (r) {
+                var v = val(r);
+                return v != null && v >= lo && v <= hi;
+            };
+        }
+        return null;
+    }
+
+    // Per-column filter: numeric columns accept "1950" (equals), ">1900", "<=30", "1700-2000", or several
+    // of these at once (">1900 <2500");
     // anything else (and every text column) is a case-insensitive match on all space-separated words.
     function makeMatcher(c, query) {
         var q = query.trim().toLowerCase();
         if (!q) return null;
-        var n = "(-?\\d+(?:[.,]\\d+)?)";
-        var m;
         if (c.num) {
             // Size compares as its 4-digit code, e.g. "2207-2306".
             var val = c.id === "size"
                 ? function (r) { return /^\d{4}$/.test(r._size) ? +r._size : null; }
                 : function (r) { return num(r[c.id]); };
-            // A bare number means "equals", except for Size, where "22" should find 2205, 2207, …
-            if (c.id !== "size" && new RegExp("^" + n + "$").test(q)) q = "=" + q;
-            if ((m = q.match(new RegExp("^(<=|>=|<|>|=)\\s*" + n + "$")))) {
-                var x = num(m[2]), op = m[1];
+            // Several conditions can be combined and must all hold: ">1900 <2500", ">=20, <=30", ">1500 and <2000".
+            var norm = q
+                .replace(/(<=|>=|<|>|=)\s+/g, "$1")
+                .replace(/(\d)\s*(?:–|\.\.|-)\s*(?=-?\d)/g, "$1-");
+            var parts = norm.split(/\s*(?:[\s,;&]|\band\b)\s*/).filter(function (t) { return t && !/^(<=|>=|<|>|=)$/.test(t); });
+            var conds = parts.map(function (t) { return numCondition(c, t, val); });
+            if (conds.length && conds.every(Boolean)) {
                 return function (r) {
-                    var v = val(r);
-                    if (v == null) return false;
-                    return op === "<" ? v < x : op === ">" ? v > x : op === "<=" ? v <= x : op === ">=" ? v >= x : v === x;
-                };
-            }
-            if ((m = q.match(new RegExp("^" + n + "\\s*(?:-|–|\\.\\.)\\s*" + n + "$")))) {
-                var lo = num(m[1]), hi = num(m[2]);
-                return function (r) {
-                    var v = val(r);
-                    return v != null && v >= lo && v <= hi;
+                    for (var i = 0; i < conds.length; i++) if (!conds[i](r)) return false;
+                    return true;
                 };
             }
         }
@@ -307,7 +328,7 @@
             .map(function (c) {
                 var cls = c.cls ? ' class="' + c.cls + '"' : "";
                 if (c.noFilter) return "<th" + cls + "></th>";
-                var tip = c.num ? "A value (1950) or a range: >1900, <=30, 1700-2000" : "Matches every word typed";
+                var tip = c.num ? "A value (1950), a range (1700-2000) or conditions: >1900, <=30, >1900 <2500" : "Matches every word typed";
                 return (
                     "<th" + cls + '><input type="search"' + (state.f[c.id] ? ' class="active"' : "") + ' data-filter="' + esc(c.id) + '" value="' + esc(state.f[c.id] || "") +
                     '" placeholder="filter" title="' + tip + '" aria-label="Filter ' + esc(c.label) + '" autocomplete="off" /></th>'
