@@ -3,8 +3,8 @@
     "Manufacturer": "VCIRC",
     "Name": "3517",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "17.0",
     "Stator Configuration": "",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
@@ -40,5 +40,14 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://vci-rc.com/en/pd.jsp?id=176"
+    "Link": "https://vci-rc.com/en/pd.jsp?id=176",
+    "Per-KV Values": {
+        "400": {
+            "Image": "https://hobbyget.com/wp-content/uploads/2025/05/ABUIABACGAAgq4bPqAYo_LT5AjCgBjigBg.jpg",
+            "Number of Mounting Screws": "4"
+        },
+        "760": {
+            "Image": "https://d2xubjj2lzepxi.cloudfront.net/products/bf7dd008-3b93-41bb-bafd-846679317a56.jpg"
+        }
+    }
 }

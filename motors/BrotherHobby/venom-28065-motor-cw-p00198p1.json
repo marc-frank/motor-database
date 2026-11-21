@@ -1,13 +1,13 @@
 {
-    "Image": "",
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPBH/UPBH915/2603/27/products/D-094552e460.jpg?x-oss-process=image/format,webp/quality,q_100",
     "Manufacturer": "BrotherHobby",
     "Name": "Venom 2806.5 (CW)",
     "Price ($)": "",
-    "Stator Diameter (mm)": "",
+    "Stator Diameter (mm)": "28.0",
     "Stator Height (mm)": "6.5",
     "Stator Configuration": "12N14P",
-    "Stator Material": "",
-    "Stator Lamination Thickness (mm)": "",
+    "Stator Material": "Kawasaki Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
@@ -21,23 +21,31 @@
     "Base Material": "Al 7075",
     "Bell Type": "",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "52.0",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "200.0",
     "Cable Gauge (AWG)": "18",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "12.0",
     "Bearing Inner Diameter": "6.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "19.0",
-    "Number of Mounting Screws": "",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://brotherhobby.cn/products/brotherhobby-venom-28065-motor-cw"
+    "Link": "https://brotherhobby.cn/products/brotherhobby-venom-28065-motor-cw",
+    "Per-KV Values": {
+        "1300": {
+            "Internal Resistance (mΩ)": "64.06"
+        },
+        "1700": {
+            "Internal Resistance (mΩ)": "44.27"
+        }
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "Image": "",
+    "Image": "https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/1908/photo/ee394654f0.jpg?x-oss-process=image/format,webp",
     "Manufacturer": "BrotherHobby",
     "Name": "UC 2207",
     "Price ($)": "15.60",
@@ -26,7 +26,7 @@
     "Cable Gauge (AWG)": "20",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
@@ -36,7 +36,7 @@
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "16.0",
-    "Number of Mounting Screws": "",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
     "Link": "https://www.brotherhobbystore.com/uc-2207-motor-p0095.html"
 }
