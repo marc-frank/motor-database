@@ -36,18 +36,18 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Mounting Pattern Diameter (mm)": "18.0",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "4200": {
-            "Internal Resistance (mΩ)": "300",
-            "Link": "https://www.hacker-motor-shop.com/A05-10S-kv4200.htm?a=article&ProdNr=97130510&p=5550"
-        },
         "3200": {
             "Internal Resistance (mΩ)": "400",
             "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A05/A05-13S-kv3200.htm?ProdNr=97130513&a=article&p=5550&shop=hacker_e"
+        },
+        "4200": {
+            "Internal Resistance (mΩ)": "300",
+            "Link": "https://www.hacker-motor-shop.com/A05-10S-kv4200.htm?a=article&ProdNr=97130510&p=5550"
         }
     }
 }

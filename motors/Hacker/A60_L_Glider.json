@@ -36,16 +36,16 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Glider-FES/A60-16-L-Glider-kv168.htm?a=article&ProdNr=15729607&p=7012",
     "Per-KV Values": {
-        "168": {
-            "Internal Resistance (mΩ)": "18"
-        },
         "149": {
             "Internal Resistance (mΩ)": "20"
+        },
+        "168": {
+            "Internal Resistance (mΩ)": "18"
         }
     }
 }
