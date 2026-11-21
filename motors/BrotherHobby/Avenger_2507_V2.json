@@ -14,7 +14,8 @@
         "1200",
         "1500",
         "1750",
-        "1850"
+        "1850",
+        "2200"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
@@ -41,5 +42,22 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger2507v2motor-p00131p1.html"
+    "Link": "https://www.brotherhobby.com/avenger2507v2motor-p00131p1.html",
+    "Per-KV Values": {
+        "1200": {
+            "Internal Resistance (mΩ)": "116.21"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "63.48"
+        },
+        "1750": {
+            "Internal Resistance (mΩ)": "48.54"
+        },
+        "1850": {
+            "Internal Resistance (mΩ)": "46.11"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "33.19"
+        }
+    }
 }

@@ -13,6 +13,7 @@
     "KV (RPM/V)": [
         "260",
         "380",
+        "475",
         "520",
         "680",
         "800"
@@ -24,7 +25,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "260",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "750",
     "Cable Gauge (AWG)": "14",
@@ -42,5 +43,31 @@
     "Mounting Pattern Diameter (mm)": "30.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://www.brotherhobby.com/tornado-t7-4215-motor-x-class-p00162p1.html"
+    "Link": "https://www.brotherhobby.com/tornado-t7-4215-motor-x-class-p00162p1.html",
+    "Per-KV Values": {
+        "260": {
+            "Internal Resistance (mΩ)": "126.00",
+            "Weight (incl. Cable) (g)": "260"
+        },
+        "380": {
+            "Internal Resistance (mΩ)": "64.77",
+            "Weight (incl. Cable) (g)": "262"
+        },
+        "475": {
+            "Internal Resistance (mΩ)": "60.00",
+            "Weight (incl. Cable) (g)": "247"
+        },
+        "520": {
+            "Internal Resistance (mΩ)": "49.27",
+            "Weight (incl. Cable) (g)": "261.58"
+        },
+        "680": {
+            "Internal Resistance (mΩ)": "36.25",
+            "Weight (incl. Cable) (g)": "261.02"
+        },
+        "800": {
+            "Internal Resistance (mΩ)": "23.23",
+            "Weight (incl. Cable) (g)": "248.43"
+        }
+    }
 }

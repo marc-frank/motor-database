@@ -12,6 +12,7 @@
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
         "930",
+        "1030",
         "1250",
         "1380"
     ],
@@ -22,7 +23,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "55",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "250",
     "Cable Gauge (AWG)": "18",
@@ -40,5 +41,22 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger-2510-motor-p00170p1.html"
+    "Link": "https://www.brotherhobby.com/avenger-2510-motor-p00170p1.html",
+    "Per-KV Values": {
+        "930": {
+            "Internal Resistance (mΩ)": "117.14",
+            "Weight (incl. Cable) (g)": "55.32"
+        },
+        "1030": {
+            "Internal Resistance (mΩ)": "93.38",
+            "Weight (incl. Cable) (g)": "55.62"
+        },
+        "1250": {
+            "Weight (incl. Cable) (g)": "55"
+        },
+        "1380": {
+            "Internal Resistance (mΩ)": "69.53",
+            "Weight (incl. Cable) (g)": "54.25"
+        }
+    }
 }

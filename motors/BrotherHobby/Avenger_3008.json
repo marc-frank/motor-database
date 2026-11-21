@@ -23,7 +23,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "64",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "250",
     "Cable Gauge (AWG)": "18",
@@ -41,5 +41,23 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger-3008-motor-p00196p1.html"
+    "Link": "https://www.brotherhobby.com/avenger-3008-motor-p00196p1.html",
+    "Per-KV Values": {
+        "1150": {
+            "Internal Resistance (mΩ)": "67.33",
+            "Weight (incl. Cable) (g)": "63.57"
+        },
+        "1300": {
+            "Internal Resistance (mΩ)": "51.45",
+            "Weight (incl. Cable) (g)": "64.57"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "46.30",
+            "Weight (incl. Cable) (g)": "64"
+        },
+        "1900": {
+            "Internal Resistance (mΩ)": "37.50",
+            "Weight (incl. Cable) (g)": "64"
+        }
+    }
 }

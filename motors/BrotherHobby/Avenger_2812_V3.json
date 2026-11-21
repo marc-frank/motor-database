@@ -21,7 +21,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "76.5",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "250",
     "Cable Gauge (AWG)": "18",
@@ -39,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger-2812-v3-p00133p1.html"
+    "Link": "https://www.brotherhobby.com/avenger-2812-v3-p00133p1.html",
+    "Per-KV Values": {
+        "900": {
+            "Internal Resistance (mΩ)": "87.00",
+            "Weight (incl. Cable) (g)": "76.00"
+        },
+        "1115": {
+            "Internal Resistance (mΩ)": "53.00",
+            "Weight (incl. Cable) (g)": "77.50"
+        }
+    }
 }
