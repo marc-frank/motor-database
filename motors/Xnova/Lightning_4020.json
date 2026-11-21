@@ -34,7 +34,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -50,19 +50,24 @@
         },
         "900": {
             "Internal Resistance (mΩ)": "12.5",
-            "Weight (incl. Cable) (g)": "330.0"
+            "Weight (incl. Cable) (g)": "330.0",
+            "Winding Type": "Wye (2.5Y)"
         },
         "1000": {
             "Internal Resistance (mΩ)": "7.5",
-            "Weight (incl. Cable) (g)": "350.0"
+            "Weight (incl. Cable) (g)": "350.0",
+            "Winding Type": "Wye (2Y)",
+            "Stator Lamination Thickness (mm)": "0.15"
         },
         "1200": {
             "Internal Resistance (mΩ)": "6.8",
-            "Weight (incl. Cable) (g)": "350.0"
+            "Weight (incl. Cable) (g)": "350.0",
+            "Winding Type": "Wye (2Y)"
         },
         "1350": {
             "Internal Resistance (mΩ)": "6.0",
-            "Weight (incl. Cable) (g)": "350.0"
+            "Weight (incl. Cable) (g)": "350.0",
+            "Winding Type": "Wye (1.5Y)"
         }
     }
 }

@@ -33,7 +33,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -45,19 +45,23 @@
     "Per-KV Values": {
         "560": {
             "Internal Resistance (mΩ)": "19.0",
-            "Weight (incl. Cable) (g)": "400.0"
+            "Weight (incl. Cable) (g)": "400.0",
+            "Winding Type": "Wye (3Y)"
         },
         "670": {
             "Internal Resistance (mΩ)": "16.5",
-            "Weight (incl. Cable) (g)": "400.0"
+            "Weight (incl. Cable) (g)": "400.0",
+            "Winding Type": "Wye (2.5Y)"
         },
         "830": {
             "Internal Resistance (mΩ)": "9.0",
-            "Weight (incl. Cable) (g)": "408.0"
+            "Weight (incl. Cable) (g)": "408.0",
+            "Winding Type": "Wye (2Y)"
         },
         "1120": {
             "Internal Resistance (mΩ)": "6.8",
-            "Weight (incl. Cable) (g)": "395.0"
+            "Weight (incl. Cable) (g)": "395.0",
+            "Winding Type": "Wye (1.5Y)"
         }
     }
 }

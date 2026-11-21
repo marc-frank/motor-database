@@ -24,11 +24,11 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "16.8",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "30",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "2.0",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
@@ -37,11 +37,14 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
     "Link": "https://www.racedayquads.com/products/rcinpower-smoox-plus-1507-2680kv-motor",
     "Per-KV Values": {
+        "2680": {
+            "Internal Resistance (mΩ)": "113.0"
+        },
         "3800": {
             "Internal Resistance (mΩ)": "65.0"
         },
