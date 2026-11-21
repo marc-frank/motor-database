@@ -15,7 +15,7 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated to 220 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
@@ -38,5 +38,5 @@
     "Mounting Pattern Diameter (mm)": "9.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://www.flyfish-rc.com/collections/flash-series/products/flash-1303-5-5500kv-fpv-motor"
+    "Link": "https://www.flyfish-rc.com/collections/motors/products/flash-1303-5-5500kv-fpv-motor"
 }

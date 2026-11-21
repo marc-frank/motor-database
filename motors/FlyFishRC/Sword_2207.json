@@ -17,7 +17,7 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated to 220 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
@@ -40,5 +40,5 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.flyfish-rc.com/collections/sword-series/products/sword-2207-6s-fpv-motor?variant=42328188616884"
+    "Link": "https://www.flyfish-rc.com/collections/motors/products/sword-2207-6s-fpv-motor"
 }
