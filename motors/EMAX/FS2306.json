@@ -14,7 +14,7 @@
         "1700",
         "2400"
     ],
-    "Internal Resistance (mO)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "Multi Strand",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -42,11 +42,11 @@
     "Link": "https://shop.emaxmodel.com/products/emax-freestyle-fs2306-2306-1700kv-3-6s-2400kv-3-4s-brushless-motor-for-buzz-hawk-rc-drone-fpv-racing",
     "Per-KV Values": {
         "1700": {
-            "Internal Resistance (mO)": "78.0",
+            "Internal Resistance (mΩ)": "78.0",
             "Weight (excl. Cable) (g)": "28.6"
         },
         "2400": {
-            "Internal Resistance (mO)": "45.0",
+            "Internal Resistance (mΩ)": "45.0",
             "Weight (excl. Cable) (g)": "28.7"
         }
     }

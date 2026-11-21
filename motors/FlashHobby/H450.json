@@ -14,7 +14,7 @@
         "1850",
         "3800"
     ],
-    "Internal Resistance (mO)": "",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -42,10 +42,10 @@
     "Link": "https://www.flashhobby.com/h450-helicopter-motor.html",
     "Per-KV Values": {
         "1850": {
-            "Internal Resistance (mO)": "38.2"
+            "Internal Resistance (mΩ)": "38.2"
         },
         "3800": {
-            "Internal Resistance (mO)": "18.2"
+            "Internal Resistance (mΩ)": "18.2"
         }
     }
 }
