@@ -15,7 +15,7 @@
         "6000",
         "7500"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mO)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -38,7 +38,7 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "",
     "Link": "https://shop.emaxmodel.com/products/emax-rs1106-ii-4500kv-6000kv-7500kv-micro-brushless-motor-ccw-for-fpv-racer"
 }

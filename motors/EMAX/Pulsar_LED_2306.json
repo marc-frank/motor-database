@@ -14,7 +14,7 @@
         "1700",
         "2400"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mO)": "",
     "Winding Type": "Multi Strand",
     "Enamel Type": "",
     "Base Type": "",
@@ -22,7 +22,7 @@
     "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
-    "Weight (excl. Cable) (g)": "31.6",
+    "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "115.0",
     "Cable Gauge (AWG)": "",
     "Connector": "none",
@@ -39,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://shop.emaxmodel.com/products/pulsar-led-motor-2306"
+    "Link": "https://shop.emaxmodel.com/products/pulsar-led-motor-2306",
+    "Per-KV Values": {
+        "1700": {
+            "Weight (excl. Cable) (g)": "31.7"
+        },
+        "2400": {
+            "Weight (excl. Cable) (g)": "31.6"
+        }
+    }
 }
