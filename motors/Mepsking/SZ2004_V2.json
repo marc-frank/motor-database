@@ -5,7 +5,7 @@
     "Price ($)": "16.9",
     "Stator Diameter (mm)": "20.0",
     "Stator Height (mm)": "4.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -20,13 +20,13 @@
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "Unibell",
-    "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Bell Material": "Aluminium",
+    "Weight (incl. Cable) (g)": "17.8",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "120",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,8 +36,16 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.mepsking.com/meps-sz2004-v2-fpv-drone-motor-for-35inch-cinewhoop-long-range.html"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.mepsking.shop/meps-sz2004-v2-fpv-drone-motor-for-35inch-cinewhoop-long-range.html",
+    "Per-KV Values": {
+        "1800": {
+            "Internal Resistance (mΩ)": "188"
+        },
+        "3000": {
+            "Internal Resistance (mΩ)": "79"
+        }
+    }
 }

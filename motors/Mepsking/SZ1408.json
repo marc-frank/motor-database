@@ -5,7 +5,7 @@
     "Price ($)": "14.9",
     "Stator Diameter (mm)": "14.0",
     "Stator Height (mm)": "8.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "9N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -20,13 +20,13 @@
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "",
-    "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Bell Material": "Aluminium",
+    "Weight (incl. Cable) (g)": "16",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "150",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,8 +36,16 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.mepsking.com/sz1408-motor-for-3-4-inch-fpv-drone.html"
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.mepsking.shop/sz1408-motor-for-3-4-inch-fpv-drone.html",
+    "Per-KV Values": {
+        "2800": {
+            "Internal Resistance (mΩ)": "183"
+        },
+        "3950": {
+            "Internal Resistance (mΩ)": "114"
+        }
+    }
 }

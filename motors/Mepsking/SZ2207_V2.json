@@ -37,10 +37,10 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.mepsking.com/sz2207-fpv-brushless-motor-for-5inch-racing-drone.html",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mepsking.shop/sz2207-fpv-brushless-motor-for-5inch-racing-drone.html",
     "Per-KV Values": {
         "1750": {
             "Internal Resistance (mΩ)": "71"

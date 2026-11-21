@@ -15,21 +15,21 @@
         "2050",
         "2550"
     ],
-    "Internal Resistance (mΩ)": "56",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "Al 6082",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "36",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "150",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "Stainless Steel",
     "Shaft Retention": "",
     "Bearing Type": "Ball Bearing",
@@ -40,5 +40,16 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.mepsking.com/meps-neon-2207-v2-brushless-motor-for-5-inch-fpv-drone.html"
+    "Link": "https://www.mepsking.shop/meps-neon-2207-v2-brushless-motor-for-5-inch-fpv-drone.html",
+    "Per-KV Values": {
+        "1950": {
+            "Internal Resistance (mΩ)": "69"
+        },
+        "2050": {
+            "Internal Resistance (mΩ)": "56"
+        },
+        "2550": {
+            "Internal Resistance (mΩ)": "46"
+        }
+    }
 }
