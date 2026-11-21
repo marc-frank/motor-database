@@ -11,11 +11,12 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
-        "430"
+        "430",
+        "480"
     ],
-    "Internal Resistance (mΩ)": "63.5",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated 150 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
@@ -31,12 +32,28 @@
     "Shaft Material": "",
     "Shaft Retention": "",
     "Bearing Type": "Ball Bearing",
-    "Bearing Outer Diameter": "11.0, 13.0",
-    "Bearing Inner Diameter": "5.0",
-    "Bearing Thickness": "5.0, 4.0",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "25.0, 32.0",
     "Number of Mounting Screws": "4, 3",
     "Mounting Screw Thread": "M3, M2.5",
-    "Link": "https://www.mad-motor.com/products/madcomponents4012eee?VariantsId=10379"
+    "Link": "",
+    "Per-KV Values": {
+        "430": {
+            "Internal Resistance (mΩ)": "63.5",
+            "Bearing Outer Diameter": "11.0, 13.0",
+            "Bearing Inner Diameter": "5.0",
+            "Bearing Thickness": "5.0, 4.0",
+            "Link": "https://www.mad-motor.com/products/madcomponents4012eee?VariantsId=10379"
+        },
+        "480": {
+            "Internal Resistance (mΩ)": "51.0",
+            "Bearing Outer Diameter": "13.0, 14.0",
+            "Bearing Inner Diameter": "5.0, 7.0",
+            "Bearing Thickness": "4.0, 5.0",
+            "Link": "https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2025/06/MAD-4012-KV480-en.pdf"
+        }
+    }
 }

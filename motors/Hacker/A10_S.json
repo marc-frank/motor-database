@@ -35,17 +35,19 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A10/A10/A10-12S-kv2900.htm?a=article&ProdNr=97100006&p=1159",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "14.0",
+    "Number of Mounting Screws": "2",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
     "Per-KV Values": {
-        "2900": {
-            "Internal Resistance (mΩ)": "185"
-        },
         "2320": {
-            "Internal Resistance (mΩ)": "289"
+            "Internal Resistance (mΩ)": "289",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A10/A10/A10-15S-kv2320.htm?ProdNr=97100008&a=article&p=1159&shop=hacker_e"
+        },
+        "2900": {
+            "Internal Resistance (mΩ)": "185",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A10/A10/A10-12S-kv2900.htm?a=article&ProdNr=97100006&p=1159"
         }
     }
 }

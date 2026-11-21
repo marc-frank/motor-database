@@ -32,24 +32,27 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a30-10-l-v4-kv1185.htm?a=article&ProdNr=15716115&p=6514",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
     "Per-KV Values": {
-        "1185": {
-            "Internal Resistance (mΩ)": "23"
+        "800": {
+            "Internal Resistance (mΩ)": "36",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A30/A30/A30-14-L-V4-kv800.htm?ProdNr=15716116&a=article&p=6514&shop=hacker_e"
         },
         "1000": {
-            "Internal Resistance (mΩ)": "30"
+            "Internal Resistance (mΩ)": "30",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-L-V4-kv1000.htm?ProdNr=15716114&a=article&p=6514"
         },
-        "800": {
-            "Internal Resistance (mΩ)": "36"
+        "1185": {
+            "Internal Resistance (mΩ)": "23",
+            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a30-10-l-v4-kv1185.htm?a=article&ProdNr=15716115&p=6514"
         }
     }
 }

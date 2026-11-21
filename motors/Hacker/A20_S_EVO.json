@@ -31,21 +31,21 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a20-34-s-evo-kv1500.htm?a=article&ProdNr=97800002&p=1157",
     "Per-KV Values": {
-        "1500": {
-            "Internal Resistance (mΩ)": "147"
-        },
         "1088": {
             "Internal Resistance (mΩ)": "232"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "147"
         }
     }
 }

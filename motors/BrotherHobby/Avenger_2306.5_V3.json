@@ -21,7 +21,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "33.6",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "160",
     "Cable Gauge (AWG)": "20",
@@ -39,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger-23065-v3-motor-p00178p1.html"
+    "Link": "https://www.brotherhobby.com/avenger-23065-v3-motor-p00178p1.html",
+    "Per-KV Values": {
+        "2000": {
+            "Internal Resistance (mΩ)": "57.34",
+            "Weight (incl. Cable) (g)": "34.04"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "45.02",
+            "Weight (incl. Cable) (g)": "33.64"
+        }
+    }
 }

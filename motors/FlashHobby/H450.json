@@ -1,0 +1,51 @@
+{
+    "Image": "https://www.flashhobby.com/upload/488/1-min_1974512.jpg",
+    "Manufacturer": "FlashHobby",
+    "Name": "H450",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "22.0",
+    "Stator Configuration": "9N6P",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1850",
+        "3800"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "94.0",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.5",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "",
+    "Link": "https://www.flashhobby.com/h450-helicopter-motor.html",
+    "Per-KV Values": {
+        "1850": {
+            "Internal Resistance (mΩ)": "38.2"
+        },
+        "3800": {
+            "Internal Resistance (mΩ)": "18.2"
+        }
+    }
+}

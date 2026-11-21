@@ -5,7 +5,7 @@
     "Price ($)": "11.59",
     "Stator Diameter (mm)": "12.0",
     "Stator Height (mm)": "2.5",
-    "Stator Configuration": "",
+    "Stator Configuration": "9N12P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "0.15",
     "Flux Direction": "Radial",
@@ -21,9 +21,9 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "4.3",
+    "Weight (incl. Cable) (g)": "3.9",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "51",
+    "Cable length (mm)": "30",
     "Cable Gauge (AWG)": "27",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.5",
@@ -39,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "9.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://www.racedayquads.com/products/rcinpower-gts-v2-1202-5-11500kv-motor"
+    "Link": "https://www.racedayquads.com/products/rcinpower-gts-v2-1202-5-11500kv-motor",
+    "Per-KV Values": {
+        "6000": {
+            "Internal Resistance (mΩ)": "300.0"
+        },
+        "11500": {
+            "Internal Resistance (mΩ)": "135.0"
+        }
+    }
 }

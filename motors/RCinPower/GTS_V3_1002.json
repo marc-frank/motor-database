@@ -24,7 +24,7 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "2.5",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "50",
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.5",
@@ -37,9 +37,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "9.0",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "6.6",
+    "Number of Mounting Screws": "3",
+    "Mounting Screw Thread": "M1.4",
     "Link": "https://www.racedayquads.com/products/rcinpower-gts-v3-1002-14000kv-motor-choose-color",
     "Per-KV Values": {
         "14000": {

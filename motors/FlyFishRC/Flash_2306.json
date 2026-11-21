@@ -15,7 +15,7 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated to 220 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
@@ -31,12 +31,12 @@
     "Shaft Material": "Titanium",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
-    "Bearing Outer Diameter": "",
-    "Bearing Inner Diameter": "",
-    "Bearing Thickness": "",
+    "Bearing Outer Diameter": "9.0",
+    "Bearing Inner Diameter": "4.0",
+    "Bearing Thickness": "4.0",
     "Magnet Type": "N52SH",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.flyfish-rc.com/collections/flash-series/products/flash-2306-5-motor?variant=41803442651316"
+    "Link": "https://www.flyfish-rc.com/collections/motors/products/flash-2306-5-motor"
 }

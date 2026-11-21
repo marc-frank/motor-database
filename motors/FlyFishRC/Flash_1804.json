@@ -16,7 +16,7 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated to 220 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
@@ -39,7 +39,7 @@
     "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://www.flyfish-rc.com/collections/flash-series/products/flash-1804-2450kv-3500kv-freestyle-motor?variant=42299137556660",
+    "Link": "https://www.flyfish-rc.com/collections/flash-series/products/flash-1804-2450kv-3500kv-freestyle-motor",
     "Per-KV Values": {
         "2450": {
             "Weight (incl. Cable) (g)": "14"

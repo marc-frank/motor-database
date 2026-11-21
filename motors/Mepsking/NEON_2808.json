@@ -15,11 +15,11 @@
         "1950"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "",
-    "Enamel Type": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "High-temperature enameled winding wire",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
@@ -39,7 +39,7 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.mepsking.com/neon-2808-cinematic-fpv-motor.html",
+    "Link": "https://www.mepsking.shop/neon-2808-cinematic-fpv-motor.html",
     "Per-KV Values": {
         "1500": {
             "Weight (incl. Cable) (g)": "60.5"

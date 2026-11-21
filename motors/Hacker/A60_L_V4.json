@@ -32,24 +32,27 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-14-L-V4-kv192.htm?a=article&ProdNr=33726625&p=7013",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
     "Per-KV Values": {
-        "192": {
-            "Internal Resistance (mΩ)": "16"
+        "149": {
+            "Internal Resistance (mΩ)": "20",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A60/A60-motor-planes/A60-18-L-V4-kv149.htm?ProdNr=33726629&a=article&p=7013&shop=hacker_e"
         },
         "168": {
-            "Internal Resistance (mΩ)": "18"
+            "Internal Resistance (mΩ)": "18",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-16-L-V4-kv168.htm?ProdNr=33726626&a=article&p=7013"
         },
-        "149": {
-            "Internal Resistance (mΩ)": "20"
+        "192": {
+            "Internal Resistance (mΩ)": "16",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-14-L-V4-kv192.htm?a=article&ProdNr=33726625&p=7013"
         }
     }
 }

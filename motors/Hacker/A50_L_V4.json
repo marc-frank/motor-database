@@ -32,24 +32,24 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A50/A50-14pol/A50-12-L-V4-kv355.htm?a=article&ProdNr=15726840&p=6681",
     "Per-KV Values": {
-        "355": {
-            "Internal Resistance (mΩ)": "21"
+        "265": {
+            "Internal Resistance (mΩ)": "31"
         },
         "300": {
             "Internal Resistance (mΩ)": "25"
         },
-        "265": {
-            "Internal Resistance (mΩ)": "31"
+        "355": {
+            "Internal Resistance (mΩ)": "21"
         }
     }
 }

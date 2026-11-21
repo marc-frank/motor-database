@@ -14,7 +14,7 @@
         "5000",
         "8000"
     ],
-    "Internal Resistance (mΩ)": "125.0",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -36,8 +36,14 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.racedayquads.com/products/rcinpower-gts-v2-1204-5000kv-motor"
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.racedayquads.com/products/rcinpower-gts-v2-1204-5000kv-motor",
+    "Per-KV Values": {
+        "5000": {
+            "Internal Resistance (mΩ)": "125.0",
+            "Shaft Diameter (internal) (mm)": "2.0"
+        }
+    }
 }

@@ -38,18 +38,18 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a50-10l-turnado-v3-kv430-htm.htm?a=article&ProdNr=15726743&p=4206",
     "Per-KV Values": {
-        "530": {
-            "Internal Resistance (mΩ)": "15"
+        "400": {
+            "Internal Resistance (mΩ)": "26"
         },
         "450": {
             "Internal Resistance (mΩ)": "19"
         },
-        "400": {
-            "Internal Resistance (mΩ)": "26"
+        "530": {
+            "Internal Resistance (mΩ)": "15"
         }
     }
 }

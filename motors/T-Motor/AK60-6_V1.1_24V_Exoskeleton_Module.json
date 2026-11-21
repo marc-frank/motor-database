@@ -10,8 +10,10 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
-    "Internal Resistance (mΩ)": "",
+    "KV (RPM/V)": [
+        "80"
+    ],
+    "Internal Resistance (mΩ)": "202.0",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
@@ -19,7 +21,7 @@
     "Bell Type": "",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
-    "Weight (excl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "368.0",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",

@@ -31,21 +31,23 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5S-V4-28-Pole-kv295.htm?a=article&ProdNr=33726632&p=7013",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
     "Per-KV Values": {
-        "295": {
-            "Internal Resistance (mΩ)": "15"
-        },
         "215": {
-            "Internal Resistance (mΩ)": "26"
+            "Internal Resistance (mΩ)": "26",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-7S-V4-28-Pole-kv215.htm?ProdNr=33726635&a=article&p=7013"
+        },
+        "295": {
+            "Internal Resistance (mΩ)": "15",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5S-V4-28-Pole-kv295.htm?a=article&ProdNr=33726632&p=7013"
         }
     }
 }

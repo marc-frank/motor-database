@@ -18,7 +18,7 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated to 250 °C",
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "",
@@ -28,7 +28,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (external) (mm)": "5.0, 6.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -45,19 +45,23 @@
     "Per-KV Values": {
         "560": {
             "Internal Resistance (mΩ)": "19.0",
-            "Weight (incl. Cable) (g)": "384.0"
+            "Weight (incl. Cable) (g)": "384.0",
+            "Winding Type": "Wye (3Y)"
         },
         "670": {
             "Internal Resistance (mΩ)": "16.7",
-            "Weight (incl. Cable) (g)": "381.0"
+            "Weight (incl. Cable) (g)": "381.0",
+            "Winding Type": "Wye (2.5Y)"
         },
         "830": {
             "Internal Resistance (mΩ)": "11.0",
-            "Weight (incl. Cable) (g)": "386.0"
+            "Weight (incl. Cable) (g)": "386.0",
+            "Winding Type": "Wye (2Y)"
         },
         "1120": {
             "Internal Resistance (mΩ)": "7.3",
-            "Weight (incl. Cable) (g)": "384.0"
+            "Weight (incl. Cable) (g)": "384.0",
+            "Winding Type": "Wye (1.5Y)"
         }
     }
 }

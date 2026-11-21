@@ -31,21 +31,23 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-22-S-V4-kv1440.htm?a=article&ProdNr=15716111&p=6514",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
     "Per-KV Values": {
-        "1440": {
-            "Internal Resistance (mΩ)": "41"
-        },
         "1140": {
-            "Internal Resistance (mΩ)": "68"
+            "Internal Resistance (mΩ)": "68",
+            "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A30/A30/A30-28-S-V4-kv1140.htm?ProdNr=15716110&a=article&p=6514&shop=hacker_e"
+        },
+        "1440": {
+            "Internal Resistance (mΩ)": "41",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-22-S-V4-kv1440.htm?a=article&ProdNr=15716111&p=6514"
         }
     }
 }

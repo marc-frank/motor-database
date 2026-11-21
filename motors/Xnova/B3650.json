@@ -1,0 +1,83 @@
+{
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2019/04/IR_3650.jpg",
+    "Manufacturer": "Xnova",
+    "Name": "B3650 Inrunner Airplane",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "1650",
+        "1920",
+        "2200",
+        "2620",
+        "3300",
+        "3800",
+        "4550",
+        "5700",
+        "6300",
+        "7820"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0, 6.0, 8.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 25.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://www.xnovamotors.com/new-xnova-36xx-inrunner-airplane-motor-series/",
+    "Per-KV Values": {
+        "1650": {
+            "Weight (incl. Cable) (g)": "203"
+        },
+        "1920": {
+            "Weight (incl. Cable) (g)": "202"
+        },
+        "2200": {
+            "Weight (incl. Cable) (g)": "205"
+        },
+        "2620": {
+            "Weight (incl. Cable) (g)": "200"
+        },
+        "3300": {
+            "Weight (incl. Cable) (g)": "201"
+        },
+        "3800": {
+            "Weight (incl. Cable) (g)": "208"
+        },
+        "4550": {
+            "Weight (incl. Cable) (g)": "203"
+        },
+        "5700": {
+            "Weight (incl. Cable) (g)": "208"
+        },
+        "6300": {
+            "Weight (incl. Cable) (g)": "203"
+        },
+        "7820": {
+            "Weight (incl. Cable) (g)": "203"
+        }
+    }
+}

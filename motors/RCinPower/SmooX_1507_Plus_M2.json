@@ -1,8 +1,8 @@
 {
-    "Image": "https://cdn.shopify.com/s/files/1/2778/6650/products/4PCS-RCINPOWER-SmooX-1507-Plus-2680KV-3800KV-4200KV-3-6S-FPV-Brushless-Motor-for-FPV-Racing_jpg_Q90_jpg.webp",
+    "Image": "https://rcinpower.com/upload/2021-07/06/SmooX1507M2chanpinyemian01.jpg",
     "Manufacturer": "RCinPower",
     "Name": "SmooX 1507 Plus M2",
-    "Price ($)": "24.99",
+    "Price ($)": "",
     "Stator Diameter (mm)": "15.0",
     "Stator Height (mm)": "7.0",
     "Stator Configuration": "9N12P",
@@ -11,9 +11,9 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
+        "2080",
         "2680",
-        "3800",
-        "4200"
+        "3800"
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
@@ -22,12 +22,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "16.8",
+    "Weight (incl. Cable) (g)": "16.5",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (external) (mm)": "2.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,16 +37,19 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://pyrodrone.com/products/rcinpower-smoox-plus-1507-4200kv-fpv-drone-motor-gun-metal",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://rcinpower.com/SmooX/47.html",
     "Per-KV Values": {
-        "3800": {
-            "Internal Resistance (mΩ)": "65.0"
+        "2080": {
+            "Internal Resistance (mΩ)": "165.0"
         },
-        "4200": {
-            "Internal Resistance (mΩ)": "59.0"
+        "2680": {
+            "Internal Resistance (mΩ)": "113.0"
+        },
+        "3800": {
+            "Internal Resistance (mΩ)": "80.0"
         }
     }
 }

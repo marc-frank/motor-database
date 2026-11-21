@@ -5,7 +5,7 @@
     "Price ($)": "10.99",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "6.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -20,14 +20,14 @@
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "Al 6082",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "34",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "150",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "Stainless Steel",
@@ -40,5 +40,17 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.mepsking.com/meps-neon-2306-v2-brushless-fpv-motor-for-5-inch-freestyle-fpv-drone.html"
+    "Link": "https://www.mepsking.shop/meps-neon-2306-v2-brushless-fpv-motor-for-5-inch-freestyle-fpv-drone.html",
+    "Per-KV Values": {
+        "1950": {
+            "Internal Resistance (mΩ)": "58"
+        },
+        "2050": {
+            "Internal Resistance (mΩ)": "55",
+            "Cable Gauge (AWG)": "24"
+        },
+        "2550": {
+            "Internal Resistance (mΩ)": "42"
+        }
+    }
 }

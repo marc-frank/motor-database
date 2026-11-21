@@ -32,27 +32,30 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5XS-V4-28-Pole-kv420.htm?a=article&ProdNr=33726633&p=7013",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
     "Per-KV Values": {
-        "420": {
-            "Internal Resistance (mΩ)": "12",
-            "Weight (incl. Cable) (g)": "446"
+        "330": {
+            "Internal Resistance (mΩ)": "20",
+            "Weight (incl. Cable) (g)": "455",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-7XS-V4-28-Pole-kv330.htm?ProdNr=33726636&a=article&p=7013"
         },
         "370": {
             "Internal Resistance (mΩ)": "15",
-            "Weight (incl. Cable) (g)": "446"
+            "Weight (incl. Cable) (g)": "446",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-6XS-V4-28-Pole-kv370.htm?ProdNr=33726634&a=article&p=7013"
         },
-        "330": {
-            "Internal Resistance (mΩ)": "20",
-            "Weight (incl. Cable) (g)": "455"
+        "420": {
+            "Internal Resistance (mΩ)": "12",
+            "Weight (incl. Cable) (g)": "446",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A60/A60-Motormodelle/A60-5XS-V4-28-Pole-kv420.htm?a=article&ProdNr=33726633&p=7013"
         }
     }
 }

@@ -1,0 +1,95 @@
+{
+    "Image": "https://www.xnovamotors.com/wp-content/uploads/2019/04/IR_3665.jpg",
+    "Manufacturer": "Xnova",
+    "Name": "B3665 Inrunner Airplane",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "",
+    "Stator Height (mm)": "",
+    "Stator Configuration": "",
+    "Stator Material": "",
+    "Stator Lamination Thickness (mm)": "",
+    "Flux Direction": "Radial",
+    "Flux Ring Thickness (mm)": "",
+    "KV (RPM/V)": [
+        "890",
+        "1000",
+        "1190",
+        "1340",
+        "1420",
+        "1640",
+        "1790",
+        "2040",
+        "2380",
+        "2850",
+        "3550",
+        "4000",
+        "4700"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "",
+    "Base Type": "",
+    "Base Material": "",
+    "Bell Type": "",
+    "Bell Material": "",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "5.0, 6.0, 8.0",
+    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Type": "",
+    "Shaft Material": "",
+    "Shaft Retention": "",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "",
+    "Bearing Inner Diameter": "",
+    "Bearing Thickness": "",
+    "Magnet Type": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 25.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://www.xnovamotors.com/new-xnova-36xx-inrunner-airplane-motor-series/",
+    "Per-KV Values": {
+        "890": {
+            "Weight (incl. Cable) (g)": "291"
+        },
+        "1000": {
+            "Weight (incl. Cable) (g)": "293"
+        },
+        "1190": {
+            "Weight (incl. Cable) (g)": "294"
+        },
+        "1340": {
+            "Weight (incl. Cable) (g)": "297"
+        },
+        "1420": {
+            "Weight (incl. Cable) (g)": "293"
+        },
+        "1640": {
+            "Weight (incl. Cable) (g)": "287"
+        },
+        "1790": {
+            "Weight (incl. Cable) (g)": "295"
+        },
+        "2040": {
+            "Weight (incl. Cable) (g)": "289"
+        },
+        "2380": {
+            "Weight (incl. Cable) (g)": "298"
+        },
+        "2850": {
+            "Weight (incl. Cable) (g)": "289"
+        },
+        "3550": {
+            "Weight (incl. Cable) (g)": "300"
+        },
+        "4000": {
+            "Weight (incl. Cable) (g)": "290"
+        },
+        "4700": {
+            "Weight (incl. Cable) (g)": "293"
+        }
+    }
+}

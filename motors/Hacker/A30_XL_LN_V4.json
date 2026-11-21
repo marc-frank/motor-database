@@ -40,16 +40,19 @@
     "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "",
     "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/A30-8-XL-LN-V4-kv1100.htm?a=article&ProdNr=10109254&p=1228",
+    "Link": "",
     "Per-KV Values": {
         "1100": {
-            "Internal Resistance (mΩ)": "15"
+            "Internal Resistance (mΩ)": "15",
+            "Link": "https://www.hacker-motor-shop.com/A30-8-XL-LN-V4-kv1100.htm?a=article&ProdNr=10109254&p=1228"
         },
         "900": {
-            "Internal Resistance (mΩ)": "24"
+            "Internal Resistance (mΩ)": "24",
+            "Link": "https://www.hacker-motor-shop.com/A30-10-XL-LN-V4-kv900.htm?ProdNr=10109255&a=article&p=1228"
         },
         "700": {
-            "Internal Resistance (mΩ)": "34"
+            "Internal Resistance (mΩ)": "34",
+            "Link": "https://www.hacker-motor-shop.com/A30-12-XL-LN-V4-kv700.htm?ProdNr=10109256&a=article&p=1228"
         }
     }
 }

@@ -11,9 +11,10 @@
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
+        "1600",
         "2500"
     ],
-    "Internal Resistance (mΩ)": "124.5",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
@@ -31,12 +32,20 @@
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
     "Bearing Type": "Ball Bearing",
-    "Bearing Outer Diameter": "9.0",
-    "Bearing Inner Diameter": "4.0",
+    "Bearing Outer Diameter": "8.0",
+    "Bearing Inner Diameter": "3.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://shop.iflight.com/motors-cat88/xing2-1806-fpv-motor-1-5mm-shaft-pro1466"
+    "Link": "https://shop.iflight.com/motors-cat88/xing2-1806-fpv-motor-1-5mm-shaft-pro1466",
+    "Per-KV Values": {
+        "1600": {
+            "Internal Resistance (mΩ)": "320.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "124.5"
+        }
+    }
 }

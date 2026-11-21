@@ -36,10 +36,10 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.mepsking.com/sz2808-fpv-cinematic-motor.html",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mepsking.shop/sz2808-fpv-cinematic-motor.html",
     "Per-KV Values": {
         "1350": {
             "Internal Resistance (mΩ)": "59"

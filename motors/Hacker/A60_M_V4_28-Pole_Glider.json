@@ -32,24 +32,27 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/A60-6M-V4-28-Pole-Glider-kv240.htm?a=article&ProdNr=10109215&p=7012",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
     "Per-KV Values": {
-        "240": {
-            "Internal Resistance (mΩ)": "18"
+        "180": {
+            "Internal Resistance (mΩ)": "30",
+            "Link": "https://www.hacker-motor-shop.com/a60-8m-v4-28-pole-glider-kv180.htm?ProdNr=15701908&a=article&p=7012"
         },
         "205": {
-            "Internal Resistance (mΩ)": "24"
+            "Internal Resistance (mΩ)": "24",
+            "Link": "https://www.hacker-motor-shop.com/a60-7m-v4-28-pole-glider-kv205.htm?ProdNr=15701907&a=article&p=7012"
         },
-        "180": {
-            "Internal Resistance (mΩ)": "30"
+        "240": {
+            "Internal Resistance (mΩ)": "18",
+            "Link": "https://www.hacker-motor-shop.com/A60-6M-V4-28-Pole-Glider-kv240.htm?a=article&ProdNr=10109215&p=7012"
         }
     }
 }

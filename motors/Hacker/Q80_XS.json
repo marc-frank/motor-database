@@ -36,18 +36,18 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.hacker-motor-shop.com/Q80-13XS-kv225-F3A.htm?a=article&ProdNr=38798013&p=2986",
     "Per-KV Values": {
-        "225": {
-            "Internal Resistance (mΩ)": "24",
-            "Weight (incl. Cable) (g)": "520"
-        },
         "209": {
             "Internal Resistance (mΩ)": "25",
             "Weight (incl. Cable) (g)": "528"
+        },
+        "225": {
+            "Internal Resistance (mΩ)": "24",
+            "Weight (incl. Cable) (g)": "520"
         }
     }
 }

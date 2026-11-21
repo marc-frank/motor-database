@@ -38,23 +38,27 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Q80-7M-V2-kv210.htm?a=article&ProdNr=37418020&p=2986",
+    "Mounting Pattern Diameter (mm)": "100.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "Unthreaded",
+    "Link": "",
     "Per-KV Values": {
-        "210": {
-            "Internal Resistance (mΩ)": "10"
+        "135": {
+            "Internal Resistance (mΩ)": "21",
+            "Link": "https://www.hacker-motor-shop.com/Q80-11M-V2-kv135.htm?ProdNr=37418023&a=article&p=2986"
+        },
+        "160": {
+            "Internal Resistance (mΩ)": "15",
+            "Link": "https://www.hacker-motor-shop.com/Q80-9M-V2-kv160.htm?ProdNr=37418022&a=article&p=2986"
         },
         "180": {
             "Internal Resistance (mΩ)": "13",
-            "Shaft Diameter (external) (mm)": "10.0"
+            "Shaft Diameter (external) (mm)": "10.0",
+            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-q80-8m-v2-kv180.htm?ProdNr=37418021&a=article&p=2986"
         },
-        "160": {
-            "Internal Resistance (mΩ)": "15"
-        },
-        "135": {
-            "Internal Resistance (mΩ)": "21"
+        "210": {
+            "Internal Resistance (mΩ)": "10",
+            "Link": "https://www.hacker-motor-shop.com/Q80-7M-V2-kv210.htm?a=article&ProdNr=37418020&p=2986"
         }
     }
 }

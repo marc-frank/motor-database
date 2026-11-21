@@ -36,18 +36,20 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.hacker-motor-shop.com/Q80-11S-28-Pole-kv205-F3A.htm?a=article&ProdNr=38798520&p=2986",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
     "Per-KV Values": {
-        "205": {
-            "Internal Resistance (mΩ)": "20",
-            "Weight (incl. Cable) (g)": "630"
-        },
         "175": {
             "Internal Resistance (mΩ)": "29",
-            "Weight (incl. Cable) (g)": "610"
+            "Weight (incl. Cable) (g)": "610",
+            "Link": "https://www.hacker-motor-shop.com/Q80-13S-28-Pole-kv175.htm?ProdNr=38798470&a=article&p=2986"
+        },
+        "205": {
+            "Internal Resistance (mΩ)": "20",
+            "Weight (incl. Cable) (g)": "630",
+            "Link": "https://www.hacker-motor-shop.com/Q80-11S-28-Pole-kv205-F3A.htm?a=article&ProdNr=38798520&p=2986"
         }
     }
 }

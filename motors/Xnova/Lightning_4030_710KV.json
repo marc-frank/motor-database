@@ -14,7 +14,7 @@
         "710"
     ],
     "Internal Resistance (mΩ)": "9.6",
-    "Winding Type": "",
+    "Winding Type": "Wye (2Y)",
     "Enamel Type": "",
     "Base Type": "",
     "Base Material": "",
@@ -30,7 +30,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",

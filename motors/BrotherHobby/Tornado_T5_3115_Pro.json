@@ -27,7 +27,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "116",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "300",
     "Cable Gauge (AWG)": "16",
@@ -45,5 +45,39 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/tornado-t5-3115-pro-motor-p00158p1.html"
+    "Link": "https://www.brotherhobby.com/tornado-t5-3115-pro-motor-p00158p1.html",
+    "Per-KV Values": {
+        "400": {
+            "Internal Resistance (mΩ)": "212.00",
+            "Weight (incl. Cable) (g)": "110"
+        },
+        "480": {
+            "Internal Resistance (mΩ)": "111.00",
+            "Weight (incl. Cable) (g)": "116"
+        },
+        "640": {
+            "Internal Resistance (mΩ)": "76.35",
+            "Weight (incl. Cable) (g)": "115.5"
+        },
+        "900": {
+            "Internal Resistance (mΩ)": "40.70",
+            "Weight (incl. Cable) (g)": "125"
+        },
+        "970": {
+            "Internal Resistance (mΩ)": "45.00",
+            "Weight (incl. Cable) (g)": "113"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "34.00",
+            "Weight (incl. Cable) (g)": "108"
+        },
+        "1200": {
+            "Internal Resistance (mΩ)": "25.97",
+            "Weight (incl. Cable) (g)": "110.66"
+        },
+        "1520": {
+            "Internal Resistance (mΩ)": "25.20",
+            "Weight (incl. Cable) (g)": "120.8"
+        }
+    }
 }

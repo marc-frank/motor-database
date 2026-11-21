@@ -24,9 +24,9 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "86.7",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "250",
+    "Cable length (mm)": "",
     "Cable Gauge (AWG)": "18",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
@@ -42,5 +42,32 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger-2816-motor-p00192p1.html"
+    "Link": "https://www.brotherhobby.com/avenger-2816-motor-p00192p1.html",
+    "Per-KV Values": {
+        "620": {
+            "Internal Resistance (mΩ)": "101.27",
+            "Weight (incl. Cable) (g)": "96.91",
+            "Cable length (mm)": "250"
+        },
+        "720": {
+            "Internal Resistance (mΩ)": "78.36",
+            "Weight (incl. Cable) (g)": "97.49",
+            "Cable length (mm)": "300"
+        },
+        "750": {
+            "Internal Resistance (mΩ)": "74.90",
+            "Weight (incl. Cable) (g)": "96.71",
+            "Cable length (mm)": "250"
+        },
+        "810": {
+            "Internal Resistance (mΩ)": "73.21",
+            "Weight (incl. Cable) (g)": "94.65",
+            "Cable length (mm)": "250"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "55.72",
+            "Weight (incl. Cable) (g)": "93.56",
+            "Cable length (mm)": "250"
+        }
+    }
 }

@@ -22,7 +22,7 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "154.3",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "500",
     "Cable Gauge (AWG)": "16",
@@ -37,19 +37,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52SH",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://vci-rc.com/en/pd.jsp?id=173",
     "Per-KV Values": {
         "450": {
-            "Internal Resistance (mΩ)": "115.0"
+            "Internal Resistance (mΩ)": "115.0",
+            "Weight (incl. Cable) (g)": "154.3"
         },
         "950": {
-            "Internal Resistance (mΩ)": "40.0"
+            "Internal Resistance (mΩ)": "40.0",
+            "Weight (incl. Cable) (g)": "154.5"
         },
         "1100": {
-            "Internal Resistance (mΩ)": "25.0"
+            "Internal Resistance (mΩ)": "25.0",
+            "Weight (incl. Cable) (g)": "150.7"
         }
     }
 }

@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "31.0",
     "Stator Height (mm)": "20.0",
     "Stator Configuration": "12N14P",
-    "Stator Material": "Kawasaki Silicon Steel",
+    "Stator Material": "Nippon Silicon Steel",
     "Stator Lamination Thickness (mm)": "0.2",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
@@ -21,7 +21,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "142.7",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "300",
     "Cable Gauge (AWG)": "16",
@@ -39,5 +39,15 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/avenger-3120-motor-p00209p1.html"
+    "Link": "https://www.brotherhobby.com/avenger-3120-motor-p00209p1.html",
+    "Per-KV Values": {
+        "500": {
+            "Internal Resistance (mΩ)": "81.00",
+            "Weight (incl. Cable) (g)": "132.22"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "52.00",
+            "Weight (incl. Cable) (g)": "140.00"
+        }
+    }
 }

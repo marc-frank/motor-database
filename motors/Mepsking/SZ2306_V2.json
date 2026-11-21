@@ -5,7 +5,7 @@
     "Price ($)": "12.8",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "6.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -22,23 +22,34 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "Al 6082",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "33",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "160",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://www.mepsking.com/sz2306-fpv-brushless-motor-for-5inch-freestyle-drone.html"
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.mepsking.shop/sz2306-fpv-brushless-motor-for-5inch-freestyle-drone.html",
+    "Per-KV Values": {
+        "1750": {
+            "Internal Resistance (mΩ)": "76"
+        },
+        "1950": {
+            "Internal Resistance (mΩ)": "58"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "44"
+        }
+    }
 }
