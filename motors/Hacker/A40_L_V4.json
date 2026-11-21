@@ -39,30 +39,30 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.hacker-motor-shop.com/A40-8L-V4-kv1300.htm?a=article&ProdNr=33726617&p=310",
     "Per-KV Values": {
-        "1300": {
-            "Internal Resistance (mΩ)": "13",
-            "Weight (incl. Cable) (g)": "265"
+        "355": {
+            "Internal Resistance (mΩ)": "50",
+            "Weight (incl. Cable) (g)": "275"
         },
-        "630": {
-            "Internal Resistance (mΩ)": "26",
+        "410": {
+            "Internal Resistance (mΩ)": "39",
             "Weight (incl. Cable) (g)": "275"
         },
         "500": {
             "Internal Resistance (mΩ)": "30",
             "Weight (incl. Cable) (g)": "246"
         },
-        "410": {
-            "Internal Resistance (mΩ)": "39",
+        "630": {
+            "Internal Resistance (mΩ)": "26",
             "Weight (incl. Cable) (g)": "275"
         },
-        "355": {
-            "Internal Resistance (mΩ)": "50",
-            "Weight (incl. Cable) (g)": "275"
+        "1300": {
+            "Internal Resistance (mΩ)": "13",
+            "Weight (incl. Cable) (g)": "265"
         }
     }
 }

@@ -37,12 +37,12 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "99.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M6",
     "Link": "https://www.hacker-motor-shop.com/Q100-5L-kv137.htm?a=article&ProdNr=19990538&p=8589",
     "Per-KV Values": {
-        "137": {
+        "99": {
             "Internal Resistance (mΩ)": "5.3",
             "Weight (incl. Cable) (g)": "2300"
         },
@@ -50,7 +50,7 @@
             "Internal Resistance (mΩ)": "7.2",
             "Weight (incl. Cable) (g)": "2330"
         },
-        "99": {
+        "137": {
             "Internal Resistance (mΩ)": "5.3",
             "Weight (incl. Cable) (g)": "2300"
         }

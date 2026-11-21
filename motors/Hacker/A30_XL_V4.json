@@ -37,22 +37,22 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "",
     "Per-KV Values": {
-        "1100": {
-            "Internal Resistance (mΩ)": "15",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-8-XL-V4-kv1100.htm?a=article&ProdNr=15716107&p=6514"
+        "700": {
+            "Internal Resistance (mΩ)": "34",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-XL-V4-kv700.htm?ProdNr=15716108&a=article&p=6514"
         },
         "900": {
             "Internal Resistance (mΩ)": "24",
             "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A30/A30/A30-10-XL-V4-kv900.htm?ProdNr=15716109&a=article&p=6514&shop=hacker_e"
         },
-        "700": {
-            "Internal Resistance (mΩ)": "34",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-12-XL-V4-kv700.htm?ProdNr=15716108&a=article&p=6514"
+        "1100": {
+            "Internal Resistance (mΩ)": "15",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A30/A30/A30-8-XL-V4-kv1100.htm?a=article&ProdNr=15716107&p=6514"
         }
     }
 }

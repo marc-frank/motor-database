@@ -37,15 +37,15 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a50s-turnado-v3-kv850.htm?a=article&ProdNr=15726758&p=4206",
     "Per-KV Values": {
-        "850": {
-            "Internal Resistance (mΩ)": "9"
-        },
         "690": {
             "Internal Resistance (mΩ)": "11"
+        },
+        "850": {
+            "Internal Resistance (mΩ)": "9"
         }
     }
 }

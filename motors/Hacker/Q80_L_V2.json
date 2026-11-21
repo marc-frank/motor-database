@@ -44,25 +44,37 @@
     "Mounting Screw Thread": "",
     "Link": "",
     "Per-KV Values": {
-        "270": {
-            "Internal Resistance (mΩ)": "5.3",
-            "Link": "https://www.hacker-motor-shop.com/Q80-4L-V2-kv270.htm?a=article&ProdNr=37418011&p=2986"
-        },
-        "215": {
-            "Internal Resistance (mΩ)": "7",
-            "Link": "https://www.hacker-motor-shop.com/Q80-5L-V2-kv215.htm?ProdNr=37418018&a=article&p=2986"
-        },
-        "180": {
-            "Internal Resistance (mΩ)": "9",
-            "Link": "https://www.hacker-motor-shop.com/Q80-6L-V2-kv180.htm?ProdNr=37418019&a=article&p=2986"
+        "135": {
+            "Internal Resistance (mΩ)": "15",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-Q80/Q80-8L-V2-kv135.htm?ProdNr=37418025&a=article&p=2986",
+            "Mounting Pattern Diameter (mm)": "100.0",
+            "Number of Mounting Screws": "4",
+            "Mounting Screw Thread": "Unthreaded"
         },
         "155": {
             "Internal Resistance (mΩ)": "12",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-Q80/Q80-7L-V2-kv155.htm?ProdNr=37418024&a=article&p=2986"
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-Q80/Q80-7L-V2-kv155.htm?ProdNr=37418024&a=article&p=2986",
+            "Mounting Pattern Diameter (mm)": "100.0",
+            "Number of Mounting Screws": "4",
+            "Mounting Screw Thread": "Unthreaded"
         },
-        "135": {
-            "Internal Resistance (mΩ)": "15",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-Q80/Q80-8L-V2-kv135.htm?ProdNr=37418025&a=article&p=2986"
+        "180": {
+            "Internal Resistance (mΩ)": "9",
+            "Link": "https://www.hacker-motor-shop.com/Q80-6L-V2-kv180.htm?ProdNr=37418019&a=article&p=2986",
+            "Mounting Pattern Diameter (mm)": "100.0",
+            "Number of Mounting Screws": "4",
+            "Mounting Screw Thread": "Unthreaded"
+        },
+        "215": {
+            "Internal Resistance (mΩ)": "7",
+            "Link": "https://www.hacker-motor-shop.com/Q80-5L-V2-kv215.htm?ProdNr=37418018&a=article&p=2986",
+            "Mounting Pattern Diameter (mm)": "100.0",
+            "Number of Mounting Screws": "4",
+            "Mounting Screw Thread": "Unthreaded"
+        },
+        "270": {
+            "Internal Resistance (mΩ)": "5.3",
+            "Link": "https://www.hacker-motor-shop.com/Q80-4L-V2-kv270.htm?a=article&ProdNr=37418011&p=2986"
         }
     }
 }

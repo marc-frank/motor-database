@@ -37,19 +37,19 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.hacker-motor-shop.com/A50-10L-Turnado-V3-kv530-Glider.htm?a=article&ProdNr=97826733&p=7382",
     "Per-KV Values": {
-        "530": {
-            "Internal Resistance (mΩ)": "15"
+        "400": {
+            "Internal Resistance (mΩ)": "26"
         },
         "450": {
             "Internal Resistance (mΩ)": "19"
         },
-        "400": {
-            "Internal Resistance (mΩ)": "26"
+        "530": {
+            "Internal Resistance (mΩ)": "15"
         }
     }
 }

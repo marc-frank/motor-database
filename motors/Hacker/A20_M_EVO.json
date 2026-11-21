@@ -35,19 +35,19 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "",
     "Per-KV Values": {
-        "1130": {
-            "Internal Resistance (mΩ)": "117",
-            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A20/A20/A20-26-M-EVO-kv1130.htm?a=article&ProdNr=97800003&p=1157"
-        },
         "980": {
             "Internal Resistance (mΩ)": "174",
             "Link": "https://www.hacker-motor-shop.com/Brushless-Motors/Hacker-Outrunner/Hacker-A20/A20/A20-30-M-EVO-kv980.htm?ProdNr=97800005&a=article&p=1157&shop=hacker_e"
+        },
+        "1130": {
+            "Internal Resistance (mΩ)": "117",
+            "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A20/A20/A20-26-M-EVO-kv1130.htm?a=article&ProdNr=97800003&p=1157"
         }
     }
 }

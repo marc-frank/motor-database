@@ -31,7 +31,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -41,11 +41,11 @@
     "Mounting Screw Thread": "",
     "Link": "https://www.hacker-motor-shop.com/A20-20-L-Competition-kv1022.htm?a=article&ProdNr=10109589&p=1275",
     "Per-KV Values": {
-        "1022": {
-            "Internal Resistance (mΩ)": "113"
-        },
         "924": {
             "Internal Resistance (mΩ)": "48"
+        },
+        "1022": {
+            "Internal Resistance (mΩ)": "113"
         }
     }
 }
