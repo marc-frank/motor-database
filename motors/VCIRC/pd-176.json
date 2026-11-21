@@ -1,7 +1,7 @@
 {
     "Image": "",
     "Manufacturer": "VCIRC",
-    "Name": "",
+    "Name": "3517",
     "Price ($)": "",
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
@@ -10,7 +10,11 @@
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
-    "KV (RPM/V)": [],
+    "KV (RPM/V)": [
+        "400",
+        "480",
+        "760"
+    ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",

@@ -5,7 +5,7 @@
     "Price ($)": "12.50",
     "Stator Diameter (mm)": "15.0",
     "Stator Height (mm)": "5.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -25,10 +25,10 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "24",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,9 +37,27 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
-    "Link": "https://vci-rc.com/en/pd.jsp?id=56"
+    "Magnet Type": "N52SH",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://vci-rc.com/en/pd.jsp?id=56",
+    "Per-KV Values": {
+        "2350": {
+            "Internal Resistance (mΩ)": "320.0",
+            "Weight (incl. Cable) (g)": "12.0"
+        },
+        "2900": {
+            "Internal Resistance (mΩ)": "205.0",
+            "Weight (incl. Cable) (g)": "12.2"
+        },
+        "3750": {
+            "Internal Resistance (mΩ)": "150.0",
+            "Weight (incl. Cable) (g)": "12.1"
+        },
+        "4300": {
+            "Internal Resistance (mΩ)": "120.0",
+            "Weight (incl. Cable) (g)": "12.2"
+        }
+    }
 }

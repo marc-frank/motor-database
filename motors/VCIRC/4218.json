@@ -23,11 +23,11 @@
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "750",
+    "Cable length (mm)": "",
     "Cable Gauge (AWG)": "14",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "6.0",
-    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
@@ -36,14 +36,21 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52SH",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://vci-rc.com/en/pd.jsp?id=177",
     "Per-KV Values": {
         "350": {
             "Internal Resistance (mΩ)": "40.0",
-            "Weight (incl. Cable) (g)": "270.8"
+            "Weight (incl. Cable) (g)": "270.8",
+            "Cable length (mm)": "750.0",
+            "Shaft Diameter (internal) (mm)": "4.0"
+        },
+        "540": {
+            "Weight (incl. Cable) (g)": "285.0",
+            "Internal Resistance (mΩ)": "25.0",
+            "Cable length (mm)": "500.0"
         }
     }
 }

@@ -38,9 +38,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "N52SH",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "6.6",
+    "Number of Mounting Screws": "3",
+    "Mounting Screw Thread": "M1.4",
     "Link": "https://vci-rc.com/en/pd.jsp?id=47",
     "Per-KV Values": {
         "13500": {
