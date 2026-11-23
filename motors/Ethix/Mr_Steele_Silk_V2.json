@@ -36,7 +36,7 @@
     "Bearing Thickness": "",
     "Magnet Type": "N48",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://ethixltd.com/portfolio/mr-steel-silk2-v2-motor/"
 }

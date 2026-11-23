@@ -42,10 +42,12 @@
     "Link": "https://www.flashhobby.com/a1408-1-5-brushless-dc-motor.html",
     "Per-KV Values": {
         "2800": {
-            "Price ($)": "16.99"
+            "Price ($)": "16.99",
+            "Internal Resistance (mΩ)": "160.0"
         },
         "3650": {
-            "Price ($)": "17.99"
+            "Price ($)": "17.99",
+            "Internal Resistance (mΩ)": "109.0"
         }
     }
 }

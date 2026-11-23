@@ -49,15 +49,18 @@
         },
         "2000": {
             "Internal Resistance (mΩ)": "158.0",
-            "Weight (excl. Cable) (g)": "16.6"
+            "Weight (excl. Cable) (g)": "16.6",
+            "Weight (incl. Cable) (g)": "18.0"
         },
         "2400": {
             "Internal Resistance (mΩ)": "110.0",
-            "Weight (excl. Cable) (g)": "16.4"
+            "Weight (excl. Cable) (g)": "16.4",
+            "Weight (incl. Cable) (g)": "18.0"
         },
         "3000": {
             "Internal Resistance (mΩ)": "80.0",
-            "Weight (excl. Cable) (g)": "16.4"
+            "Weight (excl. Cable) (g)": "16.4",
+            "Weight (incl. Cable) (g)": "18.0"
         }
     }
 }

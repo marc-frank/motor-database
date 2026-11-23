@@ -44,16 +44,20 @@
     "Link": "https://www.flashhobby.com/k2004-brushless-dc-motor.html",
     "Per-KV Values": {
         "1750": {
-            "Price ($)": "15.99"
+            "Price ($)": "15.99",
+            "Internal Resistance (mΩ)": "252.0"
         },
         "1900": {
-            "Price ($)": "15.99"
+            "Price ($)": "15.99",
+            "Internal Resistance (mΩ)": "220.0"
         },
         "2100": {
-            "Price ($)": "15.99"
+            "Price ($)": "15.99",
+            "Internal Resistance (mΩ)": "185.0"
         },
         "3150": {
-            "Price ($)": "16.99"
+            "Price ($)": "16.99",
+            "Internal Resistance (mΩ)": "183.0"
         }
     }
 }

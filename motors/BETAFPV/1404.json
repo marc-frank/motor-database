@@ -45,7 +45,8 @@
             "Weight (incl. Cable) (g)": "9.66",
             "Shaft Diameter (external) (mm)": "1.5",
             "Cable length (mm)": "80",
-            "Cable Gauge (AWG)": "24"
+            "Cable Gauge (AWG)": "24",
+            "Connector": "none"
         },
         "4500": {
             "Weight (incl. Cable) (g)": "8.49",

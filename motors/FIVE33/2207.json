@@ -21,7 +21,7 @@
     "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "28.4",
-    "Weight (excl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "28.4",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "20",
     "Connector": "none",
@@ -34,9 +34,9 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Magnet Type": "N52SH",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://flyfive33.com/collections/motors/products/headsup-five33-2207-motor"
 }

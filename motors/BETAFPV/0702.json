@@ -51,12 +51,14 @@
         "25000": {
             "Price ($)": "11.00",
             "Weight (incl. Cable) (g)": "1.42",
-            "Bearing Type": "Bushing"
+            "Bearing Type": "Bushing",
+            "Weight (excl. Cable) (g)": "1.35"
         },
         "27000": {
             "Price ($)": "12.25",
             "Weight (incl. Cable) (g)": "1.52",
-            "Bearing Type": "Ball Bearing"
+            "Bearing Type": "Ball Bearing",
+            "Weight (excl. Cable) (g)": "1.45"
         },
         "30000": {
             "Price ($)": "12.25",

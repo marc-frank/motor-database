@@ -25,7 +25,7 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "4.0",
     "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "Solid",
     "Shaft Material": "",

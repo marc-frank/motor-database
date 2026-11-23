@@ -40,5 +40,16 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.flashhobby.com/a2807-brushless-motor.html"
+    "Link": "https://www.flashhobby.com/a2807-brushless-motor.html",
+    "Per-KV Values": {
+        "1300": {
+            "Internal Resistance (mΩ)": "69.0"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "77.0"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "81.0"
+        }
+    }
 }

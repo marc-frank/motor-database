@@ -44,10 +44,12 @@
     "Per-KV Values": {
         "1650": {
             "Weight (incl. Cable) (g)": "31.2",
-            "Internal Resistance (mΩ)": "69.8"
+            "Internal Resistance (mΩ)": "69.8",
+            "Weight (excl. Cable) (g)": "31.2"
         },
         "1850": {
-            "Weight (incl. Cable) (g)": "31"
+            "Weight (incl. Cable) (g)": "31",
+            "Weight (excl. Cable) (g)": "31.2"
         },
         "2650": {
             "Weight (incl. Cable) (g)": "31"

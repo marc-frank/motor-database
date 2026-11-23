@@ -20,7 +20,7 @@
     "Winding Type": "",
     "Enamel Type": "Winding wire rated 240 °C",
     "Base Type": "",
-    "Base Material": "",
+    "Base Material": "Al 7075",
     "Bell Type": "",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "",
@@ -53,6 +53,10 @@
         },
         "2100": {
             "Internal Resistance (mΩ)": "54.0",
+            "Weight (incl. Cable) (g)": "33.2"
+        },
+        "2110": {
+            "Internal Resistance (mΩ)": "54",
             "Weight (incl. Cable) (g)": "33.2"
         }
     }

@@ -44,6 +44,9 @@
         "5000": {
             "Internal Resistance (mΩ)": "125.0",
             "Shaft Diameter (internal) (mm)": "2.0"
+        },
+        "8000": {
+            "Internal Resistance (mΩ)": "125"
         }
     }
 }

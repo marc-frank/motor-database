@@ -54,7 +54,8 @@
             "Cable length (mm)": "33.5",
             "Connector": "JST-1.25",
             "Link": "https://www.t-hobby.com/products/m0802-kv25000",
-            "Image": "https://img.staticdj.com/708538c09a5fbc79cdc14a48cb32e3b4.jpeg"
+            "Image": "https://img.staticdj.com/708538c09a5fbc79cdc14a48cb32e3b4.jpeg",
+            "Internal Resistance (mΩ)": "180.0"
         },
         "27000": {
             "Weight (incl. Cable) (g)": "1.78",

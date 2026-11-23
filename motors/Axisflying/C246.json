@@ -44,7 +44,14 @@
     "Link": "https://www.axisflying.com/products/axisflying-fpv-brushless-motor-c246-2406-for-5-6-of-freestyle-sbang-cinematic-shooting-drone",
     "Per-KV Values": {
         "1650": {
-            "Internal Resistance (mΩ)": "69.8"
+            "Internal Resistance (mΩ)": "69.8",
+            "Weight (excl. Cable) (g)": "31.2"
+        },
+        "1850": {
+            "Weight (excl. Cable) (g)": "31.2"
+        },
+        "2050": {
+            "Weight (excl. Cable) (g)": "31"
         }
     }
 }

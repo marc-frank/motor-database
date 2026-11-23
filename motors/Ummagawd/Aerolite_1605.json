@@ -48,10 +48,17 @@
             "Cable length (mm)": "150",
             "Mounting Pattern Diameter (mm)": "12.0",
             "Number of Mounting Screws": "4",
-            "Mounting Screw Thread": "M2"
+            "Mounting Screw Thread": "M2",
+            "Internal Resistance (mΩ)": "68"
         },
         "3800": {
-            "Shaft Diameter (external) (mm)": "3.0"
+            "Shaft Diameter (external) (mm)": "3.0",
+            "Weight (incl. Cable) (g)": "13.8",
+            "Cable Gauge (AWG)": "20",
+            "Cable length (mm)": "150",
+            "Mounting Pattern Diameter (mm)": "12.0",
+            "Number of Mounting Screws": "4",
+            "Mounting Screw Thread": "M2"
         }
     }
 }

@@ -20,7 +20,7 @@
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
-    "Base Material": "",
+    "Base Material": "Al 7075",
     "Bell Type": "Unibell",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "",
@@ -44,7 +44,9 @@
     "Link": "",
     "Per-KV Values": {
         "13000": {
-            "Link": "https://newbeedrone.com/collections/newbeedrone-1/products/newbeedrone-flow-0802-dual-ball-bearing-whoop-motor-13000kv-set-of-4"
+            "Link": "https://newbeedrone.com/collections/newbeedrone-1/products/newbeedrone-flow-0802-dual-ball-bearing-whoop-motor-13000kv-set-of-4",
+            "Weight (incl. Cable) (g)": "2.15",
+            "Weight (excl. Cable) (g)": "1.95"
         },
         "19000": {
             "Internal Resistance (mΩ)": "248",

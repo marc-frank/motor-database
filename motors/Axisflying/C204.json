@@ -52,7 +52,8 @@
         },
         "3500": {
             "Internal Resistance (mΩ)": "55.0",
-            "Weight (incl. Cable) (g)": "15"
+            "Weight (incl. Cable) (g)": "15",
+            "Weight (excl. Cable) (g)": "15"
         }
     }
 }

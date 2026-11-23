@@ -58,7 +58,8 @@
             "Internal Resistance (mΩ)": "80"
         },
         "4200": {
-            "Internal Resistance (mΩ)": "65"
+            "Internal Resistance (mΩ)": "65",
+            "Weight (incl. Cable) (g)": "20.8"
         }
     }
 }
