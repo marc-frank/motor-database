@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "24.7, 32.0",
+    "Number of Mounting Screws": "4, 3",
+    "Mounting Screw Thread": "M3, M2.5",
     "Link": "https://store.tmotor.com/product/mn3520-motor-navigator-type.html"
 }

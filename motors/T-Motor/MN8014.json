@@ -35,8 +35,8 @@
     "Bearing Inner Diameter": "12.0",
     "Bearing Thickness": "6.0",
     "Magnet Type": "Curved magnets",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "36.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://store.tmotor.com/product/mn8014-motor-antigravity-type.html"
 }
