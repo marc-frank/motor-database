@@ -16,11 +16,11 @@
         "650"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "",
-    "Enamel Type": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "Winding wire rated to 260 °C",
     "Base Type": "",
     "Base Material": "",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "",
     "Weight (incl. Cable) (g)": "275",
     "Weight (excl. Cable) (g)": "",
@@ -37,9 +37,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://www.rcinpower.com/G-SERIES/2020/10-13/30.html",
     "Per-KV Values": {
         "360": {
