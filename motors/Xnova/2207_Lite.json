@@ -15,7 +15,6 @@
         "1800",
         "1950",
         "2200",
-        "2400",
         "2500",
         "2700"
     ],
@@ -62,7 +61,7 @@
             "Internal Resistance (mΩ)": "52.0",
             "Weight (incl. Cable) (g)": "29.8"
         },
-        "2400": {
+        "2500": {
             "Internal Resistance (mΩ)": "41.0",
             "Weight (incl. Cable) (g)": "30.0"
         },

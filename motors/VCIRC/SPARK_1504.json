@@ -23,7 +23,7 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "10.9",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "100",
     "Cable Gauge (AWG)": "24",
@@ -44,16 +44,20 @@
     "Link": "https://vci-rc.com/en/pd.jsp?id=55",
     "Per-KV Values": {
         "2450": {
-            "Internal Resistance (mΩ)": "380.0"
+            "Internal Resistance (mΩ)": "380.0",
+            "Weight (incl. Cable) (g)": "10.8"
         },
         "2900": {
-            "Internal Resistance (mΩ)": "281.0"
+            "Internal Resistance (mΩ)": "281.0",
+            "Weight (incl. Cable) (g)": "10.9"
         },
         "3550": {
-            "Internal Resistance (mΩ)": "185.0"
+            "Internal Resistance (mΩ)": "185.0",
+            "Weight (incl. Cable) (g)": "10.9"
         },
         "4000": {
-            "Internal Resistance (mΩ)": "150.0"
+            "Internal Resistance (mΩ)": "150.0",
+            "Weight (incl. Cable) (g)": "10.9"
         }
     }
 }

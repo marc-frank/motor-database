@@ -30,7 +30,7 @@
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
-    "Shaft Material": "Steel",
+    "Shaft Material": "Titanium",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
@@ -44,7 +44,7 @@
     "Per-KV Values": {
         "1750": {
             "Internal Resistance (mΩ)": "70.0",
-            "Weight (incl. Cable) (g)": "33.5"
+            "Weight (incl. Cable) (g)": "35.8"
         },
         "1950": {
             "Internal Resistance (mΩ)": "60.0",

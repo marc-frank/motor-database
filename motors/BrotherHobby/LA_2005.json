@@ -23,7 +23,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "21.01",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "160",
     "Cable Gauge (AWG)": "24",
@@ -43,17 +43,21 @@
     "Mounting Screw Thread": "M2",
     "Link": "https://www.brotherhobby.com/la-20054-motor-p00193p1.html",
     "Per-KV Values": {
-        "3450": {
-            "Internal Resistance (mΩ)": "67.59"
-        },
-        "2800": {
-            "Internal Resistance (mΩ)": "84.57"
+        "1450": {
+            "Internal Resistance (mΩ)": "296.6",
+            "Weight (incl. Cable) (g)": "20.35"
         },
         "2450": {
-            "Internal Resistance (mΩ)": "114.34"
+            "Internal Resistance (mΩ)": "114.34",
+            "Weight (incl. Cable) (g)": "20.77"
         },
-        "1450": {
-            "Internal Resistance (mΩ)": "296.6"
+        "2800": {
+            "Internal Resistance (mΩ)": "84.57",
+            "Weight (incl. Cable) (g)": "21.07"
+        },
+        "3450": {
+            "Internal Resistance (mΩ)": "67.59",
+            "Weight (incl. Cable) (g)": "21.01"
         }
     }
 }

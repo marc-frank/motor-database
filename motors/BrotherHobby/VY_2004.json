@@ -23,7 +23,7 @@
     "Base Material": "Al 7075",
     "Bell Type": "Assembled Bell",
     "Bell Material": "Al 7075",
-    "Weight (incl. Cable) (g)": "14.9",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "160",
     "Cable Gauge (AWG)": "24",
@@ -44,16 +44,20 @@
     "Link": "https://www.brotherhobby.com/vy-2004-motor-p00191p1.html",
     "Per-KV Values": {
         "1700": {
-            "Internal Resistance (mΩ)": "320.5"
+            "Internal Resistance (mΩ)": "320.5",
+            "Weight (incl. Cable) (g)": "15.7"
         },
         "1950": {
-            "Internal Resistance (mΩ)": "204.18"
+            "Internal Resistance (mΩ)": "204.18",
+            "Weight (incl. Cable) (g)": "16.4"
         },
         "2100": {
-            "Internal Resistance (mΩ)": "190.3"
+            "Internal Resistance (mΩ)": "190.3",
+            "Weight (incl. Cable) (g)": "16.3"
         },
         "3150": {
-            "Internal Resistance (mΩ)": "82.2"
+            "Internal Resistance (mΩ)": "82.2",
+            "Weight (incl. Cable) (g)": "16.4"
         }
     }
 }
