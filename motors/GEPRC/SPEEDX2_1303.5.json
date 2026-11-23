@@ -39,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "9.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
-    "Link": "https://geprc.com/product/geprc-speedx2-1303-5-3800kv-5500kv-motor/"
+    "Link": "https://geprc.com/product/geprc-speedx2-1303-5-3800kv-5500kv-motor/",
+    "Per-KV Values": {
+        "3800": {
+            "Internal Resistance (mΩ)": "450.0"
+        },
+        "5500": {
+            "Internal Resistance (mΩ)": "280.0"
+        }
+    }
 }
