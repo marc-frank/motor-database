@@ -2,7 +2,7 @@
     "Image": "https://img.staticdj.com/e68ad734a877b6a6ec26c96c6321d98c.jpg",
     "Manufacturer": "T-Motor",
     "Name": "F60 PRO V-LV",
-    "Price ($)": "",
+    "Price ($)": "27.90",
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "7.5",
     "Stator Configuration": "12N14P",
@@ -16,7 +16,7 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated 220 °C",
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "",
@@ -42,11 +42,9 @@
     "Link": "https://www.t-hobby.com/products/brushless-motor-for-fpv-drones-f60-pro-v-lv",
     "Per-KV Values": {
         "1950": {
-            "Price ($)": "19.12",
             "Weight (incl. Cable) (g)": "32.4"
         },
         "2020": {
-            "Price ($)": "22.32",
             "Weight (incl. Cable) (g)": "32.1"
         }
     }

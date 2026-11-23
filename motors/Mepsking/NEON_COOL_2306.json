@@ -16,8 +16,8 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
-    "Base Type": "",
+    "Enamel Type": "Winding wire rated to 220 °C",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
@@ -25,13 +25,13 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
-    "Shaft Material": "",
-    "Shaft Retention": "",
-    "Bearing Type": "",
+    "Shaft Material": "Titanium",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -44,10 +44,7 @@
         "1950": {
             "Internal Resistance (mΩ)": "58",
             "Weight (incl. Cable) (g)": "33",
-            "Cable length (mm)": "150",
-            "Shaft Material": "Titanium",
-            "Bearing Type": "Ball Bearing",
-            "Enamel Type": "Winding wire rated to 220 °C"
+            "Cable length (mm)": "150"
         }
     }
 }

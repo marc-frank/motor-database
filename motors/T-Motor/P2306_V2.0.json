@@ -2,7 +2,7 @@
     "Image": "https://img.staticdj.com/43484a3373c6174c67fcfb27ff88f9d9.jpg",
     "Manufacturer": "T-Motor",
     "Name": "P2306 V2.0",
-    "Price ($)": "",
+    "Price ($)": "21.90",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "12N14P",
@@ -17,7 +17,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
@@ -30,8 +30,8 @@
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "",
     "Shaft Material": "Titanium",
-    "Shaft Retention": "",
-    "Bearing Type": "",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -42,11 +42,9 @@
     "Link": "https://www.t-hobby.com/products/fpv-brushless-motor-p2306-v2",
     "Per-KV Values": {
         "1950": {
-            "Price ($)": "21.90",
             "Internal Resistance (mΩ)": "63.0"
         },
         "2550": {
-            "Price ($)": "9.90",
             "Internal Resistance (mΩ)": "43.0"
         }
     }

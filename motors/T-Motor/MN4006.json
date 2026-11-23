@@ -14,7 +14,7 @@
         "380"
     ],
     "Internal Resistance (mΩ)": "194.0",
-    "Winding Type": "",
+    "Winding Type": "Single Strand",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
     "Base Material": "",
@@ -30,7 +30,7 @@
     "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",

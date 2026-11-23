@@ -2,7 +2,7 @@
     "Image": "https://img.staticdj.com/1f67abe8b590f281a8cc0aa7941b393b.jpg",
     "Manufacturer": "T-Motor",
     "Name": "P2207 V2.0",
-    "Price ($)": "",
+    "Price ($)": "20.90",
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "7.0",
     "Stator Configuration": "12N14P",
@@ -18,7 +18,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
@@ -31,8 +31,8 @@
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "",
     "Shaft Material": "Titanium",
-    "Shaft Retention": "",
-    "Bearing Type": "",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
@@ -43,19 +43,16 @@
     "Link": "https://www.t-hobby.com/products/freestyle-brushless-motor-pacer-p2207-v2",
     "Per-KV Values": {
         "1750": {
-            "Price ($)": "20.90",
             "Internal Resistance (mΩ)": "61.2",
             "Weight (incl. Cable) (g)": "33.9",
             "Weight (excl. Cable) (g)": "30.6"
         },
         "1950": {
-            "Price ($)": "20.90",
             "Internal Resistance (mΩ)": "56.5",
             "Weight (incl. Cable) (g)": "33.7",
             "Weight (excl. Cable) (g)": "30.4"
         },
         "2550": {
-            "Price ($)": "9.90",
             "Internal Resistance (mΩ)": "42.0",
             "Weight (incl. Cable) (g)": "33.7",
             "Weight (excl. Cable) (g)": "30.4"

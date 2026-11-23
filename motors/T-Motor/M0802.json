@@ -2,7 +2,7 @@
     "Image": "",
     "Manufacturer": "T-Motor",
     "Name": "M0802",
-    "Price ($)": "",
+    "Price ($)": "10.90",
     "Stator Diameter (mm)": "8.0",
     "Stator Height (mm)": "2.0",
     "Stator Configuration": "9N12P",
@@ -43,7 +43,6 @@
     "Link": "",
     "Per-KV Values": {
         "22000": {
-            "Price ($)": "8.72",
             "Weight (incl. Cable) (g)": "1.91",
             "Cable length (mm)": "33.5",
             "Connector": "JST-1.25",
@@ -51,7 +50,6 @@
             "Image": "https://img.staticdj.com/7c6233ddfff3a1444a6a85a11454bc14.jpeg"
         },
         "25000": {
-            "Price ($)": "8.72",
             "Weight (incl. Cable) (g)": "1.91",
             "Cable length (mm)": "33.5",
             "Connector": "JST-1.25",
@@ -59,7 +57,6 @@
             "Image": "https://img.staticdj.com/708538c09a5fbc79cdc14a48cb32e3b4.jpeg"
         },
         "27000": {
-            "Price ($)": "10.90",
             "Weight (incl. Cable) (g)": "1.78",
             "Cable length (mm)": "30.0",
             "Connector": "XH-3P/1.25",

@@ -2,7 +2,7 @@
     "Image": "https://img.staticdj.com/ac4a0f035931e2f2aba0423098eadaec.jpg",
     "Manufacturer": "T-Motor",
     "Name": "Velox V2307 V2",
-    "Price ($)": "",
+    "Price ($)": "17.50",
     "Stator Diameter (mm)": "23.0",
     "Stator Height (mm)": "7.0",
     "Stator Configuration": "12N14P",
@@ -17,7 +17,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "",
@@ -30,7 +30,7 @@
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "",
     "Shaft Material": "Titanium",
-    "Shaft Retention": "",
+    "Shaft Retention": "Screw",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -42,13 +42,11 @@
     "Link": "https://www.t-hobby.com/products/fpv-brushless-motor-v2307-v2",
     "Per-KV Values": {
         "1950": {
-            "Price ($)": "14.00",
             "Internal Resistance (mΩ)": "67.0",
             "Weight (incl. Cable) (g)": "35.1",
             "Weight (excl. Cable) (g)": "31.3"
         },
         "2550": {
-            "Price ($)": "9.52",
             "Internal Resistance (mΩ)": "41.5",
             "Weight (incl. Cable) (g)": "35.5",
             "Weight (excl. Cable) (g)": "31.7"
