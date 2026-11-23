@@ -42,10 +42,12 @@
     "Link": "https://geprc.com/product/geprc-speedx2-3110-900kv-1250kv-motor/",
     "Per-KV Values": {
         "900": {
-            "Cable length (mm)": "265.0"
+            "Cable length (mm)": "265.0",
+            "Internal Resistance (mΩ)": "80.0"
         },
         "1250": {
-            "Cable length (mm)": "270.0"
+            "Cable length (mm)": "270.0",
+            "Internal Resistance (mΩ)": "44.0"
         }
     }
 }
