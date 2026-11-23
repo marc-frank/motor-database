@@ -27,7 +27,7 @@
     "Cable Gauge (AWG)": "",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.5",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "2.0",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
@@ -37,12 +37,15 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
     "Link": "https://pyrodrone.com/products/rcinpower-smoox-plus-1404-2750kv-fpv-drone-motor-gun-metal-orange",
     "Per-KV Values": {
         "2750": {
             "Internal Resistance (mΩ)": "400.0"
+        },
+        "3850": {
+            "Internal Resistance (mΩ)": "250.0"
         }
     }
 }

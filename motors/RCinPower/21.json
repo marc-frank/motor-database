@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "41.0",
     "Stator Height (mm)": "10.0",
     "Stator Configuration": "12N14P",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "0.2",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
@@ -37,8 +37,8 @@
     "Bearing Thickness": "",
     "Magnet Type": "N45SH",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.rcinpower.com/X-SERIES/2016/12-16/21.html",
     "Per-KV Values": {
         "340": {
