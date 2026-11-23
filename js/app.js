@@ -423,12 +423,30 @@
         $("grid").style.width = total + "px";
     }
 
+    // One motor file = one model (with all its KV versions).
+    function modelKey(r) {
+        return r._file || r.Manufacturer + "|" + r._name;
+    }
+
+    function countOf(list, key) {
+        return new Set(list.map(key)).size;
+    }
+
+    var totals = null;
+
     function renderStats() {
-        var models = new Set(rows.map(function (r) { return r.Manufacturer + "|" + r._name + "|" + r.Link; })).size;
-        var mfrs = new Set(rows.map(function (r) { return r.Manufacturer; })).size;
-        $("stats").innerHTML =
-            "Showing <b>" + filtered.length.toLocaleString() + "</b> of <b>" + rows.length.toLocaleString() + "</b> entries · <b>" +
-            models.toLocaleString() + "</b> models from <b>" + mfrs + "</b> manufacturers";
+        if (!totals) {
+            totals = { models: countOf(rows, modelKey), mfrs: countOf(rows, function (r) { return r.Manufacturer; }) };
+        }
+        function part(shown, total, noun) {
+            return (shown === total ? "<b>" + total.toLocaleString() + "</b>" : "<b>" + shown.toLocaleString() + "</b> of <b>" + total.toLocaleString() + "</b>") + " " + noun;
+        }
+        $("stats").innerHTML = [
+            part(filtered.length, rows.length, "entries"),
+            part(countOf(filtered, modelKey), totals.models, "models"),
+            part(countOf(filtered, function (r) { return r.Manufacturer; }), totals.mfrs, "manufacturers"),
+        ].join(" · ");
+        $("stats").title = "An entry is one KV version of a motor; a model is the motor with all its KV versions.";
     }
 
     function render() {
