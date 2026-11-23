@@ -18,7 +18,7 @@
         "2550"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "",
+    "Winding Type": "Single Strand",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
     "Base Material": "",
@@ -38,7 +38,7 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "Curved magnets",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
