@@ -40,5 +40,13 @@
     "Mounting Pattern Diameter (mm)": "6.6",
     "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
-    "Link": "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/"
+    "Link": "https://www.happymodel.cn/index.php/2021/08/20/happymodel-se0702-kv26000-brushless-motors-for-1s-fpv-brushless-whoop/",
+    "Per-KV Values": {
+        "26000": {
+            "Price ($)": "12.99"
+        },
+        "28000": {
+            "Price ($)": "11.99"
+        }
+    }
 }
