@@ -5,7 +5,7 @@
     "Price ($)": "",
     "Stator Diameter (mm)": "35.0",
     "Stator Height (mm)": "17.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "12N14P",
     "Stator Material": "",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
@@ -22,12 +22,12 @@
     "Base Material": "",
     "Bell Type": "",
     "Bell Material": "",
-    "Weight (incl. Cable) (g)": "",
+    "Weight (incl. Cable) (g)": "200.0",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable length (mm)": "500",
+    "Cable Gauge (AWG)": "16",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -36,18 +36,22 @@
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Magnet Type": "N52SH",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://vci-rc.com/en/pd.jsp?id=176",
     "Per-KV Values": {
         "400": {
             "Image": "https://hobbyget.com/wp-content/uploads/2025/05/ABUIABACGAAgq4bPqAYo_LT5AjCgBjigBg.jpg",
-            "Number of Mounting Screws": "4"
+            "Internal Resistance (mΩ)": "80.0"
+        },
+        "480": {
+            "Image": "https://hobbyget.com/wp-content/uploads/2025/05/1.258.jpg"
         },
         "760": {
-            "Image": "https://d2xubjj2lzepxi.cloudfront.net/products/bf7dd008-3b93-41bb-bafd-846679317a56.jpg"
+            "Image": "https://d2xubjj2lzepxi.cloudfront.net/products/bf7dd008-3b93-41bb-bafd-846679317a56.jpg",
+            "Internal Resistance (mΩ)": "35.0"
         }
     }
 }

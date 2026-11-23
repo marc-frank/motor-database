@@ -6,8 +6,8 @@
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "7.0",
     "Stator Configuration": "12N14P",
-    "Stator Material": "",
-    "Stator Lamination Thickness (mm)": "",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.1",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
@@ -18,11 +18,11 @@
     ],
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
-    "Enamel Type": "",
+    "Enamel Type": "Winding wire rated 240 °C",
     "Base Type": "",
     "Base Material": "",
     "Bell Type": "",
-    "Bell Material": "",
+    "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "150",
@@ -31,8 +31,8 @@
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
-    "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Material": "Titanium",
+    "Shaft Retention": "Screw",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
@@ -47,7 +47,8 @@
             "Internal Resistance (mΩ)": "56.0"
         },
         "2050": {
-            "Internal Resistance (mΩ)": "55.0"
+            "Internal Resistance (mΩ)": "55.0",
+            "Weight (incl. Cable) (g)": "33.3"
         },
         "2100": {
             "Internal Resistance (mΩ)": "54.0",

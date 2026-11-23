@@ -43,10 +43,12 @@
     "Link": "https://www.hacker-motor-shop.com/Elektromotoren/Hacker-Aussenlaeufer/Hacker-A10/A10/A10-7L-kv2200.htm?a=article&ProdNr=97100007&p=1159",
     "Per-KV Values": {
         "1300": {
-            "Internal Resistance (mΩ)": "280"
+            "Internal Resistance (mΩ)": "280",
+            "Price ($)": "51.40"
         },
         "1700": {
-            "Internal Resistance (mΩ)": "180"
+            "Internal Resistance (mΩ)": "180",
+            "Price ($)": "51.40"
         },
         "2200": {
             "Internal Resistance (mΩ)": "110",

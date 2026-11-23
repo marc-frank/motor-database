@@ -53,27 +53,32 @@
         "610": {
             "Internal Resistance (mΩ)": "31",
             "Weight (incl. Cable) (g)": "198",
-            "Shaft Diameter (external) (mm)": "5.0"
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Price ($)": "150.95"
         },
         "750": {
             "Internal Resistance (mΩ)": "21",
             "Weight (incl. Cable) (g)": "198",
-            "Shaft Diameter (external) (mm)": "5.0"
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Price ($)": "150.95"
         },
         "1000": {
             "Internal Resistance (mΩ)": "26",
             "Weight (incl. Cable) (g)": "190",
-            "Shaft Diameter (external) (mm)": "5.0"
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Price ($)": "150.95"
         },
         "1350": {
             "Internal Resistance (mΩ)": "18",
             "Weight (incl. Cable) (g)": "190",
-            "Shaft Diameter (external) (mm)": "5.0"
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Price ($)": "150.95"
         },
         "1600": {
             "Internal Resistance (mΩ)": "14",
             "Weight (incl. Cable) (g)": "190",
-            "Shaft Diameter (external) (mm)": "5.0"
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Price ($)": "150.95"
         }
     }
 }
