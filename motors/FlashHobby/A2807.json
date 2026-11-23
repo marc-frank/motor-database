@@ -6,8 +6,8 @@
     "Stator Diameter (mm)": "28.0",
     "Stator Height (mm)": "7.0",
     "Stator Configuration": "12N14P",
-    "Stator Material": "",
-    "Stator Lamination Thickness (mm)": "",
+    "Stator Material": "Kawasaki Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.15",
     "Flux Direction": "Radial",
     "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
