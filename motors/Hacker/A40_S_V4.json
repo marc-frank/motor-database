@@ -29,7 +29,7 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Connector": "none",
     "Shaft Diameter (external) (mm)": "",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
@@ -47,7 +47,8 @@
     "Per-KV Values": {
         "530": {
             "Internal Resistance (mΩ)": "40",
-            "Weight (incl. Cable) (g)": "198"
+            "Weight (incl. Cable) (g)": "198",
+            "Price ($)": "155.00"
         },
         "610": {
             "Internal Resistance (mΩ)": "31",

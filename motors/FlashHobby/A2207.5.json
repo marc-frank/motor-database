@@ -18,7 +18,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "",
     "Bell Type": "Unibell",
     "Bell Material": "Al 7075",
@@ -26,7 +26,7 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "150.0",
     "Cable Gauge (AWG)": "20",
-    "Connector": "",
+    "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "",
@@ -40,5 +40,13 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.flashhobby.com/a2207-5-brushless-motor.html"
+    "Link": "https://www.flashhobby.com/a2207-5-brushless-motor.html",
+    "Per-KV Values": {
+        "1900": {
+            "Price ($)": "23.99"
+        },
+        "2500": {
+            "Price ($)": "22.99"
+        }
+    }
 }

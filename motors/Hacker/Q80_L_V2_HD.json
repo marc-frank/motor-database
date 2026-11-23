@@ -26,8 +26,8 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "9.9",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
@@ -37,9 +37,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "75.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M6",
     "Link": "",
     "Per-KV Values": {
         "165": {

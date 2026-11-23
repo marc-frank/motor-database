@@ -44,11 +44,13 @@
     "Per-KV Values": {
         "924": {
             "Internal Resistance (mΩ)": "109",
-            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a20-22-l-evo-kv924.htm?ProdNr=97800007&a=article&p=1157"
+            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektromotor-a20-22-l-evo-kv924.htm?ProdNr=97800007&a=article&p=1157",
+            "Price ($)": "77.00"
         },
         "1022": {
             "Internal Resistance (mΩ)": "89",
-            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektronmotor-a20-20l-evo-kv1022.htm?ProdNr=97800006&a=article&p=1157"
+            "Link": "https://www.hacker-motor-shop.com/aussenlaeufer-elektronmotor-a20-20l-evo-kv1022.htm?ProdNr=97800006&a=article&p=1157",
+            "Price ($)": "77.00"
         },
         "2100": {
             "Internal Resistance (mΩ)": "30",
