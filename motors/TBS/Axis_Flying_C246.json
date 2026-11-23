@@ -29,21 +29,22 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "Screw",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
-    "Magnet Type": "",
+    "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
     "Link": "https://www.team-blacksheep.com/products/product:6953",
     "Per-KV Values": {
         "1650": {
-            "Weight (incl. Cable) (g)": "31.2"
+            "Weight (incl. Cable) (g)": "31.2",
+            "Internal Resistance (mΩ)": "69.8"
         },
         "1850": {
             "Weight (incl. Cable) (g)": "31"

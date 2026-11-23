@@ -14,7 +14,7 @@
         "2400"
     ],
     "Internal Resistance (mΩ)": "260.0",
-    "Winding Type": "",
+    "Winding Type": "Multi Strand",
     "Enamel Type": "",
     "Base Type": "Closed Bottom",
     "Base Material": "",
@@ -27,7 +27,7 @@
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "3.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "",
     "Shaft Retention": "Clip",
     "Bearing Type": "Ceramic Bearing",
