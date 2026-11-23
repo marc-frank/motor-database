@@ -37,8 +37,8 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Mounting Pattern Diameter (mm)": "6.6",
+    "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M1.4",
     "Link": "https://flywoo.net/products/flywoo-robo-1002-19800kv-23500kv-fpv-motor-1pc",
     "Per-KV Values": {

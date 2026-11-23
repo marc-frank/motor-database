@@ -40,5 +40,10 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/lpd-23065-motor-cw-p00188p1.html"
+    "Link": "https://www.brotherhobby.com/lpd-23065-motor-cw-p00188p1.html",
+    "Per-KV Values": {
+        "2000": {
+            "Weight (incl. Cable) (g)": "33.5"
+        }
+    }
 }

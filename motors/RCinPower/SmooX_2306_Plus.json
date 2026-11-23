@@ -27,7 +27,7 @@
     "Cable length (mm)": "150",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "",
@@ -38,8 +38,8 @@
     "Bearing Thickness": "",
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://pyrodrone.com/products/rcinpower-smoox-2306-plus-motor-1880kv-orange",
     "Per-KV Values": {
         "1880": {

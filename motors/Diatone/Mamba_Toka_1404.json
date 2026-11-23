@@ -38,12 +38,16 @@
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "12.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M2",
     "Link": "https://www.racedayquads.com/products/diatone-mamba-toka-1404-3000kv-micro-motor",
     "Per-KV Values": {
         "3000": {
             "Internal Resistance (mΩ)": "310",
             "Weight (incl. Cable) (g)": "10.5"
+        },
+        "4000": {
+            "Weight (incl. Cable) (g)": "11.8",
+            "Internal Resistance (mΩ)": "175.0"
         }
     }
 }

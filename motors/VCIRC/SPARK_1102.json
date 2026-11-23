@@ -47,6 +47,9 @@
         },
         "13000": {
             "Internal Resistance (mΩ)": "170.0"
+        },
+        "21000": {
+            "Internal Resistance (mΩ)": "55.0"
         }
     }
 }

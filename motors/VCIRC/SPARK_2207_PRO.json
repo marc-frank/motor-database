@@ -44,7 +44,8 @@
     "Link": "https://vci-rc.com/en/pd.jsp?id=178",
     "Per-KV Values": {
         "1950": {
-            "Internal Resistance (mΩ)": "56.0"
+            "Internal Resistance (mΩ)": "56.0",
+            "Weight (incl. Cable) (g)": "33.3"
         },
         "2050": {
             "Internal Resistance (mΩ)": "55.0",

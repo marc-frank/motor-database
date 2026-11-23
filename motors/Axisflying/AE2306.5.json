@@ -38,7 +38,7 @@
     "Magnet Type": "",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
-    "Mounting Screw Thread": "",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.racedayquads.com/products/axis-flying-ae2306-5-1960kv-motor",
     "Per-KV Values": {
         "1860": {

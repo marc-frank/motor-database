@@ -38,9 +38,9 @@
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
     "Magnet Type": "Curved magnets",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "9.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
     "Link": "https://www.getfpv.com/flywoo-nin-v2-1203-pro-motor-3400kv-4850kv-5500kv-11500kv.html",
     "Per-KV Values": {
         "3400": {

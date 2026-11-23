@@ -44,6 +44,10 @@
         "1700": {
             "Internal Resistance (mΩ)": "210.0",
             "Weight (incl. Cable) (g)": "16.3"
+        },
+        "2900": {
+            "Weight (incl. Cable) (g)": "18.0",
+            "Internal Resistance (mΩ)": "90.0"
         }
     }
 }
