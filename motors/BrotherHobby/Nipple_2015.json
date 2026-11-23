@@ -25,9 +25,9 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "300",
     "Cable Gauge (AWG)": "18",
-    "Connector": "",
+    "Connector": "3.5mm bullet",
     "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "",
     "Shaft Material": "Steel",
     "Shaft Retention": "",
@@ -39,5 +39,13 @@
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/nipple-2015-1070kv-1260kv-motor-p00199p1.html"
+    "Link": "https://www.brotherhobby.com/nipple-2015-1070kv-1260kv-motor-p00199p1.html",
+    "Per-KV Values": {
+        "1070": {
+            "Internal Resistance (mΩ)": "174.0"
+        },
+        "1260": {
+            "Internal Resistance (mΩ)": "96.0"
+        }
+    }
 }

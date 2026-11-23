@@ -13,12 +13,12 @@
     "KV (RPM/V)": [
         "880"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "131.9",
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "Naked Bottom",
     "Base Material": "Al 7075",
-    "Bell Type": "",
+    "Bell Type": "Unibell",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "60.5",
     "Weight (excl. Cable) (g)": "",
@@ -29,7 +29,7 @@
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "",
     "Shaft Material": "",
-    "Shaft Retention": "",
+    "Shaft Retention": "Screw",
     "Bearing Type": "",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",

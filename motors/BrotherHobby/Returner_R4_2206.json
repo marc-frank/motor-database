@@ -29,7 +29,7 @@
     "Cable Gauge (AWG)": "20",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
@@ -38,8 +38,8 @@
     "Bearing Inner Diameter": "4.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.brotherhobby.com/returner-r4-2206-motor-p00142p1.html"
 }

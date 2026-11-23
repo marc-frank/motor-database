@@ -25,11 +25,11 @@
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "72",
     "Weight (excl. Cable) (g)": "",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "200",
     "Cable Gauge (AWG)": "18",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
@@ -38,8 +38,19 @@
     "Bearing Inner Diameter": "4.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/reunion-2318-motor-p00151p1.html"
+    "Link": "https://www.brotherhobby.com/reunion-2318-motor-p00151p1.html",
+    "Per-KV Values": {
+        "1250": {
+            "Internal Resistance (mΩ)": "65.0"
+        },
+        "1450": {
+            "Internal Resistance (mΩ)": "53.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "25.0"
+        }
+    }
 }

@@ -19,7 +19,7 @@
     "Winding Type": "",
     "Enamel Type": "",
     "Base Type": "",
-    "Base Material": "",
+    "Base Material": "Al 7075",
     "Bell Type": "",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "3.4",
@@ -27,8 +27,8 @@
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
     "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "1.5",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
@@ -38,7 +38,7 @@
     "Bearing Thickness": "2.0",
     "Magnet Type": "N52H",
     "Mounting Pattern Diameter (mm)": "7.0",
-    "Number of Mounting Screws": "",
+    "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "M2",
     "Link": "https://www.brotherhobby.com/avenger0804motor-p00129p1.html"
 }

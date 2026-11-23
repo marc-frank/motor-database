@@ -28,7 +28,7 @@
     "Cable Gauge (AWG)": "16",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
@@ -40,5 +40,16 @@
     "Mounting Pattern Diameter (mm)": "19.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.brotherhobby.com/special-edition-v4-32512-p00210p1.html"
+    "Link": "https://www.brotherhobby.com/special-edition-v4-32512-p00210p1.html",
+    "Per-KV Values": {
+        "580": {
+            "Internal Resistance (mΩ)": "100.0"
+        },
+        "950": {
+            "Internal Resistance (mΩ)": "45.0"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "41.41"
+        }
+    }
 }

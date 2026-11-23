@@ -28,7 +28,7 @@
     "Cable Gauge (AWG)": "20",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "3.0",
     "Shaft Type": "",
     "Shaft Material": "Titanium",
     "Shaft Retention": "",
@@ -37,8 +37,8 @@
     "Bearing Inner Diameter": "3.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N52H",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
     "Link": "https://www.brotherhobby.com/venom-2206-motor-p00159p1.html"
 }

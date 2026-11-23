@@ -19,7 +19,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "",
     "Enamel Type": "",
-    "Base Type": "",
+    "Base Type": "Naked Bottom",
     "Base Material": "Al 7075",
     "Bell Type": "",
     "Bell Material": "Al 7075",
@@ -29,7 +29,7 @@
     "Cable Gauge (AWG)": "16",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "6.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "6.0",
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
@@ -41,5 +41,10 @@
     "Mounting Pattern Diameter (mm)": "25.0, 30.0",
     "Number of Mounting Screws": "4, 4",
     "Mounting Screw Thread": "M4, M4",
-    "Link": "https://www.brotherhobby.com/tornado-t10-5215-pro-motor-x-class-p00161p1.html"
+    "Link": "https://www.brotherhobby.com/tornado-t10-5215-pro-motor-x-class-p00161p1.html",
+    "Per-KV Values": {
+        "330": {
+            "Internal Resistance (mΩ)": "47.75"
+        }
+    }
 }
