@@ -1,0 +1,54 @@
+{
+    "Image": "https://images.squarespace-cdn.com/content/v1/62981f8ddf7dc07b7eed3f3f/743d0f20-ca5f-42f4-8a0d-5eb0c9d2226d/vertiq1699.jpg",
+    "Manufacturer": "Vertiq",
+    "Name": "60-08 G2",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "60.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "150",
+        "300",
+        "660"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Closed Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "311.0",
+    "Weight (excl. Cable) (g)": "218.0",
+    "Cable length (mm)": "762.0",
+    "Cable Gauge (AWG)": "10",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "32.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://www.vertiq.co/60-08-g2",
+    "Per-KV Values": {
+        "150": {
+            "Internal Resistance (mΩ)": "167.0"
+        },
+        "300": {
+            "Internal Resistance (mΩ)": "43.0"
+        },
+        "660": {
+            "Internal Resistance (mΩ)": "10.0"
+        }
+    }
+}
