@@ -1,0 +1,50 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0643/3210/3904/files/surpass-hobby-high-torque-brushless-motors-for-rc-uav-multicopter-pfU5I.webp?v=1744625789",
+    "Manufacturer": "Surpass Hobby",
+    "Name": "C4250",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "20.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "800",
+        "720"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "Al 6061",
+    "Weight (incl. Cable) (g)": "205.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://rcdrone.top/products/surpass-hobby-c4250-c4260-c5045-c5055-c5065-brushless-motor",
+    "Per-KV Values": {
+        "800": {
+            "Internal Resistance (mΩ)": "21.2"
+        },
+        "720": {
+            "Internal Resistance (mΩ)": "29.8"
+        }
+    }
+}

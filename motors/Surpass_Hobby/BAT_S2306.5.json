@@ -1,0 +1,50 @@
+{
+    "Image": "https://www.surpass-hobby.com/wp-content/uploads/2023/12/BAT-S2306.5-FPV-brushless-motor-1.jpg",
+    "Manufacturer": "Surpass Hobby",
+    "Name": "BAT S2306.5",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "6.5",
+    "Stator Configuration": "not published",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1800",
+        "2500"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "Winding wire rated 220 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "34.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N48SH",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.surpass-hobby.com/bat-s2306-5-fpv-brushless-motor/",
+    "Per-KV Values": {
+        "1800": {
+            "Internal Resistance (mΩ)": "88.0"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "42.0"
+        }
+    }
+}
