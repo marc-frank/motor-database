@@ -1,0 +1,250 @@
+{
+    "Image": "https://neumotors.com/wp-content/uploads/2022/02/4619-4-copy-scaled.webp",
+    "Manufacturer": "Neu Motors",
+    "Name": "4619",
+    "Price ($)": "143.00",
+    "Stator Diameter (mm)": "46.0",
+    "Stator Height (mm)": "19.0",
+    "Stator Configuration": "24N22P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "24",
+        "25",
+        "27",
+        "29",
+        "31",
+        "34",
+        "38",
+        "42",
+        "47",
+        "50",
+        "52",
+        "55",
+        "59",
+        "63",
+        "67",
+        "72",
+        "78",
+        "86",
+        "94",
+        "99",
+        "105",
+        "111",
+        "118",
+        "125",
+        "134",
+        "145",
+        "157",
+        "171",
+        "188",
+        "198",
+        "209",
+        "221",
+        "235",
+        "251",
+        "269",
+        "289",
+        "314",
+        "342",
+        "376",
+        "418",
+        "470",
+        "538",
+        "627",
+        "753",
+        "941",
+        "1254",
+        "1882",
+        "3763"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "Winding rated to 180 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "272.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Japanese SPB bearings",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "UH grade, 180 °C",
+    "Mounting Pattern Diameter (mm)": "25.4, 25.4",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://neumotors.com/neumotors-4600-series-bldc-motors-500-to-2000-watt-bldc-multicopter-motors/",
+    "Per-KV Values": {
+        "19": {
+            "Internal Resistance (mΩ)": "12422.0"
+        },
+        "20": {
+            "Internal Resistance (mΩ)": "11213.0"
+        },
+        "21": {
+            "Internal Resistance (mΩ)": "10066.0"
+        },
+        "22": {
+            "Internal Resistance (mΩ)": "8981.0"
+        },
+        "24": {
+            "Internal Resistance (mΩ)": "7958.0"
+        },
+        "25": {
+            "Internal Resistance (mΩ)": "6997.0"
+        },
+        "27": {
+            "Internal Resistance (mΩ)": "6098.0"
+        },
+        "29": {
+            "Internal Resistance (mΩ)": "5260.0"
+        },
+        "31": {
+            "Internal Resistance (mΩ)": "4485.0"
+        },
+        "34": {
+            "Internal Resistance (mΩ)": "3771.0"
+        },
+        "38": {
+            "Internal Resistance (mΩ)": "3119.0"
+        },
+        "42": {
+            "Internal Resistance (mΩ)": "2528.0"
+        },
+        "47": {
+            "Internal Resistance (mΩ)": "2000.0"
+        },
+        "50": {
+            "Internal Resistance (mΩ)": "1806.0"
+        },
+        "52": {
+            "Internal Resistance (mΩ)": "1622.0"
+        },
+        "55": {
+            "Internal Resistance (mΩ)": "1448.0"
+        },
+        "59": {
+            "Internal Resistance (mΩ)": "1283.0"
+        },
+        "63": {
+            "Internal Resistance (mΩ)": "1129.0"
+        },
+        "67": {
+            "Internal Resistance (mΩ)": "985.0"
+        },
+        "72": {
+            "Internal Resistance (mΩ)": "850.0"
+        },
+        "78": {
+            "Internal Resistance (mΩ)": "725.0"
+        },
+        "86": {
+            "Internal Resistance (mΩ)": "610.0"
+        },
+        "94": {
+            "Internal Resistance (mΩ)": "505.0"
+        },
+        "99": {
+            "Internal Resistance (mΩ)": "457.0"
+        },
+        "105": {
+            "Internal Resistance (mΩ)": "410.0"
+        },
+        "111": {
+            "Internal Resistance (mΩ)": "366.0"
+        },
+        "118": {
+            "Internal Resistance (mΩ)": "325.0"
+        },
+        "125": {
+            "Internal Resistance (mΩ)": "286.0"
+        },
+        "134": {
+            "Internal Resistance (mΩ)": "250.0"
+        },
+        "145": {
+            "Internal Resistance (mΩ)": "216.0"
+        },
+        "157": {
+            "Internal Resistance (mΩ)": "184.0"
+        },
+        "171": {
+            "Internal Resistance (mΩ)": "155.0"
+        },
+        "188": {
+            "Internal Resistance (mΩ)": "129.0"
+        },
+        "198": {
+            "Internal Resistance (mΩ)": "117.0"
+        },
+        "209": {
+            "Internal Resistance (mΩ)": "105.0"
+        },
+        "221": {
+            "Internal Resistance (mΩ)": "94.0"
+        },
+        "235": {
+            "Internal Resistance (mΩ)": "83.0"
+        },
+        "251": {
+            "Internal Resistance (mΩ)": "74.0"
+        },
+        "269": {
+            "Internal Resistance (mΩ)": "64.0"
+        },
+        "289": {
+            "Internal Resistance (mΩ)": "56.0"
+        },
+        "314": {
+            "Internal Resistance (mΩ)": "48.0"
+        },
+        "342": {
+            "Internal Resistance (mΩ)": "40.0"
+        },
+        "376": {
+            "Internal Resistance (mΩ)": "34.0"
+        },
+        "418": {
+            "Internal Resistance (mΩ)": "27.0"
+        },
+        "470": {
+            "Internal Resistance (mΩ)": "22.0"
+        },
+        "538": {
+            "Internal Resistance (mΩ)": "17.0"
+        },
+        "627": {
+            "Internal Resistance (mΩ)": "13.0"
+        },
+        "753": {
+            "Internal Resistance (mΩ)": "9.0"
+        },
+        "941": {
+            "Internal Resistance (mΩ)": "6.0"
+        },
+        "1254": {
+            "Internal Resistance (mΩ)": "4.0"
+        },
+        "1882": {
+            "Internal Resistance (mΩ)": "2.0"
+        },
+        "3763": {
+            "Internal Resistance (mΩ)": "1.0"
+        }
+    }
+}

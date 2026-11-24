@@ -1,0 +1,97 @@
+{
+    "Image": "https://neumotors.com/wp-content/uploads/2021/05/1902-FQ-1.jpg",
+    "Manufacturer": "Neu Motors",
+    "Name": "1907",
+    "Price ($)": "301.40",
+    "Stator Diameter (mm)": "48.3",
+    "Stator Height (mm)": "17.8",
+    "Stator Configuration": "24N8P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "453",
+        "494",
+        "544",
+        "604",
+        "680",
+        "777",
+        "906",
+        "1088",
+        "1360",
+        "1813",
+        "2720"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "Winding rated to 180 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "235.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "5.0, 6.0, 8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Japanese SPB bearings",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "UH grade, 180 °C",
+    "Mounting Pattern Diameter (mm)": "25.4, 25.4, 30.0",
+    "Number of Mounting Screws": "4, 4, 4",
+    "Mounting Screw Thread": "M3, M4, M4",
+    "Link": "https://neumotors.com/neumotors-1900-series-bldc-motors-300-6000-watts/",
+    "Per-KV Values": {
+        "453": {
+            "Internal Resistance (mΩ)": "59.0",
+            "Winding Type": "Wye (3Y)"
+        },
+        "494": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Winding Type": "Wye (2.75Y)"
+        },
+        "544": {
+            "Internal Resistance (mΩ)": "41.0",
+            "Winding Type": "Wye (2.5Y)"
+        },
+        "604": {
+            "Internal Resistance (mΩ)": "33.0",
+            "Winding Type": "Wye (2.25Y)"
+        },
+        "680": {
+            "Internal Resistance (mΩ)": "26.0",
+            "Winding Type": "Wye (2Y)"
+        },
+        "777": {
+            "Internal Resistance (mΩ)": "20.0",
+            "Winding Type": "Wye (1.75Y)"
+        },
+        "906": {
+            "Internal Resistance (mΩ)": "15.0",
+            "Winding Type": "Wye (1.5Y)"
+        },
+        "1088": {
+            "Internal Resistance (mΩ)": "10.0",
+            "Winding Type": "Wye (1.25Y)"
+        },
+        "1360": {
+            "Internal Resistance (mΩ)": "7.0",
+            "Winding Type": "Wye (1Y)"
+        },
+        "1813": {
+            "Internal Resistance (mΩ)": "4.0",
+            "Winding Type": "Wye (0.75Y)"
+        },
+        "2720": {
+            "Internal Resistance (mΩ)": "2.0",
+            "Winding Type": "Wye (0.5Y)"
+        }
+    }
+}

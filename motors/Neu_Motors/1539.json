@@ -1,0 +1,212 @@
+{
+    "Image": "https://neumotors.com/wp-content/uploads/2022/01/15xx-photo-side.webp",
+    "Manufacturer": "Neu Motors",
+    "Name": "1539",
+    "Price ($)": "566.50",
+    "Stator Diameter (mm)": "38.1",
+    "Stator Height (mm)": "99.1",
+    "Stator Configuration": "12N4P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "254",
+        "265",
+        "277",
+        "282",
+        "290",
+        "305",
+        "308",
+        "321",
+        "338",
+        "358",
+        "376",
+        "381",
+        "406",
+        "423",
+        "435",
+        "469",
+        "484",
+        "508",
+        "554",
+        "564",
+        "609",
+        "677",
+        "762",
+        "846",
+        "870",
+        "1015",
+        "1128",
+        "1218",
+        "1523",
+        "1692",
+        "2031",
+        "3046",
+        "3385",
+        "6092"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "Winding rated to 180 °C",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "895.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "3.17, 5.0, 6.0, 8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Japanese SPB bearings",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "UH grade, 180 °C",
+    "Mounting Pattern Diameter (mm)": "25.4, 30.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M4",
+    "Link": "https://neumotors.com/neumotors-1500-series-bldc-motor-500-5000-watts/",
+    "Per-KV Values": {
+        "254": {
+            "Internal Resistance (mΩ)": "187.0",
+            "Winding Type": "Delta (6D)"
+        },
+        "265": {
+            "Internal Resistance (mΩ)": "172.0",
+            "Winding Type": "Delta (5.75D)"
+        },
+        "277": {
+            "Internal Resistance (mΩ)": "157.0",
+            "Winding Type": "Delta (5.5D)"
+        },
+        "282": {
+            "Internal Resistance (mΩ)": "140.0",
+            "Winding Type": "Wye (3Y)"
+        },
+        "290": {
+            "Internal Resistance (mΩ)": "143.0",
+            "Winding Type": "Delta (5.25D)"
+        },
+        "305": {
+            "Internal Resistance (mΩ)": "130.0",
+            "Winding Type": "Delta (5D)"
+        },
+        "308": {
+            "Internal Resistance (mΩ)": "118.0",
+            "Winding Type": "Wye (2.75Y)"
+        },
+        "321": {
+            "Internal Resistance (mΩ)": "117.0",
+            "Winding Type": "Delta (4.75D)"
+        },
+        "338": {
+            "Internal Resistance (mΩ)": "98.0",
+            "Winding Type": "Wye (2.5Y)"
+        },
+        "358": {
+            "Internal Resistance (mΩ)": "94.0",
+            "Winding Type": "Delta (4.25D)"
+        },
+        "376": {
+            "Internal Resistance (mΩ)": "79.0",
+            "Winding Type": "Wye (2.25Y)"
+        },
+        "381": {
+            "Internal Resistance (mΩ)": "83.0",
+            "Winding Type": "Delta (4D)"
+        },
+        "406": {
+            "Internal Resistance (mΩ)": "73.0",
+            "Winding Type": "Delta (3.75D)"
+        },
+        "423": {
+            "Internal Resistance (mΩ)": "62.0",
+            "Winding Type": "Wye (2Y)"
+        },
+        "435": {
+            "Internal Resistance (mΩ)": "64.0",
+            "Winding Type": "Delta (3.5D)"
+        },
+        "469": {
+            "Internal Resistance (mΩ)": "55.0",
+            "Winding Type": "Delta (3.25D)"
+        },
+        "484": {
+            "Internal Resistance (mΩ)": "48.0",
+            "Winding Type": "Wye (1.75Y)"
+        },
+        "508": {
+            "Internal Resistance (mΩ)": "47.0",
+            "Winding Type": "Delta (3D)"
+        },
+        "554": {
+            "Internal Resistance (mΩ)": "39.0",
+            "Winding Type": "Delta (2.75D)"
+        },
+        "564": {
+            "Internal Resistance (mΩ)": "35.0",
+            "Winding Type": "Wye (1.5Y)"
+        },
+        "609": {
+            "Internal Resistance (mΩ)": "32.0",
+            "Winding Type": "Delta (2.5D)"
+        },
+        "677": {
+            "Internal Resistance (mΩ)": "24.0",
+            "Winding Type": "Wye (1.25Y)"
+        },
+        "762": {
+            "Internal Resistance (mΩ)": "21.0",
+            "Winding Type": "Delta (2D)"
+        },
+        "846": {
+            "Internal Resistance (mΩ)": "16.0",
+            "Winding Type": "Wye (1Y)"
+        },
+        "870": {
+            "Internal Resistance (mΩ)": "16.0",
+            "Winding Type": "Delta (1.75D)"
+        },
+        "1015": {
+            "Internal Resistance (mΩ)": "12.0",
+            "Winding Type": "Delta (1.5D)"
+        },
+        "1128": {
+            "Internal Resistance (mΩ)": "9.0",
+            "Winding Type": "Wye (0.75Y)"
+        },
+        "1218": {
+            "Internal Resistance (mΩ)": "8.0",
+            "Winding Type": "Delta (1.25D)"
+        },
+        "1523": {
+            "Internal Resistance (mΩ)": "5.0",
+            "Winding Type": "Delta (1D)"
+        },
+        "1692": {
+            "Internal Resistance (mΩ)": "4.0",
+            "Winding Type": "Wye (0.5Y)"
+        },
+        "2031": {
+            "Internal Resistance (mΩ)": "3.0",
+            "Winding Type": "Delta (0.75D)"
+        },
+        "3046": {
+            "Internal Resistance (mΩ)": "1.0",
+            "Winding Type": "Delta (0.5D)"
+        },
+        "3385": {
+            "Internal Resistance (mΩ)": "1.0",
+            "Winding Type": "Wye (0.25Y)"
+        },
+        "6092": {
+            "Internal Resistance (mΩ)": "0.0",
+            "Winding Type": "Delta (0.25D)"
+        }
+    }
+}

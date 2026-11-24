@@ -1,0 +1,67 @@
+{
+    "Image": "https://neumotors.com/wp-content/uploads/2022/01/2200-geared-copy-2-scaled.webp",
+    "Manufacturer": "Neu Motors",
+    "Name": "2220/12",
+    "Price ($)": "968.00",
+    "Stator Diameter (mm)": "55.9",
+    "Stator Height (mm)": "50.8",
+    "Stator Configuration": "12N4P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "360",
+        "430",
+        "550",
+        "725",
+        "1190"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "Winding rated to 180 °C",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "962.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "5.0, 6.0, 8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Japanese SPB bearings",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "UH grade, 180 °C",
+    "Mounting Pattern Diameter (mm)": "25.0, 30.0, 33.3",
+    "Number of Mounting Screws": "4, 4, 4",
+    "Mounting Screw Thread": "M3, M4, M4",
+    "Link": "https://neumotors.com/neumotors-2200-12-series-bldc-motors-2500-to-10000-watt-class/",
+    "Per-KV Values": {
+        "360": {
+            "Internal Resistance (mΩ)": "230.0",
+            "Winding Type": "Wye (3Y)"
+        },
+        "430": {
+            "Internal Resistance (mΩ)": "180.0",
+            "Winding Type": "Wye (2.5Y)"
+        },
+        "550": {
+            "Internal Resistance (mΩ)": "140.0",
+            "Winding Type": "Wye (2Y)"
+        },
+        "725": {
+            "Internal Resistance (mΩ)": "5.0",
+            "Winding Type": "Wye (1.5Y)"
+        },
+        "1190": {
+            "Internal Resistance (mΩ)": "2.0",
+            "Winding Type": "Wye (1Y)"
+        }
+    }
+}
