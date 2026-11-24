@@ -1,0 +1,70 @@
+{
+    "Image": "https://shop.multiplex-rc.de/userdata/dcshop/images/normal/1-00616-roxxy-bl-outrunner-c35-42-1160kv-01.jpg",
+    "Manufacturer": "ROXXY",
+    "Name": "BL Outrunner C35-42",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1160",
+        "1100",
+        "930",
+        "810"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "19.0, 25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1160": {
+            "Price ($)": "59.62",
+            "Weight (incl. Cable) (g)": "not published",
+            "Shaft Diameter (external) (mm)": "not published",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-c35-42-1160kv-funracer-p4023/"
+        },
+        "1100": {
+            "Price ($)": "59.62",
+            "Weight (incl. Cable) (g)": "132.0",
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-3542-05-p4805/"
+        },
+        "930": {
+            "Price ($)": "66.62",
+            "Weight (incl. Cable) (g)": "132.0",
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-3542-06-p4806/"
+        },
+        "810": {
+            "Price ($)": "66.62",
+            "Weight (incl. Cable) (g)": "132.0",
+            "Shaft Diameter (external) (mm)": "5.0",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-3542-07-p4807/"
+        }
+    }
+}
