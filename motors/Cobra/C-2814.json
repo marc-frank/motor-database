@@ -1,0 +1,82 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-2814",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1850",
+        "1700",
+        "1390",
+        "1050",
+        "850"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0, 16.0",
+    "Bearing Inner Diameter": "5.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1850": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-8-v2-l_1.jpg",
+            "Price ($)": "39.99",
+            "Internal Resistance (mΩ)": "16.0",
+            "Weight (incl. Cable) (g)": "107.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2814-8-brushless-motor-kv-1850.html"
+        },
+        "1700": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-10-v2b-l.jpg",
+            "Price ($)": "37.99",
+            "Internal Resistance (mΩ)": "24.0",
+            "Weight (incl. Cable) (g)": "107.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2814-10-brushless-motor-kv-1700.html"
+        },
+        "1390": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-12-v2b-l_1.jpg",
+            "Price ($)": "37.99",
+            "Internal Resistance (mΩ)": "30.0",
+            "Weight (incl. Cable) (g)": "109.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2814-12-brushless-motor-kv-1390.html"
+        },
+        "1050": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-16-v2b-l.jpg",
+            "Price ($)": "37.99",
+            "Internal Resistance (mΩ)": "45.0",
+            "Weight (incl. Cable) (g)": "107.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2814-16-brushless-motor-kv-1050.html"
+        },
+        "850": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-20-v2b-l.jpg",
+            "Price ($)": "37.99",
+            "Internal Resistance (mΩ)": "66.0",
+            "Weight (incl. Cable) (g)": "107.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2814-20-brushless-motor-kv-850.html"
+        }
+    }
+}

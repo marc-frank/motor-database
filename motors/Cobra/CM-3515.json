@@ -1,0 +1,54 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "CM-3515",
+    "Price ($)": "55.99",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "650",
+        "385"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "199.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "430.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "650": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-3515-20-l_3.jpg",
+            "Internal Resistance (mΩ)": "58.0",
+            "Link": "https://innov8tivedesigns.com/cobra-cm-3515-20-brushless-motor-kv-650.html"
+        },
+        "385": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-3515-34-l_2.jpg",
+            "Internal Resistance (mΩ)": "133.0",
+            "Link": "https://innov8tivedesigns.com/cobra-cm-3515-34-brushless-motor-kv-385.html"
+        }
+    }
+}

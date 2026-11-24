@@ -1,0 +1,54 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-5320",
+    "Price ($)": "124.99",
+    "Stator Diameter (mm)": "53.0",
+    "Stator Height (mm)": "20.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "370",
+        "300"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "490.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "12",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "8.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "16.0, 22.0",
+    "Bearing Inner Diameter": "8.0",
+    "Bearing Thickness": "5.0, 7.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "30.0, 44.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M4, M4",
+    "Link": "",
+    "Per-KV Values": {
+        "370": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/5/3/5320-18-l.jpg",
+            "Internal Resistance (mΩ)": "23.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-5320-18-brushless-motor-kv-370.html"
+        },
+        "300": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/5/3/5320-22-l.jpg",
+            "Internal Resistance (mΩ)": "29.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-5320-22-brushless-motor-kv-300.html"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "CM-2217",
+    "Price ($)": "30.99",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "17.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "950",
+        "695"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "430.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "3.17",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "7.94, 9.53",
+    "Bearing Inner Diameter": "3.17",
+    "Bearing Thickness": "3.57, 3.97",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "2, 2",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "950": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2217-20-l.jpg",
+            "Internal Resistance (mΩ)": "125.0",
+            "Weight (incl. Cable) (g)": "76.0",
+            "Link": "https://innov8tivedesigns.com/cobra-cm-2217-20-brushless-motor-kv-950.html"
+        },
+        "695": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2217-26-l.jpg",
+            "Internal Resistance (mΩ)": "179.0",
+            "Weight (incl. Cable) (g)": "81.2",
+            "Link": "https://innov8tivedesigns.com/cobra-cm-2217-26-brushless-motor-kv-695.html"
+        }
+    }
+}
