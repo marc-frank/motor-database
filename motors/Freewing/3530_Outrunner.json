@@ -1,0 +1,58 @@
+{
+    "Image": "",
+    "Manufacturer": "Freewing",
+    "Name": "3530 Outrunner",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "12N10P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1680",
+        "1900"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "188.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "1680": {
+            "Image": "https://img.motionrc.com/web/image/product.template/11069/image_1920/1020x680/6aa01d47_freewing-3530-1680kv-brushless-outrunner-motor",
+            "Price ($)": "63.79",
+            "Shaft Type": "not published",
+            "Number of Mounting Screws": "4",
+            "Link": "https://motionrc.com/products/freewing-3530-1680kv-brushless-outrunner-motor-mo035305"
+        },
+        "1900": {
+            "Image": "https://img.motionrc.com/web/image/product.template/11809/image_1920/1020x680/6aa01d47_freewing-3530-1900kv-brushless-outrunner-motor",
+            "Price ($)": "73.49",
+            "Shaft Type": "Hollow",
+            "Number of Mounting Screws": "not published",
+            "Link": "https://motionrc.com/products/freewing-3530-1900kv-brushless-outrunner-motor-mo035303"
+        }
+    }
+}
