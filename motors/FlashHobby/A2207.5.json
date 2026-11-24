@@ -14,7 +14,7 @@
         "2500",
         "2750"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "not published",
     "Winding Type": "not published",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
@@ -35,7 +35,7 @@
     "Bearing Outer Diameter": "9.0",
     "Bearing Inner Diameter": "4.0",
     "Bearing Thickness": "4.0",
-    "Magnet Type": "",
+    "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
@@ -46,6 +46,9 @@
         },
         "2500": {
             "Price ($)": "22.99"
+        },
+        "2750": {
+            "Price ($)": "not published"
         }
     }
 }

@@ -25,7 +25,7 @@
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "100.0",
-    "Cable Gauge (AWG)": "",
+    "Cable Gauge (AWG)": "not published",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "5.0",
@@ -53,6 +53,10 @@
         "1250": {
             "Internal Resistance (mΩ)": "16.8",
             "Weight (incl. Cable) (g)": "144.0"
+        },
+        "600": {
+            "Internal Resistance (mΩ)": "not published",
+            "Weight (incl. Cable) (g)": "not published"
         }
     }
 }

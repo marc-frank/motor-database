@@ -84,7 +84,7 @@ Consistent values keep sorting and filtering on the website working.
 
 - Only digits and a `.` as decimal separator, with at least one decimal place. No unit, no `~`, `<` or `>`.
 - If you aren't sure of a value, leave it `""` rather than estimating.
-- `"not published"` means the field was looked for in the maker's pages, spec sheets, drawings, photos and retailer listings and isn't published anywhere. It's used for the rarely published fields (weight without cable, lamination thickness, base/bell/shaft material, winding type, enamel type, bearing dimensions). Replace it if you find a source.
+- `"not published"` means the field was looked for in the maker's pages, spec sheets, drawings, photos and retailer listings and isn't published anywhere. Any field (and an unknown KV list, `["not published"]`) can carry it. Replace it with the real value if you find a source.
 
 | ❌ | ✅ |
 | --- | --- |

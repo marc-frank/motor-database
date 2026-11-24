@@ -3,9 +3,9 @@
     "Manufacturer": "Hacker",
     "Name": "Q80 M V2",
     "Price ($)": "720.88",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
     "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "not published",
     "Flux Direction": "Radial",
@@ -18,25 +18,25 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "not published",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "1035",
     "Weight (excl. Cable) (g)": "not published",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
     "Bearing Thickness": "not published",
-    "Magnet Type": "",
+    "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "100.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "Unthreaded",
@@ -44,11 +44,13 @@
     "Per-KV Values": {
         "135": {
             "Internal Resistance (mΩ)": "21",
-            "Link": "https://www.hacker-motor-shop.com/Q80-11M-V2-kv135.htm?ProdNr=37418023&a=article&p=2986"
+            "Link": "https://www.hacker-motor-shop.com/Q80-11M-V2-kv135.htm?ProdNr=37418023&a=article&p=2986",
+            "Shaft Diameter (external) (mm)": "not published"
         },
         "160": {
             "Internal Resistance (mΩ)": "15",
-            "Link": "https://www.hacker-motor-shop.com/Q80-9M-V2-kv160.htm?ProdNr=37418022&a=article&p=2986"
+            "Link": "https://www.hacker-motor-shop.com/Q80-9M-V2-kv160.htm?ProdNr=37418022&a=article&p=2986",
+            "Shaft Diameter (external) (mm)": "not published"
         },
         "180": {
             "Internal Resistance (mΩ)": "13",
@@ -57,7 +59,8 @@
         },
         "210": {
             "Internal Resistance (mΩ)": "10",
-            "Link": "https://www.hacker-motor-shop.com/Q80-7M-V2-kv210.htm?a=article&ProdNr=37418020&p=2986"
+            "Link": "https://www.hacker-motor-shop.com/Q80-7M-V2-kv210.htm?a=article&ProdNr=37418020&p=2986",
+            "Shaft Diameter (external) (mm)": "not published"
         }
     }
 }

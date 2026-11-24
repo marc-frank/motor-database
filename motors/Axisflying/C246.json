@@ -26,9 +26,9 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "150",
     "Cable Gauge (AWG)": "20",
-    "Connector": "",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "not published",
     "Shaft Type": "Hollow",
     "Shaft Material": "not published",
     "Shaft Retention": "Screw",
@@ -47,13 +47,16 @@
             "Weight (excl. Cable) (g)": "31.2"
         },
         "1850": {
-            "Weight (excl. Cable) (g)": "31.2"
+            "Weight (excl. Cable) (g)": "31.2",
+            "Internal Resistance (mΩ)": "not published"
         },
         "2050": {
-            "Weight (excl. Cable) (g)": "31"
+            "Weight (excl. Cable) (g)": "31",
+            "Internal Resistance (mΩ)": "not published"
         },
         "2650": {
-            "Weight (excl. Cable) (g)": "not published"
+            "Weight (excl. Cable) (g)": "not published",
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

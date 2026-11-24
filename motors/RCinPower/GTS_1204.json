@@ -18,23 +18,23 @@
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "6",
     "Weight (excl. Cable) (g)": "not published",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "",
     "Shaft Type": "Solid",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
     "Bearing Thickness": "not published",
-    "Magnet Type": "",
+    "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "9.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M2",
@@ -45,7 +45,8 @@
             "Shaft Diameter (internal) (mm)": "2.0"
         },
         "8000": {
-            "Internal Resistance (mΩ)": "125"
+            "Internal Resistance (mΩ)": "125",
+            "Shaft Diameter (internal) (mm)": "not published"
         }
     }
 }

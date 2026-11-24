@@ -43,7 +43,8 @@
     "Link": "https://www.brotherhobby.com/avenger-22075-v3-motor-p00177p1.html",
     "Per-KV Values": {
         "1700": {
-            "Weight (incl. Cable) (g)": "33.6"
+            "Weight (incl. Cable) (g)": "33.6",
+            "Internal Resistance (mΩ)": "not published"
         },
         "1750": {
             "Internal Resistance (mΩ)": "62.49",

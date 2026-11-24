@@ -18,20 +18,20 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "Al 7075",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "72",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "200",
     "Cable Gauge (AWG)": "18",
-    "Connector": "",
-    "Shaft Diameter (external) (mm)": "",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "not published",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "Titanium",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "9.0",
     "Bearing Inner Diameter": "4.0",
@@ -50,6 +50,9 @@
         },
         "2500": {
             "Internal Resistance (mΩ)": "25.0"
+        },
+        "890": {
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

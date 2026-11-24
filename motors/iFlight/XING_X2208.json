@@ -16,18 +16,18 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "Single Strand",
     "Enamel Type": "Winding wire rated 220 °C",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "not published",
     "Bell Type": "Unibell",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "37.0",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "160",
-    "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
     "Shaft Material": "Titanium",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
@@ -42,6 +42,9 @@
     "Per-KV Values": {
         "1800": {
             "Internal Resistance (mΩ)": "53.7"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

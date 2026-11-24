@@ -12,7 +12,7 @@
     "KV (RPM/V)": [
         "2345"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "not published",
     "Winding Type": "not published",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
@@ -21,9 +21,9 @@
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "29",
     "Weight (excl. Cable) (g)": "not published",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "4.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
@@ -34,8 +34,8 @@
     "Bearing Inner Diameter": "4.0",
     "Bearing Thickness": "4.0",
     "Magnet Type": "N48",
-    "Mounting Pattern Diameter (mm)": "",
-    "Number of Mounting Screws": "",
-    "Mounting Screw Thread": "",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
     "Link": "https://ethixltd.com/portfolio/ethix-mr-steele-silk-motor-v3/"
 }

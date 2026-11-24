@@ -5,7 +5,7 @@
     "Price ($)": "10.00",
     "Stator Diameter (mm)": "11.0",
     "Stator Height (mm)": "3.0",
-    "Stator Configuration": "",
+    "Stator Configuration": "not published",
     "Stator Material": "Kawasaki Silicon Steel",
     "Stator Lamination Thickness (mm)": "not published",
     "Flux Direction": "Radial",
@@ -15,7 +15,7 @@
         "11000",
         "15000"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "not published",
     "Winding Type": "not published",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
@@ -25,13 +25,13 @@
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable Gauge (AWG)": "not published",
     "Connector": "JST-1.25",
     "Shaft Diameter (external) (mm)": "1.5",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "not published",
     "Shaft Type": "Solid",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
@@ -53,6 +53,10 @@
         "15000": {
             "Weight (incl. Cable) (g)": "3.7",
             "Cable length (mm)": "45"
+        },
+        "8500": {
+            "Weight (incl. Cable) (g)": "not published",
+            "Cable length (mm)": "not published"
         }
     }
 }

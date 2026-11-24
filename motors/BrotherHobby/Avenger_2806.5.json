@@ -51,7 +51,8 @@
         "1460": {
             "Weight (incl. Cable) (g)": "41",
             "Cable length (mm)": "200",
-            "Cable Gauge (AWG)": "18"
+            "Cable Gauge (AWG)": "18",
+            "Internal Resistance (mΩ)": "not published"
         },
         "1700": {
             "Internal Resistance (mΩ)": "44.27",

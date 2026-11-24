@@ -27,7 +27,7 @@
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "190",
     "Cable Gauge (AWG)": "24",
-    "Connector": "",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Hollow",
@@ -37,7 +37,7 @@
     "Bearing Outer Diameter": "9.0",
     "Bearing Inner Diameter": "4.0",
     "Bearing Thickness": "4.0",
-    "Magnet Type": "",
+    "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "16.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
@@ -48,13 +48,16 @@
             "Weight (incl. Cable) (g)": "20.8"
         },
         "2200": {
-            "Internal Resistance (mΩ)": "160"
+            "Internal Resistance (mΩ)": "160",
+            "Weight (incl. Cable) (g)": "not published"
         },
         "2650": {
-            "Internal Resistance (mΩ)": "120"
+            "Internal Resistance (mΩ)": "120",
+            "Weight (incl. Cable) (g)": "not published"
         },
         "3300": {
-            "Internal Resistance (mΩ)": "80"
+            "Internal Resistance (mΩ)": "80",
+            "Weight (incl. Cable) (g)": "not published"
         },
         "4200": {
             "Internal Resistance (mΩ)": "65",

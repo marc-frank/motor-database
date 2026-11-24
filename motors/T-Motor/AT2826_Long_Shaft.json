@@ -18,13 +18,13 @@
     "Enamel Type": "not published",
     "Base Type": "Closed Bottom",
     "Base Material": "not published",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "175.0",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "100.0",
-    "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "5.0",
     "Shaft Type": "Solid",
@@ -42,6 +42,9 @@
     "Per-KV Values": {
         "900": {
             "Internal Resistance (mΩ)": "24.0"
+        },
+        "1100": {
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

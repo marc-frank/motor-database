@@ -27,8 +27,8 @@
     "Cable Gauge (AWG)": "",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
     "Shaft Material": "Stainless Steel",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
@@ -42,14 +42,16 @@
     "Link": "https://www.mepsking.shop/meps-neon-2306-v2-brushless-fpv-motor-for-5-inch-freestyle-fpv-drone.html",
     "Per-KV Values": {
         "1950": {
-            "Internal Resistance (mΩ)": "58"
+            "Internal Resistance (mΩ)": "58",
+            "Cable Gauge (AWG)": "not published"
         },
         "2050": {
             "Internal Resistance (mΩ)": "55",
             "Cable Gauge (AWG)": "24"
         },
         "2550": {
-            "Internal Resistance (mΩ)": "42"
+            "Internal Resistance (mΩ)": "42",
+            "Cable Gauge (AWG)": "not published"
         }
     }
 }

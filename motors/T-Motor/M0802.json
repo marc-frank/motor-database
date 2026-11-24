@@ -17,14 +17,14 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "not published",
     "Bell Type": "Unibell",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable Gauge (AWG)": "not published",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.0",
     "Shaft Diameter (internal) (mm)": "1.5",
@@ -46,7 +46,8 @@
             "Cable length (mm)": "33.5",
             "Connector": "JST-1.25",
             "Link": "https://www.t-hobby.com/products/m0802-kv2200",
-            "Image": "https://img.staticdj.com/7c6233ddfff3a1444a6a85a11454bc14.jpeg"
+            "Image": "https://img.staticdj.com/7c6233ddfff3a1444a6a85a11454bc14.jpeg",
+            "Internal Resistance (mΩ)": "not published"
         },
         "25000": {
             "Weight (incl. Cable) (g)": "1.91",
@@ -61,7 +62,8 @@
             "Cable length (mm)": "30.0",
             "Connector": "XH-3P/1.25",
             "Link": "https://www.tmotorhobby.com/goods-1335-M0802+KV27000.html",
-            "Image": "https://www.tmotorhobby.com/images/202312/source_img/1335_P_1701744012573.jpg"
+            "Image": "https://www.tmotorhobby.com/images/202312/source_img/1335_P_1701744012573.jpg",
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

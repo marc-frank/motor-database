@@ -55,6 +55,18 @@
         "1400": {
             "Internal Resistance (mΩ)": "35.2",
             "Weight (incl. Cable) (g)": "81.0"
+        },
+        "1850": {
+            "Internal Resistance (mΩ)": "not published",
+            "Weight (incl. Cable) (g)": "not published"
+        },
+        "2200": {
+            "Internal Resistance (mΩ)": "not published",
+            "Weight (incl. Cable) (g)": "not published"
+        },
+        "2500": {
+            "Internal Resistance (mΩ)": "not published",
+            "Weight (incl. Cable) (g)": "not published"
         }
     }
 }

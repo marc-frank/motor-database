@@ -18,20 +18,20 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "not published",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "9.6",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "80",
     "Cable Gauge (AWG)": "28",
-    "Connector": "",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "1.5",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
@@ -50,6 +50,9 @@
         },
         "5000": {
             "Internal Resistance (mΩ)": "165.0"
+        },
+        "5500": {
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

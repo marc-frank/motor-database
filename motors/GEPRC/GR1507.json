@@ -24,14 +24,14 @@
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "15.5",
     "Weight (excl. Cable) (g)": "not published",
-    "Cable length (mm)": "",
+    "Cable length (mm)": "not published",
     "Cable Gauge (AWG)": "24",
-    "Connector": "",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "2.0",
     "Shaft Type": "Hollow",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
@@ -50,6 +50,9 @@
         },
         "4200": {
             "Internal Resistance (mΩ)": "96.0"
+        },
+        "3200": {
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

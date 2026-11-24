@@ -12,10 +12,10 @@
     "KV (RPM/V)": [
         "7500"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "not published",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "not published",
     "Bell Type": "Unibell",
     "Bell Material": "not published",
@@ -23,7 +23,7 @@
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "75.0",
     "Cable Gauge (AWG)": "24",
-    "Connector": "",
+    "Connector": "not published",
     "Shaft Diameter (external) (mm)": "1.5",
     "Shaft Diameter (internal) (mm)": "2.0",
     "Shaft Type": "Solid",

@@ -3,9 +3,9 @@
     "Manufacturer": "Hacker",
     "Name": "Q80 L V2 HD",
     "Price ($)": "874.03",
-    "Stator Diameter (mm)": "",
-    "Stator Height (mm)": "",
-    "Stator Configuration": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
     "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "not published",
     "Flux Direction": "Radial",
@@ -17,25 +17,25 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "",
+    "Base Type": "not published",
     "Base Material": "not published",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "1335",
     "Weight (excl. Cable) (g)": "not published",
-    "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "9.9",
-    "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
     "Bearing Thickness": "not published",
-    "Magnet Type": "",
+    "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "75.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M6",
@@ -46,10 +46,12 @@
             "Link": "https://www.hacker-motor-shop.com/Q80-6L-V2-HD-kv165.htm?ProdNr=37418032&a=article&p=2986"
         },
         "200": {
-            "Link": "https://www.hacker-motor-shop.com/Q80-5L-V2-HD-kv200.htm?a=article&ProdNr=10109879&p=2986"
+            "Link": "https://www.hacker-motor-shop.com/Q80-5L-V2-HD-kv200.htm?a=article&ProdNr=10109879&p=2986",
+            "Internal Resistance (mΩ)": "not published"
         },
         "140": {
-            "Link": "https://www.hacker-motor-shop.com/Q80-7L-V2-HD-kv140.htm?ProdNr=10109880&a=article&p=2986"
+            "Link": "https://www.hacker-motor-shop.com/Q80-7L-V2-HD-kv140.htm?ProdNr=10109880&a=article&p=2986",
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }

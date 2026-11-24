@@ -14,20 +14,20 @@
         "10000",
         "11000"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "not published",
     "Winding Type": "Single Strand",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "3.2",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "",
-    "Cable Gauge (AWG)": "",
+    "Cable Gauge (AWG)": "not published",
     "Connector": "",
     "Shaft Diameter (external) (mm)": "1.5",
-    "Shaft Diameter (internal) (mm)": "",
+    "Shaft Diameter (internal) (mm)": "not published",
     "Shaft Type": "Solid",
     "Shaft Material": "not published",
     "Shaft Retention": "Clip",
@@ -35,7 +35,7 @@
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
     "Bearing Thickness": "not published",
-    "Magnet Type": "",
+    "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "6.6, 9.0",
     "Number of Mounting Screws": "3, 4",
     "Mounting Screw Thread": "M1.4, M2",
@@ -44,6 +44,14 @@
         "11000": {
             "Connector": "JST-1.25",
             "Cable length (mm)": "40.0"
+        },
+        "9000": {
+            "Cable length (mm)": "not published",
+            "Connector": "not published"
+        },
+        "10000": {
+            "Cable length (mm)": "not published",
+            "Connector": "not published"
         }
     }
 }

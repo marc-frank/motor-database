@@ -20,7 +20,7 @@
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "Al 7075",
-    "Bell Type": "",
+    "Bell Type": "not published",
     "Bell Material": "Al 7075",
     "Weight (incl. Cable) (g)": "339",
     "Weight (excl. Cable) (g)": "not published",
@@ -29,9 +29,9 @@
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "6.0",
-    "Shaft Type": "",
+    "Shaft Type": "not published",
     "Shaft Material": "not published",
-    "Shaft Retention": "",
+    "Shaft Retention": "not published",
     "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "15.0",
     "Bearing Inner Diameter": "6.0",
@@ -44,6 +44,15 @@
     "Per-KV Values": {
         "330": {
             "Internal Resistance (mΩ)": "47.75"
+        },
+        "170": {
+            "Internal Resistance (mΩ)": "not published"
+        },
+        "380": {
+            "Internal Resistance (mΩ)": "not published"
+        },
+        "500": {
+            "Internal Resistance (mΩ)": "not published"
         }
     }
 }
