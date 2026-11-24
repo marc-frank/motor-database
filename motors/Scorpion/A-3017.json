@@ -1,5 +1,5 @@
 {
-    "Image": "https://www.scorpionsystem.com/files/i4,058_popup_image.jpg",
+    "Image": "https://www.scorpionsystem.com/files/i4,052_popup_image.jpg",
     "Manufacturer": "Scorpion",
     "Name": "A-3017",
     "Price ($)": "129.99",
@@ -10,16 +10,18 @@
     "Stator Lamination Thickness (mm)": "not published",
     "Flux Direction": "Radial",
     "KV (RPM/V)": [
-        "600"
+        "560",
+        "600",
+        "920"
     ],
-    "Internal Resistance (mΩ)": "50.0",
+    "Internal Resistance (mΩ)": "",
     "Winding Type": "Multi Strand",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
     "Bell Type": "Assembled Bell",
     "Bell Material": "not published",
-    "Weight (incl. Cable) (g)": "136.0",
+    "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "not published",
     "Cable length (mm)": "not published",
     "Cable Gauge (AWG)": "not published",
@@ -37,5 +39,22 @@
     "Mounting Pattern Diameter (mm)": "25.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
-    "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_600/"
+    "Link": "",
+    "Per-KV Values": {
+        "560": {
+            "Internal Resistance (mΩ)": "80.0",
+            "Weight (incl. Cable) (g)": "134.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/A_3017_560/"
+        },
+        "600": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Weight (incl. Cable) (g)": "136.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_600/"
+        },
+        "920": {
+            "Internal Resistance (mΩ)": "25.0",
+            "Weight (incl. Cable) (g)": "136.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_920/"
+        }
+    }
 }
