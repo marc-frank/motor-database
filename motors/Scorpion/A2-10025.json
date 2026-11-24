@@ -1,0 +1,60 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i5,298_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "A2-10025",
+    "Price ($)": "1099.99",
+    "Stator Diameter (mm)": "100.0",
+    "Stator Height (mm)": "25.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "120",
+        "130",
+        "150"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "Winding wire rated 200 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "6mm bullet",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Curved magnets",
+    "Mounting Pattern Diameter (mm)": "64.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M5",
+    "Link": "",
+    "Per-KV Values": {
+        "120": {
+            "Internal Resistance (mΩ)": "11.8",
+            "Weight (incl. Cable) (g)": "1611.6",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_100/A2_10025_120/"
+        },
+        "130": {
+            "Internal Resistance (mΩ)": "10.2",
+            "Weight (incl. Cable) (g)": "1621.2",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_100/A2_10025_130/"
+        },
+        "150": {
+            "Internal Resistance (mΩ)": "8.5",
+            "Weight (incl. Cable) (g)": "1630.6",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_100/A2_10025_150/"
+        }
+    }
+}

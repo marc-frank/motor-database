@@ -1,0 +1,50 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i4,819_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "A-4225 V2",
+    "Price ($)": "219.99",
+    "Stator Diameter (mm)": "42.0",
+    "Stator Height (mm)": "25.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "250",
+        "500"
+    ],
+    "Internal Resistance (mΩ)": "14.0",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "Winding wire rated 250 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "350.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
+    "Per-KV Values": {
+        "250": {
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_42_series/A_4225_250/"
+        },
+        "500": {
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_42_series/A_4225_500_v2/"
+        }
+    }
+}
