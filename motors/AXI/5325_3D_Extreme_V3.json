@@ -1,0 +1,52 @@
+{
+    "Image": "https://www.modelmotors.cz/file/image/optimized/product-gallery/large/b4bfb4e77f619addfc08cb1b318aab4b.jpg",
+    "Manufacturer": "AXI",
+    "Name": "5325 3D Extreme V3",
+    "Price ($)": "347.86",
+    "Stator Diameter (mm)": "53.0",
+    "Stator Height (mm)": "25.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "350",
+        "280"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "640.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "44.0, 90.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "280": {
+            "Internal Resistance (mΩ)": "37.0",
+            "Link": "https://www.modelmotors.cz/product/detail/458/"
+        },
+        "350": {
+            "Internal Resistance (mΩ)": "13.0",
+            "Link": "https://www.modelmotors.cz/product/detail/261/"
+        }
+    }
+}

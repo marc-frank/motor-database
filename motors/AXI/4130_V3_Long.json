@@ -1,0 +1,60 @@
+{
+    "Image": "https://www.modelmotors.cz/file/image/optimized/product-gallery/large/034c375aff284440bcd70079083d23a0.jpg",
+    "Manufacturer": "AXI",
+    "Name": "4130 V3 Long",
+    "Price ($)": "191.43",
+    "Stator Diameter (mm)": "41.0",
+    "Stator Height (mm)": "30.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "500",
+        "385",
+        "305"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "28.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
+    "Per-KV Values": {
+        "305": {
+            "Internal Resistance (mΩ)": "43.0",
+            "Weight (incl. Cable) (g)": "455.0",
+            "Link": "https://www.modelmotors.cz/product/detail/534/"
+        },
+        "385": {
+            "Internal Resistance (mΩ)": "23.0",
+            "Weight (incl. Cable) (g)": "455.0",
+            "Link": "https://www.modelmotors.cz/product/detail/533/"
+        },
+        "500": {
+            "Internal Resistance (mΩ)": "67.0",
+            "Weight (incl. Cable) (g)": "445.0",
+            "Link": "https://www.modelmotors.cz/product/detail/535/"
+        }
+    }
+}

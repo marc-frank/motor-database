@@ -1,0 +1,62 @@
+{
+    "Image": "https://www.modelmotors.cz/file/image/optimized/product-gallery/large/6baa8c7f77d3e67172043ab814d22c41.jpeg",
+    "Manufacturer": "AXI",
+    "Name": "5345 HD 3D Extreme V3",
+    "Price ($)": "451.78",
+    "Stator Diameter (mm)": "53.0",
+    "Stator Height (mm)": "45.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "225",
+        "195",
+        "171",
+        "145"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "995.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "44.0, 90.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "145": {
+            "Internal Resistance (mΩ)": "42.0",
+            "Link": "https://www.modelmotors.cz/product/detail/516/"
+        },
+        "171": {
+            "Internal Resistance (mΩ)": "42.0",
+            "Link": "https://www.modelmotors.cz/product/detail/515/"
+        },
+        "195": {
+            "Internal Resistance (mΩ)": "34.0",
+            "Link": "https://www.modelmotors.cz/product/detail/514/"
+        },
+        "225": {
+            "Internal Resistance (mΩ)": "27.0",
+            "Link": "https://www.modelmotors.cz/product/detail/513/"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "Image": "https://www.modelmotors.cz/file/image/optimized/product-gallery/large/07b430bab5c36f8226a3e818fb3df43d.jpg",
+    "Manufacturer": "AXI",
+    "Name": "2217 V3",
+    "Price ($)": "100.64",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "17.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1380",
+        "1050",
+        "840"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "69.5",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "3.17",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "2, 2",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "840": {
+            "Internal Resistance (mΩ)": "103.0",
+            "Link": "https://www.modelmotors.cz/product/detail/362/"
+        },
+        "1050": {
+            "Internal Resistance (mΩ)": "65.0",
+            "Link": "https://www.modelmotors.cz/product/detail/360/"
+        },
+        "1380": {
+            "Internal Resistance (mΩ)": "34.0",
+            "Link": "https://www.modelmotors.cz/product/detail/358/"
+        }
+    }
+}
