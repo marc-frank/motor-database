@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "20.0",
     "Stator Height (mm)": "6.5",
     "Stator Configuration": "12N14P",
-    "Stator Material": "Silicon Steel",
+    "Stator Material": "not published",
     "Stator Lamination Thickness (mm)": "not published",
     "Flux Direction": "Radial",
     "KV (RPM/V)": [
@@ -29,7 +29,7 @@
     "Shaft Type": "Solid",
     "Shaft Material": "Titanium",
     "Shaft Retention": "Clip",
-    "Bearing Type": "Ball Bearing",
+    "Bearing Type": "not published",
     "Bearing Outer Diameter": "8.0",
     "Bearing Inner Diameter": "3.0",
     "Bearing Thickness": "4.0",
