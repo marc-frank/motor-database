@@ -1,0 +1,60 @@
+{
+    "Image": "https://shop.align.com.tw/images/product_images/info_images/5508_0.jpg",
+    "Manufacturer": "ALIGN",
+    "Name": "750MX (4236)",
+    "Price ($)": "160.99",
+    "Stator Diameter (mm)": "42.0",
+    "Stator Height (mm)": "36.0",
+    "Stator Configuration": "",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "480",
+        "530",
+        "930"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "452.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
+    "Per-KV Values": {
+        "480": {
+            "Stator Configuration": "12N10P",
+            "Connector": "5.5mm bullet",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=8999&language=en"
+        },
+        "530": {
+            "Stator Configuration": "12N10P",
+            "Connector": "not published",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=5508&language=en"
+        },
+        "930": {
+            "Stator Configuration": "12N8P",
+            "Connector": "5.5mm bullet",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=9056&language=en"
+        }
+    }
+}

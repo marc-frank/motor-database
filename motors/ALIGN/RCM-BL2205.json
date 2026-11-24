@@ -1,0 +1,50 @@
+{
+    "Image": "https://shop.align.com.tw/images/product_images/info_images/5659_0.jpg",
+    "Manufacturer": "ALIGN",
+    "Name": "RCM-BL2205",
+    "Price ($)": "25.00",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "5.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "2300",
+        "2400"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "25.7",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "17.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2.5",
+    "Link": "",
+    "Per-KV Values": {
+        "2300": {
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=5659&language=en"
+        },
+        "2400": {
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=6041&language=en"
+        }
+    }
+}
