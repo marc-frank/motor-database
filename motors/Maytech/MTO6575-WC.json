@@ -43,11 +43,11 @@
     "Per-KV Values": {
         "230": {
             "Weight (incl. Cable) (g)": "865.0",
-            "Winding Type": "3T-Y"
+            "Winding Type": "Wye (3Y)"
         },
         "270": {
             "Weight (incl. Cable) (g)": "852.0",
-            "Winding Type": "2.5T-Y"
+            "Winding Type": "Wye (2.5Y)"
         },
         "320": {
             "Weight (incl. Cable) (g)": "900.0",
