@@ -48,6 +48,13 @@ Data rules and formats are in `.github/CONTRIBUTING.md`; this section is about *
   divided by the pack size. Variants often have different prices, so set prices per KV when they
   differ. If the owner gives a price, keep it.
 - Only non-USD prices available: convert to USD with that day's ECB reference rate and say so.
+- Requests from this environment count as US visitors. Some Shopify stores charge Americans
+  more: EMAX's US market is about 1.54× its international price, FlyFishRC's about 1.25×. Use the
+  international-market price the owner sees. Fetch `/products/<handle>.js` with
+  `-b localization=DE` and `-b localization=US`; if the store keeps USD for DE but the prices
+  differ, use the DE price (the displayed one; that market shows no crossed-out price). Stores
+  that switch to local currency abroad keep their US USD price. EMAX RSII 2207 is $23.99 for the
+  owner but $36.94 in the US market.
 - Check that the Image URL loads from another site. iFlight's CDN blocks hotlinking, so its images
   look missing on the website. Test with
   `curl -A 'Mozilla/5.0' -H 'Referer: https://marc-frank.github.io/' -o /dev/null -w '%{http_code} %{content_type}' URL`

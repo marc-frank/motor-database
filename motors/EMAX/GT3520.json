@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/0469/7358/3518/products/emx-mt-0434-1.jpg",
     "Manufacturer": "EMAX",
     "Name": "GT3520",
-    "Price ($)": "53.10",
+    "Price ($)": "",
     "Stator Diameter (mm)": "35.0",
     "Stator Height (mm)": "20.0",
     "Stator Configuration": "not published",
@@ -38,5 +38,13 @@
     "Mounting Pattern Diameter (mm)": "30.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://shop.emaxmodel.com/products/gt3520"
+    "Link": "https://shop.emaxmodel.com/products/gt3520",
+    "Per-KV Values": {
+        "925": {
+            "Price ($)": "30.00"
+        },
+        "1150": {
+            "Price ($)": "34.48"
+        }
+    }
 }
