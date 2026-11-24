@@ -1,0 +1,67 @@
+{
+    "Image": "https://en.rcsunnysky.com/Uploads/20260714041304_067833.jpg",
+    "Manufacturer": "SunnySky",
+    "Name": "X3530-III",
+    "Price ($)": "74.99",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "30.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "220",
+        "255",
+        "520",
+        "650",
+        "860"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "110.0",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N48UH",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://en.rcsunnysky.com/x-fixedwingseries/1140.html",
+    "Per-KV Values": {
+        "220": {
+            "Internal Resistance (mΩ)": "92.0",
+            "Weight (incl. Cable) (g)": "307.0"
+        },
+        "255": {
+            "Internal Resistance (mΩ)": "70.0",
+            "Weight (incl. Cable) (g)": "307.0"
+        },
+        "520": {
+            "Internal Resistance (mΩ)": "19.7",
+            "Weight (incl. Cable) (g)": "305.0"
+        },
+        "650": {
+            "Internal Resistance (mΩ)": "11.3",
+            "Weight (incl. Cable) (g)": "305.0"
+        },
+        "860": {
+            "Internal Resistance (mΩ)": "7.3",
+            "Weight (incl. Cable) (g)": "303.0"
+        }
+    }
+}

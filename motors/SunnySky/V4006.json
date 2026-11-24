@@ -1,0 +1,57 @@
+{
+    "Image": "https://en.rcsunnysky.com/Uploads/20190517015222_189565.jpg",
+    "Manufacturer": "SunnySky",
+    "Name": "V4006",
+    "Price ($)": "55.20",
+    "Stator Diameter (mm)": "39.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "18N24P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "320",
+        "380",
+        "740"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "50.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://en.rcsunnysky.com/v-multi-rotorefficiencytype/1081.html",
+    "Per-KV Values": {
+        "320": {
+            "Internal Resistance (mΩ)": "230.0",
+            "Weight (incl. Cable) (g)": "66.0"
+        },
+        "380": {
+            "Internal Resistance (mΩ)": "170.0",
+            "Weight (incl. Cable) (g)": "66.0"
+        },
+        "740": {
+            "Internal Resistance (mΩ)": "47.0",
+            "Weight (incl. Cable) (g)": "68.0"
+        }
+    }
+}

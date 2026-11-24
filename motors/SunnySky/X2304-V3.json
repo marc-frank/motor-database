@@ -1,0 +1,50 @@
+{
+    "Image": "https://en.rcsunnysky.com/Uploads/20190322101102_695487.jpg",
+    "Manufacturer": "SunnySky",
+    "Name": "X2304-V3",
+    "Price ($)": "16.99",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1480",
+        "1800"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "20.2",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "50.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "31.5",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://en.rcsunnysky.com/x-fixedwingseries/64.html",
+    "Per-KV Values": {
+        "1480": {
+            "Internal Resistance (mΩ)": "190.0"
+        },
+        "1800": {
+            "Internal Resistance (mΩ)": "113.0"
+        }
+    }
+}
