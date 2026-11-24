@@ -1,0 +1,62 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/MTO3536-750-G_1.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTO3536-G",
+    "Price ($)": "21.87",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "750",
+        "910",
+        "1100",
+        "1250",
+        "1400"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "75.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "19.0, 25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://maytech.cn/products/brushless-3536-750-1250-1400-kv-sensorless-outrunner-motor-for-rc-airplane-helicopter",
+    "Per-KV Values": {
+        "750": {
+            "Weight (incl. Cable) (g)": "100.0"
+        },
+        "910": {
+            "Weight (incl. Cable) (g)": "100.0"
+        },
+        "1100": {
+            "Weight (incl. Cable) (g)": "120.0"
+        },
+        "1250": {
+            "Weight (incl. Cable) (g)": "99.0"
+        },
+        "1400": {
+            "Weight (incl. Cable) (g)": "102.0"
+        }
+    }
+}

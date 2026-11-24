@@ -1,0 +1,57 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/MTO8085-160-G_12.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTO8085-G",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "68.0",
+    "Stator Height (mm)": "30.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "90",
+        "160",
+        "250"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Al 6063",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "Steel",
+    "Weight (incl. Cable) (g)": "1800.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "8mm bullet",
+    "Shaft Diameter (external) (mm)": "12.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Stainless Steel",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N45SH",
+    "Mounting Pattern Diameter (mm)": "43.0, 59.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M5, M5",
+    "Link": "https://maytech.cn/products/brushless-sensorless-motor-mto8085-160-g",
+    "Per-KV Values": {
+        "90": {
+            "Internal Resistance (mΩ)": "not published",
+            "Price ($)": "152.70"
+        },
+        "160": {
+            "Internal Resistance (mΩ)": "28.0",
+            "Price ($)": "139.60"
+        },
+        "250": {
+            "Internal Resistance (mΩ)": "not published",
+            "Price ($)": "139.60"
+        }
+    }
+}

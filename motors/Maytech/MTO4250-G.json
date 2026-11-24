@@ -1,0 +1,62 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/MTO4250_500_G_1.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTO4250-G",
+    "Price ($)": "49.50",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "30.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "100",
+        "500",
+        "650",
+        "800"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://maytech.cn/products/brushless-4250-500-650kv-sensorless-outrunner-motor-with-accessories-for-rc-hobbby-airplane-helicopter",
+    "Per-KV Values": {
+        "100": {
+            "Weight (incl. Cable) (g)": "265.0",
+            "Internal Resistance (mΩ)": "not published"
+        },
+        "500": {
+            "Weight (incl. Cable) (g)": "195.0",
+            "Internal Resistance (mΩ)": "42.3"
+        },
+        "650": {
+            "Weight (incl. Cable) (g)": "265.0",
+            "Internal Resistance (mΩ)": "not published"
+        },
+        "800": {
+            "Weight (incl. Cable) (g)": "265.0",
+            "Internal Resistance (mΩ)": "not published"
+        }
+    }
+}

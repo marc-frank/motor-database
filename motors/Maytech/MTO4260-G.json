@@ -1,0 +1,62 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/DSC01350.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTO4260-G",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "42.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "190",
+        "600",
+        "750",
+        "800",
+        "850"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "280.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://maytech.cn/products/maytech-4260-brushless-sensorless-motor-600-750-850kv-for-rc-airplane-helicopter",
+    "Per-KV Values": {
+        "190": {
+            "Price ($)": "75.00"
+        },
+        "600": {
+            "Price ($)": "59.60"
+        },
+        "750": {
+            "Price ($)": "59.60"
+        },
+        "800": {
+            "Price ($)": "59.60"
+        },
+        "850": {
+            "Price ($)": "59.60"
+        }
+    }
+}
