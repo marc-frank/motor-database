@@ -1,0 +1,50 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/MTO5570-HA-C3_2.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTO5570-HA-C3",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "70",
+        "190"
+    ],
+    "Internal Resistance (mΩ)": "36.1",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Closed Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "Stainless Steel",
+    "Weight (incl. Cable) (g)": "660.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Stainless Steel",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://maytech.cn/products/brushless-hall-sensor-motor-mto5570-190-ha-c3",
+    "Per-KV Values": {
+        "70": {
+            "Price ($)": "90.70"
+        },
+        "190": {
+            "Price ($)": "77.50"
+        }
+    }
+}

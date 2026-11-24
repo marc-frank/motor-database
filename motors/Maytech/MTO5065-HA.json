@@ -1,0 +1,54 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/MTO5065-HA.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTO5065-HA",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "70",
+        "190",
+        "220"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Al 6063",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "Steel",
+    "Weight (incl. Cable) (g)": "453.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "12",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Stainless Steel",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N45SH",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://maytech.cn/products/brushless-hall-sensor-motor-mto5065-220-ha",
+    "Per-KV Values": {
+        "70": {
+            "Price ($)": "72.50"
+        },
+        "190": {
+            "Price ($)": "60.50"
+        },
+        "220": {
+            "Price ($)": "60.50"
+        }
+    }
+}

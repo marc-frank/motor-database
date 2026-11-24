@@ -1,0 +1,50 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0089/3065/6320/products/120116-WP_1.jpg",
+    "Manufacturer": "Maytech",
+    "Name": "MTI120116-WP",
+    "Price ($)": "516.50",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "12N10P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "100",
+        "150"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Closed Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "300.0",
+    "Cable Gauge (AWG)": "6",
+    "Connector": "10mm bullet",
+    "Shaft Diameter (external) (mm)": "15.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N45SH",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://maytech.cn/products/maytech-brushless-inrunner-motor-for-electric-surfboard-rc-boat-mti120116-200-sf",
+    "Per-KV Values": {
+        "100": {
+            "Weight (incl. Cable) (g)": "4500.0"
+        },
+        "150": {
+            "Weight (incl. Cable) (g)": "4200.0"
+        }
+    }
+}
