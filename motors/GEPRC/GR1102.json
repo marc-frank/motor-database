@@ -47,11 +47,11 @@
         },
         "9000": {
             "Cable length (mm)": "not published",
-            "Connector": "not published"
+            "Connector": "JST-1.25"
         },
         "10000": {
             "Cable length (mm)": "not published",
-            "Connector": "not published"
+            "Connector": "JST-1.25"
         }
     }
 }
