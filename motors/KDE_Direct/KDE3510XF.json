@@ -1,0 +1,54 @@
+{
+    "Image": "",
+    "Manufacturer": "KDE Direct",
+    "Name": "KDE3510XF",
+    "Price ($)": "135.00",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "10.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "475",
+        "715"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Delta",
+    "Enamel Type": "Winding wire rated 200 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "175.0",
+    "Weight (excl. Cable) (g)": "120.0",
+    "Cable length (mm)": "762.0",
+    "Cable Gauge (AWG)": "15",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Collar",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "10.0, 16.0",
+    "Bearing Inner Diameter": "5.0, 5.0",
+    "Bearing Thickness": "4.0, 5.0",
+    "Magnet Type": "N45UH",
+    "Mounting Pattern Diameter (mm)": "25.0, 25.0, 32.0, 32.0",
+    "Number of Mounting Screws": "4, 4, 3, 3",
+    "Mounting Screw Thread": "M4, M3, M3, M2.5",
+    "Link": "",
+    "Per-KV Values": {
+        "475": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE3510XF-475_Rendering_8e0ea157-5dc2-40b4-8bc8-99298f9b1e39.JPG",
+            "Internal Resistance (mΩ)": "105.0",
+            "Link": "https://www.kdedirect.com/products/kde3510xf-475"
+        },
+        "715": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE3510XF-715_Rendering_15ca5c32-f0d8-40c7-8b94-1c292375eee9.JPG",
+            "Internal Resistance (mΩ)": "54.0",
+            "Link": "https://www.kdedirect.com/products/kde3510xf-715"
+        }
+    }
+}

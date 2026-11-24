@@ -1,0 +1,54 @@
+{
+    "Image": "",
+    "Manufacturer": "KDE Direct",
+    "Name": "KDE2814XF",
+    "Price ($)": "105.00",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "515",
+        "775"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Delta",
+    "Enamel Type": "Winding wire rated 200 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "125.0",
+    "Weight (excl. Cable) (g)": "95.0",
+    "Cable length (mm)": "635.0",
+    "Cable Gauge (AWG)": "17",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Collar",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "9.0, 13.0",
+    "Bearing Inner Diameter": "4.0, 4.0",
+    "Bearing Thickness": "4.0, 5.0",
+    "Magnet Type": "N45UH",
+    "Mounting Pattern Diameter (mm)": "19.0, 19.0, 25.0",
+    "Number of Mounting Screws": "4, 4, 4",
+    "Mounting Screw Thread": "M3, M2.5, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "515": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE2814XF-515_Rendering_5768115b-f1e4-44a0-914d-0f430311854c.JPG",
+            "Internal Resistance (mΩ)": "130.0",
+            "Link": "https://www.kdedirect.com/products/kde2814xf-515"
+        },
+        "775": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE2814XF-775_Rendering_a6d91dd3-13b6-45e2-9640-c2cf0fed0187.JPG",
+            "Internal Resistance (mΩ)": "69.0",
+            "Link": "https://www.kdedirect.com/products/kde2814xf-775"
+        }
+    }
+}

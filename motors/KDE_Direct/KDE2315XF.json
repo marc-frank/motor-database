@@ -1,0 +1,66 @@
+{
+    "Image": "",
+    "Manufacturer": "KDE Direct",
+    "Name": "KDE2315XF",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "885",
+        "965",
+        "2050"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Delta",
+    "Enamel Type": "",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "75.0",
+    "Weight (excl. Cable) (g)": "64.0",
+    "Cable length (mm)": "255.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Collar",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "8.0, 10.0",
+    "Bearing Inner Diameter": "4.0, 4.0",
+    "Bearing Thickness": "3.0, 4.0",
+    "Magnet Type": "N45UH",
+    "Mounting Pattern Diameter (mm)": "16.0, 16.0, 19.0, 19.0",
+    "Number of Mounting Screws": "4, 2, 4, 2",
+    "Mounting Screw Thread": "M2.5, M3, M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "885": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE2315XF-885_Rendering_0eb860cb-e4a7-47bf-8c09-af1e67564f05.JPG",
+            "Price ($)": "85.00",
+            "Internal Resistance (mΩ)": "127.0",
+            "Enamel Type": "Winding wire rated 200 °C",
+            "Link": "https://www.kdedirect.com/products/kde2315xf-885"
+        },
+        "965": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE2315XF-965_Rendering_c34d3858-ff96-400c-a9d6-4e49af87638e.JPG",
+            "Price ($)": "85.00",
+            "Internal Resistance (mΩ)": "102.0",
+            "Enamel Type": "Winding wire rated 200 °C",
+            "Link": "https://www.kdedirect.com/products/kde2315xf-965"
+        },
+        "2050": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE2315XF-2050_Rendering_ba359de3-e860-4a7b-9bf8-62a4367d3245.JPG",
+            "Price ($)": "63.95",
+            "Internal Resistance (mΩ)": "34.0",
+            "Enamel Type": "Winding wire rated 240 °C",
+            "Link": "https://www.kdedirect.com/products/kde2315xf-2050"
+        }
+    }
+}
