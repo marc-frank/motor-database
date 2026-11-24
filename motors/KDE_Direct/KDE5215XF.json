@@ -1,0 +1,66 @@
+{
+    "Image": "",
+    "Manufacturer": "KDE Direct",
+    "Name": "KDE5215XF",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "52.0",
+    "Stator Height (mm)": "15.0",
+    "Stator Configuration": "",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "220",
+        "330",
+        "435"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Delta",
+    "Enamel Type": "Polyimide, rated 200 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "360.0",
+    "Weight (excl. Cable) (g)": "305.0",
+    "Cable length (mm)": "762.0",
+    "Cable Gauge (AWG)": "15",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "8.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "19.0, 22.0",
+    "Bearing Inner Diameter": "8.0, 8.0",
+    "Bearing Thickness": "6.0, 7.0",
+    "Magnet Type": "N38UH",
+    "Mounting Pattern Diameter (mm)": "30.0, 30.0, 40.0",
+    "Number of Mounting Screws": "4, 4, 4",
+    "Mounting Screw Thread": "M4, M3, M5",
+    "Link": "",
+    "Per-KV Values": {
+        "220": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE5215XF-220_Rendering_4dee4182-f1c0-4463-abc3-079a974e6b43.JPG",
+            "Price ($)": "270.00",
+            "Stator Configuration": "24N28P",
+            "Internal Resistance (mΩ)": "78.0",
+            "Link": "https://www.kdedirect.com/products/kde5215xf-220"
+        },
+        "330": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE5215XF-330_Rendering_f69ef15a-445d-48f4-97f2-3478a9078f7b.JPG",
+            "Price ($)": "260.00",
+            "Stator Configuration": "24N22P",
+            "Internal Resistance (mΩ)": "44.0",
+            "Link": "https://www.kdedirect.com/products/kde5215xf-330"
+        },
+        "435": {
+            "Image": "https://cdn.shopify.com/s/files/1/0496/8205/products/KDE5215XF-435_Rendering_54a08f20-19a5-41e8-8b9e-9ff521f0a5dc.JPG",
+            "Price ($)": "260.00",
+            "Stator Configuration": "24N22P",
+            "Internal Resistance (mΩ)": "31.0",
+            "Link": "https://www.kdedirect.com/products/kde5215xf-435"
+        }
+    }
+}
