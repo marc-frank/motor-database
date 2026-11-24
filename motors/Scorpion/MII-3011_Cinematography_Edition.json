@@ -1,0 +1,54 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i4,158_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "MII-3011 Cinematography Edition",
+    "Price ($)": "99.99",
+    "Stator Diameter (mm)": "30.0",
+    "Stator Height (mm)": "11.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1100",
+        "875"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "90.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "250.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "4.98",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1100": {
+            "Internal Resistance (mΩ)": "55.0",
+            "Winding Type": "Multi Strand, Delta (8D)",
+            "Link": "https://www.scorpionsystem.com/catalog/multicopter/motor_5/MII_30/MII_3011_1100/"
+        },
+        "875": {
+            "Internal Resistance (mΩ)": "40.0",
+            "Winding Type": "Multi Strand, Delta (10D)",
+            "Link": "https://www.scorpionsystem.com/catalog/multicopter/motor_5/MII_30/MII_3011_875/"
+        }
+    }
+}

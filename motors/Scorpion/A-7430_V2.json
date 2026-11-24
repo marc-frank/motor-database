@@ -1,0 +1,54 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i4,499_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "A-7430 V2",
+    "Price ($)": "599.99",
+    "Stator Diameter (mm)": "74.0",
+    "Stator Height (mm)": "30.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "155",
+        "185"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "",
+    "Enamel Type": "Winding wire rated 250 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Curved magnets",
+    "Mounting Pattern Diameter (mm)": "40.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M6",
+    "Link": "",
+    "Per-KV Values": {
+        "155": {
+            "Winding Type": "Single Strand, Wye (7T 4Y)",
+            "Weight (incl. Cable) (g)": "1271.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_74series/A_7430_155/"
+        },
+        "185": {
+            "Winding Type": "Single Strand, Wye (6T 4Y)",
+            "Weight (incl. Cable) (g)": "1255.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_74series/A_7430_185/"
+        }
+    }
+}

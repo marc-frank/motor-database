@@ -1,0 +1,63 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i4,052_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "A-3017",
+    "Price ($)": "129.99",
+    "Stator Diameter (mm)": "30.0",
+    "Stator Height (mm)": "17.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "560",
+        "600",
+        "920"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.98",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "10.0",
+    "Bearing Inner Diameter": "5.0",
+    "Bearing Thickness": "4.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "560": {
+            "Internal Resistance (mΩ)": "80.0",
+            "Winding Type": "Multi Strand, Delta (10T/11T)",
+            "Weight (incl. Cable) (g)": "134.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/A_3017_560/"
+        },
+        "600": {
+            "Internal Resistance (mΩ)": "50.0",
+            "Winding Type": "Multi Strand, Delta (9T/10T)",
+            "Weight (incl. Cable) (g)": "136.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_600/"
+        },
+        "920": {
+            "Internal Resistance (mΩ)": "25.0",
+            "Winding Type": "Multi Strand, Delta (6D)",
+            "Weight (incl. Cable) (g)": "136.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_920/"
+        }
+    }
+}

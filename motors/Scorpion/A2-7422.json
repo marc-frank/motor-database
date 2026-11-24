@@ -1,0 +1,63 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i5,160_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "A2-7422",
+    "Price ($)": "499.99",
+    "Stator Diameter (mm)": "74.0",
+    "Stator Height (mm)": "22.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "145",
+        "170",
+        "200"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "Winding wire rated 200 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "6mm bullet",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Curved magnets",
+    "Mounting Pattern Diameter (mm)": "40.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M5",
+    "Link": "",
+    "Per-KV Values": {
+        "145": {
+            "Internal Resistance (mΩ)": "28.9",
+            "Winding Type": "Multi Strand, Wye (10T 4Y)",
+            "Weight (incl. Cable) (g)": "948.4",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_74/A2_7422_145/"
+        },
+        "170": {
+            "Internal Resistance (mΩ)": "19.77",
+            "Winding Type": "Multi Strand, Wye (8+9T 4Y)",
+            "Weight (incl. Cable) (g)": "959.4",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_74/A2_7422_170/"
+        },
+        "200": {
+            "Internal Resistance (mΩ)": "15.7",
+            "Winding Type": "Multi Strand, Wye (7+8T 4Y)",
+            "Weight (incl. Cable) (g)": "963.8",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_74/A2_7422_200/"
+        }
+    }
+}

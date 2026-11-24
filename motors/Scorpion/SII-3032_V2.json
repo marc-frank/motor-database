@@ -1,0 +1,54 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i1,015_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "SII-3032 V2",
+    "Price ($)": "149.99",
+    "Stator Diameter (mm)": "30.0",
+    "Stator Height (mm)": "32.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "690",
+        "880"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "Winding wire rated 180 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Aluminium",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "Aluminium",
+    "Weight (incl. Cable) (g)": "275.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "2.5mm bullet",
+    "Shaft Diameter (external) (mm)": "4.98",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "37.0, 10.0",
+    "Bearing Inner Diameter": "30.0, 5.0",
+    "Bearing Thickness": "4.0, 4.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "690": {
+            "Internal Resistance (mΩ)": "22.0",
+            "Winding Type": "Multi Strand, Delta (8D)",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/s-30_v2/SII-3032-690KV/"
+        },
+        "880": {
+            "Internal Resistance (mΩ)": "12.0",
+            "Winding Type": "Multi Strand, Delta (6D)",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/s-30_v2/SII-3032-880KV/"
+        }
+    }
+}

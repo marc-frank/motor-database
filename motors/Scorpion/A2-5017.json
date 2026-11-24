@@ -1,0 +1,63 @@
+{
+    "Image": "https://www.scorpionsystem.com/files/i5,234_popup_image.jpg",
+    "Manufacturer": "Scorpion",
+    "Name": "A2-5017",
+    "Price ($)": "239.99",
+    "Stator Diameter (mm)": "50.0",
+    "Stator Height (mm)": "17.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "250",
+        "380",
+        "505"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "Winding wire rated 200 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Curved magnets",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "250": {
+            "Internal Resistance (mΩ)": "42.37",
+            "Winding Type": "Multi Strand, Delta (12D)",
+            "Weight (incl. Cable) (g)": "362.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/A2_50/A2_5017_250/"
+        },
+        "380": {
+            "Internal Resistance (mΩ)": "19.97",
+            "Winding Type": "Multi Strand, Delta (8D)",
+            "Weight (incl. Cable) (g)": "365.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/A2_50/A2_5017_380/"
+        },
+        "505": {
+            "Internal Resistance (mΩ)": "12.63",
+            "Winding Type": "Multi Strand, Delta (6D)",
+            "Weight (incl. Cable) (g)": "366.0",
+            "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/A2_50/A2_5017_505/"
+        }
+    }
+}
