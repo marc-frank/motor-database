@@ -14,7 +14,7 @@
         "185"
     ],
     "Internal Resistance (mΩ)": "not published",
-    "Winding Type": "Single Strand",
+    "Winding Type": "",
     "Enamel Type": "Winding wire rated 250 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -41,10 +41,12 @@
     "Link": "",
     "Per-KV Values": {
         "155": {
+            "Winding Type": "Single Strand, Wye (7T 4Y)",
             "Weight (incl. Cable) (g)": "1271.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_74series/A_7430_155/"
         },
         "185": {
+            "Winding Type": "Single Strand, Wye (6T 4Y)",
             "Weight (incl. Cable) (g)": "1255.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_74series/A_7430_185/"
         }

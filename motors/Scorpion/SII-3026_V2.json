@@ -15,7 +15,7 @@
         "1190"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "Winding wire rated 180 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "Aluminium",
@@ -43,14 +43,17 @@
     "Per-KV Values": {
         "710": {
             "Internal Resistance (mΩ)": "22.0",
+            "Winding Type": "Multi Strand, Delta (10D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/s-30_v2/SII-3026-710KV/"
         },
         "890": {
             "Internal Resistance (mΩ)": "14.0",
+            "Winding Type": "Multi Strand, Delta (7D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/s-30_v2/SII-3026-890KV/"
         },
         "1190": {
             "Internal Resistance (mΩ)": "8.0",
+            "Winding Type": "Multi Strand, Delta (5D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/s-30_v2/SII-3026-1190KV/"
         }
     }

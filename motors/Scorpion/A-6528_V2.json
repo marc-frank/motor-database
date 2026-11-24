@@ -15,7 +15,7 @@
         "200"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "Winding wire rated 200 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,14 +43,17 @@
     "Per-KV Values": {
         "160": {
             "Internal Resistance (mΩ)": "11.4",
+            "Winding Type": "Multi Strand, Delta (8D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_65_Series/A_6528_160_V2/"
         },
         "180": {
             "Internal Resistance (mΩ)": "6.85",
+            "Winding Type": "Multi Strand, Delta (7D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_65_Series/A_6528_180_V2/"
         },
         "200": {
             "Internal Resistance (mΩ)": "8.4",
+            "Winding Type": "Multi Strand, Delta (6T/7T)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_65_Series/A_6528_200_V2/"
         }
     }

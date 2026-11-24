@@ -14,7 +14,7 @@
         "875"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -42,10 +42,12 @@
     "Per-KV Values": {
         "1100": {
             "Internal Resistance (mΩ)": "55.0",
+            "Winding Type": "Multi Strand, Delta (8D)",
             "Link": "https://www.scorpionsystem.com/catalog/multicopter/motor_5/MII_30/MII_3011_1100/"
         },
         "875": {
             "Internal Resistance (mΩ)": "40.0",
+            "Winding Type": "Multi Strand, Delta (10D)",
             "Link": "https://www.scorpionsystem.com/catalog/multicopter/motor_5/MII_30/MII_3011_875/"
         }
     }

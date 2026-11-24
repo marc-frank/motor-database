@@ -14,7 +14,7 @@
         "210"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "Winding wire rated 200 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -42,10 +42,12 @@
     "Per-KV Values": {
         "180": {
             "Internal Resistance (mΩ)": "28.97",
+            "Winding Type": "Multi Strand, Delta (10+11T)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_65/A2_6518_180/"
         },
         "210": {
             "Internal Resistance (mΩ)": "21.5",
+            "Winding Type": "Multi Strand, Delta (9D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_65/A2_6518_210/"
         }
     }

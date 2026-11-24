@@ -16,7 +16,7 @@
         "450"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -45,24 +45,28 @@
         "250": {
             "Stator Configuration": "12N14P",
             "Internal Resistance (mΩ)": "37.0",
+            "Winding Type": "Multi Strand, Delta (15D)",
             "Weight (incl. Cable) (g)": "450.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4035-250/"
         },
         "330": {
             "Stator Configuration": "12N10P",
             "Internal Resistance (mΩ)": "31.0",
+            "Winding Type": "Multi Strand, Delta (14D)",
             "Weight (incl. Cable) (g)": "435.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4035-330/"
         },
         "380": {
             "Stator Configuration": "12N10P",
             "Internal Resistance (mΩ)": "25.0",
+            "Winding Type": "Multi Strand, Delta (12D)",
             "Weight (incl. Cable) (g)": "435.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4035-380/"
         },
         "450": {
             "Stator Configuration": "12N10P",
             "Internal Resistance (mΩ)": "26.0",
+            "Winding Type": "Multi Strand, Delta (11D)",
             "Weight (incl. Cable) (g)": "435.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4035-450/"
         }

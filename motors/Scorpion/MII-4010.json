@@ -14,7 +14,7 @@
         "400"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -42,10 +42,12 @@
     "Per-KV Values": {
         "360": {
             "Internal Resistance (mΩ)": "152.0",
+            "Winding Type": "Multi Strand, Wye (11Y)",
             "Link": "https://www.scorpionsystem.com/catalog/multicopter/motor_5/mii-40/MII_4010_360/"
         },
         "400": {
             "Internal Resistance (mΩ)": "135.0",
+            "Winding Type": "Multi Strand, Wye (10Y)",
             "Link": "https://www.scorpionsystem.com/catalog/multicopter/motor_5/mii-40/mii_4010_400/"
         }
     }

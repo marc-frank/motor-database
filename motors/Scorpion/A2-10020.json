@@ -15,7 +15,7 @@
         "175"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "Winding wire rated 200 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,16 +43,19 @@
     "Per-KV Values": {
         "135": {
             "Internal Resistance (mΩ)": "11.7",
+            "Winding Type": "Multi Strand, Wye (9T 4Y)",
             "Weight (incl. Cable) (g)": "1391.6",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_100/A2_10020_135/"
         },
         "160": {
             "Internal Resistance (mΩ)": "9.3",
+            "Winding Type": "Multi Strand, Wye (7+8T 4Y)",
             "Weight (incl. Cable) (g)": "1406.8",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_100/A2_10020_160/"
         },
         "175": {
             "Internal Resistance (mΩ)": "7.8",
+            "Winding Type": "Multi Strand, Wye (7T 4Y)",
             "Weight (incl. Cable) (g)": "1406.8",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/A2_series_acro_UAV/a2_100/A2_10020_175/"
         }

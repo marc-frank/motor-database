@@ -14,7 +14,7 @@
         "2700"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -42,11 +42,13 @@
     "Per-KV Values": {
         "2300": {
             "Internal Resistance (mΩ)": "70.0",
+            "Winding Type": "Multi Strand, Delta (23D)",
             "Weight (incl. Cable) (g)": "26.0",
             "Link": "https://www.scorpionsystem.com/catalog/fpv_racer/motors_6/mii_2204_2300/"
         },
         "2700": {
             "Internal Resistance (mΩ)": "50.0",
+            "Winding Type": "Multi Strand, Delta (19D)",
             "Weight (incl. Cable) (g)": "27.0",
             "Link": "https://www.scorpionsystem.com/catalog/fpv_racer/motors_6/mii_2204_2700/"
         }

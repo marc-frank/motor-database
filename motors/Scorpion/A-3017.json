@@ -15,7 +15,7 @@
         "920"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,16 +43,19 @@
     "Per-KV Values": {
         "560": {
             "Internal Resistance (mΩ)": "80.0",
+            "Winding Type": "Multi Strand, Delta (10T/11T)",
             "Weight (incl. Cable) (g)": "134.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/A_3017_560/"
         },
         "600": {
             "Internal Resistance (mΩ)": "50.0",
+            "Winding Type": "Multi Strand, Delta (9T/10T)",
             "Weight (incl. Cable) (g)": "136.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_600/"
         },
         "920": {
             "Internal Resistance (mΩ)": "25.0",
+            "Winding Type": "Multi Strand, Delta (6D)",
             "Weight (incl. Cable) (g)": "136.0",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/a_30_series/a_3017_920/"
         }

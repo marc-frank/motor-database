@@ -14,7 +14,7 @@
         "500"
     ],
     "Internal Resistance (mΩ)": "14.0",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "Winding wire rated 250 °C",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -41,9 +41,11 @@
     "Link": "",
     "Per-KV Values": {
         "250": {
+            "Winding Type": "Multi Strand, Delta (10D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_42_series/A_4225_250/"
         },
         "500": {
+            "Winding Type": "Multi Strand, Delta (5D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/a_series/A_42_series/A_4225_500_v2/"
         }
     }

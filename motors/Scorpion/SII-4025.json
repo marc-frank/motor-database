@@ -15,7 +15,7 @@
         "520"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "Multi Strand",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,14 +43,17 @@
     "Per-KV Values": {
         "330": {
             "Internal Resistance (mΩ)": "37.0",
+            "Winding Type": "Multi Strand, Delta (17D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4025-330/"
         },
         "440": {
             "Internal Resistance (mΩ)": "25.0",
+            "Winding Type": "Multi Strand, Delta (13D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4025-440/"
         },
         "520": {
             "Internal Resistance (mΩ)": "16.0",
+            "Winding Type": "Multi Strand, Delta (11D)",
             "Link": "https://www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4025-520/"
         }
     }
