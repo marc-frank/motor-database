@@ -1,0 +1,58 @@
+{
+    "Image": "https://racer.lt/uploads/modules/catalog/img/24000/1576711358_24483_surpass-hobby-c2830-750kv.jpg",
+    "Manufacturer": "Surpass Hobby",
+    "Name": "C2830",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "750",
+        "850",
+        "1000",
+        "1300"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "Al 6061",
+    "Weight (incl. Cable) (g)": "57.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://racer.lt/item/surpass-hobby-c2830-750kv-850kv-1000kv-1300kv-outrunner-brushless-motor-for-rc-airplane-fixed-wing-edf-ducted-fan-unit-24483.html",
+    "Per-KV Values": {
+        "750": {
+            "Internal Resistance (mΩ)": "221.0"
+        },
+        "850": {
+            "Internal Resistance (mΩ)": "189.0"
+        },
+        "1000": {
+            "Internal Resistance (mΩ)": "152.0"
+        },
+        "1300": {
+            "Internal Resistance (mΩ)": "85.0"
+        }
+    }
+}

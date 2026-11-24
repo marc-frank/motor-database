@@ -1,0 +1,52 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0643/3210/3904/files/Hc7113a5208b64ea3ab21b606b9d3f1194.webp?v=1744874527",
+    "Manufacturer": "Surpass Hobby",
+    "Name": "C2822",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1200",
+        "1400"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "Al 6061",
+    "Weight (incl. Cable) (g)": "30.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://rcdrone.top/products/surpass-hobby-c2204-brushless-motor",
+    "Per-KV Values": {
+        "1200": {
+            "Price ($)": "13.27",
+            "Internal Resistance (mΩ)": "368.0"
+        },
+        "1400": {
+            "Price ($)": "12.90",
+            "Internal Resistance (mΩ)": "307.0"
+        }
+    }
+}

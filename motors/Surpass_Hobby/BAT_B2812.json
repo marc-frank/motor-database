@@ -1,0 +1,52 @@
+{
+    "Image": "https://rcdrone.top/cdn/shop/files/BAT-280X-Brushless-Motors-5fACV.webp?v=1745762384",
+    "Manufacturer": "Surpass Hobby",
+    "Name": "BAT B2812",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "900",
+        "1100"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "Winding wire rated 220 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "78.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N48SH",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.surpass-hobby.com/bat-b28-series-fpv-brushless-motor/",
+    "Per-KV Values": {
+        "900": {
+            "Price ($)": "24.18",
+            "Internal Resistance (mΩ)": "82.0"
+        },
+        "1100": {
+            "Price ($)": "24.23",
+            "Internal Resistance (mΩ)": "59.0"
+        }
+    }
+}

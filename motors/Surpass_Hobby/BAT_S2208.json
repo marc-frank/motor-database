@@ -1,0 +1,57 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0643/3210/3904/files/Surpass-Hobby-BAT-S2207-S2208-FPV-Brushless-Motor-for-5-Inch.webp?v=1785568476",
+    "Manufacturer": "Surpass Hobby",
+    "Name": "BAT S2208",
+    "Price ($)": "35.00",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.15",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1750",
+        "1950",
+        "2450"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "Winding wire rated 220 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "130.0",
+    "Cable Gauge (AWG)": "20",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N52SH",
+    "Mounting Pattern Diameter (mm)": "16.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://rcdrone.top/products/surpass-hobby-bat-s2207-s2208-brushless-motor-for-5inch-fpv-drone",
+    "Per-KV Values": {
+        "1750": {
+            "Internal Resistance (mΩ)": "73.8",
+            "Weight (incl. Cable) (g)": "38.0"
+        },
+        "1950": {
+            "Internal Resistance (mΩ)": "66.2",
+            "Weight (incl. Cable) (g)": "37.3"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "53.3",
+            "Weight (incl. Cable) (g)": "36.1"
+        }
+    }
+}
