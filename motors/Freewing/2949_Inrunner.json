@@ -1,0 +1,54 @@
+{
+    "Image": "",
+    "Manufacturer": "Freewing",
+    "Name": "2949 Inrunner",
+    "Price ($)": "39.99",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "2300",
+        "2500"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "2",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "2300": {
+            "Image": "https://img.motionrc.com/web/image/product.template/2573/image_1920/1020x680/6aa01d47_freewing-2949-2300kv-brushless-inrunner-motor",
+            "Weight (incl. Cable) (g)": "141.0",
+            "Link": "https://motionrc.com/products/freewing-2949-2300kv-brushless-inrunner-motor-mi029491"
+        },
+        "2500": {
+            "Image": "https://img.motionrc.com/web/image/product.template/4210/image_1920/1020x680/6aa01d47_freewing-2949-2500kv-brushless-inrunner-motor",
+            "Weight (incl. Cable) (g)": "142.4",
+            "Link": "https://motionrc.com/products/freewing-2949-2500kv-brushless-inrunner-motor-mi029492"
+        }
+    }
+}
