@@ -1,0 +1,58 @@
+{
+    "Image": "",
+    "Manufacturer": "E-flite",
+    "Name": "BL15",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "850",
+        "900"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "not published",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "850": {
+            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dw6c63dc52/Images/EFL/EFLM4115_A0_ML80G2SN.jpg",
+            "Price ($)": "54.68",
+            "Weight (incl. Cable) (g)": "174.0",
+            "Connector": "3.5mm bullet",
+            "Link": "https://www.horizonhobby.com/product/e-flite-bl15-brushless-outrunner-850kv/EFLM4115.html"
+        },
+        "900": {
+            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dw11d68309/Images/EFL/EFLM4015C_A0_M9XZA64K.jpg",
+            "Price ($)": "32.81",
+            "Weight (incl. Cable) (g)": "not published",
+            "Connector": "not published",
+            "Link": "https://www.horizonhobby.com/product/e-flite-bl15-brushless-outrunner-motor-900kv/EFLM4015C.html"
+        }
+    }
+}
