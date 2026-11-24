@@ -1,0 +1,58 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-2213",
+    "Price ($)": "28.99",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "13.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1100",
+        "950"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.17",
+    "Shaft Diameter (internal) (mm)": "3.17",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "7.94, 9.53",
+    "Bearing Inner Diameter": "3.17",
+    "Bearing Thickness": "3.57, 3.97",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "2, 2",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1100": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2213-22-v2-l_1_1.jpg",
+            "Internal Resistance (mΩ)": "110.0",
+            "Winding Type": "Delta (22D)",
+            "Weight (incl. Cable) (g)": "60.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2213-22-brushless-motor-kv-1100.html"
+        },
+        "950": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2213-26-v2-l_1.jpg",
+            "Internal Resistance (mΩ)": "134.0",
+            "Winding Type": "Delta (26D)",
+            "Weight (incl. Cable) (g)": "61.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2213-26-brushless-motor-kv-950.html"
+        }
+    }
+}

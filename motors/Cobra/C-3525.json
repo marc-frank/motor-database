@@ -1,0 +1,70 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-3525",
+    "Price ($)": "62.99",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "25.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "780",
+        "650",
+        "560",
+        "430"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "253.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "4mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0, 16.0",
+    "Bearing Inner Diameter": "5.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "780": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-3525-10-v2-l.jpg",
+            "Internal Resistance (mΩ)": "23.0",
+            "Winding Type": "Delta (10D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3525-10-brushless-motor-kv-780.html"
+        },
+        "650": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-3525-12-v2-l.jpg",
+            "Internal Resistance (mΩ)": "30.0",
+            "Winding Type": "Delta (12D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3525-12-brushless-motor-kv-650.html"
+        },
+        "560": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-3525-14-v2-l.jpg",
+            "Internal Resistance (mΩ)": "37.0",
+            "Winding Type": "Delta (14D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3525-14-brushless-motor-kv-560.html"
+        },
+        "430": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-3525-18-v2-l.jpg",
+            "Internal Resistance (mΩ)": "58.0",
+            "Winding Type": "Delta (18D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3525-18-brushless-motor-kv-430.html"
+        }
+    }
+}

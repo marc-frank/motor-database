@@ -1,0 +1,74 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-2217",
+    "Price ($)": "30.99",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "17.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "2500",
+        "2300",
+        "1550",
+        "960"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "3.17",
+    "Shaft Diameter (internal) (mm)": "3.17",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "7.94, 9.53",
+    "Bearing Inner Diameter": "3.17",
+    "Bearing Thickness": "3.57, 3.97",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "2, 2",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "2500": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2217-7-v2-l.jpg",
+            "Internal Resistance (mΩ)": "20.0",
+            "Winding Type": "Delta (7D)",
+            "Weight (incl. Cable) (g)": "74.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2217-7-brushless-motor-kv-2500.html"
+        },
+        "2300": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2217-8-v2-l_1.jpg",
+            "Internal Resistance (mΩ)": "28.0",
+            "Winding Type": "Delta (8D)",
+            "Weight (incl. Cable) (g)": "74.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2217-8-brushless-motor-kv-2300.html"
+        },
+        "1550": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2217-12-v2-l_1.jpg",
+            "Internal Resistance (mΩ)": "44.0",
+            "Winding Type": "Delta (12D)",
+            "Weight (incl. Cable) (g)": "74.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2217-12-brushless-motor-kv-1550.html"
+        },
+        "960": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2217-20-v2-l_1.jpg",
+            "Internal Resistance (mΩ)": "110.0",
+            "Winding Type": "Delta (20D)",
+            "Weight (incl. Cable) (g)": "72.0",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2217-20-brushless-motor-kv-960.html"
+        }
+    }
+}

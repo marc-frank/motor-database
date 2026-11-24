@@ -1,0 +1,63 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-3510",
+    "Price ($)": "46.99",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "10.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1200",
+        "1000",
+        "820"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "141.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0, 16.0",
+    "Bearing Inner Diameter": "5.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1200": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/3/5/3510-16-l_2.jpg",
+            "Internal Resistance (mΩ)": "28.0",
+            "Winding Type": "Delta (16D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3510-16-brushless-motor-kv-1200.html"
+        },
+        "1000": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/3/5/3510-20-l_2.jpg",
+            "Internal Resistance (mΩ)": "40.0",
+            "Winding Type": "Delta (20D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3510-20-brushless-motor-kv-1000.html"
+        },
+        "820": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/3/5/3510-24-l_2.jpg",
+            "Internal Resistance (mΩ)": "53.0",
+            "Winding Type": "Delta (24D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-3510-24-brushless-motor-kv-820.html"
+        }
+    }
+}

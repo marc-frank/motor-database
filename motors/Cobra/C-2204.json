@@ -1,0 +1,63 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-2204",
+    "Price ($)": "20.99",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1960",
+        "1570",
+        "1080"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "22.5",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "3.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "8.0",
+    "Bearing Inner Diameter": "3.0",
+    "Bearing Thickness": "4.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "31.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
+    "Per-KV Values": {
+        "1960": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2204-32-l_1.jpg",
+            "Internal Resistance (mΩ)": "102.0",
+            "Winding Type": "Delta (32D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2204-32-brushless-motor-kv-1960.html"
+        },
+        "1570": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2204-40-l_1.jpg",
+            "Internal Resistance (mΩ)": "156.0",
+            "Winding Type": "Delta (40D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2204-40-brushless-motor-kv-1570.html"
+        },
+        "1080": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2204-58-l_1.jpg",
+            "Internal Resistance (mΩ)": "318.0",
+            "Winding Type": "Delta (58D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2204-58-brushless-motor-kv-1080.html"
+        }
+    }
+}

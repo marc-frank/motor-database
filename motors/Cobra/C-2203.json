@@ -1,0 +1,74 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-2203",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "22.0",
+    "Stator Height (mm)": "3.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "2800",
+        "2300",
+        "1720",
+        "1540"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "17.5",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "3.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "8.0",
+    "Bearing Inner Diameter": "3.0",
+    "Bearing Thickness": "4.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "31.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
+    "Per-KV Values": {
+        "2800": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-28-e36-l_1.jpg",
+            "Price ($)": "19.99",
+            "Internal Resistance (mΩ)": "98.0",
+            "Winding Type": "Delta (28D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2203-28-brushless-motor-kv-2800-e36-f1s-1.html"
+        },
+        "2300": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-34-l_1.jpg",
+            "Price ($)": "18.99",
+            "Internal Resistance (mΩ)": "102.0",
+            "Winding Type": "Delta (34D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2203-34-brushless-motor-kv-2300.html"
+        },
+        "1720": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-46-l_1.jpg",
+            "Price ($)": "18.99",
+            "Internal Resistance (mΩ)": "179.0",
+            "Winding Type": "Delta (46D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2203-46-brushless-motor-kv-1720.html"
+        },
+        "1540": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-52-l_1_1.jpg",
+            "Price ($)": "18.99",
+            "Internal Resistance (mΩ)": "238.0",
+            "Winding Type": "Delta (52D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2203-52-brushless-motor-kv-1540.html"
+        }
+    }
+}

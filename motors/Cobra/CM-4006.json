@@ -1,0 +1,56 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "CM-4006",
+    "Price ($)": "54.99",
+    "Stator Diameter (mm)": "40.0",
+    "Stator Height (mm)": "6.0",
+    "Stator Configuration": "24N22P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "750",
+        "500"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "93.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "430.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0",
+    "Bearing Inner Diameter": "4.0",
+    "Bearing Thickness": "4.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "19.0, 25.0",
+    "Number of Mounting Screws": "2, 2",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "750": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4006-24-l.jpg",
+            "Internal Resistance (mΩ)": "62.0",
+            "Winding Type": "Wye (24Y)",
+            "Link": "https://innov8tivedesigns.com/cobra-cm-4006-24-multirotor-motor-kv-750.html"
+        },
+        "500": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4006-36-l.jpg",
+            "Internal Resistance (mΩ)": "112.0",
+            "Winding Type": "Wye (36Y)",
+            "Link": "https://innov8tivedesigns.com/cobra-cm-4006-36-multirotor-motor-kv-500.html"
+        }
+    }
+}

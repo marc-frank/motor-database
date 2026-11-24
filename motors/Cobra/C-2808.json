@@ -1,0 +1,70 @@
+{
+    "Image": "",
+    "Manufacturer": "Cobra",
+    "Name": "C-2808",
+    "Price ($)": "33.99",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1780",
+        "1330",
+        "1130",
+        "1000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "80.5",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "5.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "11.0, 16.0",
+    "Bearing Inner Diameter": "5.0",
+    "Bearing Thickness": "5.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1780": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2808-16-v2-l.jpg",
+            "Internal Resistance (mΩ)": "37.0",
+            "Winding Type": "Delta (16D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2808-16-brushless-motor-kv-1780.html"
+        },
+        "1330": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2808-22-v2-l2.jpg",
+            "Internal Resistance (mΩ)": "56.0",
+            "Winding Type": "Delta (22D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2808-22-brushless-motor-kv-1330.html"
+        },
+        "1130": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2808-26-v2-l.jpg",
+            "Internal Resistance (mΩ)": "75.0",
+            "Winding Type": "Delta (26D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2808-26-brushless-motor-kv-1130.html"
+        },
+        "1000": {
+            "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2808-30-v2-l.jpg",
+            "Internal Resistance (mΩ)": "96.0",
+            "Winding Type": "Delta (30D)",
+            "Link": "https://innov8tivedesigns.com/cobra-c-2808-30-brushless-motor-kv-1000.html"
+        }
+    }
+}
