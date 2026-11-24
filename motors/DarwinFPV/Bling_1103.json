@@ -1,0 +1,52 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0585/5841/5023/files/Bling_1103_12000KV_Motor_Dual_View.jpg",
+    "Manufacturer": "DarwinFPV",
+    "Name": "Bling 1103",
+    "Price ($)": "12.99",
+    "Stator Diameter (mm)": "11.0",
+    "Stator Height (mm)": "3.0",
+    "Stator Configuration": "9N12P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "8000",
+        "12000"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "Winding wire rated 220 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "4.1",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "28",
+    "Connector": "JST-1.25",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "1.5",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "4.0",
+    "Bearing Inner Diameter": "1.5",
+    "Bearing Thickness": "2.0",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "8.5",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M1.6",
+    "Link": "https://darwinfpv.com/products/darwinfpv-bling-1103-fpv-drone-brushless-motor",
+    "Per-KV Values": {
+        "8000": {
+            "Internal Resistance (mΩ)": "210.0",
+            "Cable length (mm)": "38.0"
+        },
+        "12000": {
+            "Internal Resistance (mΩ)": "105.0",
+            "Cable length (mm)": "70.0"
+        }
+    }
+}

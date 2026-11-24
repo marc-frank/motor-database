@@ -1,0 +1,50 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/0585/5841/5023/files/darwinfpv_1504_motor_damper_side_perspective_jpg.png",
+    "Manufacturer": "DarwinFPV",
+    "Name": "1504 3-Hole",
+    "Price ($)": "6.99",
+    "Stator Diameter (mm)": "15.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "3800",
+        "4650"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "9.4",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "90.0",
+    "Cable Gauge (AWG)": "28",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "2.0",
+    "Shaft Diameter (internal) (mm)": "2.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "5.0",
+    "Bearing Inner Diameter": "2.0",
+    "Bearing Thickness": "2.5",
+    "Magnet Type": "N45H",
+    "Mounting Pattern Diameter (mm)": "11.6",
+    "Number of Mounting Screws": "3",
+    "Mounting Screw Thread": "M1.6",
+    "Link": "https://darwinfpv.com/products/darwinfpv-1504-3800kv-4650kv-blushless-motor",
+    "Per-KV Values": {
+        "3800": {
+            "Internal Resistance (mΩ)": "210.0"
+        },
+        "4650": {
+            "Internal Resistance (mΩ)": "153.0"
+        }
+    }
+}
