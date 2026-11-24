@@ -16,9 +16,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "not published",
+    "Base Type": "Naked Bottom",
     "Base Material": "not published",
-    "Bell Type": "not published",
+    "Bell Type": "Assembled Bell",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "380.0",
     "Weight (excl. Cable) (g)": "not published",
@@ -27,7 +27,7 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "6.0",
     "Shaft Diameter (internal) (mm)": "6.0",
-    "Shaft Type": "not published",
+    "Shaft Type": "Solid",
     "Shaft Material": "Steel",
     "Shaft Retention": "Screw",
     "Bearing Type": "",
@@ -41,7 +41,7 @@
     "Link": "",
     "Per-KV Values": {
         "400": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwea3f3d46/Images/EFL/EFLM4060A_A0_40BF2WSL.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwea3f3d46/Images/EFL/EFLM4060A_A0_40BF2WSL.jpg",
             "Internal Resistance (mΩ)": "60.0",
             "Connector": "3.5mm bullet",
             "Bearing Type": "Ball Bearing",
@@ -49,7 +49,7 @@
             "Link": "https://www.horizonhobby.com/product/e-flite-power-60-brushless-outrunner-motor-400kv-3.5mm-bullet/EFLM4060A.html"
         },
         "470": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwc641c61f/Images/EFL/EFLM4060B_A0_ZBM6EE2O.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwc641c61f/Images/EFL/EFLM4060B_A0_ZBM6EE2O.jpg",
             "Internal Resistance (mΩ)": "20.0",
             "Connector": "4mm bullet",
             "Bearing Type": "not published",

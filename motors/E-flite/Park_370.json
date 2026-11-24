@@ -16,7 +16,7 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "not published",
+    "Base Type": "",
     "Base Material": "not published",
     "Bell Type": "not published",
     "Bell Material": "not published",
@@ -41,16 +41,18 @@
     "Link": "",
     "Per-KV Values": {
         "1360": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwda13fd2d/Images/EFL/EFLM1205_A0_FTDEQVXB.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwda13fd2d/Images/EFL/EFLM1205_A0_FTDEQVXB.jpg",
             "Internal Resistance (mΩ)": "100.0",
+            "Base Type": "not published",
             "Shaft Diameter (external) (mm)": "3.17",
-            "Shaft Type": "not published",
+            "Shaft Type": "Solid",
             "Bearing Type": "not published",
             "Link": "https://www.horizonhobby.com/product/e-flite-park-370-brushless-outrunner-motor-1360kv-3.5mm-bullet/EFLM1205.html"
         },
         "1200": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwf9e6dfb4/Images/EFL/EFLM1210HS_A0_JYAHVZQS.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwf9e6dfb4/Images/EFL/EFLM1210HS_A0_JYAHVZQS.jpg",
             "Internal Resistance (mΩ)": "180.0",
+            "Base Type": "Naked Bottom",
             "Shaft Diameter (external) (mm)": "4.0",
             "Shaft Type": "Hollow",
             "Bearing Type": "Ball Bearing",

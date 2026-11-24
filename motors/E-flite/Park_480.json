@@ -18,7 +18,7 @@
     "Enamel Type": "not published",
     "Base Type": "not published",
     "Base Material": "not published",
-    "Bell Type": "not published",
+    "Bell Type": "Assembled Bell",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "87.0",
     "Weight (excl. Cable) (g)": "not published",
@@ -27,7 +27,7 @@
     "Connector": "3.5mm bullet",
     "Shaft Diameter (external) (mm)": "4.0",
     "Shaft Diameter (internal) (mm)": "not published",
-    "Shaft Type": "not published",
+    "Shaft Type": "Solid",
     "Shaft Material": "Steel",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
@@ -41,12 +41,12 @@
     "Link": "",
     "Per-KV Values": {
         "910": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwf890e145/Images/EFL/EFLM1500_A0_JJ134EGD.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwf890e145/Images/EFL/EFLM1500_A0_JJ134EGD.jpg",
             "Internal Resistance (mΩ)": "80.0",
             "Link": "https://www.horizonhobby.com/product/e-flite-park-480-brushless-outrunner-motor-910kv-3.5mm-bullet/EFLM1500.html"
         },
         "1020": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dw17d0c596/Images/EFL/EFLM1505_A0_MWM8F7MA.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw17d0c596/Images/EFL/EFLM1505_A0_MWM8F7MA.jpg",
             "Internal Resistance (mΩ)": "60.0",
             "Link": "https://www.horizonhobby.com/product/e-flite-park-480-brushless-outrunner-motor-1020kv-3.5mm-bullet/EFLM1505.html"
         }

@@ -1,5 +1,5 @@
 {
-    "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwbfe80ff4/Images/EFL/EFLUM0805_A0_3IDETG44.jpg",
+    "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwbfe80ff4/Images/EFL/EFLUM0805_A0_3IDETG44.jpg",
     "Manufacturer": "E-flite",
     "Name": "0805-13",
     "Price ($)": "21.87",
@@ -35,7 +35,7 @@
     "Bearing Thickness": "not published",
     "Magnet Type": "not published",
     "Mounting Pattern Diameter (mm)": "not published",
-    "Number of Mounting Screws": "not published",
+    "Number of Mounting Screws": "3",
     "Mounting Screw Thread": "not published",
     "Link": "https://www.horizonhobby.com/product/e-flite-brushless-motor-0805-13-500kv/EFLUM0805.html"
 }

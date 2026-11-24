@@ -17,9 +17,9 @@
     "Internal Resistance (mΩ)": "",
     "Winding Type": "not published",
     "Enamel Type": "not published",
-    "Base Type": "not published",
+    "Base Type": "",
     "Base Material": "not published",
-    "Bell Type": "not published",
+    "Bell Type": "Assembled Bell",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "not published",
@@ -28,7 +28,7 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "",
-    "Shaft Type": "not published",
+    "Shaft Type": "Solid",
     "Shaft Material": "Steel",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
@@ -42,9 +42,10 @@
     "Link": "",
     "Per-KV Values": {
         "870": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dw5a3809e9/Images/EFL/EFLM4025A_A0_SNW7AIHF.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw5a3809e9/Images/EFL/EFLM4025A_A0_SNW7AIHF.jpg",
             "Price ($)": "86.41",
             "Internal Resistance (mΩ)": "30.0",
+            "Base Type": "not published",
             "Weight (incl. Cable) (g)": "190.0",
             "Cable Gauge (AWG)": "14",
             "Connector": "3.5mm bullet",
@@ -55,9 +56,10 @@
             "Link": "https://www.horizonhobby.com/product/e-flite-power-25-brushless-outrunner-motor-870kv-3.5mm-bullet/EFLM4025A.html"
         },
         "1000": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dwec22415f/Images/EFL/EFLM4025C_A0_X5EH2HYV.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwec22415f/Images/EFL/EFLM4025C_A0_X5EH2HYV.jpg",
             "Price ($)": "94.17",
             "Internal Resistance (mΩ)": "25.0",
+            "Base Type": "Naked Bottom",
             "Weight (incl. Cable) (g)": "190.0",
             "Cable Gauge (AWG)": "not published",
             "Connector": "3mm bullet",
@@ -68,9 +70,10 @@
             "Link": "https://www.horizonhobby.com/product/e-flite-power-25-brushless-outrunner-motor-1000kv-3mm-bullet/EFLM4025C.html"
         },
         "1250": {
-            "Image": "https://bfbr-prd.my.commercecloud.salesforce.com/on/demandware.static/-/Sites-horizon-master/default/dw24a41520/Images/EFL/EFLM4025B_A0_D6LT47F7.jpg",
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw24a41520/Images/EFL/EFLM4025B_A0_D6LT47F7.jpg",
             "Price ($)": "86.41",
             "Internal Resistance (mΩ)": "20.0",
+            "Base Type": "not published",
             "Weight (incl. Cable) (g)": "183.0",
             "Cable Gauge (AWG)": "14",
             "Connector": "3.5mm bullet",
