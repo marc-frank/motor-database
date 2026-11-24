@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/0643/3210/3904/files/surpass-hobby-high-torque-brushless-motors-for-rc-uav-multicopter-pfU5I.webp?v=1744625789",
     "Manufacturer": "Surpass Hobby",
     "Name": "C4260",
-    "Price ($)": "not published",
+    "Price ($)": "",
     "Stator Diameter (mm)": "35.0",
     "Stator Height (mm)": "30.0",
     "Stator Configuration": "12N14P",
@@ -41,9 +41,11 @@
     "Link": "https://rcdrone.top/products/surpass-hobby-c4250-c4260-c5045-c5055-c5065-brushless-motor",
     "Per-KV Values": {
         "710": {
+            "Price ($)": "46.95",
             "Internal Resistance (mΩ)": "23.4"
         },
         "600": {
+            "Price ($)": "48.73",
             "Internal Resistance (mΩ)": "29.1"
         }
     }

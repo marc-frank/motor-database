@@ -2,7 +2,7 @@
     "Image": "https://racer.lt/uploads/modules/catalog/img/24000/1576711359_24480_surpass-hobby-c2822-1200kv.jpg",
     "Manufacturer": "Surpass Hobby",
     "Name": "C2822",
-    "Price ($)": "not published",
+    "Price ($)": "",
     "Stator Diameter (mm)": "22.0",
     "Stator Height (mm)": "4.0",
     "Stator Configuration": "12N14P",
@@ -41,9 +41,11 @@
     "Link": "https://racer.lt/item/surpass-hobby-c2822-1200kv-1400kv-outrunner-brushless-motor-for-rc-airplane-fixed-wing-edf-ducted-fan-unit-24480.html",
     "Per-KV Values": {
         "1200": {
+            "Price ($)": "13.27",
             "Internal Resistance (mΩ)": "368.0"
         },
         "1400": {
+            "Price ($)": "12.90",
             "Internal Resistance (mΩ)": "307.0"
         }
     }

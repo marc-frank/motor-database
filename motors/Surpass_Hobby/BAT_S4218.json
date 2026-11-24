@@ -2,7 +2,7 @@
     "Image": "https://www.surpass-hobby.com/wp-content/uploads/2024/06/IMG_6089-2a.jpg",
     "Manufacturer": "Surpass Hobby",
     "Name": "BAT S4218",
-    "Price ($)": "not published",
+    "Price ($)": "",
     "Stator Diameter (mm)": "42.0",
     "Stator Height (mm)": "18.0",
     "Stator Configuration": "12N14P",
@@ -41,10 +41,12 @@
     "Link": "https://www.surpass-hobby.com/bat-s4218-fpv-brushless-motor/",
     "Per-KV Values": {
         "330": {
+            "Price ($)": "62.00",
             "Internal Resistance (mΩ)": "62.7",
             "Weight (incl. Cable) (g)": "295.0"
         },
         "560": {
+            "Price ($)": "not published",
             "Internal Resistance (mΩ)": "32.8",
             "Weight (incl. Cable) (g)": "294.0"
         }

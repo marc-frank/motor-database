@@ -2,7 +2,7 @@
     "Image": "https://rcdrone.top/cdn/shop/files/BAT-280X-Brushless-Motors-5fACV.webp?v=1745762384",
     "Manufacturer": "Surpass Hobby",
     "Name": "BAT B2812",
-    "Price ($)": "not published",
+    "Price ($)": "",
     "Stator Diameter (mm)": "28.0",
     "Stator Height (mm)": "12.0",
     "Stator Configuration": "12N14P",
@@ -41,9 +41,11 @@
     "Link": "https://www.surpass-hobby.com/bat-b28-series-fpv-brushless-motor/",
     "Per-KV Values": {
         "900": {
+            "Price ($)": "24.18",
             "Internal Resistance (mΩ)": "82.0"
         },
         "1100": {
+            "Price ($)": "24.23",
             "Internal Resistance (mΩ)": "59.0"
         }
     }
