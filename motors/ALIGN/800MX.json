@@ -1,0 +1,70 @@
+{
+    "Image": "https://shop.align.com.tw/images/product_images/info_images/4957_0.jpg",
+    "Manufacturer": "ALIGN",
+    "Name": "800MX (4530)",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "45.0",
+    "Stator Height (mm)": "30.0",
+    "Stator Configuration": "12N10P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "440",
+        "520",
+        "570",
+        "720"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
+    "Per-KV Values": {
+        "440": {
+            "Price ($)": "230.99",
+            "Weight (incl. Cable) (g)": "508.0",
+            "Connector": "4mm bullet",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=4957&language=en"
+        },
+        "520": {
+            "Price ($)": "230.99",
+            "Weight (incl. Cable) (g)": "508.0",
+            "Connector": "4mm bullet",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=5296&language=en"
+        },
+        "570": {
+            "Price ($)": "216.99",
+            "Weight (incl. Cable) (g)": "525.0",
+            "Connector": "5.5mm bullet",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=9603&language=en"
+        },
+        "720": {
+            "Price ($)": "230.99",
+            "Weight (incl. Cable) (g)": "515.0",
+            "Connector": "5.5mm bullet",
+            "Link": "https://shop.align.com.tw/product_info.php?products_id=6967&language=en"
+        }
+    }
+}
