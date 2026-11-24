@@ -9,7 +9,6 @@
     "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "0.2",
     "Flux Direction": "Radial",
-    "Flux Ring Thickness (mm)": "0.5",
     "KV (RPM/V)": [
         "1950",
         "2400"

@@ -9,7 +9,6 @@
     "Stator Material": "Kawasaki Silicon Steel",
     "Stator Lamination Thickness (mm)": "0.15",
     "Flux Direction": "Radial",
-    "Flux Ring Thickness (mm)": "",
     "KV (RPM/V)": [
         "8100",
         "9500"

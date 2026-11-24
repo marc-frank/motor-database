@@ -35,9 +35,6 @@
         "Flux Direction": {
             "type": "string"
         },
-        "Flux Ring Thickness (mm)": {
-            "type": "string"
-        },
         "KV (RPM/V)": {
             "description": "Every KV option this motor is sold in. Use [] if unknown.",
             "type": "array",
@@ -156,9 +153,6 @@
                     "Flux Direction": {
                         "type": "string"
                     },
-                    "Flux Ring Thickness (mm)": {
-                        "type": "string"
-                    },
                     "Internal Resistance (mΩ)": {
                         "type": "string"
                     },
@@ -253,7 +247,6 @@
         "Stator Material",
         "Stator Lamination Thickness (mm)",
         "Flux Direction",
-        "Flux Ring Thickness (mm)",
         "KV (RPM/V)",
         "Internal Resistance (mΩ)",
         "Winding Type",

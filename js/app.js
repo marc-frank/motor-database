@@ -6,7 +6,7 @@
 
     // Order and grouping of fields in the details panel. Anything not listed lands in "Other".
     var GROUPS = [
-        ["Stator", ["Stator Diameter (mm)", "Stator Height (mm)", "Stator Configuration", "Stator Material", "Stator Lamination Thickness (mm)", "Flux Direction", "Flux Ring Thickness (mm)"]],
+        ["Stator", ["Stator Diameter (mm)", "Stator Height (mm)", "Stator Configuration", "Stator Material", "Stator Lamination Thickness (mm)", "Flux Direction"]],
         ["Electrical", ["KV (RPM/V)", "Internal Resistance (mΩ)", "Winding Type", "Enamel Type", "Magnet Type"]],
         ["Construction", ["Base Type", "Base Material", "Bell Type", "Bell Material"]],
         ["Weight & wiring", ["Weight (incl. Cable) (g)", "Weight (excl. Cable) (g)", "Cable length (mm)", "Cable Gauge (AWG)", "Connector"]],
