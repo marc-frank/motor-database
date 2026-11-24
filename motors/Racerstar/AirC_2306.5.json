@@ -1,0 +1,50 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/202011/1604718924_97842095.png",
+    "Manufacturer": "Racerstar",
+    "Name": "AirC 2306.5",
+    "Price ($)": "17.99",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "6.5",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1650",
+        "2450"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Single Strand",
+    "Enamel Type": "Winding wire rated 220 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Al 7075",
+    "Bell Type": "Unibell",
+    "Bell Material": "Al 7075",
+    "Weight (incl. Cable) (g)": "35.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "150.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Titanium",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://www.racerstar.com/Racerstar-AirC-2306_5-1650KV-4-6S-or-2450KV-4S-NextGen-Unibell-Brushless-Motor-for-RC-Drone-FPV-Racing-p-429.html",
+    "Per-KV Values": {
+        "1650": {
+            "Internal Resistance (mΩ)": "84.6"
+        },
+        "2450": {
+            "Internal Resistance (mΩ)": "46.5"
+        }
+    }
+}
