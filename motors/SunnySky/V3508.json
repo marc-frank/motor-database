@@ -1,0 +1,54 @@
+{
+    "Image": "https://en.rcsunnysky.com/Uploads/20190517015301_220817.jpg",
+    "Manufacturer": "SunnySky",
+    "Name": "V3508",
+    "Price ($)": "42.99",
+    "Stator Diameter (mm)": "35.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "380",
+        "580",
+        "700"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "97.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "600.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "4.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "19.0, 25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://en.rcsunnysky.com/v-multi-rotorefficiencytype/1079.html",
+    "Per-KV Values": {
+        "380": {
+            "Internal Resistance (mΩ)": "257.0"
+        },
+        "580": {
+            "Internal Resistance (mΩ)": "125.0"
+        },
+        "700": {
+            "Internal Resistance (mΩ)": "92.0"
+        }
+    }
+}
