@@ -35,7 +35,7 @@
     "Bearing Inner Diameter": "5.0",
     "Bearing Thickness": "5.0",
     "Magnet Type": "Curved magnets",
-    "Mounting Pattern Diameter (mm)": "19.0",
+    "Mounting Pattern Diameter (mm)": "",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M3",
     "Link": "https://www.hobbywing.com/en/products/rtf-2807-2810-2812-2814",
@@ -43,12 +43,14 @@
         "880": {
             "Internal Resistance (mΩ)": "54.0",
             "Weight (incl. Cable) (g)": "94.0",
-            "Cable Gauge (AWG)": "18"
+            "Cable Gauge (AWG)": "18",
+            "Mounting Pattern Diameter (mm)": "19.0"
         },
         "1100": {
             "Internal Resistance (mΩ)": "36.0",
             "Weight (incl. Cable) (g)": "98.0",
-            "Cable Gauge (AWG)": "16"
+            "Cable Gauge (AWG)": "16",
+            "Mounting Pattern Diameter (mm)": "25.0"
         }
     }
 }
