@@ -1,0 +1,60 @@
+{
+    "Image": "",
+    "Manufacturer": "E-flite",
+    "Name": "Power 60",
+    "Price ($)": "136.73",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "400",
+        "470"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "380.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "14",
+    "Connector": "",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "6.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "",
+    "Bearing Outer Diameter": "15.0, 12.0",
+    "Bearing Inner Diameter": "6.0",
+    "Bearing Thickness": "5.0, 4.0",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "400": {
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwea3f3d46/Images/EFL/EFLM4060A_A0_40BF2WSL.jpg",
+            "Internal Resistance (mΩ)": "60.0",
+            "Connector": "3.5mm bullet",
+            "Bearing Type": "Ball Bearing",
+            "Number of Mounting Screws": "4",
+            "Link": "https://www.horizonhobby.com/product/e-flite-power-60-brushless-outrunner-motor-400kv-3.5mm-bullet/EFLM4060A.html"
+        },
+        "470": {
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwc641c61f/Images/EFL/EFLM4060B_A0_ZBM6EE2O.jpg",
+            "Internal Resistance (mΩ)": "20.0",
+            "Connector": "4mm bullet",
+            "Bearing Type": "not published",
+            "Number of Mounting Screws": "not published",
+            "Link": "https://www.horizonhobby.com/product/e-flite-power-60-brushless-outrunner-motor-470kv-4mm-bullet/EFLM4060B.html"
+        }
+    }
+}

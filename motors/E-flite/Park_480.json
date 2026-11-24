@@ -1,0 +1,54 @@
+{
+    "Image": "",
+    "Manufacturer": "E-flite",
+    "Name": "Park 480",
+    "Price ($)": "68.90",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "910",
+        "1020"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "87.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "3.5mm bullet",
+    "Shaft Diameter (external) (mm)": "4.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "910": {
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dwf890e145/Images/EFL/EFLM1500_A0_JJ134EGD.jpg",
+            "Internal Resistance (mΩ)": "80.0",
+            "Link": "https://www.horizonhobby.com/product/e-flite-park-480-brushless-outrunner-motor-910kv-3.5mm-bullet/EFLM1500.html"
+        },
+        "1020": {
+            "Image": "https://www.horizonhobby.com/on/demandware.static/-/Sites-horizon-master/default/dw17d0c596/Images/EFL/EFLM1505_A0_MWM8F7MA.jpg",
+            "Internal Resistance (mΩ)": "60.0",
+            "Link": "https://www.horizonhobby.com/product/e-flite-park-480-brushless-outrunner-motor-1020kv-3.5mm-bullet/EFLM1505.html"
+        }
+    }
+}
