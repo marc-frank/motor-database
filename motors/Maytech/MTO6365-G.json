@@ -13,7 +13,7 @@
         "220",
         "270"
     ],
-    "Internal Resistance (mΩ)": "",
+    "Internal Resistance (mΩ)": "40.2",
     "Winding Type": "not published",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
@@ -38,13 +38,5 @@
     "Mounting Pattern Diameter (mm)": "30.0",
     "Number of Mounting Screws": "4",
     "Mounting Screw Thread": "M4",
-    "Link": "https://maytech.cn/products/brushless-sensorless-motor-mto6365-200-g",
-    "Per-KV Values": {
-        "220": {
-            "Internal Resistance (mΩ)": "not published"
-        },
-        "270": {
-            "Internal Resistance (mΩ)": "40.2"
-        }
-    }
+    "Link": "https://maytech.cn/products/brushless-sensorless-motor-mto6365-200-g"
 }

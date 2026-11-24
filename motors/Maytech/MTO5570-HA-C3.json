@@ -35,9 +35,9 @@
     "Bearing Inner Diameter": "not published",
     "Bearing Thickness": "not published",
     "Magnet Type": "not published",
-    "Mounting Pattern Diameter (mm)": "not published",
-    "Number of Mounting Screws": "not published",
-    "Mounting Screw Thread": "not published",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
     "Link": "https://maytech.cn/products/brushless-hall-sensor-motor-mto5570-190-ha-c3",
     "Per-KV Values": {
         "70": {

@@ -15,11 +15,11 @@
         "320"
     ],
     "Internal Resistance (mΩ)": "not published",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
-    "Base Type": "not published",
+    "Base Type": "Naked Bottom",
     "Base Material": "not published",
-    "Bell Type": "not published",
+    "Bell Type": "Assembled Bell",
     "Bell Material": "not published",
     "Weight (incl. Cable) (g)": "",
     "Weight (excl. Cable) (g)": "not published",
@@ -31,7 +31,7 @@
     "Shaft Type": "Solid",
     "Shaft Material": "not published",
     "Shaft Retention": "not published",
-    "Bearing Type": "not published",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "not published",
     "Bearing Inner Diameter": "not published",
     "Bearing Thickness": "not published",
@@ -42,13 +42,16 @@
     "Link": "https://maytech.cn/products/maytech",
     "Per-KV Values": {
         "230": {
-            "Weight (incl. Cable) (g)": "865.0"
+            "Weight (incl. Cable) (g)": "865.0",
+            "Winding Type": "3T-Y"
         },
         "270": {
-            "Weight (incl. Cable) (g)": "852.0"
+            "Weight (incl. Cable) (g)": "852.0",
+            "Winding Type": "2.5T-Y"
         },
         "320": {
-            "Weight (incl. Cable) (g)": "900.0"
+            "Weight (incl. Cable) (g)": "900.0",
+            "Winding Type": "not published"
         }
     }
 }
