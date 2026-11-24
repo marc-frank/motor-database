@@ -1,0 +1,72 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/201610/1475812706_3.jpg",
+    "Manufacturer": "Racerstar",
+    "Name": "BR2212",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "930",
+        "1000",
+        "1400",
+        "1800",
+        "2200",
+        "2450"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "52.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "not published",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "930": {
+            "Price ($)": "6.89",
+            "Link": "https://www.racerstar.com/Racerstar-BR2212-930KV-2-4S-Brushless-Motor-For-RC-Models-p-52.html"
+        },
+        "1000": {
+            "Price ($)": "4.79",
+            "Link": "https://www.racerstar.com/Racerstar-BR2212-1000KV-2-4S-Brushless-Motor-For-RC-Models-p-53.html"
+        },
+        "1400": {
+            "Price ($)": "8.99",
+            "Link": "https://www.racerstar.com/Racerstar-BR2212-1400KV-2-4S-Brushless-Motor-For-RC-Models-p-54.html"
+        },
+        "1800": {
+            "Price ($)": "6.89",
+            "Link": "https://www.racerstar.com/Racerstar-BR2212-1800KV-2-4S-Brushless-Motor-For-RC-Models-p-55.html"
+        },
+        "2200": {
+            "Price ($)": "6.89",
+            "Link": "https://www.racerstar.com/Racerstar-BR2212-2200KV-2-3S-Brushless-Motor-For-RC-Models-p-57.html"
+        },
+        "2450": {
+            "Price ($)": "4.99",
+            "Link": "https://www.racerstar.com/Racerstar-BR2212-2450KV-2-3S-Brushless-Motor-For-RC-Models-p-58.html"
+        }
+    }
+}

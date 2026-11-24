@@ -1,0 +1,50 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/201812/1545030338_62738453.JPG",
+    "Manufacturer": "Racerstar",
+    "Name": "BR2814",
+    "Price ($)": "19.99",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1000",
+        "1400"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "106.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "not published",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "1000": {
+            "Link": "https://www.racerstar.com/Racerstar-BR2814-1000KV-3-4S-Brushless-Motor-For-RC-Airplane-Model-p-294.html"
+        },
+        "1400": {
+            "Link": "https://www.racerstar.com/Racerstar-BR2814-1400KV-3-4S-Brushless-Motor-For-RC-Airplane-Model-p-291.html"
+        }
+    }
+}

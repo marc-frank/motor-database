@@ -1,0 +1,52 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/201710/1509002201_3.jpeg",
+    "Manufacturer": "Racerstar",
+    "Name": "BR2307S Green Edition",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "23.0",
+    "Stator Height (mm)": "7.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "2200",
+        "2500"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "Aluminium",
+    "Bell Type": "not published",
+    "Bell Material": "Aluminium",
+    "Weight (incl. Cable) (g)": "36.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "70.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "Stainless Steel",
+    "Shaft Retention": "Clip",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "2200": {
+            "Price ($)": "10.29",
+            "Link": "https://www.racerstar.com/Racerstar-2307-BR2307S-Green-Edition-2200KV-2-5S-Brushless-Motor-For-X220-250-280-300-Racing-Drone-p-210.html"
+        },
+        "2500": {
+            "Price ($)": "12.29",
+            "Link": "https://www.racerstar.com/Racerstar-2307-BR2307S-Green-Edition-2500KV-2-4S-Brushless-Motor-For-X220-250-280-300-Racing-Drone-p-211.html"
+        }
+    }
+}

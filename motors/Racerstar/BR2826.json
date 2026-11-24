@@ -1,0 +1,54 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/201812/1545029286_46638453.jpeg",
+    "Manufacturer": "Racerstar",
+    "Name": "BR2826",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1100",
+        "1290"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "70.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "3.17",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1100": {
+            "Price ($)": "9.99",
+            "Weight (incl. Cable) (g)": "58.0",
+            "Link": "https://www.racerstar.com/Racerstar-BR2826-1100KV-2-4S-Brushless-Motor-for-FPV-RC-Airplane-Model-p-293.html"
+        },
+        "1290": {
+            "Price ($)": "10.53",
+            "Weight (incl. Cable) (g)": "51.0",
+            "Link": "https://www.racerstar.com/Racerstar-BR2826-1290KV-2-4S-Brushless-Motor-For-RC-Models-p-97.html"
+        }
+    }
+}

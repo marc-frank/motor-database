@@ -1,0 +1,60 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/201703/1490261153_3.JPG",
+    "Manufacturer": "Racerstar",
+    "Name": "BR2830",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "900",
+        "1000",
+        "1300"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "70.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "3.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "16.0, 19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "900": {
+            "Price ($)": "10.26",
+            "Weight (incl. Cable) (g)": "62.0",
+            "Link": "https://www.racerstar.com/Racerstar-BR2830-900KV-2-4S-Brushless-Motor-For-RC-Airplane-p-98.html"
+        },
+        "1000": {
+            "Price ($)": "7.95",
+            "Weight (incl. Cable) (g)": "60.5",
+            "Link": "https://www.racerstar.com/2PCS-Racerstar-BR2830-1000KV-2-4S-Brushless-Motor-For-RC-Airplane-p-344.html"
+        },
+        "1300": {
+            "Price ($)": "8.00",
+            "Weight (incl. Cable) (g)": "not published",
+            "Link": "https://www.racerstar.com/2Pcs-Racerstar-BR2830-1300KV-2-4S-Brushless-Motor-For-RC-Airplane-p-281.html"
+        }
+    }
+}

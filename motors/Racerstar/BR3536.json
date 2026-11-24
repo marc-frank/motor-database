@@ -1,0 +1,52 @@
+{
+    "Image": "https://img.racerstar.com/racerstar/products/original/201812/1545033221_70038453.jpeg",
+    "Manufacturer": "Racerstar",
+    "Name": "BR3536",
+    "Price ($)": "13.99",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "950",
+        "1200"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "not published",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "",
+    "Per-KV Values": {
+        "950": {
+            "Weight (incl. Cable) (g)": "not published",
+            "Link": "https://www.racerstar.com/Racerstar-BR3536-950KV-2-4S-Brushless-Motor-For-FPV-RC-Airplane-Model-p-297.html"
+        },
+        "1200": {
+            "Weight (incl. Cable) (g)": "115.0",
+            "Link": "https://www.racerstar.com/Racerstar-BR3536-1200KV-2-4S-Brushless-Motor-For-FPV-RC-Airplane-Model-p-298.html"
+        }
+    }
+}
