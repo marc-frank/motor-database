@@ -28,7 +28,7 @@
     "Connector": "",
     "Shaft Diameter (external) (mm)": "3.0",
     "Shaft Diameter (internal) (mm)": "3.0",
-    "Shaft Type": "",
+    "Shaft Type": "Solid",
     "Shaft Material": "Titanium",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",

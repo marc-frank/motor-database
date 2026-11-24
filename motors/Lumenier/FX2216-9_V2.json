@@ -24,7 +24,7 @@
     "Weight (excl. Cable) (g)": "",
     "Cable length (mm)": "",
     "Cable Gauge (AWG)": "",
-    "Connector": "",
+    "Connector": "bullet",
     "Shaft Diameter (external) (mm)": "4.0",
     "Shaft Diameter (internal) (mm)": "4.0",
     "Shaft Type": "Solid",

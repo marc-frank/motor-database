@@ -27,7 +27,7 @@
     "Connector": "none",
     "Shaft Diameter (external) (mm)": "5.0",
     "Shaft Diameter (internal) (mm)": "4.0",
-    "Shaft Type": "",
+    "Shaft Type": "Hollow",
     "Shaft Material": "",
     "Shaft Retention": "Screw",
     "Bearing Type": "Ball Bearing",
