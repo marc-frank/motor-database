@@ -1,0 +1,50 @@
+{
+    "Image": "https://plettenbergmotors.com/wp-content/uploads/2024/04/plettenberg_199-e1712162951354.jpg",
+    "Manufacturer": "Plettenberg",
+    "Name": "ORBIT 15-37",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "153",
+        "115"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "1900.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "58.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M5",
+    "Link": "https://plettenbergmotors.com/product/orbit-15-en/",
+    "Per-KV Values": {
+        "153": {
+            "Internal Resistance (mΩ)": "10.0"
+        },
+        "115": {
+            "Internal Resistance (mΩ)": "16.0"
+        }
+    }
+}

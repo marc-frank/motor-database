@@ -1,0 +1,50 @@
+{
+    "Image": "https://plettenbergmotors.com/wp-content/uploads/2025/04/ADVANCE-1-30-Front.jpg",
+    "Manufacturer": "Plettenberg",
+    "Name": "ADVANCE 1-30",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "430",
+        "255"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "420.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "6",
+    "Mounting Screw Thread": "M4",
+    "Link": "https://plettenbergmotors.com/product/advance-1-en/",
+    "Per-KV Values": {
+        "430": {
+            "Internal Resistance (mΩ)": "30.0"
+        },
+        "255": {
+            "Internal Resistance (mΩ)": "77.0"
+        }
+    }
+}
