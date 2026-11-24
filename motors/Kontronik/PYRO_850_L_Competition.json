@@ -1,0 +1,58 @@
+{
+    "Image": "https://kontronik.com/wp-content/uploads/2023/02/PYRO_850_L_Competition.jpg",
+    "Manufacturer": "Kontronik",
+    "Name": "PYRO 850 L Competition",
+    "Price ($)": "704.97",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "240",
+        "310",
+        "400",
+        "500"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "605.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "8.0",
+    "Shaft Diameter (internal) (mm)": "10.0",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
+    "Per-KV Values": {
+        "240": {
+            "Link": "https://kontronik.com/en/produkt/pyro-850-24-l-competition"
+        },
+        "310": {
+            "Link": "https://kontronik.com/en/produkt/pyro-850-31-l-competition"
+        },
+        "400": {
+            "Link": "https://kontronik.com/en/produkt/pyro-850-40-l-competition"
+        },
+        "500": {
+            "Link": "https://kontronik.com/en/produkt/pyro-850-50-l-competition"
+        }
+    }
+}
