@@ -1,0 +1,62 @@
+{
+    "Image": "https://www.modelmotors.cz/file/image/optimized/product-gallery/large/86e16525ea48fa5cbe8d15a535fd05d2.jpg",
+    "Manufacturer": "AXI",
+    "Name": "2826 V3 Long",
+    "Price ($)": "121.42",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "26.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1500",
+        "1130",
+        "920",
+        "760"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "187.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "16.0, 25.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "760": {
+            "Internal Resistance (mΩ)": "30.0",
+            "Link": "https://www.modelmotors.cz/product/detail/233/"
+        },
+        "920": {
+            "Internal Resistance (mΩ)": "20.0",
+            "Link": "https://www.modelmotors.cz/product/detail/480/"
+        },
+        "1130": {
+            "Internal Resistance (mΩ)": "13.0",
+            "Link": "https://www.modelmotors.cz/product/detail/421/"
+        },
+        "1500": {
+            "Internal Resistance (mΩ)": "7.0",
+            "Link": "https://www.modelmotors.cz/product/detail/420/"
+        }
+    }
+}

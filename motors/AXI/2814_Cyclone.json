@@ -1,0 +1,52 @@
+{
+    "Image": "https://www.modelmotors.cz/file/image/optimized/product-gallery/large/d726be9f43fbb1ba449e413e89fff7ba.jpg",
+    "Manufacturer": "AXI",
+    "Name": "2814 Cyclone",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "14.0",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1035",
+        "840"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "164.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "16.0, 25.0",
+    "Number of Mounting Screws": "4, 4",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "",
+    "Per-KV Values": {
+        "840": {
+            "Internal Resistance (mΩ)": "57.0",
+            "Link": "https://www.modelmotors.cz/product/detail/475/"
+        },
+        "1035": {
+            "Internal Resistance (mΩ)": "33.0",
+            "Link": "https://www.modelmotors.cz/product/detail/476/"
+        }
+    }
+}
