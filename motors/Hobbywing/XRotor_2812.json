@@ -1,0 +1,52 @@
+{
+    "Image": "https://www.hobbywing.com/en/uploads/image/20250422/310c466aab934c6c537a059a868d215f.jpg",
+    "Manufacturer": "Hobbywing",
+    "Name": "XRotor 2812",
+    "Price ($)": "26.99",
+    "Stator Diameter (mm)": "28.0",
+    "Stator Height (mm)": "12.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Silicon Steel",
+    "Stator Lamination Thickness (mm)": "0.2",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "900",
+        "1100"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "Multi Strand",
+    "Enamel Type": "Wire insulation class C (220 °C)",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "250.0",
+    "Cable Gauge (AWG)": "18",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Hollow",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N52",
+    "Mounting Pattern Diameter (mm)": "19.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "https://www.hobbywing.com/en/products/xrotor2812",
+    "Per-KV Values": {
+        "900": {
+            "Internal Resistance (mΩ)": "63.9",
+            "Weight (incl. Cable) (g)": "83.4"
+        },
+        "1100": {
+            "Internal Resistance (mΩ)": "46.6",
+            "Weight (incl. Cable) (g)": "83.8"
+        }
+    }
+}

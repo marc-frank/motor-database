@@ -1,0 +1,54 @@
+{
+    "Image": "https://www.hobbywing.com/en/uploads/image/20260105/beba6d782830e71abedaab50447c33b2.png",
+    "Manufacturer": "Hobbywing",
+    "Name": "XRotor X6 SE",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "62.0",
+    "Stator Height (mm)": "8.0",
+    "Stator Configuration": "24N28P",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "280",
+        "380"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "16",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "not published",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "not published",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "not published",
+    "Number of Mounting Screws": "not published",
+    "Mounting Screw Thread": "not published",
+    "Link": "https://www.hobbywing.com/en/products/cmx6se",
+    "Per-KV Values": {
+        "280": {
+            "Weight (incl. Cable) (g)": "173.0",
+            "Cable length (mm)": "450.0",
+            "Price ($)": "119.99"
+        },
+        "380": {
+            "Weight (incl. Cable) (g)": "172.0",
+            "Cable length (mm)": "550.0",
+            "Price ($)": "139.99"
+        }
+    }
+}
