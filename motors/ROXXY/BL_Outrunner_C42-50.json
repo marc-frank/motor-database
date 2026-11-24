@@ -1,0 +1,66 @@
+{
+    "Image": "https://shop.multiplex-rc.de/userdata/dcshop/images/normal/314970-roxxy-bl-outrunner-c42-50-05-01.jpg",
+    "Manufacturer": "ROXXY",
+    "Name": "BL Outrunner C42-50",
+    "Price ($)": "",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1000",
+        "800",
+        "720",
+        "620"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "5.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "25.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M3",
+    "Link": "",
+    "Per-KV Values": {
+        "1000": {
+            "Price ($)": "95.72",
+            "Weight (incl. Cable) (g)": "195.0",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-4250-05-p4811/"
+        },
+        "800": {
+            "Price ($)": "92.43",
+            "Weight (incl. Cable) (g)": "195.0",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-4250-06-p4812/"
+        },
+        "720": {
+            "Price ($)": "91.34",
+            "Weight (incl. Cable) (g)": "195.0",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-4250-08-p4778/"
+        },
+        "620": {
+            "Price ($)": "51.30",
+            "Weight (incl. Cable) (g)": "not published",
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-c42-50-620kv-antaris-p6532/"
+        }
+    }
+}

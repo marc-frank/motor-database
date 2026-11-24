@@ -1,0 +1,50 @@
+{
+    "Image": "https://shop.multiplex-rc.de/userdata/dcshop/images/normal/314948-roxxy-bl-outrunner-c22-20-15-01.jpg",
+    "Manufacturer": "ROXXY",
+    "Name": "BL Outrunner C22-20",
+    "Price ($)": "46.49",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "1780",
+        "1330"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "not published",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "28.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "bullet",
+    "Shaft Diameter (external) (mm)": "2.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "Screw",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "Neodymium",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "",
+    "Per-KV Values": {
+        "1780": {
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outrunner-2220-16-p4789/"
+        },
+        "1330": {
+            "Link": "https://shop.multiplex-rc.de/en/roxxy-bl-outr-c22-20-20-1330kv-p4790/"
+        }
+    }
+}
