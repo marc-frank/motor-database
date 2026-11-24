@@ -44,17 +44,24 @@ Data rules and formats are in `.github/CONTRIBUTING.md`; this section is about *
 - Never truncate a number. "Mounting Holes: 3*3 φ1.4mm" plus "M1.4 screws" in the packing list
   means a thread of `M1.4`, not `M1`. Cross-check threads, patterns and screw counts against the
   drawing and the packing list.
-- Prices are the regular (crossed-out / compare-at) price for one motor, not a sale price, and
-  divided by the pack size. Variants often have different prices, so set prices per KV when they
-  differ. If the owner gives a price, keep it.
+- Every price is the **international price**: what a buyer outside the US pays, in USD, for one
+  motor (divide packs and combos by the number of motors). Requests from this environment count
+  as US visitors, and some stores charge Americans more or show them a crossed-out "regular"
+  price that other countries don't see:
+  - EMAX's US market is about 1.54× its international price; FlyFishRC's about 1.25×.
+  - BETAFPV charges everyone the same, but only US visitors see a crossed-out higher price.
+  - Example: EMAX RSII 2207 is $23.99 internationally but $36.94 in the US market.
+- How to get it from a Shopify store:
+  - Fetch `/products/<handle>.js` with `-b localization=XX` for a non-US country whose market
+    prices in USD; the page's `Shopify.currency.active` shows the currency.
+  - Countries that worked: DE (EMAX, FlyFishRC, BETAFPV, FIVE33, Heewing, Hobbymate, Diatone,
+    Holybro); SG (RaceDayQuads, Pyrodrone); ZA (NewBeeDrone, FPVCycle, Ummagawd, WREKD); CL (StanFPV).
+  - Use the price shown in that market, and its crossed-out price only if that market shows one.
+- Shoplazza stores (T-HOBBY) expose `market_price_setting`; the base market has `adjust: 0`. Other
+  sites (MAD, iFlight, GEPRC, Axisflying, BrotherHobby, AMAX) have one global price.
+- Variants often have different prices, so set prices per KV when they differ. If the owner
+  gives a price, keep it.
 - Only non-USD prices available: convert to USD with that day's ECB reference rate and say so.
-- Requests from this environment count as US visitors. Some Shopify stores charge Americans
-  more: EMAX's US market is about 1.54× its international price, FlyFishRC's about 1.25×. Use the
-  international-market price the owner sees. Fetch `/products/<handle>.js` with
-  `-b localization=DE` and `-b localization=US`; if the store keeps USD for DE but the prices
-  differ, use the DE price (the displayed one; that market shows no crossed-out price). Stores
-  that switch to local currency abroad keep their US USD price. EMAX RSII 2207 is $23.99 for the
-  owner but $36.94 in the US market.
 - Check that the Image URL loads from another site. iFlight's CDN blocks hotlinking, so its images
   look missing on the website. Test with
   `curl -A 'Mozilla/5.0' -H 'Referer: https://marc-frank.github.io/' -o /dev/null -w '%{http_code} %{content_type}' URL`

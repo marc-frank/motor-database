@@ -95,6 +95,7 @@ Consistent values keep sorting and filtering on the website working.
 ### Price
 
 - In US dollars, two decimal places, digits and `.` only.
+- The international price: what a buyer outside the US pays in the maker's store (some stores charge US visitors more). Convert other currencies to USD.
 - If the motor is only sold in sets, divide by the number of motors in the set.
 
 | ❌ | ✅ |

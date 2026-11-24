@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/1778/6615/products/1_1a77febc-1122-4ff1-8a41-0370f0416580.jpg",
     "Manufacturer": "BETAFPV",
     "Name": "1103",
-    "Price ($)": "10.00",
+    "Price ($)": "",
     "Stator Diameter (mm)": "11.0",
     "Stator Height (mm)": "3.0",
     "Stator Configuration": "not published",
@@ -44,19 +44,23 @@
     "Per-KV Values": {
         "8000": {
             "Weight (incl. Cable) (g)": "3.8",
-            "Cable length (mm)": "35"
+            "Cable length (mm)": "35",
+            "Price ($)": "10.00"
         },
         "11000": {
             "Weight (incl. Cable) (g)": "3.3",
-            "Cable length (mm)": "32"
+            "Cable length (mm)": "32",
+            "Price ($)": "10.00"
         },
         "15000": {
             "Weight (incl. Cable) (g)": "3.7",
-            "Cable length (mm)": "45"
+            "Cable length (mm)": "45",
+            "Price ($)": "10.00"
         },
         "8500": {
             "Weight (incl. Cable) (g)": "not published",
-            "Cable length (mm)": "not published"
+            "Cable length (mm)": "not published",
+            "Price ($)": "6.00"
         }
     }
 }

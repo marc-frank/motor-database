@@ -2,7 +2,7 @@
     "Image": "https://cdn.shopify.com/s/files/1/1778/6615/products/74b96dbb2d19db9758ba306fc55ad040_4319d714-8323-44ca-bf80-77c15f7badf3.jpg",
     "Manufacturer": "BETAFPV",
     "Name": "0802SE",
-    "Price ($)": "9.75",
+    "Price ($)": "",
     "Stator Diameter (mm)": "8.0",
     "Stator Height (mm)": "2.0",
     "Stator Configuration": "9N12P",
@@ -42,13 +42,16 @@
     "Link": "https://betafpv.com/products/0802se-22000kv-brushless-motors",
     "Per-KV Values": {
         "19500": {
-            "Weight (incl. Cable) (g)": "1.83"
+            "Weight (incl. Cable) (g)": "1.83",
+            "Price ($)": "9.75"
         },
         "23000": {
-            "Weight (incl. Cable) (g)": "1.8"
+            "Weight (incl. Cable) (g)": "1.8",
+            "Price ($)": "9.75"
         },
         "22000": {
-            "Weight (incl. Cable) (g)": "not published"
+            "Weight (incl. Cable) (g)": "not published",
+            "Price ($)": "7.00"
         }
     }
 }
