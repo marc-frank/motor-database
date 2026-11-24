@@ -1,0 +1,54 @@
+{
+    "Image": "https://plettenbergmotors.com/wp-content/uploads/2025/04/NOVA-15-50-WK-Front.jpg",
+    "Manufacturer": "Plettenberg",
+    "Name": "NOVA 15-50 WK",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "99",
+        "65",
+        "48"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Closed Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "3200.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "18.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "60.0, 95.0, 100.0",
+    "Number of Mounting Screws": "6, 6, 6",
+    "Mounting Screw Thread": "M5, M5, M4",
+    "Link": "https://plettenbergmotors.com/product/nova-15-wk-en/",
+    "Per-KV Values": {
+        "99": {
+            "Internal Resistance (mΩ)": "13.0"
+        },
+        "65": {
+            "Internal Resistance (mΩ)": "25.0"
+        },
+        "48": {
+            "Internal Resistance (mΩ)": "43.0"
+        }
+    }
+}

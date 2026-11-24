@@ -1,0 +1,50 @@
+{
+    "Image": "https://plettenbergmotors.com/wp-content/uploads/2025/04/NOVA-4-30-LW-Front.jpg",
+    "Manufacturer": "Plettenberg",
+    "Name": "NOVA 4-30 LW",
+    "Price ($)": "not published",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "279",
+        "186"
+    ],
+    "Internal Resistance (mΩ)": "",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Closed Bottom",
+    "Base Material": "not published",
+    "Bell Type": "not published",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "700.0",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "100.0",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "10.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "not published",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "40.0, 55.0",
+    "Number of Mounting Screws": "6, 6",
+    "Mounting Screw Thread": "M3, M3",
+    "Link": "https://plettenbergmotors.com/product/nova-4-en/",
+    "Per-KV Values": {
+        "279": {
+            "Internal Resistance (mΩ)": "27.0"
+        },
+        "186": {
+            "Internal Resistance (mΩ)": "59.0"
+        }
+    }
+}
