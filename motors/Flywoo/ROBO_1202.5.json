@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "12.0",
     "Stator Height (mm)": "2.5",
     "Stator Configuration": "",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "KV (RPM/V)": [

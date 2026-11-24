@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "",
     "Stator Height (mm)": "",
     "Stator Configuration": "",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "KV (RPM/V)": [
@@ -30,7 +30,7 @@
     "Shaft Type": "Hollow",
     "Shaft Material": "Steel",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",

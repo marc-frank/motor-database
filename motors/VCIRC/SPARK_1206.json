@@ -6,7 +6,7 @@
     "Stator Diameter (mm)": "12.0",
     "Stator Height (mm)": "6.0",
     "Stator Configuration": "9N12P",
-    "Stator Material": "",
+    "Stator Material": "Silicon Steel",
     "Stator Lamination Thickness (mm)": "",
     "Flux Direction": "Radial",
     "KV (RPM/V)": [
@@ -32,7 +32,7 @@
     "Shaft Type": "",
     "Shaft Material": "",
     "Shaft Retention": "",
-    "Bearing Type": "",
+    "Bearing Type": "Ball Bearing",
     "Bearing Outer Diameter": "",
     "Bearing Inner Diameter": "",
     "Bearing Thickness": "",
