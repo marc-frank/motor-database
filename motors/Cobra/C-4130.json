@@ -16,7 +16,7 @@
         "300"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -45,24 +45,28 @@
         "540": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-4130-12-v2-l.jpg",
             "Internal Resistance (mΩ)": "19.0",
+            "Winding Type": "Delta (12D)",
             "Weight (incl. Cable) (g)": "398.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-4130-12-brushless-motor-kv-540.html"
         },
         "450": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-4130-14-v2-l.jpg",
             "Internal Resistance (mΩ)": "24.0",
+            "Winding Type": "Delta (14D)",
             "Weight (incl. Cable) (g)": "400.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-4130-14-brushless-motor-kv-450.html"
         },
         "390": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-4130-16-v2-l.jpg",
             "Internal Resistance (mΩ)": "32.0",
+            "Winding Type": "Delta (16D)",
             "Weight (incl. Cable) (g)": "396.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-4130-16-brushless-motor-kv-390.html"
         },
         "300": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-4130-20-v2-l.jpg",
             "Internal Resistance (mΩ)": "46.0",
+            "Winding Type": "Delta (20D)",
             "Weight (incl. Cable) (g)": "396.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-4130-20-brushless-motor-kv-300.html"
         }

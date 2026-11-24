@@ -14,7 +14,7 @@
         "350"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,11 +43,13 @@
         "550": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4010-20-l.jpg",
             "Internal Resistance (mΩ)": "54.0",
+            "Winding Type": "Wye (20Y)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4010-20-multirotor-motor-kv-550.html"
         },
         "350": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4010-32-l.jpg",
             "Internal Resistance (mΩ)": "123.0",
+            "Winding Type": "Wye (32Y)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4010-32-multirotor-motor-kv-550.html"
         }
     }

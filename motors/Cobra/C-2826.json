@@ -16,7 +16,7 @@
         "760"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -45,24 +45,28 @@
         "1470": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2826-6-v2-l.jpg",
             "Internal Resistance (mΩ)": "18.0",
+            "Winding Type": "Delta (6D)",
             "Cable Gauge (AWG)": "14",
             "Link": "https://innov8tivedesigns.com/cobra-c-2826-6-brushless-motor-kv-1470.html"
         },
         "1130": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2826-8-v2-l.jpg",
             "Internal Resistance (mΩ)": "25.0",
+            "Winding Type": "Delta (8D)",
             "Cable Gauge (AWG)": "not published",
             "Link": "https://innov8tivedesigns.com/cobra-c-2826-8-brushless-motor-kv-1130.html"
         },
         "930": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2826-10-v2-l.jpg",
             "Internal Resistance (mΩ)": "32.0",
+            "Winding Type": "Delta (10D)",
             "Cable Gauge (AWG)": "not published",
             "Link": "https://innov8tivedesigns.com/cobra-c-2826-10-brushless-motor-kv-930.html"
         },
         "760": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2826-12-v2-l.jpg",
             "Internal Resistance (mΩ)": "45.0",
+            "Winding Type": "Delta (12D)",
             "Cable Gauge (AWG)": "not published",
             "Link": "https://innov8tivedesigns.com/cobra-c-2826-12-brushless-motor-kv-760.html"
         }

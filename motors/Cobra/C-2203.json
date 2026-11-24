@@ -16,7 +16,7 @@
         "1540"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -46,24 +46,28 @@
             "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-28-e36-l_1.jpg",
             "Price ($)": "19.99",
             "Internal Resistance (mΩ)": "98.0",
+            "Winding Type": "Delta (28D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-2203-28-brushless-motor-kv-2800-e36-f1s-1.html"
         },
         "2300": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-34-l_1.jpg",
             "Price ($)": "18.99",
             "Internal Resistance (mΩ)": "102.0",
+            "Winding Type": "Delta (34D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-2203-34-brushless-motor-kv-2300.html"
         },
         "1720": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-46-l_1.jpg",
             "Price ($)": "18.99",
             "Internal Resistance (mΩ)": "179.0",
+            "Winding Type": "Delta (46D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-2203-46-brushless-motor-kv-1720.html"
         },
         "1540": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/2/2/2203-52-l_1_1.jpg",
             "Price ($)": "18.99",
             "Internal Resistance (mΩ)": "238.0",
+            "Winding Type": "Delta (52D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-2203-52-brushless-motor-kv-1540.html"
         }
     }

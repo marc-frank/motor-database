@@ -15,7 +15,7 @@
         "740"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -44,16 +44,19 @@
         "1100": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/3/5/3515-12-l_2.jpg",
             "Internal Resistance (mΩ)": "24.0",
+            "Winding Type": "Delta (12D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-3515-12-brushless-motor-kv-1100.html"
         },
         "950": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-3515-14-v2-l.jpg",
             "Internal Resistance (mΩ)": "29.0",
+            "Winding Type": "Delta (14D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-3515-14-brushless-motor-kv-950.html"
         },
         "740": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-3515-18-v2-l.jpg",
             "Internal Resistance (mΩ)": "43.0",
+            "Winding Type": "Delta (18D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-3515-18-brushless-motor-kv-740.html"
         }
     }

@@ -17,7 +17,7 @@
         "1050"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -46,26 +46,31 @@
         "2350": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/p/cp-2814-2000-l_1.jpg",
             "Internal Resistance (mΩ)": "10.0",
+            "Winding Type": "Delta (6D)",
             "Link": "https://innov8tivedesigns.com/cobra-cp-2814-2350-brushless-motor-kv-2350.html"
         },
         "2000": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/p/cp-2814-2000-l.jpg",
             "Internal Resistance (mΩ)": "12.0",
+            "Winding Type": "Delta (7D)",
             "Link": "https://innov8tivedesigns.com/cobra-cp-2814-2000-brushless-motor-kv-2000.html"
         },
         "1800": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/p/cp-2814-1800kv_1.jpg",
             "Internal Resistance (mΩ)": "13.0",
+            "Winding Type": "Delta (8D)",
             "Link": "https://innov8tivedesigns.com/cobra-cp-2814-1800-brushless-motor-kv-1800.html"
         },
         "1450": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/p/cp-2814-1450-l.jpg",
             "Internal Resistance (mΩ)": "16.0",
+            "Winding Type": "Delta (10D)",
             "Link": "https://innov8tivedesigns.com/cobra-cp-2814-1450-brushless-motor-kv-1450.html"
         },
         "1050": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/p/cp-2814-1050-l.jpg",
             "Internal Resistance (mΩ)": "34.0",
+            "Winding Type": "Delta (13D)",
             "Link": "https://innov8tivedesigns.com/cobra-cp-2814-1050-brushless-motor-kv-1050.html"
         }
     }

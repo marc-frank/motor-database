@@ -14,7 +14,7 @@
         "160"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,11 +43,13 @@
         "200": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/5/3/5340-16-l.jpg",
             "Internal Resistance (mΩ)": "25.0",
+            "Winding Type": "Delta (16D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-5340-16-brushless-motor-kv-200.html"
         },
         "160": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/5/3/5340-20-l.jpg",
             "Internal Resistance (mΩ)": "35.0",
+            "Winding Type": "Delta (20D)",
             "Link": "https://innov8tivedesigns.com/cobra-c-5340-20-brushless-motor-kv-160.html"
         }
     }

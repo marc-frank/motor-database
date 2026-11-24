@@ -14,7 +14,7 @@
         "310"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,12 +43,14 @@
         "420": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4510-28-side-l.jpg",
             "Internal Resistance (mΩ)": "58.0",
+            "Winding Type": "Delta (28D)",
             "Cable length (mm)": "330.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4510-28-brushless-motor-kv-420.html"
         },
         "310": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4510-40-l_1.jpg",
             "Internal Resistance (mΩ)": "113.0",
+            "Winding Type": "Delta (38D)",
             "Cable length (mm)": "430.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4510-38-brushless-motor-kv-310.html"
         }

@@ -14,7 +14,7 @@
         "400"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,11 +43,13 @@
         "600": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4008-24-l.jpg",
             "Internal Resistance (mΩ)": "86.0",
+            "Winding Type": "Wye (24Y)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4008-24-brushless-motor-kv-600.html"
         },
         "400": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4008-36-l.jpg",
             "Internal Resistance (mΩ)": "151.0",
+            "Winding Type": "Wye (36Y)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4008-36-brushless-motor-kv-400.html"
         }
     }

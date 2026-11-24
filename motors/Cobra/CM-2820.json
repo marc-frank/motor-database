@@ -15,7 +15,7 @@
         "350"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -44,16 +44,19 @@
         "740": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2820-16-l.jpg",
             "Internal Resistance (mΩ)": "74.0",
+            "Winding Type": "Delta (16D)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2820-16-multirotor-motor-kv-740.html"
         },
         "490": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2820-24-l.jpg",
             "Internal Resistance (mΩ)": "111.0",
+            "Winding Type": "Delta (24D)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2820-24-multirotor-motor-kv-490.html"
         },
         "350": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2820-32-l.jpg",
             "Internal Resistance (mΩ)": "200.0",
+            "Winding Type": "Delta (32D)",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2820-32-multirotor-motor-kv-350.html"
         }
     }

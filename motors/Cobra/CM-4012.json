@@ -14,7 +14,7 @@
         "300"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,12 +43,14 @@
         "450": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4012-20-l.jpg",
             "Internal Resistance (mΩ)": "57.0",
+            "Winding Type": "Wye (20Y)",
             "Weight (incl. Cable) (g)": "141.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4012-20-brushless-motor-kv-450.html"
         },
         "300": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-4012-30-l.jpg",
             "Internal Resistance (mΩ)": "124.0",
+            "Winding Type": "Wye (30Y)",
             "Weight (incl. Cable) (g)": "140.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-4012-30-multirotor-motor-kv-300.html"
         }

@@ -17,7 +17,7 @@
         "850"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -47,6 +47,7 @@
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-8-v2-l_1.jpg",
             "Price ($)": "39.99",
             "Internal Resistance (mΩ)": "16.0",
+            "Winding Type": "Delta (8D)",
             "Weight (incl. Cable) (g)": "107.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-2814-8-brushless-motor-kv-1850.html"
         },
@@ -54,6 +55,7 @@
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-10-v2b-l.jpg",
             "Price ($)": "37.99",
             "Internal Resistance (mΩ)": "24.0",
+            "Winding Type": "Delta (10D)",
             "Weight (incl. Cable) (g)": "107.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-2814-10-brushless-motor-kv-1700.html"
         },
@@ -61,6 +63,7 @@
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-12-v2b-l_1.jpg",
             "Price ($)": "37.99",
             "Internal Resistance (mΩ)": "30.0",
+            "Winding Type": "Delta (12D)",
             "Weight (incl. Cable) (g)": "109.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-2814-12-brushless-motor-kv-1390.html"
         },
@@ -68,6 +71,7 @@
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-16-v2b-l.jpg",
             "Price ($)": "37.99",
             "Internal Resistance (mΩ)": "45.0",
+            "Winding Type": "Delta (16D)",
             "Weight (incl. Cable) (g)": "107.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-2814-16-brushless-motor-kv-1050.html"
         },
@@ -75,6 +79,7 @@
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/-/c-2814-20-v2b-l.jpg",
             "Price ($)": "37.99",
             "Internal Resistance (mΩ)": "66.0",
+            "Winding Type": "Delta (20D)",
             "Weight (incl. Cable) (g)": "107.0",
             "Link": "https://innov8tivedesigns.com/cobra-c-2814-20-brushless-motor-kv-850.html"
         }

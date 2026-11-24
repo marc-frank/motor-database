@@ -15,7 +15,7 @@
         "700"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -44,18 +44,21 @@
         "2000": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2213-12-l.jpg",
             "Internal Resistance (mΩ)": "40.0",
+            "Winding Type": "Delta (12D)",
             "Weight (incl. Cable) (g)": "68.6",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2213-12-multirotor-motor-kv-2000.html"
         },
         "950": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2213-26-l.jpg",
             "Internal Resistance (mΩ)": "153.0",
+            "Winding Type": "Delta (26D)",
             "Weight (incl. Cable) (g)": "65.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2213-24-brushless-motor-kv-950.html"
         },
         "700": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2213-36-l.jpg",
             "Internal Resistance (mΩ)": "259.0",
+            "Winding Type": "Delta (34D)",
             "Weight (incl. Cable) (g)": "68.6",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2213-36-brushless-motor-kv-740.html"
         }

@@ -14,7 +14,7 @@
         "470"
     ],
     "Internal Resistance (mΩ)": "",
-    "Winding Type": "not published",
+    "Winding Type": "",
     "Enamel Type": "not published",
     "Base Type": "Naked Bottom",
     "Base Material": "not published",
@@ -43,12 +43,14 @@
         "700": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2814-24-l.jpg",
             "Internal Resistance (mΩ)": "95.0",
+            "Winding Type": "Delta (24D)",
             "Weight (incl. Cable) (g)": "114.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2814-24-multirotor-motor-kv-700.html"
         },
         "470": {
             "Image": "https://innov8tivedesigns.com/media/catalog/product/c/m/cm-2814-36-l.jpg",
             "Internal Resistance (mΩ)": "188.0",
+            "Winding Type": "Delta (36D)",
             "Weight (incl. Cable) (g)": "117.0",
             "Link": "https://innov8tivedesigns.com/cobra-cm-2814-36-multirotor-motor-kv-470.html"
         }
