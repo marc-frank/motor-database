@@ -1,0 +1,52 @@
+{
+    "Image": "https://cdn.shopify.com/s/files/1/2672/8290/products/hglrc-specter-1804-24503500kv-brushless-motor-443296.jpg?v=1697723263",
+    "Manufacturer": "HGLRC",
+    "Name": "SPECTER 1804",
+    "Price ($)": "15.99",
+    "Stator Diameter (mm)": "18.0",
+    "Stator Height (mm)": "4.0",
+    "Stator Configuration": "12N14P",
+    "Stator Material": "Kawasaki Silicon Steel",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "2450",
+        "3500"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "Winding wire rated 260 °C",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Unibell",
+    "Bell Material": "Al 7075",
+    "Weight (incl. Cable) (g)": "13.3",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "",
+    "Cable Gauge (AWG)": "",
+    "Connector": "not published",
+    "Shaft Diameter (external) (mm)": "1.5",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "Steel",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "N52H",
+    "Mounting Pattern Diameter (mm)": "12.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M2",
+    "Link": "https://www.hglrc.com/products/hglrc-specter-1804-3500kv-brushless-motor",
+    "Per-KV Values": {
+        "2450": {
+            "Cable length (mm)": "150.0",
+            "Cable Gauge (AWG)": "26"
+        },
+        "3500": {
+            "Cable length (mm)": "160.0",
+            "Cable Gauge (AWG)": "24"
+        }
+    }
+}
