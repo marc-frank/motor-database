@@ -1,0 +1,62 @@
+{
+    "Image": "https://kontronik.com/wp-content/uploads/2023/03/PYRO_700_Comp_Bsp.jpg",
+    "Manufacturer": "Kontronik",
+    "Name": "PYRO 700 L Competition",
+    "Price ($)": "487.11",
+    "Stator Diameter (mm)": "not published",
+    "Stator Height (mm)": "not published",
+    "Stator Configuration": "not published",
+    "Stator Material": "not published",
+    "Stator Lamination Thickness (mm)": "not published",
+    "Flux Direction": "Radial",
+    "KV (RPM/V)": [
+        "352",
+        "450",
+        "520",
+        "580"
+    ],
+    "Internal Resistance (mΩ)": "not published",
+    "Winding Type": "not published",
+    "Enamel Type": "not published",
+    "Base Type": "Naked Bottom",
+    "Base Material": "not published",
+    "Bell Type": "Assembled Bell",
+    "Bell Material": "not published",
+    "Weight (incl. Cable) (g)": "",
+    "Weight (excl. Cable) (g)": "not published",
+    "Cable length (mm)": "not published",
+    "Cable Gauge (AWG)": "not published",
+    "Connector": "none",
+    "Shaft Diameter (external) (mm)": "6.0",
+    "Shaft Diameter (internal) (mm)": "not published",
+    "Shaft Type": "Solid",
+    "Shaft Material": "not published",
+    "Shaft Retention": "not published",
+    "Bearing Type": "Ball Bearing",
+    "Bearing Outer Diameter": "not published",
+    "Bearing Inner Diameter": "not published",
+    "Bearing Thickness": "not published",
+    "Magnet Type": "not published",
+    "Mounting Pattern Diameter (mm)": "30.0",
+    "Number of Mounting Screws": "4",
+    "Mounting Screw Thread": "M4",
+    "Link": "",
+    "Per-KV Values": {
+        "352": {
+            "Weight (incl. Cable) (g)": "440.0",
+            "Link": "https://kontronik.com/en/produkt/pyro-700-34-l-competition"
+        },
+        "450": {
+            "Weight (incl. Cable) (g)": "430.0",
+            "Link": "https://kontronik.com/en/produkt/pyro-700-45-l-competition"
+        },
+        "520": {
+            "Weight (incl. Cable) (g)": "430.0",
+            "Link": "https://kontronik.com/en/produkt/pyro-700-52-l-competition"
+        },
+        "580": {
+            "Weight (incl. Cable) (g)": "430.0",
+            "Link": "https://kontronik.com/en/produkt/pyro-700-56-l-competition"
+        }
+    }
+}
